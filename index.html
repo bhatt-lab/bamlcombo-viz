@@ -10,6 +10,8 @@
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <!-- Papa Parse for reading CSV files -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+    <!-- toolkit for data manipulation based on documents. Used for clinical data tab -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
     <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -25,10 +27,10 @@
         <!-- Tabs Navigation -->
         <div class="border-b border-gray-200">
             <nav class="flex -mb-px space-x-4" aria-label="Tabs">
-                <div id="tab-summary" class="tab active">Summary</div>
-                <div id="tab-clinical" class="tab">Clinical Data</div>
-                <div id="tab-drug" class="tab">Drug Response</div>
-                <div id="tab-custom" class="tab">Custom Plots</div>
+                <div id="tab-summary" class="tab active"  onclick="openTab(event, 'content-summary')">Summary</div>
+                <div id="tab-clinical" class="tab"  onclick="openTab(event, 'content-clinical')">Clinical Data</div>
+                <div id="tab-drug" class="tab"  onclick="openTab(event, 'content-drug')">Drug Response</div>
+                <div id="tab-custom" class="tab"  onclick="openTab(event, 'content-custom')">Custom Plots</div>
             </nav>
         </div>
 
@@ -54,6 +56,26 @@
                     <p class="text-gray-500 mt-2">This section is under construction. It will display detailed clinical data tables.</p>
                 </div>
             </div>
+
+            <div id="content-clinical" class="tab-content">
+                 <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <h3 class="text-2xl font-semibold text-gray-700">Clinical Data View</h3>
+                    <p>Select columns to display in the table. Hover over column headers for more information.</p>
+                </div>        
+                <!-- This container will hold the checkboxes for column selection -->
+                <div id="column-selector-container">
+                    <strong>Select Columns:</strong>
+                    <div id="column-selector"></div>
+                </div>
+                <!-- This container will hold the dynamically generated table -->
+                <div id="table-container">
+                    <!-- The table will be inserted here by JavaScript -->
+                </div>
+            </div>
+            
+            <!-- This is for the tooltip -->
+            <div id="tooltip" class="tooltip" style="opacity:0;"></div>
+
             <!-- Placeholder for Drug Response Tab -->
             <div id="content-drug" class="tab-content">
                  <div class="bg-white p-6 rounded-lg shadow-md text-center">
@@ -72,6 +94,7 @@
     </div>
 
     <!-- Custom JavaScript -->
+    <script src="js/clinical.js"></script>
     <script src="js/main.js"></script>
 
 </body>
