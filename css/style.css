@@ -55,19 +55,44 @@ class="text-2xl font-semibold text-gray-700"*/
     border: 1px solid #ccc;
     padding: 8px 12px;
     border-radius: 4px;
-    min-width: 200px;
+    width: 300px;
     cursor: pointer;
     background-color: #fff;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     box-shadow: 0 1px 2px rgba(0,0,0,0.05);
     font-size: 0.9em;
     color: #333;
-    overflow: hidden; /* Hide overflow text */
     white-space: nowrap; /* Prevent text wrapping */
-    text-overflow: ellipsis; /* Add ellipsis for overflow */
+    overflow-x: auto;   /* Adds horizontal scrollbar if content overflows */
+    overflow-y: hidden; /* Hides vertical scrollbar if any */
+    text-overflow: clip; /* Prevents ellipsis, shows full text with scrolling */
+    /* Optional: Style the scrollbar for better aesthetics */
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: #ccc #f1f1f1; /* For Firefox */
+
 }
+
+/* Webkit scrollbar styles (for Chrome, Safari) */
+.selected-items-display::-webkit-scrollbar {
+    height: 6px;
+}
+
+.selected-items-display::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.selected-items-display::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 10px;
+}
+
+.selected-items-display::-webkit-scrollbar-thumb:hover {
+    background: #aaa;
+}
+
+
 
 .selected-items-display:focus {
     border-color: #007acc;
@@ -176,6 +201,31 @@ thead th {
     top: 0;
     cursor: help; /* Indicates that the header is interactive */
 }
+
+/* Style the table scrollbar */
+#table-container::-webkit-scrollbar {
+    height: 8px;
+}
+
+#table-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+#table-container::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+#table-container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+#table-container {
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: #888 #f1f1f1; /* For Firefox */
+}
+
 
 tbody tr:nth-child(even) {
     background-color: #f9f9f9;
