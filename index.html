@@ -49,23 +49,36 @@
                     </div>
                 </div>
             </div>
-            <!-- Placeholder for Clinical Data Tab -->
-            <div id="content-clinical" class="tab-content">
-                 <div class="bg-white p-6 rounded-lg shadow-md text-center">
-                    <h3 class="text-2xl font-semibold text-gray-700">Clinical Data View</h3>
-                    <p>Select columns to display in the table. Hover over column headers for more information.</p>
-                </div>        
-                <!-- This container will hold the checkboxes for column selection -->
-                <div id="column-selector-container">
-                    <strong>Select Columns:</strong>
-                    <div id="column-selector"></div>
-                </div>
-                <!-- This container will hold the dynamically generated table -->
-                <div id="table-container">
-                    <!-- The table will be inserted here by JavaScript -->
+
+            <!-- Clinical Data Tab -->
+        <div id="content-clinical" class="tab-content">
+            <!--Header container for title and custom dropdown -->
+            <div class="clinical-data-header">
+                <h2>Clinical Data Explorer</h2>
+                <div id="column-select-custom-dropdown" class="custom-dropdown-wrapper">
+                    <label for="selected-columns-display">Select Columns:</label>
+                    <div id="selected-columns-display" class="selected-items-display" tabindex="0">
+                        <span class="placeholder-text">Click to select...</span>
+                    </div>
+                    <!-- This div will contain the search bar and then the checkboxes -->
+                    <div id="checkbox-list-container" class="checkbox-list-container">
+                        <!-- NEW: Search bar input -->
+                        <input type="text" id="column-search-input" class="column-search-input" placeholder="Search columns...">
+                        <!-- Checkboxes will be dynamically inserted here -->
+                        <div id="checkboxes-wrapper" class="checkboxes-wrapper">
+                            <!-- Checkboxes will go inside this new wrapper -->
+                        </div>
+                    </div>
                 </div>
             </div>
             
+            <p>Select columns to display in the table. Hover over column headers for more information.</p>
+            
+            <!-- This container will hold the dynamically generated table -->
+            <div id="table-container">
+                <!-- The table will be inserted here by JavaScript -->
+            </div>
+    </div>
             <!-- This is for the tooltip -->
             <div id="tooltip" class="tooltip" style="opacity:0;"></div>
 

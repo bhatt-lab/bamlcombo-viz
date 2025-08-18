@@ -51,7 +51,6 @@ function createPlots(data) {
     }];
     const genderLayout = { title: 'Gender Distribution' };
     Plotly.newPlot('gender-plot', genderData, genderLayout, {responsive: true});
-    alert('first plot done!');
 
     // 2. Vital Status Plot
     const vitalCounts = getValueCounts(data, 'vitalStatus');
