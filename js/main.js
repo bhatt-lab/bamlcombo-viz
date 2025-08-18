@@ -3,7 +3,7 @@
 // Wait for the DOM to be fully loaded before running the script
 document.addEventListener('DOMContentLoaded', function() {
     // Path to the data file, now in a 'data' folder
-    const csvFilePath = 'data/clinical_summary.csv';
+    const csvFilePath = '../data/clinical_summary.csv';
 
     // Use Papa Parse to fetch and parse the CSV file
     Papa.parse(csvFilePath, {

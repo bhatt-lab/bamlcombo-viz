@@ -37,8 +37,8 @@ Start a local web server:
 
 If you have Python 3, run the following command in the project's root directory:
 
-python -m http.server
+python3 -m http.server
 
 View the dashboard:
 
-Open your web browser and navigate to http://localhost:8000.
+Open your web browser and navigate to ://localhost:8000.
