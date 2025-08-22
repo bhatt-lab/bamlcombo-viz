@@ -10,7 +10,7 @@
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <!-- Papa Parse for reading CSV files -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
-    <!-- toolkit for data manipulation based on documents. Used for clinical data tab -->
+    <!-- D3.js is no longer strictly needed for data loading but might be useful for future DOM manipulation -->
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
@@ -26,6 +26,7 @@
 
         <!-- Tabs Navigation -->
         <div class="border-b border-gray-200">
+            <!-- The onclick attributes have been removed. The logic is now solely in main.js -->
             <nav class="flex -mb-px space-x-4" aria-label="Tabs">
                 <div id="tab-summary" class="tab active">Summary</div>
                 <div id="tab-clinical" class="tab">Clinical Data</div>
@@ -51,34 +52,31 @@
             </div>
 
             <!-- Clinical Data Tab -->
-        <div id="content-clinical" class="tab-content">
-            <!--Header container for title and custom dropdown -->
-            <div class="clinical-data-header">
-                <h2>Clinical Data Explorer</h2>
-                <div id="column-select-custom-dropdown" class="custom-dropdown-wrapper">
-                    <label for="selected-columns-display">Select Columns:</label>
-                    <div id="selected-columns-display" class="selected-items-display" tabindex="0">
-                        <span class="placeholder-text">Click to select...</span>
-                    </div>
-                    <!-- This div will contain the search bar and then the checkboxes -->
-                    <div id="checkbox-list-container" class="checkbox-list-container">
-                        <!-- NEW: Search bar input -->
-                        <input type="text" id="column-search-input" class="column-search-input" placeholder="Search columns...">
-                        <!-- Checkboxes will be dynamically inserted here -->
-                        <div id="checkboxes-wrapper" class="checkboxes-wrapper">
-                            <!-- Checkboxes will go inside this new wrapper -->
+            <div id="content-clinical" class="tab-content">
+                <!--Header container for title and custom dropdown -->
+                <div class="clinical-data-header">
+                    <h2>Clinical Data Explorer</h2>
+                    <div id="column-select-custom-dropdown" class="custom-dropdown-wrapper">
+                        <label for="selected-columns-display">Select Columns:</label>
+                        <div id="selected-columns-display" class="selected-items-display" tabindex="0">
+                            <span class="placeholder-text">Click to select...</span>
+                        </div>
+                        <!-- This div will contain the search bar and then the checkboxes -->
+                        <div id="checkbox-list-container" class="checkbox-list-container">
+                            <input type="text" id="column-search-input" class="column-search-input" placeholder="Search columns...">
+                            <div id="checkboxes-wrapper" class="checkboxes-wrapper">
+                                <!-- Checkboxes will be dynamically inserted here -->
+                            </div>
                         </div>
                     </div>
                 </div>
+                
+                <p>Select columns to display in the table. Hover over column headers for more information.</p>
+                
+                <div id="table-container">
+                    <!-- The table will be inserted here by JavaScript -->
+                </div>
             </div>
-            
-            <p>Select columns to display in the table. Hover over column headers for more information.</p>
-            
-            <!-- This container will hold the dynamically generated table -->
-            <div id="table-container">
-                <!-- The table will be inserted here by JavaScript -->
-            </div>
-    </div>
             <!-- This is for the tooltip -->
             <div id="tooltip" class="tooltip" style="opacity:0;"></div>
 
@@ -86,14 +84,14 @@
             <div id="content-drug" class="tab-content">
                  <div class="bg-white p-6 rounded-lg shadow-md text-center">
                     <h3 class="text-2xl font-semibold text-gray-700">Drug Response Analysis</h3>
-                    <p class="text-gray-500 mt-2">This section is under construction. It will contain visualizations related to drug efficacy and response.</p>
+                    <p class="text-gray-500 mt-2">This section is under construction.</p>
                 </div>
             </div>
             <!-- Placeholder for Custom Plots Tab -->
             <div id="content-custom" class="tab-content">
                  <div class="bg-white p-6 rounded-lg shadow-md text-center">
                     <h3 class="text-2xl font-semibold text-gray-700">Custom Plot Generator</h3>
-                    <p class="text-gray-500 mt-2">This section is under construction. It will allow users to create their own plots from the dataset.</p>
+                    <p class="text-gray-500 mt-2">This section is under construction.</p>
                 </div>
             </div>
         </main>

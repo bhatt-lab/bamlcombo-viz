@@ -1,32 +1,55 @@
-// --- Main script to load data and create plots ---
+// js/main.js
 
-// Wait for the DOM to be fully loaded before running the script
+// --- Main script to load data, create plots, and initialize tabs ---
+
 document.addEventListener('DOMContentLoaded', function() {
-    // Path to the data file, now in a 'data' folder
     const csvFilePath = '../data/clinical_summary.csv';
 
-    // Use Papa Parse to fetch and parse the CSV file
+    // Use Papa Parse to fetch and parse the CSV file ONCE for the whole app
     Papa.parse(csvFilePath, {
-        download: true, // Tells Papa Parse to fetch the file
-        header: true,   // Assumes the first row is the header
-        dynamicTyping: true, // Automatically converts numbers and booleans
+        download: true,
+        header: true,
+        dynamicTyping: true,
         skipEmptyLines: true,
         complete: function(results) {
-            // This function is called when parsing is complete
             console.log("CSV data loaded and parsed:", results.data);
+            
+            // --- Pass the loaded data to all relevant components ---
             createPlots(results.data);
+            
+            // Call the clinical tab initializer and pass the data to it
+            if (typeof initializeClinicalTab === 'function') {
+                initializeClinicalTab(results.data);
+            } else {
+                console.error("initializeClinicalTab function not found. Make sure clinical.js is loaded correctly before main.js.");
+            }
         },
         error: function(error) {
-            // This function is called if there's an error
             console.error("Error parsing CSV file:", error);
-            document.getElementById('plots-container').innerHTML = `<p class="text-red-500 text-center col-span-2">Error: Could not load or parse ${csvFilePath}. Please ensure the file exists in the 'data' directory and that you are using a local web server.</p>`;
+            document.getElementById('plots-container').innerHTML = `<p class="text-red-500 text-center col-span-2">Error: Could not load or parse ${csvFilePath}. Please ensure the file exists and you are using a local web server.</p>`;
         }
+    });
+
+    // --- Tab Switching Logic (now the single source of truth) ---
+    const tabs = document.querySelectorAll('.tab');
+    const tabContents = document.querySelectorAll('.tab-content');
+
+    tabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+            // Deactivate all tabs and content
+            tabs.forEach(t => t.classList.remove('active'));
+            tabContents.forEach(c => c.classList.remove('active'));
+
+            // Activate the clicked tab and its corresponding content
+            tab.classList.add('active');
+            const contentId = 'content-' + tab.id.split('-')[1];
+            document.getElementById(contentId).classList.add('active');
+        });
     });
 });
 
-// --- Data Processing and Plotting Function ---
+// --- Data Processing and Plotting Function (Unchanged) ---
 function createPlots(data) {
-    // Helper function to get value counts for a specific column
     const getValueCounts = (data, column) => {
         const counts = {};
         for (const row of data) {
@@ -47,7 +70,7 @@ function createPlots(data) {
         hole: 0.3,
         textinfo: 'percent+label',
         hoverinfo: 'label+value+percent',
-        marker: { colors: ['#FEBFB3', '#E1BEE7', '#B3E5FC'] } // Pastel colors
+        marker: { colors: ['#FEBFB3', '#E1BEE7', '#B3E5FC'] }
     }];
     const genderLayout = { title: 'Gender Distribution' };
     Plotly.newPlot('gender-plot', genderData, genderLayout, {responsive: true});
@@ -61,7 +84,7 @@ function createPlots(data) {
         hole: 0.3,
         textinfo: 'percent+label',
         hoverinfo: 'label+value+percent',
-        marker: { colors: ['#C8E6C9', '#FFECB3', '#D1C4E9'] } // Set2 colors
+        marker: { colors: ['#C8E6C9', '#FFECB3', '#D1C4E9'] }
     }];
     const vitalLayout = { title: 'Patient Vital Status' };
     Plotly.newPlot('vital-plot', vitalData, vitalLayout, {responsive: true});
@@ -84,7 +107,6 @@ function createPlots(data) {
 
     // 4. FAB Subtype Plot
     const fabCounts = getValueCounts(data, 'FAB_subtype');
-    // Sort for better visualization
     const sortedFab = Object.entries(fabCounts).sort(([,a],[,b]) => a-b);
     const fabData = [{
         y: sortedFab.map(item => item[0]),
@@ -103,20 +125,3 @@ function createPlots(data) {
     };
     Plotly.newPlot('fab-plot', fabData, fabLayout, {responsive: true});
 }
-
-// --- Tab Switching Logic ---
-const tabs = document.querySelectorAll('.tab');
-const tabContents = document.querySelectorAll('.tab-content');
-
-tabs.forEach(tab => {
-    tab.addEventListener('click', () => {
-        // Deactivate all tabs and content
-        tabs.forEach(t => t.classList.remove('active'));
-        tabContents.forEach(c => c.classList.remove('active'));
-
-        // Activate the clicked tab and its corresponding content
-        tab.classList.add('active');
-        const contentId = 'content-' + tab.id.split('-')[1];
-        document.getElementById(contentId).classList.add('active');
-    });
-});
