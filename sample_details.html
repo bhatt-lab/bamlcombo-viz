@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sample Details</title>
-    <!-- Re-using the same libraries and styles for consistency -->
+    <!-- Libraries and styles -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
@@ -13,9 +13,7 @@
 <body class="bg-gray-50 font-sans">
 
     <div class="container mx-auto p-4 md:p-8">
-        <!-- Header Section -->
         <header class="mb-8">
-            <!-- This title will be filled in by JavaScript -->
             <h1 id="details-header" class="text-3xl md:text-4xl font-bold text-gray-800">Loading Sample Details...</h1>
             <a href="index.html" class="text-blue-600 hover:underline mt-2 inline-block">&larr; Back to Dashboard</a>
         </header>
@@ -23,41 +21,36 @@
         <!-- Tabs Navigation -->
         <div class="border-b border-gray-200">
             <nav class="flex -mb-px space-x-4" aria-label="Tabs">
-                <div id="tab-mutations" class="tab active">Mutations</div>
+                <div id="tab-mutations" class="tab">Mutations</div>
                 <div id="tab-drug" class="tab">Drug Response</div>
-                <div id="tab-clinical" class="tab">Clinical Data</div>
+                <div id="tab-clinical" class="tab active">Clinical Data</div>
             </nav>
         </div>
 
-        <!-- Tab Content Area -->
         <main class="mt-6">
             <!-- Mutations Tab Content -->
-            <div id="content-mutations" class="tab-content active">
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <h3 class="text-2xl font-semibold mb-4 text-gray-700">Mutation Data</h3>
-                    <p>This section will display mutation information for the selected sample.</p>
-                </div>
+            <div id="content-mutations" class="tab-content">
+                <!-- ... content ... -->
             </div>
 
             <!-- Drug Response Tab Content -->
             <div id="content-drug" class="tab-content">
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <h3 class="text-2xl font-semibold mb-4 text-gray-700">Drug Response Data</h3>
-                    <p>This section will display drug response data for the selected sample.</p>
-                </div>
+                <!-- ... content ... -->
             </div>
 
             <!-- Clinical Data Tab Content -->
-            <div id="content-clinical" class="tab-content">
+            <div id="content-clinical" class="tab-content active">
                 <div class="bg-white p-6 rounded-lg shadow-md">
-                    <h3 class="text-2xl font-semibold mb-4 text-gray-700">Clinical Data Summary</h3>
-                    <p>This section will display a summary of clinical data for the selected sample.</p>
+                    <h3 class="text-2xl font-semibold mb-4 text-gray-700">Drug Combination Sensitivity</h3>
+                    <!-- This div is the target for the waterfall plots -->
+                    <div id="dss-waterfall-plot-container">
+                        <p class="text-gray-500">Loading plot data...</p>
+                    </div>
                 </div>
             </div>
         </main>
     </div>
 
-    <!-- This page needs its own JavaScript file -->
     <script src="js/sample_details.js"></script>
 
 </body>
