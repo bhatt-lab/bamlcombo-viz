@@ -1,0 +1,40 @@
+Selected Diagnoses,ACUTE LEUKAEMIAS OF AMBIGUOUS LINEAGE
+,ACUTE MYELOID LEUKAEMIA (AML) AND RELATED PRECURSOR NEOPLASMS
+Hematology Labs,- 1/ + 1 days
+Cytogenetics,- ∞/ + 7 days
+Pathology,- 7/ + 7 days
+Molecular Pathology,- 20/ + 7 days
+Report Pulled,02/17/2023
+,
+10/03/2024 version:,
+,
+pulled from wave1-4 Beat AML paper,
+dbgap_subject_id,
+dbgap_dnaseq_sample,
+dbgap_rnaseq_sample,
+consensusAMLFusions,
+ELN2017,
+CEBPA_Biallelic,
+RUNX1,
+ASXL1,
+TP53,
+,
+pulled from 10-2-2024 clinical summary,
+dxAtSpecimenAcquisition,
+specificDxAtAcquisition,
+secondarySpecificDxAtAcquisition,
+specimenGroups,
+cumulativeTreatmentRegimens,
+mostRecentTreatmentRegimen,
+vitalStatus,
+overallSurvival,
+causeOfDeath,
+ELN2022,
+,
+manually curated from existing columns,
+sampleid,
+Sample_ID,
+AML_subtype,
+ELN2022,
+AMLFusion (fully curated),
+replicate,

@@ -1,0 +1,601 @@
+Sample_ID,immunophenotype,manual,CD1a,CD2,cCD3,CD4,CD5,CD7,CD9,CD10,CD11b,CD11c,CD13,CD14,CD15,CD16,CD19,CD20,CD22,CD23,CD25,CD30,CD33,CD34,CD36,CD38,CD41,CD42b,CD45,CD56,CD57,CD58,CD61,CD64,CD71,CD79a,CD117,CD123,Glyco.A,Lysozyme,HLA.DR,TdT,MPO,PAX5
+C541,"partial CD11b, CD13, dim CD33, CD34, bright CD38, CD58,  partial CD64, dim CD71, dim CD117, dim CD123, HLA-DR and MPO",0.0,-,-,-,-,-,-,-,-,PARTIAL,-,+,-,-,-,-,-,-,-,-,-,DIM,+,-,BRIGHT,-,-,-,-,-,+,-,PARTIAL,DIM,-,DIM,DIM,-,-,+,-,+,-
+C20,"CD2(-), CD4(dim +), CD7(-), CD10(partial +), CD11b(-), CD13(-), CD14(-), CD15 (-), CD16(-), CD22(partial +), CD33(+), CD34(+), CD36(-), CD38(partial dim +), CD45(dim +), CD56(+), CD64(-), CD117(variably +), HLA-DR(-)",0.0,-,-,-,DIM,-,-,-,PARTIAL,-,-,-,-,-,-,-,-,PARTIAL,-,-,-,+,+,-,PARTIAL DIM,-,-,DIM,+,-,-,-,-,-,-,+,-,-,-,-,-,-,-
+S80,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S117,"CD13, CD33, partial CD34, partial CD38, dim partial  CD64, CD117 and CD123 positive",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,PARTIAL,-,PARTIAL,-,-,-,-,-,-,-,PARTIAL DIM,-,-,+,+,-,-,-,-,-,-
+S119,"CD2(-), CD4(+), CD7(-), CD11b(partial +), CD13(partial +), CD14(partial +),CD15(variably +), CD16(-), CD33(variably +), CD34(-), CD36(+), CD38(variably +), CD45(variably +), CD56 (variable +), CD64(partial +), CD117(-), HLA-DR(+).",0.0,-,-,-,+,-,-,-,-,PARTIAL,-,PARTIAL,+,+,-,-,-,-,-,-,-,+,-,+,+,-,-,+,+,-,-,-,PARTIAL,-,-,-,-,-,-,+,-,-,-
+S134,"CD34, CD38 (dim partial), CD13, CD33 (dim partial), CD11c, CD4 (dim partial), HLA-DR, CD117 and MPO",0.0,-,-,-,PARTIAL DIM,-,-,-,-,-,+,+,-,-,-,-,-,-,-,-,-,PARTIAL DIM,+,-,PARTIAL DIM,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,+,-
+S135,"CD34+ BLAST POPULATION, 40%, EXPRESSING CD117, CD15 (DIM PARTIAL), CD13 (DIM PARTIAL), CD33 (DIM PARTIAL), CD38, CD4 (DIM PARTIAL), CD11C (DIM PARTIAL), CD64 (DIM PARTIAL), MPO (BRIGHT), AND ABERRANT CD7 (MINOR SUBSET DIM), WITH POSSIBLE CD19",0.0,-,-,-,PARTIAL DIM,-,PARTIAL DIM,-,-,-,PARTIAL DIM,PARTIAL DIM,-,PARTIAL DIM,-,-,-,-,-,-,-,PARTIAL DIM,+,-,+,-,-,-,-,-,-,-,PARTIAL DIM,-,-,+,-,-,-,-,-,BRIGHT,-
+C1,"dimCD11b, CD13, CD33, CD34, dimCD38, dimCD117, and CD123 Positive",0.0,-,-,-,-,-,-,-,-,DIM,-,+,-,-,-,-,-,-,-,-,-,+,+,-,DIM,-,-,-,-,-,-,-,-,-,-,DIM,+,-,-,-,-,-,-
+S136,"CD2(-), CD4(+), CD7(-), CD11b(+), CD13(partial +), CD14(-), CD15(+), CD16(-), CD33(+), CD34(-), CD36(partial +), CD45(+), CD56(variably +), CD64(+), CD117(partial +), CD79a(-), HLA-DR(+), MPO(-), Tdt(-)",0.0,-,-,-,+,-,-,-,-,+,-,PARTIAL,-,+,-,-,-,-,-,-,-,+,-,PARTIAL,-,-,-,+,+,-,-,-,+,-,-,PARTIAL,-,-,-,+,-,-,-
+S137,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S138,"CD2(-), CD7(-), CD11b(-), CD13(variably +), CD14(-), CD15(partial +), CD16(-), CD33(partial +), CD34 (variably +), CD36(-), CD38(variably +), CD45(moderate to dim+), CD56(-), CD64(partial +), CD117(+), and HLA-DR(partial +).",0.0,-,-,-,-,-,-,-,-,-,-,+,-,PARTIAL,-,-,-,-,-,-,-,PARTIAL,+,-,+,-,-,DIM,-,-,-,-,PARTIAL,-,-,+,-,-,-,PARTIAL,-,-,-
+S139,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S143,"CD34, CD13, HLA-DR, CD123, and CD58.  In addition there is a predominant (about      60%) and atypical monocytic population expressing: CD11b, CD13, CD14,      patial CD16, CD33dim, partial CD56, CD64bright, HLA-DR.",1.0,-,-,-,-,-,-,-,-,+,-,+,+,-,PARTIAL,-,-,-,-,-,-,DIM,+,-,-,-,-,-,PARTIAL,-,+,-,BRIGHT,-,-,-,+,-,-,+,-,-,-
+S146,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C512,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S583,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S147,"CD2(partial +), CD4(partial +), CD5(partial dim +), CD7(-), CD11b(-), CD13(+), CD14(-), CD15(partial +), CD16(-), CDCD33(variably +), CD34(variably +), CD36(few +), CD38(variably +), CD45(moderate to dim +), CD56(-), CD64(partial +),CD117(+), CD123(variably +), HLA-DR(partial +), MPO(+), TdT(few +).",0.0,-,PARTIAL,-,PARTIAL,PARTIAL DIM,-,-,-,-,-,+,-,PARTIAL,-,-,-,-,-,-,-,+,+,PARTIAL,+,-,-,DIM,-,-,-,-,+,-,-,+,+,-,-,PARTIAL,PARTIAL,+,-
+C12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C16,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S149,"dim CD7, CD13, dim CD33, CD34, CD38, CD56, dim partial      CD64, CD117, dim CD123, HLA-DR, MPO, dim TdT positive",0.0,-,-,-,-,-,DIM,-,-,-,-,+,-,-,-,-,-,-,-,-,-,DIM,+,-,+,-,-,-,+,-,-,-,PARTIAL DIM,-,-,+,DIM,-,-,+,DIM,+,-
+S150,"CD2(-), CD4(+), CD7(-), CD11b(few dim +), CD13(-), CD14(-), CD15(partial +), CD16(-), CD19(partial +), CD20(-), CD22(partial +), CD25(partial +), CD33(partial +), CD34(+), CD36(-), CD38(+), CD45(partial +) | CD64(-), CD79a(partial +), CD117 (-), HLA-DR(partial +), CD123(variably +), MPO(+), TdT(+)",0.0,-,-,-,+,-,-,-,-,PARTIAL DIM,-,-,-,PARTIAL,-,PARTIAL,-,PARTIAL,-,PARTIAL,-,PARTIAL,+,-,+,-,-,PARTIAL,-,-,-,-,-,-,PARTIAL,-,+,-,-,PARTIAL,+,+,-
+S151,"Large population of CD117 positive myeloblasts (predominantly CD34 negative, HLA-DR negative), representing approximately 71% of the leukocytes consistent with acute myeloid leukemia.",1.0,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-
+S153,"CD13, CD33, CD34, CD117, and HLA-DR positive",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,-,-
+S154,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S155,"dim CD4, partial CD11b, CD13, CD33, CD34, partial      CD38, partial CD64, CD117, CD123, HLA-DR and dim MPO positive.",0.0,-,-,-,DIM,-,-,-,-,PARTIAL,-,+,-,-,-,-,-,-,-,-,-,+,+,-,PARTIAL,-,-,-,-,-,-,-,PARTIAL,-,-,+,+,-,-,+,-,DIM,-
+C22,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C23,"CD34(+), CD4(partial +), CD5(partial +), CD13(dim +), CD15(-), CD25(-), CD33(+), CD38(variably +), CD45 (moderately +), CD117(+), CD123(partial dim +), HLA-DR(dim +). MPO(-), TdT(-)",0.0,-,-,-,PARTIAL,PARTIAL,-,-,-,-,-,DIM,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,+,-,-,-,-,-,-,-,+,PARTIAL DIM,-,-,DIM,-,-,-
+C26,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S158,"CD11b, CD13, partial CD14, CD15, CD33,CD38, CD45, CD56, CD58, CD64, HLA-DR and MPO-positive",0.0,-,-,-,-,-,-,-,-,+,-,+,PARTIAL,+,-,-,-,-,-,-,-,+,-,-,+,-,-,+,+,-,+,-,+,-,-,-,-,-,-,+,-,+,-
+S159,"CD7, CD13, CD33, CD34, CD117, HLA-DR, cMPO (+)",0.0,-,-,-,-,-,+,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,+,-
+S160,"Immunophenotyping done on the peripheral blood on 12/1/2014      identified a myeloid blast population with the following immunophenotype:      CD13, partial CD15, CD33, CD34, CD38, CD58, variable CD64, CD117, HLA-DR      and cMPO. And, it identified a promonocyte/monoblast population expressing:",0.0,-,-,-,-,-,-,-,-,-,-,+,-,PARTIAL,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,+,-,+,-,-,+,-,-,-,+,-,+,-
+S161,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S163,"large population of atypical CD117 positive myeloblasts (partial CD34+, weak CD4+, weak partial CD7+, partial CD64+), representing approximately 57% of the leukocytes and increased   promonocytes/monoblasts representing approximately 13% of the total leukocytes",1.0,-,-,-,DIM,-,PARTIAL,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,PARTIAL DIM,-,-,-,-,-,-,-,-,-,PARTIAL,-,-,+,-,-,-,-,-,-,-
+C31,"large population of atypical CD117 positive myeloblasts (partial CD34+, weak CD4+, weak partial CD7+, partial CD64+), representing approximately 57% of the leukocytes and increased   promonocytes/monoblasts representing approximately 13% of the total leukocytes",1.0,-,-,-,DIM,-,PARTIAL,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,PARTIAL DIM,-,-,-,-,-,-,-,-,-,PARTIAL,-,-,+,-,-,-,-,-,-,-
+S165,"CD7, minor subset CD11b, CD13, minor subset CD14,      dim CD33, CD34, CD38, CD58, minor subset CD64, CD117, CD123, HLA-DR, subset      myeloperoxidase positive",0.0,-,-,-,-,-,+,-,-,PARTIAL,-,+,PARTIAL,-,-,-,-,-,-,-,-,DIM,+,-,+,-,-,-,-,-,+,-,PARTIAL,-,-,+,+,-,-,+,-,PARTIAL,-
+S166,"partial CD7, partial CD13, CD34, partial CD38,      partial CD117, dim CD123, HLA-DR and TDT positive",0.0,-,-,-,-,-,PARTIAL,-,-,-,-,PARTIAL,-,-,-,-,-,-,-,-,-,-,+,-,PARTIAL,-,-,-,-,-,-,-,-,-,-,PARTIAL,DIM,-,-,+,+,-,-
+S585,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S173,"partial CD7 (~35%), CD13, partial dim CD33, CD34, CD38, variable CD56, and CD117",0.0,-,-,-,-,-,PARTIAL,-,-,-,-,+,-,-,-,-,-,-,-,-,-,PARTIAL DIM,+,-,+,-,-,-,+,-,-,-,-,-,-,+,-,-,-,-,-,-,-
+S174,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C35,"CD7, CD13, CD33, CD34, CD38, CD58, dim CD71, CD117, HLA-DR, MPO and partial TDT positive.",0.0,-,-,-,-,-,+,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,+,-,-,DIM,-,+,-,-,-,+,PARTIAL,+,-
+S175,"CD7, CD13, CD33, CD34, CD38, CD58, dim CD71, CD117, HLA-DR, MPO and partial TDT positive.",0.0,-,-,-,-,-,+,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,+,-,-,DIM,-,+,-,-,-,+,PARTIAL,+,-
+S180,"CD4(partial +), CD7(-), CD11b(-), CD13(variably +), CD14(-), CD15(partial dim +), CD16(-), CD33(partial +), CD34(+), CD36(subset +), CD38(variably +), CD45(moderate to dim +), CD56(-), CD64(-), CD117(partial +), HLA-DR(variably +), MPO(partial +), TdT(small subset +) (56% population of variably-sized cells)",0.0,-,-,-,PARTIAL,-,-,-,-,-,-,+,-,PARTIAL DIM,-,-,-,-,-,-,-,PARTIAL,+,PARTIAL,+,-,-,DIM,-,-,-,-,-,-,-,PARTIAL,-,-,-,+,PARTIAL,PARTIAL,-
+S181,"CD13, CD33, CD38, CD58, dim CD64, CD117, CD123, dim HLA-DR and partial MPO+",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,-,-,+,-,-,-,-,-,+,-,DIM,-,-,+,+,-,-,+,-,PARTIAL,-
+S182,"CD7, CD11b, CD13, dim CD33, CD34, CD38, CD58, Â Â CD117 and HLA-DR+",0.0,-,-,-,-,-,+,-,-,+,-,+,-,-,-,-,-,-,-,-,-,DIM,+,-,+,-,-,-,-,-,+,-,-,-,-,+,-,-,-,+,-,-,-
+S184,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C88,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S185,"positive for dim CD7, dim CD10, CD34, CD38, dim CD45, cCD79a, CD99, HLA-DR, TdT, dim PAX5",0.0,-,-,-,-,-,DIM,-,DIM,-,-,-,-,-,-,-,-,-,-,-,-,-,+,-,+,-,-,DIM,-,-,-,-,-,-,+,-,-,-,-,+,+,-,DIM
+C41,"positive for CD34, CD117, CD13, CD33, and HLA-DR",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,-,-
+S186,"dim CD2, dim CD7, CD13, dim CD19, dim CD20,      CD33, partial CD34, variable CD38, dim CD64, CD117, CD123, and HLA-DR      positive.",0.0,-,DIM,-,-,-,DIM,-,-,-,-,+,-,-,-,DIM,DIM,-,-,-,-,+,PARTIAL,-,+,-,-,-,-,-,-,-,DIM,-,-,+,+,-,-,+,-,-,-
+S187,"CD2(-), CD7(partial +), CD11b(partial +), CD13(+), CD14(-), CD15(partial +), CD16(-), CD19(few appear very dim +), CD25(-), CD33(variably +), CD34(variably +), CD36(subset +), CD38(+), CD45 (variably +), CD56(+), CD64(partial +), CD117(+), CD123(-), HLA-DR(+), MPO(+), TdT(-). (73% population of medium to large sized cells)",0.0,-,-,-,-,-,PARTIAL,-,-,PARTIAL,-,+,-,PARTIAL,-,-,-,-,-,-,-,+,+,PARTIAL,+,-,-,+,+,-,-,-,PARTIAL,-,-,+,-,-,-,+,-,+,-
+S188,"Myeloid blast (52%) immunophenotype: CD13, variable CD33, CD34, variable CD38, variable CD117, HLA-DR, and TdT positive | Monocytic blast/promonocyte (28%) immunophenotype: dim CD2, CD11b,Â CD13, variable CD14, bright CD33, dim CD34, CD38, CD58, CD64, andÂ HLA-DR positive",1.0,-,DIM,-,-,-,-,-,-,+,-,+,+,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,+,-,+,-,-,+,-,-,-,+,+,-,-
+S190,"dim CD4, dim CD7, dim CD11b, CD13, CD33, variable CD34, CD38, CD58, variable CD64, CD117, CD123, dim HLA-DR, MPO, and dim TdT",0.0,-,-,-,DIM,-,DIM,-,-,DIM,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,+,-,+,-,-,+,+,-,-,DIM,DIM,+,-
+S191,"CD13, CD34, dim CD33, CD38, CD58, CD71, CD117, CD123,  partial TdT, and partial MPO+ ",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,DIM,+,-,+,-,-,-,-,-,+,-,-,+,-,+,+,-,-,-,PARTIAL,PARTIAL,-
+S193,"Large population of atypical myeloblasts (CD56 positive,  weak CD117 positive, CD34 negative, HLA-DR negative),  representing approximately 87% of the leukocytes,  consistent with acute myeloid leukemia",1.0,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,DIM,-,-,-,-,-,-,-
+S195,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S196,"CD11b, dim CD13, dim CD15, CD33, CD38, dim CD45, CD56, CD58, bright CD64, dim CD117, CD123, HLA-DR, and variable MPO positive",0.0,-,-,-,-,-,-,-,-,+,-,DIM,-,DIM,-,-,-,-,-,-,-,+,-,-,+,-,-,DIM,+,-,+,-,BRIGHT,-,-,DIM,+,-,-,+,-,+,-
+S197,"Large population of atypical monocytic cells (weaker than  normal CD33, partial loss of CD13) including  promonocytes/monoblasts representing approximately 50% of  the leukocytes suggestive of acute monoblastic or monocytic  leukemia. | Large population of atypical monocytic cells (weaker than normal CD33, partial loss of CD13) including promonocytes/monoblasts representing approximately 50% of the leukocytes",0.0,-,-,-,-,-,-,-,-,-,-,PARTIAL,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+S198,"CD2(-), CD4(partial +), CD11b(few dim +), CD13(+), CD14(-), CD15(-), CD16 (-), CD25(-), CD33(bright +), CD34(-), CD36(-), CD38(variably +), CD45(variably +), CD56(-), CD64(+), CD117(variably +), CD123(+), HLA-DR(-), myeloperoxidase(+), and TdT(-).",0.0,-,-,-,PARTIAL,-,-,-,-,PARTIAL DIM,-,+,-,-,-,-,-,-,-,-,-,BRIGHT,-,-,+,-,-,+,-,-,-,-,+,-,-,+,+,-,-,-,-,+,-
+S199,"CD2(-), CD4(partial dim +), CD7(partial +), CD11b(partial dim +), CD13(+), CD14(-), CD15(-), CD16(-), CD19(-), CD22 (-), CD25(-), CD33(variably +), CD34(bright +), CD36(-), CD38(bright +), CD45(moderate/dim +), CD56(-), CD64(-), CD79a (-), CD117(+), CD123(-), HLA-DR(+), MPO(+), TdT(partial +) (34% population of variably-sized cells)",0.0,-,-,-,PARTIAL DIM,-,PARTIAL,-,-,PARTIAL DIM,-,+,-,-,-,-,-,-,-,-,-,+,BRIGHT,-,BRIGHT,-,-,DIM,-,-,-,-,-,-,-,+,-,-,-,+,PARTIAL,+,-
+S200,"variable CD7, variable CD13, CD33, partial CD34, bright CD38, partial CD56, CD58, variable CD71, CD117, CD123, HLA-DR, and MPO positive",0.0,-,-,-,-,-,+,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,PARTIAL,-,BRIGHT,-,-,-,PARTIAL,-,+,-,-,+,-,+,+,-,-,+,-,+,-
+S201,"variable CD7, Â dim CD13, CD33, CD34 bright CD38,CD56, CD58, CD117, HLA-DR positive",0.0,-,-,-,-,-,+,-,-,-,-,DIM,-,-,-,-,-,-,-,-,-,+,+,-,BRIGHT,-,-,-,+,-,+,-,-,-,-,+,-,-,-,+,-,-,-
+S202,"dim CD4, CD13, bright CD34, dim CD45, CD117, HLA-DR, and dim TdT positive",0.0,-,-,-,DIM,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,BRIGHT,-,-,-,-,DIM,-,-,-,-,-,-,-,+,-,-,-,+,DIM,-,-
+C160,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C164,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S210,"CD2 (-), CD7(few +), CD11b(-), CD13(partial dim +), CD14(-), CD15(partial dim +), CD16(-), CD22(partial dim +), CD33(-), CD34(bright +), CD36(-), CD38(moderately bright +), CD45(partial +), CD56(-), CD64(-), CD117(partial +), HLADR(+) (32% population of medium to large cells)",0.0,-,-,-,-,-,PARTIAL,-,-,-,-,PARTIAL DIM,-,PARTIAL DIM,-,-,-,PARTIAL DIM,-,-,-,-,BRIGHT,-,+,-,-,PARTIAL,-,-,-,-,-,-,-,PARTIAL,-,-,-,+,-,-,-
+S211,"A distinct blastic population, expressing CD7, CD13, CD15, CD33, CD34, CD38, dim CD45, CD64, MPO, and HLA-DR | A large monocytic population, positive for CD11b, CD13, CD14, CD15, CD33, CD38, CD45, CD64, HLA-DR and MPO",1.0,-,-,-,-,-,+,-,-,-,-,+,-,+,-,-,-,-,-,-,-,+,+,-,+,-,-,DIM,-,-,-,-,+,-,-,-,-,-,-,+,-,+,-
+S212,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S213,"variable CD7, dim CD11b, CD13, CD33, partial CD34, dim CD64, CD117, CD123, HLA-DR, and dim MPO positive",0.0,-,-,-,-,-,+,-,-,DIM,-,+,-,-,-,-,-,-,-,-,-,+,PARTIAL,-,-,-,-,-,-,-,-,-,DIM,-,-,+,+,-,-,+,-,DIM,-
+S214,"CD4, CD11b, variable CD13, CD15, CD33, variable CD56, CD58, CD64, lysozyme, and dim HLA-DR positive",0.0,-,-,-,+,-,-,-,-,+,-,+,-,+,-,-,-,-,-,-,-,+,-,-,-,-,-,-,+,-,+,-,+,-,-,-,-,-,+,+,-,-,-
+S217,"partial  weak CD4 (20% positive), CD13, partial weak CD11b (60%  positive), partial weak CD15 (20% positive), CD34, CD117,  myeloperoxidase, and partial HLA-DR (60% positive)",0.0,-,-,-,PARTIAL DIM,-,-,-,-,PARTIAL DIM,-,+,-,PARTIAL DIM,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,PARTIAL,-,+,-
+S218,"CD4, partial CD11b, CD15, CD33, CD38, moderate CD45, partial CD56, CD64, CD123, partial CD117, and HLA-DR",0.0,-,-,-,+,-,-,-,-,PARTIAL,-,-,-,+,-,-,-,-,-,-,-,+,-,-,+,-,-,+,PARTIAL,-,-,-,+,-,-,PARTIAL,+,-,-,+,-,-,-
+C133,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S229,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S230,"dim CD33, CD34, CD38, dim CD45, CD117, and MPO",0.0,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,DIM,+,-,+,-,-,DIM,-,-,-,-,-,-,-,+,-,-,-,-,-,+,-
+C61,"CD11b, CD13, CD14 (subset), CD33, CD34 (subset), CD38, CD45, CD64 (subset), HLA-DR and MPO",0.0,-,-,-,-,-,-,-,-,+,-,+,PARTIAL,-,-,-,-,-,-,-,-,+,PARTIAL,-,+,-,-,+,-,-,-,-,PARTIAL,-,-,-,-,-,-,+,-,+,-
+S231,"Variable CD13, variable CD14, CD33, variable CD64, CD117, CD123, and partial HLA-DR positive",0.0,-,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,+,-,-,+,+,-,-,PARTIAL,-,-,-
+S232,"CD13, dimCD33, CD34, CD38, CD58, partial CD64, CD117, CD123, and HLA-DR positive.",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,DIM,+,-,+,-,-,-,-,-,+,-,PARTIAL,-,-,+,+,-,-,+,-,-,-
+S233,"CD2(-), CD4(-), CD7(partial +), CD11b(-), CD13(variably +), CD14(-), CD15(partial +), CD16(-), CD19 (-/few dim +), CD25(-), CD33(partial +), CD34(partial +), CD36(-), CD38(bright and variably +), CD45(+), CD56(variably +), CD64(-), CD117(variably +), CD123(-/few +), MPO(+), TdT(-/few dim +) (87% pop of med to large size cells) | HLA-DR(partial +)",0.0,-,-,-,-,-,PARTIAL,-,-,-,-,+,-,PARTIAL,-,-,-,-,-,-,-,PARTIAL,PARTIAL,-,BRIGHT,-,-,+,+,-,-,-,-,-,-,+,-,-,-,PARTIAL,-,+,-
+S235,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S236,"Partial CD2, CD33, CD34, CD38, CD117, CD123, partial HLA-DR, dim MPO and partial TdT positive.",0.0,-,PARTIAL,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,-,-,-,-,-,+,+,-,-,PARTIAL,PARTIAL,DIM,-
+C69,"CD13, partial CD15, CD33, CD117,  myeloperoxidase, and partial HLA-DR (""atypical cells with dim CD45"" - 45% of leukocytes) | CD13,  bright CD33, and bright CD64 (Monocytic (19% of leukocytes)) | CD13, CD33, and CD64, with  a left shift (increased percentage that lack CD10, CD11b,  and CD16) (Myeloid (19% of leukocytes))",1.0,-,-,-,-,-,-,-,-,-,-,+,-,PARTIAL,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,PARTIAL,-,+,-
+S237,"Blast immunophenotype: partial CD11b, CD13, CD33, CD38, CD58, partial CD64, partial CD117 and a subset with MPO - Blast/promonocyte immunophenotype: CD11b, CD13, partial CD14, CD15, CD33, CD38, CD58 and CD64",0.0,-,-,-,-,-,-,-,-,PARTIAL,-,+,PARTIAL,+,-,-,-,-,-,-,-,+,-,-,+,-,-,-,-,-,+,-,PARTIAL,-,-,PARTIAL,-,-,-,-,-,PARTIAL,-
+S238,"dim CD4, CD11b, partial CD14, CD15, dim CD33, CD38, CD56, CD58, CD64 and HLA-DR positive",0.0,-,-,-,DIM,-,-,-,-,+,-,-,PARTIAL,+,-,-,-,-,-,-,-,DIM,-,-,+,-,-,-,+,-,+,-,+,-,-,-,-,-,-,+,-,-,-
+S239,"CD13, CD33, CD38, CD58, CD64, CD117, CD123, and  MPO-positive",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,-,-,+,-,-,-,-,-,+,-,+,-,-,+,+,-,-,-,-,+,-
+S240,"CD4, CD7, CD11b, CD13,  CD33, partial CD34, CD117, HLA-DR, partial weak TdT and  partial CD64",0.0,-,-,-,+,-,+,-,-,+,-,+,-,-,-,-,-,-,-,-,-,+,PARTIAL,-,-,-,-,-,-,-,-,-,PARTIAL,-,-,+,-,-,-,+,PARTIAL DIM,-,-
+S241,"CD13, CD33, partial CD34, CD64, CD19 dim, CD71, CD117 partial, HLA-DR, dim CD123, CD58 and MPO",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,DIM,-,-,-,-,-,+,PARTIAL,-,-,-,-,-,-,-,+,-,+,+,-,PARTIAL,DIM,-,-,+,-,+,-
+S243,"CD4,  CD11b, dim CD13, variable CD15, CD33, partial CD34  (approximately 25%), variable CD64 (dim to bright), CD117,  HLA-DR, and myeloperoxidase",0.0,-,-,-,+,-,-,-,-,+,-,DIM,-,+,-,-,-,-,-,-,-,+,PARTIAL,-,-,-,-,-,-,-,-,-,+,-,-,+,-,-,-,+,-,+,-
+S244,"Flow cytometry was negative for increased myeloblasts. The flow showed a mild increase in   immature monocytic cells, but not to the degree seen in the marrow smears. This is likely   attributable to hemodilution of the sample received for flow cytometry. (Aberrant CD56, unusually dim CD38 - but only 3-4% assayed cells are myeloblasts)",1.0,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,DIM,-,-,-,+,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+S245,"CD2(-), CD7 (-), CD10(-), CD11b(-), CD13(dim +), CD14(-), CD15(+), CD16(-), CD19(-), CD22(partial +), CD33(-), CD34(bright +), CD36 (-), CD38(variably +), CD45(partial dim +), CD56(-), CD64(-), CD117(partial +), HLA-DR(partial +), MPO(-) and TdT(+) (Population #1 - 5.3%) | CD2(-), CD7(-), CD10 (-), CD11b(-), CD13(bright and variably +), CD14(-), CD15(-), CD16(-), CD22(-), CD33(partial +), CD34 (variably +), CD36(-), CD38(variably +), CD45(+), CD56(-), CD64(-), CD117(+), HLA-DR(partial +), MPO(partial +), and TdT (-). (Population #2 - 25%)",1.0,-,-,-,-,-,-,-,-,-,-,BRIGHT,-,+,-,-,-,PARTIAL,-,-,-,PARTIAL,BRIGHT,-,+,-,-,+,-,-,-,-,-,-,-,+,-,-,-,PARTIAL,+,+,-
+S246,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S247,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S248,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S249,"dim CD7, CD13, CD33, CD34, CD38, partial CD56 (25%), CD58, dim CD64, CD117, dim CD123, HLA-DR, and MPO+.",0.0,-,-,-,-,-,DIM,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,PARTIAL,-,+,-,DIM,-,-,+,DIM,-,-,+,-,+,-
+S250,"CD13, CD33, CD34, CD38, CD56, CD58, dim/partial CD64, CD117, CD123, HLA-DR and MPO",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,+,-,+,-,PARTIAL DIM,-,-,+,+,-,-,+,-,+,-
+S251,"CD117 (Initial diagnosis on 7/27/2015 BMBX: CD7, dim CD11b, CD13, CD33, partial CD34, CD58, CD117, CD123, dim MPO, and HLA-DR positive)",0.0,-,-,-,-,-,+,-,-,DIM,-,+,-,-,-,-,-,-,-,-,-,+,PARTIAL,-,-,-,-,-,-,-,+,-,-,-,-,+,+,-,-,+,-,DIM,-
+S252,"dimCD7, CD13, dimCD11b, CD33, variable CD34, CD58,  CD117, CD123, and HLA-DR positive",0.0,-,-,-,-,-,DIM,-,-,DIM,-,+,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,+,-,-,-,-,+,+,-,-,+,-,-,-
+C95,"dimCD7, CD13, dimCD11b, CD33, variable CD34, CD58,  CD117, CD123, and HLA-DR positive",0.0,-,-,-,-,-,DIM,-,-,DIM,-,+,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,+,-,-,-,-,+,+,-,-,+,-,-,-
+S253,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S254,"partial CD7, CD13, CD33, CD34, variable CD38, CD117, CD123, partial HLA-DR and dim MPO",0.0,-,-,-,-,-,PARTIAL,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,-,-,-,-,-,+,+,-,-,PARTIAL,-,DIM,-
+S255,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C505,"positive for CD13, CD33, HLA-DR, CD34, and CD117, with partial aberrant expression of CD7. (Peripheral blood) | positive for CD34, CD117, HLA-DR, CD13, and CD33 (Marrow)",0.0,-,-,-,-,-,PARTIAL,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,-,-
+S256,"dim CD11b, variable CD13, dim variable CD14, CD15, CD38, CD58, dim CD64, and MPO",0.0,-,-,-,-,-,-,-,-,DIM,-,+,DIM,+,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,+,-,DIM,-,-,-,-,-,-,-,-,+,-
+S257,"dimCD13, CD33, CD45, CD56, dimCD117 and MPO positive",0.0,-,-,-,-,-,-,-,-,-,-,DIM,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,+,+,-,-,-,-,-,-,DIM,-,-,-,-,-,+,-
+S258,"Positive for CD34, CD117, HLADR, CD33, CD13 but negative for CD14, CD64, CD11b, CD19, and CD3 (Peripheral Immunophenotyping) | The blasts are positive for CD34 and CD117 (Bone marrow Immunophenotyping)",1.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,-,-
+S259,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S260,"CD13, CD33, CD38, partial CD56, partialCD64, CD117, dimCD123, and MPO",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,-,-,+,-,-,-,PARTIAL,-,-,-,PARTIAL,-,-,+,DIM,-,-,-,-,+,-
+S261,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S262,"dimCD13, CD33, CD34, CD56, CD117, and  CD123",0.0,-,-,-,-,-,-,-,-,-,-,DIM,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,-,+,-,-,-,-,-,-,+,+,-,-,-,-,-,-
+S263,"partial CD56, bright CD33, Â CD13, bright CD64, HLA-DR (Monocytic cells)",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,BRIGHT,-,-,-,-,-,-,PARTIAL,-,-,-,BRIGHT,-,-,-,-,-,-,+,-,-,-
+S264,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S265,"The blasts are positive for HLA-DR, CD34, CD117 (PARTIAL), CD13, CD(PARTIAL/DIM), CD33, TDT (DIM, SUBSET) and are negative for CD11b, CD14, CD64, MPO and all B and T cell markers. (Bone Marrow Immunophenotyping)",1.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,-,-,-,-,-,PARTIAL,-,-,-,+,PARTIAL DIM,-,-
+S266,"POSITIVE FOR DIM CD45, HLADR, CD34, CD117, CD13, CD33, CD43, CD81, CD58.",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,DIM,-,-,+,-,-,-,-,+,-,-,-,+,-,-,-
+C98,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S267,"There are increased abnormal cells in the ""monocyte"" gate that stain positive for CD38, CD11b, CD14, CD64, CD33, with partial MPO, HLADR, CD13 expression. (Bone Marrow Immunophenotyping)",0.0,-,-,-,-,-,-,-,-,+,-,+,+,-,-,-,-,-,-,-,-,+,-,-,+,-,-,-,-,-,-,-,+,-,-,-,-,-,-,+,-,PARTIAL,-
+S268,"POSITIVE FOR CD33, CD11B, CD64, CD4 AND MPO (SUBSET/DIM) AND ARE NEGATIVE FOR CD117, CD13, CD34, HLA-DR AND TDT (Bone Marrow Immunophenotyping)",1.0,-,-,-,+,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,+,-
+S269,"These are positive for CD34, CD117, HLADR, CD33 but negative for CD13 and CD11b. TdT and CD79a are partially expressed. (Bone Marrow Immunophenotyping)",1.0,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,-,-,-,-,PARTIAL,+,-,-,-,+,PARTIAL,-,-
+S270,"CD4, partial CD11b, partial CD13, CD33, CD34, CD38,  partial CD56, CD64, partial CD117, CD123, and dim HLA-DR positive | CD4, partial CD11b, partial CD13, CD33, CD34, CD38, partial CD56, CD64, partial CD117, CD123, and dim HLA-DR positive",0.0,-,-,-,+,-,-,-,-,PARTIAL,-,PARTIAL,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,PARTIAL,-,-,-,+,-,-,PARTIAL,+,-,-,DIM,-,-,-
+S271,"CD4, partial CD11b, partial CD13, CD33, CD34, CD38, partial CD56, CD64, partial CD117, CD123, and dim HLA-DR positive",0.0,-,-,-,+,-,-,-,-,PARTIAL,-,PARTIAL,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,PARTIAL,-,-,-,+,-,-,PARTIAL,+,-,-,DIM,-,-,-
+S272,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S274,"POSITIVE FOR CD34, HLA-DR, CD117 AND CD33, AND NEGATIVE FOR MPO, TdT, CD13, CD19, CD20 AND CD10. (Bone Marrow Immunophenotyping)",1.0,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,-,-
+S275,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S276,"CD13, CD33, subset CD34, variable CD117, CD123, HLA-DR, and variable MPO positive - Monocytic/blast equivalent immunophenotype: CD11b, CD13, subset CD14, variable CD16, CD33, CD64, dim CD123, and HLA-DR positive",0.0,-,-,-,-,-,-,-,-,+,-,+,PARTIAL,-,+,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,-,-,+,-,-,+,DIM,-,-,+,-,+,-
+S277,"CD11b, variable CD13, variable CD14, CD33, CD56, CD64, dim CD123 and dim HLA-DR positive",0.0,-,-,-,-,-,-,-,-,+,-,+,+,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,+,-,-,-,+,-,-,-,DIM,-,-,DIM,-,-,-
+S278,"Immunophenotype: CD13, partial CD15, dim CD33, CD34, CD38, dim CD45, CD58, variable CD64, variable CD117, CD123, and dim HLA-DR positive.",0.0,-,-,-,-,-,-,-,-,-,-,+,-,PARTIAL,-,-,-,-,-,-,-,DIM,+,-,+,-,-,DIM,-,-,+,-,+,-,-,+,+,-,-,DIM,-,-,-
+S279,"weak  CD13, CD33, partial CD117, and myeloperoxidase",0.0,-,-,-,-,-,-,-,-,-,-,DIM,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,-,-,-,PARTIAL,-,-,-,-,-,+,-
+S282,"Immunophenotype: dim CD13, CD33, CD117, CD123 and MPO positive.",0.0,-,-,-,-,-,-,-,-,-,-,DIM,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,+,-
+S283,"84% are monocytes, and 9% are myeloid  cells. The monocytic cells (percentages shown) appear  atypical with expression of CD13, bright CD33, and bright  CD64, but weaker than normal HLA-DR and include 48% that  are phenotypically consistent with promonocytes/monoblasts",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,BRIGHT,-,-,-,-,-,-,-,-,-,-,BRIGHT,-,-,-,-,-,-,+,-,-,-
+C509,"84% are monocytes, and 9% are myeloid  cells. The monocytic cells (percentages shown) appear  atypical with expression of CD13, bright CD33, and bright  CD64, but weaker than normal HLA-DR and include 48% that  are phenotypically consistent with promonocytes/monoblasts",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,BRIGHT,-,-,-,-,-,-,-,-,-,-,BRIGHT,-,-,-,-,-,-,+,-,-,-
+S285,"CD2(-), CD4(dim +), CD7(-), CD11b(-), CD13(-), CD14(-), CD15(-), CD16(-), CD33(variably +), CD34(-), CD36(-), CD38(variably +), CD45(+), CD56(partial +), CD64 (partial +), CD117(variably +), HLA-DR(-).",0.0,-,-,-,DIM,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,+,-,-,+,PARTIAL,-,-,-,PARTIAL,-,-,+,-,-,-,-,-,-,-
+S286,"These are postive for CD34, CD117, HLADR, CD13 and CD33. These are negative for CD3, CD20, CD4, CD11b.",1.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,-,-
+C174,No increased or immunophenotypically abnormal blast cell populations identified.,0.0,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+S287,"Positive (increased CD34 positive blasts (50-60%), CD71 Decreased erythroid cells (less than 5%), CD61 Few scattered megakaryocytes, E-cadherin; Scattered immature erythroid precursors, CD117: Increased immature myeloid cells and blasts (70-80%), CD3: Scattered small interstitial T-cells (less than 5%), CD20 Scattered small interstitial B-cells (less than 5%)) | Negative (AML related recurrent cytogenetic abnormalities including t(15;17)) | Positive (PAX-5: Positive in few scattered small lymhocytes, CD138: scattered interstitial and perivascular plasma cells (less than 5%), Iron strian: Storage iron present in decalcified section, Reticulin Stain: Normal reticulin fiber pattern)",1.0,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-
+S288,"Immunophenotype: CD13, CD34, CD38, CD58, CD117, CD123, HLA-DR and TdT-positive; small subset of blasts also express CD19, CD22, and CD79a",1.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,PARTIAL,-,PARTIAL,-,-,-,-,+,-,+,-,-,-,-,-,+,-,-,-,PARTIAL,+,+,-,-,+,+,-,-
+S289,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S290,"Immunophenotype: CD7, CD13, CD33, CD38, CD117, CD123 and MPO positive",0.0,-,-,-,-,-,+,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,-,-,+,-,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,+,-
+S291,"CD34(+), CD13(dim +), CD15(partial +), CD33(dim to partial +), CD34(+), CD38(variably +), CD45(dim +), CD56(-), CD64 (small subset +), CD117(+), HLA-DR(partial +), other myeloid and lymphoid antigens(-).",0.0,-,-,-,-,-,-,-,-,-,-,DIM,-,PARTIAL,-,-,-,-,-,-,-,PARTIAL DIM,+,-,+,-,-,DIM,-,-,-,-,PARTIAL,-,-,+,-,-,-,PARTIAL,-,-,-
+S292,"CD13, CD33, CD64, dim CD71, dim CD117 and MPO (+).",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,+,DIM,-,+,-,-,-,-,-,+,-
+S293,"Positive (ABNORMAL CD34+ BLAST POPULATION, 29%, EXPRESSINGMYELOPEROXIDASE (VARIABLE), CD34, CD38, CD117, CD33, CD4, HLA-DR,CD13 (PARTIAL), CD56 (dim minor subset), AND CD61 (dim subset))",0.0,-,-,-,+,-,-,-,-,-,-,PARTIAL,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,PARTIAL DIM,-,-,PARTIAL DIM,-,-,-,+,-,-,-,PARTIAL,-,+,-
+S294,"CD2(-), CD4(partial dim +), CD7(few dim +), CD11b(-), CD13 (variably +), CD14(-), CD15(partial +), CD16(-), CD19(partial dim +), CD33(variably +), CD34(-), CD36(-), CD38(+), CD45 (moderate +), CD56(-), CD64(partial dim +), CD117(+), HLA-DR(+), MPO(+). (Population #1; 6.5% medium-sized cells) | CD2(dim +), CD4(dim +), CD11b(variably +), CD13(variably +), CD14(partial +), CD15(variably +), CD16(partial +), CD33(slightly bright +), CD34(-), CD36(+), CD38 (variably +), CD45(+), CD64(+), CD117(-), HLA-DR(partial +), MPO(+). (Population #2; 42% medium-sized to large monocytic cells)",1.0,-,DIM,-,DIM,-,PARTIAL DIM,-,-,+,-,+,PARTIAL,+,PARTIAL,PARTIAL DIM,-,-,-,-,-,+,-,+,+,-,-,+,-,-,-,-,+,-,-,PARTIAL,-,-,-,+,-,+,-
+S295,"CD2(subset +), CD4(dim +), CD7(partial +), CD11b(partial +), CD13(+), CD14(-), CD15(partial +), CD16(-), CD33(variably +), CD34(partial +), CD38(variably +), CD45(+), CD56(partial +), CD64(-), CD117(+), HLA-DR(partial +). (63% population)",0.0,-,PARTIAL,-,DIM,-,PARTIAL,-,-,PARTIAL,-,+,-,PARTIAL,-,-,-,-,-,-,-,+,PARTIAL,-,+,-,-,+,PARTIAL,-,-,-,-,-,-,+,-,-,-,PARTIAL,-,-,-
+S296,"variable CD11b, CD13, dim CD19, dim CD33, CD34, variable CD64, CD117, CD123, and HLA-DR",0.0,-,-,-,-,-,-,-,-,+,-,+,-,-,-,DIM,-,-,-,-,-,DIM,+,-,-,-,-,-,-,-,-,-,+,-,-,+,+,-,-,+,-,-,-
+S297,"CD13, dim CD33, bright CD34, CD38, CD117, dim HLA-DR positive",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,DIM,BRIGHT,-,+,-,-,-,-,-,-,-,-,-,-,+,-,-,-,DIM,-,-,-
+S298,"CD117, MPO,CD38(PARTIAL), CD33(DIM) AND NOT EXPRESSING CD34 AND HLA-DR",0.0,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,DIM,DIM,-,PARTIAL,-,-,-,-,-,-,-,-,-,-,+,-,-,-,DIM,-,PARTIAL,-
+S299,"CD13, CD33, CD38, variable CD56, CD58, CD117 and MPO positive",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,-,-,+,-,-,-,+,-,+,-,-,-,-,+,-,-,-,-,-,+,-
+S300,"weak partial CD2, CD13, CD33, CD64, CD117, and  myeloperoxidase",0.0,-,PARTIAL DIM,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,+,-,-,+,-,-,-,-,-,+,-
+C124,"Positive (""A large blastic population is noted, positive for CD45 and CD64. A small subset of blasts also express CD13 and CD14. The blasts are negative for CD10, CD16, CD19, CD34 and CD117."")",1.0,-,-,-,-,-,-,-,-,-,-,PARTIAL,PARTIAL,-,-,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-
+S301,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S302,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S586,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S587,"CD34 positive blasts are rare, <1% (Bone Marrow Immunophenotyping)",0.0,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+C126,Positive (CD34-Dim),0.0,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,DIM,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+S303,"CD2(-), CD4(-),CD7(-), CD10(partial +), CD11b(-), CD13(dim +), CD14(-), CD38(variably +/small subset -), CD45(dim to moderately +), CD56(-), CD64(-), CD117(variably +), HLA-DR(variably +). | Population #2 (0.48% of total events) comprises small cells with the following immunophenotype: CD5(- to partial dim +),CD10(-), CD19(slighty bright +), CD20(bright +), CD38(-), CD45(+), kappa(-), lambda(dim +).",1.0,-,-,-,-,-,-,-,PARTIAL,-,-,DIM,-,-,-,+,BRIGHT,-,-,-,-,-,-,-,PARTIAL,-,-,+,-,-,-,-,-,-,-,+,-,-,-,+,-,-,-
+S304,"partial CD7, CD13, dim CD15, CD33, CD38, CD58, CD117, dim CD123, HLA-DR and partial MPO+. (BM) | dim CD4, CD11b, variable CD13, partial CD14, dim CD15, variable CD16, CD33, CD38, CD58, CD64, CD123 and HLA-DR. (Promonocyte/blast equivalents)",0.0,-,-,-,DIM,-,PARTIAL,-,-,+,-,+,PARTIAL,DIM,+,-,-,-,-,-,-,+,-,-,+,-,-,-,-,-,+,-,+,-,-,+,+,-,-,+,-,PARTIAL,-
+S588,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S305,"CD7, CD13, CD33, CD38, CD58, CD117, CD123, partial MPO+ ",0.0,-,-,-,-,-,+,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,-,-,+,-,-,-,-,-,+,-,-,-,-,+,+,-,-,-,-,PARTIAL,-
+S306,"dimCD7, CD13, dimCD14, dimCD20, CD33, CD34, CD117, CD123, dim HLA-DR and MPO positive",0.0,-,-,-,-,-,DIM,-,-,-,-,+,DIM,-,-,-,DIM,-,-,-,-,+,+,-,-,-,-,-,-,-,-,-,-,-,-,+,+,-,-,DIM,-,+,-
+S307,"CD33, CD38, CD56, CD117, and myeloperoxidase",0.0,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,+,-,-,-,+,-,-,-,-,-,-,+,-,-,-,-,-,+,-
+S308,"These are positive for HLA-DR, CD34,CD117, CD33, CD11B, CD64 but Negative for CD13, CD14, CD16, MPO, TDT and all B and T cell markers",1.0,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,-,-,+,-,-,+,-,-,-,+,-,-,-
+S309,"CD13, CD33, CD117, CD123, dim HLA-DR and MPO | CD11b, CD13, CD33, CD117, CD64, CD123, and dim HLA-DR. (Blasts with monocytic differentiation (about 10% of blasts).)",0.0,-,-,-,-,-,-,-,-,+,-,+,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,+,-,-,+,+,-,-,DIM,-,+,-
+S310,"CD2(-), CD4(partial dim +), CD7(variably +), CD11b(-), CD13(+), CD14(-), CD15(partial +), CD16(-), CD33(variably +), CD34(partial+), CD36(-), CD38(variably +), CD45(variably +), CD56(-), CD64(-), CD117(+), HLA-DR(partial +).",0.0,-,-,-,PARTIAL DIM,-,+,-,-,-,-,+,-,PARTIAL,-,-,-,-,-,-,-,+,PARTIAL,-,+,-,-,+,-,-,-,-,-,-,-,+,-,-,-,PARTIAL,-,-,-
+S311,"partial weak  CD7, CD13, CD33, CD34, CD117, myeloperoxidase, and partial  HLA-DR",0.0,-,-,-,-,-,PARTIAL DIM,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,PARTIAL,-,+,-
+S312,"Positive (""The large majority of cells (around 90%) are an abnormal population of myeloblasts. The myeloblasts are positive for CD33, CD13, HLA-DR, and CD117, and show uniform aberrant expression of CD7. A subset of the blasts are positive for myeloperoxidase, and a smaller subset shows dim aberrant expression of CD19. The blasts are almost entirely negative for CD34."")",1.0,-,-,-,-,-,+,-,-,-,-,+,-,-,-,PARTIAL DIM,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,+,-
+S313,"CD13, CD33, CD38, CD56, CD58, partial CD64, CD117, CD123, and MPO positive",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,-,-,+,-,-,-,+,-,+,-,PARTIAL,-,-,+,+,-,-,-,-,+,-
+S314,"CD13, CD33, CD38, CD58, dim CD64, CD117, CD123, and MPO",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,-,-,+,-,-,-,-,-,+,-,DIM,-,-,+,+,-,-,-,-,+,-
+S315,"Positive (""Approximately 55% of assayed cells are an abnormal population of immature monocytic cells (consistent with monoblasts and promonocytes). Approximately 30% of assayed cells are mature monocytes. Both the immature and mature monocytic cells show uniform aberrant expression of CD56. A small population of myeloblasts (CD117+/CD34neg) is present, accounting for less than 5% of assayed cells.)",1.0,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,+,-,-,-,-,-,-,-
+C145,"Positive (""Approximately 55% of assayed cells are an abnormal population of immature monocytic cells (consistent with monoblasts and promonocytes). Approximately 30% of assayed cells are mature monocytes. Both the immature and mature monocytic cells show uniform aberrant expression of CD56. A small population of myeloblasts (CD117+/CD34neg) is present, accounting for less than 5% of assayed cells.)",1.0,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,+,-,-,-,-,-,-,-
+C194,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C517,"These are positive for CD34, CD117, HLADR, CD33 and CD13 (Bone Marrow Immunophenotyping)",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,-,-
+S589,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C141,"CD13, CD33, CD117, CD123, and HLA-DR",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,-,-,-,+,+,-,-,+,-,-,-
+C518,"CD13, CD33, CD34, partial CD64, CD71, CD117, CD123, and HLA-DR ",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,-,-,PARTIAL,+,-,+,+,-,-,+,-,-,-
+S319,"CD13, CD33, CD34, partial CD64, CD71, CD117, CD123, and HLA-DR ",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,-,-,PARTIAL,+,-,+,+,-,-,+,-,-,-
+S320,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S321,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S324,"CD13, CD33, CD38, CD58, CD64, dim CD71, CD123, CD117, MPO positive -FISH for t(15;17)",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,-,-,+,-,-,-,-,-,+,-,+,DIM,-,+,+,-,-,-,-,+,-
+S325,"CD13, dim CD33, CD43, CD117",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,DIM,-,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-
+S327,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S328,"dimCD11b, dimCD13, CD14, dimCD33, CD64, variable CD123, HLA-DR CD13,dimCD33, dim variable CD34, CD117, CD123, HLA-DR",0.0,-,-,-,-,-,-,-,-,DIM,-,DIM,+,-,-,-,-,-,-,-,-,DIM,DIM,-,-,-,-,-,-,-,-,-,+,-,-,+,+,-,-,+,-,-,-
+S329,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S330,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S331,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S332,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S333,"Increased atypical CD34 positive, CD7 positive myeloblasts",0.0,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+S334,Increased atypical CD34+myeloblasts representing 80%of leukocytes suggestive of recurrent AML.,0.0,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+C521,"CD11b, CD13, CD14, CD33, CD56 and bright CD64+",0.0,-,-,-,-,-,-,-,-,+,-,+,+,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,+,-,-,-,+,-,-,-,-,-,-,-,-,-,-
+S335,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S336,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S337,"dim CD4, CD11b, partial CD13, partial CD14, CD15, CD33, partial CD56, CD58, bright CD64, partial CD123 and HLA-DR-positive",0.0,-,-,-,DIM,-,-,-,-,+,-,PARTIAL,PARTIAL,+,-,-,-,-,-,-,-,+,-,-,-,-,-,-,PARTIAL,-,+,-,BRIGHT,-,-,-,PARTIAL,-,-,+,-,-,-
+S338,"Large population of CD117pos, CD34neg, HLA-DR neg myeloblasts, representing 78% of leukocytes consistent w/AML.",1.0,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-
+S340,"CD2, CD11b, CD13, CD33, CD34, CD38, CD56, CD58, CD117,  CD123, and HLA-DR positive",0.0,-,+,-,-,-,-,-,-,+,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,+,-,+,-,-,-,-,+,+,-,-,+,-,-,-
+S341,"CD7, CD13, CD33, CD34, CD38, CD58, CD117, dim CD123 HLA-DR and MPO+ ,",0.0,-,-,-,-,-,+,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,+,-,-,-,-,+,DIM,-,-,+,-,+,-
+S343,"CD13, partial CD15, CD34, CD38, partial CD56, CD58, partial CD117 and CD123+",0.0,-,-,-,-,-,-,-,-,-,-,+,-,PARTIAL,-,-,-,-,-,-,-,-,+,-,+,-,-,-,PARTIAL,-,+,-,-,-,-,PARTIAL,+,-,-,-,-,-,-
+C295,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S344,"Large population of CD117 pos myeloblasts, representing 80% of leukocytes, consistent w/ AML.",0.0,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-
+S346,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S347,A very dim/negative CD45 population was also detected by the flow analysis. This population is negative for all the myeloid and lymphoid markers including CD34. This is mentioned here for documentation purposes but we believe that they do not represent blasts.,1.0,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+S348,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S349,"Increased CD34+ myeloblasts, representing 42% of leukocytes, suspicious for AML",0.0,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+C522,"Negative (CD10, CD20, CD22, Cyt CD79a, Cyt CD3, CD7, CD16, CD56, CD14, CD15, CD64, CD117, HLA-DR, TdT) | Positive (CD38, CD11b, CD13, CD33, CD34, Dim CD45, MPO,)",1.0,-,-,-,-,-,-,-,-,+,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,DIM,-,-,-,-,-,-,-,-,-,-,-,-,-,+,-
+S350,"CD2(+), surface CD3(-),  cytoplasmic CD3(dim +), CD4(-), CD7(partial +), CD11b(partial +),  CD13(variably +), CD14(few +), CD15(-), CD16(-),  CD33(-), CD34(partial +), CD36(-), CD38(bright +), CD45(dim  +), CD56(small subset +), CD64(-), CD117(+), HLA-DR(partial +), MPO(partial +), TdT(partial dim+)",0.0,-,+,DIM,-,-,PARTIAL,-,-,PARTIAL,-,+,PARTIAL,-,-,-,-,-,-,-,-,-,PARTIAL,-,BRIGHT,-,-,DIM,PARTIAL,-,-,-,-,-,-,+,-,-,-,PARTIAL,PARTIAL DIM,PARTIAL,-
+S595,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S351,"Negative (CD10, CD19, CD20, CD22, Cyt CD79a, Cyt CD3, CD7, CD16, CD56, CD11b, CD14, CD15, CD33, CD64, MPO) | Positive (CD38, CD13, CD34, Dim CD45, Dim CD117, HLA-DR, TdT)",1.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,+,-,+,-,-,DIM,-,-,-,-,-,-,-,DIM,-,-,-,+,+,-,-
+S352,"CD2(-), CD4(dim +), CD7(-), CD10(-), CD11b(-), CD13(bright +), CD14(-), CD15(partial +), CD16(-), CD22(-), CD19(partial +), CD33(partial +), CD34(+), CD36(-), CD38(bright and variably +), CD45(+), CD56(-), CD64(-), CD79a(-), CD117(+), HLA-DR(predominantly + and variable), TdT(partial +), and MPO(-) | In addition, there is a 0.92% population of CD117(bright +)/CD34(-)/CD45(dim +)/CD33(- to dim +) small cells with low orthogonal light scatter. The exact identity of these cells is uncertain",1.0,-,-,-,DIM,-,-,-,-,-,-,BRIGHT,-,PARTIAL,-,PARTIAL,-,-,-,-,-,PARTIAL,+,-,BRIGHT,-,-,+,-,-,-,-,-,-,-,+,-,-,-,+,PARTIAL,-,-
+S353,"CD2(-), CD4(-), CD7(partial +), CD11b(-), CD13(+), CD14(-), CD15(partial +), CD16(-), CD33(+), CD34(+), CD36(-), CD38(partial +), CD45(+),CD56(+), CD64(-), CD117(partial +), HLA-DR(partial +). | In addition, there is a 0.01% population of small cells with the following immunophenotype: CD5(+), CD10(-), CD19(+), CD20(dim+), CD38(-), CD45(+), lambda(dim +), and kappa(-).",1.0,-,-,-,-,-,PARTIAL,-,-,-,-,+,-,PARTIAL,-,-,-,-,-,-,-,+,+,-,PARTIAL,-,-,+,+,-,-,-,-,-,-,PARTIAL,-,-,-,PARTIAL,-,-,-
+C171,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S354,"CD13, CD34, CD58, CD117, partial MPO and HLA-DR +",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,+,-,-,-,-,+,-,-,-,+,-,PARTIAL,-
+C172,"variable CD11b, CD13, dim CD33, CD34, CD58, CD117, CD123",0.0,-,-,-,-,-,-,-,-,+,-,+,-,-,-,-,-,-,-,-,-,DIM,+,-,-,-,-,-,-,-,+,-,-,-,-,+,+,-,-,-,-,-,-
+S356,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S357,"FLT3 (ITD) Not detected. Not detected for the FLT3 TKD Mutation. Pathogenic alterations are detected in the BCOR, IDH2 and WT1 genes. Positive for CD34, HLADR, CD117, CD13, CD33 and CD43 and negative for CD11B, CD14, CD64, TDT and MPO.",1.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,-,-
+S358,Not Available,0.0,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+C175,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C176,"Positive (dim CD4, CD11b, variable CD13, partial CD14, CD33, variable CD56, bright CD64, dim CD123 and HLA-DR-positive, comprising ~75% of WBCs. There is also about 5% of blasts are positive for CD117, CD13, CD33, HLA-DR, CD123, amd CD11b. Lymphocytes account for 13% of WBCs and include 74% T cells, 19% B cells and 7% NK cells. T cells show a CD4:CD8 ratio of 5:1 without aberrant antigen expression.) | Positive (B cells are polytypic by surface light chain expression with a kappa to lambda ratio of 1.2:1.)",1.0,-,-,-,DIM,-,-,-,-,+,-,+,PARTIAL,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,+,-,-,-,BRIGHT,-,-,PARTIAL,PARTIAL,-,-,+,-,-,-
+S360,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S361,"Positive (CD11b, variable CD13, CD14, CD33, dim CD56, bright CD64, and HLA-DR+)",0.0,-,-,-,-,-,-,-,-,+,-,+,+,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,DIM,-,-,-,BRIGHT,-,-,-,-,-,-,+,-,-,-
+S362,"Positive (CD38, CD7, CD2) | Negative (CD10, CD19, CD22, CD16, CD56, CD13, CD14, CD15, CD33, CD34, CD117, MPO, HLA-DR) | Dim Positive (cCD3, CD11b, CD64)",1.0,-,+,DIM,-,-,+,-,-,DIM,-,-,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,DIM,-,-,-,-,-,-,-,-,-,-
+S363,"92% population of variably-sized cells with the following immunophenotype: CD2(-), CD4(-), CD7(-), CD11b(-), CD13(-), CD14(-), CD15(+), CD16(-), CD33(-), CD34(+), CD36(-), CD38(variably +), CD45(variably +), CD56(-), CD64(-), CD117(variably +), HLA-DR(partial +).",0.0,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,+,-,+,-,-,+,-,-,-,-,-,-,-,+,-,-,-,PARTIAL,-,-,-
+S364,"Positive (Myeloid blast immunophenotype: CD13, CD33, dim CD64, CD117, CD123 (+) Monocytic/monoblastic immunophenotype: bright CD11b, CD13, bright CD14, CD33, bright CD64, HLA-DR (+))",0.0,-,-,-,-,-,-,-,-,BRIGHT,-,+,BRIGHT,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,BRIGHT,-,-,+,+,-,-,+,-,-,-
+C528,"partial CD13, CD33, dim/partial CD56, CD58, dim CD117, CD123 and MPO",0.0,-,-,-,-,-,-,-,-,-,-,PARTIAL,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,PARTIAL DIM,-,+,-,-,-,-,DIM,+,-,-,-,-,+,-
+S365,"partial CD13, CD33, dim/partial CD56, CD58, dim CD117, CD123 and MPO",0.0,-,-,-,-,-,-,-,-,-,-,PARTIAL,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,PARTIAL DIM,-,+,-,-,-,-,DIM,+,-,-,-,-,+,-
+S366,"MONOBLASTS, 61%. These are dim45positive and also express CD13, CD33, CD11b, CD14, CD64  but lack CD16, CD34, CD117, HLADR ",1.0,-,-,-,-,-,-,-,-,+,-,+,+,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-
+C187,"MYELOBLASTS 18%. These are positive for CD34, CD33, CD13, and CD11b.",0.0,-,-,-,-,-,-,-,-,+,-,+,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+S367,"Increased atypical CD117pos, partial CD34+, partial HLA-DR pos myeloblasts (CD7+), representing about 55% of leukocytes, consistent with AML.",0.0,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,PARTIAL,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,PARTIAL,-,-,-
+S368,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S369,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S371,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S372,"Positive for CD34, HLADR, MPO, CD14 and CD33. Negative for CD117, CD11b, cd13 and CD64. (Bone Marrow Immunophenotyping)",1.0,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,+,-,+,-
+S373,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S374,"normocytic, normochromic, mild anisopoikilocytosis, no sig. polychromasia. Leukocyte number-decreased,leukocyte morph-within normal limits.",0.0,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+S375,"CD11b(partial +), CD13(equivocal), CD15(bright +), CD16(-), CD33(bright +), CD34(-), CD36(-), CD38(bright +), CD45(bright +), CD56(+),CD64(bright+), CD117(-), and HLA-DR(+).",0.0,-,-,-,-,-,-,-,-,PARTIAL,-,+,-,BRIGHT,-,-,-,-,-,-,-,BRIGHT,-,-,BRIGHT,-,-,BRIGHT,BRIGHT,-,-,-,BRIGHT,-,-,-,-,-,-,+,-,-,-
+S377,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S378,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S380,"CD11b, CD13, CD14, CD15, CD33, CD56, bright CD64 and dim HLA-DR-positive",0.0,-,-,-,-,-,-,-,-,+,-,+,+,+,-,-,-,-,-,-,-,+,-,-,-,-,-,-,+,-,-,-,BRIGHT,-,-,-,-,-,-,DIM,-,-,-
+C185,"CD11b, CD13, CD14, CD15, CD33, CD56, bright CD64 and dim HLA-DR-positive",0.0,-,-,-,-,-,-,-,-,+,-,+,+,+,-,-,-,-,-,-,-,+,-,-,-,-,-,-,+,-,-,-,BRIGHT,-,-,-,-,-,-,DIM,-,-,-
+S598,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S381,"variable CD7, CD13, CD33, partial CD34, CD38, CD58,  CD117, CD123 and HLA-DR  (Immunophenotypic shift is noted from the prior leukemic blast  population.)",0.0,-,-,-,-,-,+,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,PARTIAL,-,+,-,-,-,-,-,+,-,-,-,-,+,+,-,-,+,-,-,-
+S382,"CD2(-), CD3(-), CD4(dim +), CD10(-), CD11b(-), CD13(+), CD14(-), CD15(small subset+), CD16(-), CD19(-), CD20(-), CD33(+), CD34(+),CD36(-), CD38(dim+), CD45(dim +), CD56(-), CD64(variably+), CD117(+), HLA-DR(dim +), MPO(partial +), and TdT(-).",0.0,-,-,-,DIM,-,-,-,-,-,-,+,-,PARTIAL,-,-,-,-,-,-,-,+,-,-,DIM,-,-,DIM,-,-,-,-,+,-,-,+,-,-,-,DIM,-,PARTIAL,-
+S383,"CD13, CD34, CD38, CD117, and dim HLA-DR +.",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,+,-,+,-,-,-,-,-,-,-,-,-,-,+,-,-,-,DIM,-,-,-
+S385,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S386,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S387,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S388,"Positive (CD38, CD13, CD33, CD34, CD45, CD117, MPO, HLA-DR) | Negative (CD19, CD22, Cyt CD79a, Cyt CD3, CD7, CD56, CD11b, CD14, CD15, CD64, TdT)",1.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,+,-,-,-,-,-,-,-,+,-,-,-,+,-,+,-
+C195,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S390,"partial CD7, CD13, CD33, partial CD34, CD38,  CD58, CD71, partial CD117, CD123, and HLA-DR +",0.0,-,-,-,-,-,PARTIAL,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,PARTIAL,-,+,-,-,-,-,-,+,-,-,+,-,PARTIAL,+,-,-,+,-,-,-
+C264,"CD7, CD13, CD33, partial CD34, partial  CD117, CD123 and HLA-DR-positive",0.0,-,-,-,-,-,+,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,PARTIAL,-,-,-,-,-,-,-,-,-,-,-,-,PARTIAL,+,-,-,+,-,-,-
+S391,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C274,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S393,"dim CD13, CD33, CD38, CD58, dim CD64, CD71, dim CD117 and CD123-positive",0.0,-,-,-,-,-,-,-,-,-,-,DIM,-,-,-,-,-,-,-,-,-,+,-,-,+,-,-,-,-,-,+,-,DIM,+,-,DIM,+,-,-,-,-,-,-
+S394,"Positive: CD38, CD56, CD13, CD34, CD45, CD117, HLA-DR | Partially positive: CD7, CD11b, CD33, CD64 | Negative: CD19, CD22, Cyt CD79a, Cyt CD3, CD14, CD15, MPO, TdT",1.0,-,-,-,-,-,PARTIAL,-,-,PARTIAL,-,+,-,-,-,-,-,-,-,-,-,PARTIAL,+,-,+,-,-,+,+,-,-,-,PARTIAL,-,-,+,-,-,-,+,-,-,-
+S395,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S396,"partial CD7, CD13, CD33, CD38, CD34, CD58, CD117, CD123,  HLA-DR positive ",0.0,-,-,-,-,-,PARTIAL,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,+,-,-,-,-,+,+,-,-,+,-,-,-
+C253,"partial CD7, CD13, CD33, CD34, CD38, CD71, CD117, CD123, and HLA-DR + ",0.0,-,-,-,-,-,PARTIAL,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,-,-,-,+,-,+,+,-,-,+,-,-,-
+S397,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S398,"CD7, CD13, CD33, CD34, CD38, partial CD56,  CD58, dim CD64, CD117, CD123, HLA-DR, and cMPO ",0.0,-,-,-,-,-,+,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,PARTIAL,-,+,-,DIM,-,-,+,+,-,-,+,-,+,-
+C205,"CD7, CD13, CD33, CD34, CD38, partial CD56,  CD58, dim CD64, CD117, CD123, HLA-DR, and cMPO ",0.0,-,-,-,-,-,+,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,PARTIAL,-,+,-,DIM,-,-,+,+,-,-,+,-,+,-
+S399,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S400,"CD13, CD33, CD38, CD56, CD58, CD117, CD123 and dim MPO positive",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,-,-,+,-,-,-,+,-,+,-,-,-,-,+,+,-,-,-,-,+,-
+C212,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S401,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S402,"blasts 55% of all events; they are positive for cd34, hla-dr, cd117, cd13, cd33, and  negative for cd11b, cd14, cd64, tdt and mpo.",1.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,-,-
+C210,"BLASTS HAVE A MYELOID IMMUNOPHENOTYPE; THEY ARE POSITIVE FOR HLA-DR, CD34, CD117, CD33 AND  CD43 AND ARENEGATIVE FOR CD13, CD14, CD64, CD11B, MPO, TDT B AND T CELL MARKERS. (Peripheral Blood Flow Cytometry)",1.0,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,-,-
+C211,"CD117, dimCD4, Â heterogeneous CD13, CD33, dimCD64 and  MPO positive  (Myeloid Blast Population) | heterogeneous CD13, bright CD33, dimCD4,  dimCD14, bright CD64 positive  (Monocytes/promonocytes Population)",0.0,-,-,-,DIM,-,-,-,-,-,-,+,DIM,-,-,-,-,-,-,-,-,BRIGHT,-,-,-,-,-,-,-,-,-,-,BRIGHT,-,-,+,-,-,-,-,-,+,-
+S404,"CD13, CD33, CD58, CD64, CD117, CD123, MPO",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,+,-,+,-,-,+,+,-,-,-,-,+,-
+S405,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S406,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C216,"CD13, CD33, CD34, variable CD38, CD58, CD117, dim HLA-DR, and dim MPO",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,+,-,-,-,-,+,-,-,-,DIM,-,DIM,-
+C217,"CD13, CD33, CD34, variable CD38, CD58, CD117, dim HLA-DR, and dim MPO",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,+,-,-,-,-,+,-,-,-,DIM,-,DIM,-
+S407,"CD13, CD33, CD34, variable CD38, CD117,  CD123, and HLA-DR +.",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,-,-,-,-,-,+,+,-,-,+,-,-,-
+S408,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S409,"POSITIVE FOR CD117, HLA-DR, CD13, CD33, CD14 AND MPO AND NEGATIVE FOR CD34, CD11B, CD64, CD10 AND TDT. (Bone Marrow Immunophenotype)",1.0,-,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,+,-
+S410,"Large pop. of promonocytes/monoblasts representing approx 57% of total leukocytes and increased atypicalCD117 pos, partial CD34 pos myeloblasts (partial CD7 pos) representing approx 6% of leukocytes consistent w/AMLw/monocytic differentiation.",0.0,-,-,-,-,-,PARTIAL,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,PARTIAL,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-
+C220,"POSITIVE for the FLT3 Internal Tandem Duplication (ITD)-Signal Ratio (SR) with a signal ratio of 0.045. NOT DETECTED for the FLT3 TKD Mutation.  | POSITIVE FOR DIM CD45, CD34, HLADR, CD117, CD13, CD38, NEGATIVE FOR CD33.",1.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,+,-,+,-,-,DIM,-,-,-,-,-,-,-,+,-,-,-,+,-,-,-
+S411,"Large population of CD117pos, CD34 neg, HLA-DR neg myeloblasts, representing approx 68% of leukocytes, consistent w/ residual/recurrent AML.",1.0,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-
+S412,"Negative (CD19, CD22, Cyt CD3, CD7, CD56, CD11b, CD13, CD14, CD34, CD64, CD117, TdT) | Positive (CD38, Cyt CD79a, CD15, CD33, MPO) | Dim (CD45, HLA-DR)",1.0,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,+,+,-,+,-,-,DIM,-,-,-,-,-,-,+,-,-,-,-,DIM,-,+,-
+C223,"Negative (CD19, CD22, Cyt CD3, CD7, CD56, CD11b, CD13, CD14, CD34, CD64, CD117, TdT) | Positive (CD38, Cyt CD79a, CD15, CD33, MPO) | Dim (CD45, HLA-DR)",1.0,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,+,+,-,+,-,-,DIM,-,-,-,-,-,-,+,-,-,-,-,DIM,-,+,-
+S413,"Positive (CD38, CD15, CD34, MPO, HLA-DR) | Negative (CD19, CD22, Cyt CD79a, Cyt CD3, CD7, CD56, CD11b, CD13, CD14, CD33, CD64, TdT) | Dim Positive (CD45, CD117)",1.0,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,+,-,+,-,-,DIM,-,-,-,-,-,-,-,DIM,-,-,-,+,-,+,-
+C225,"Positive (CD38, CD15, CD34, MPO, HLA-DR) | Negative (CD19, CD22, Cyt CD79a, Cyt CD3, CD7, CD56, CD11b, CD13, CD14, CD33, CD64, TdT) | Dim Positive (CD45, CD117)",1.0,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,+,-,+,-,-,DIM,-,-,-,-,-,-,-,DIM,-,-,-,+,-,+,-
+S414,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S415,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S416,"THESE ARE POSITIVE FOR CD34, CD117, HLADR, CD13, AND CD33.",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,-,-
+C233,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S417,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S418,"CD13, dim CD19, dim CD33, CD34, CD38, CD56, CD58, CD117, dim CD123, HLA-DR and MPO+ ",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,DIM,-,-,-,-,-,DIM,+,-,+,-,-,-,+,-,+,-,-,-,-,+,DIM,-,-,+,-,+,-
+S419,"Positive (CD38, CD33, CD34, MPO, HLA-DR) | Negative (CD19, CD22, Cyt CD79a, Cyt CD3, CD7, CD56, CD13, CD14, CD15, CD117, TdT) | Dim (CD11b, CD45, CD64)",1.0,-,-,-,-,-,-,-,-,DIM,-,-,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,DIM,-,-,-,-,DIM,-,-,-,-,-,-,+,-,+,-
+C234,"Positive (CD38, CD33, CD34, MPO, HLA-DR) | Negative (CD19, CD22, Cyt CD79a, Cyt CD3, CD7, CD56, CD13, CD14, CD15, CD117, TdT) | Dim (CD11b, CD45, CD64)",1.0,-,-,-,-,-,-,-,-,DIM,-,-,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,DIM,-,-,-,-,DIM,-,-,-,-,-,-,+,-,+,-
+S420,"Dim Positive (CD13, MPO) | Dim Partial positive (CD34) | Variable partial positive (CD117)",0.0,-,-,-,-,-,-,-,-,-,-,DIM,-,-,-,-,-,-,-,-,-,-,PARTIAL DIM,-,-,-,-,-,-,-,-,-,-,-,-,PARTIAL,-,-,-,-,-,DIM,-
+C237,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S421,"CD13, CD33, CD34, CD38, CD56, CD58,Â variable CD64, CD71, CD117, dim CD123, HLA-DR, MPO  (Myeloid Blasts) | CD11b, CD13, CD15, CD33, CD56, CD64, HLA-DR (Abnormal Monocytes)",0.0,-,-,-,-,-,-,-,-,+,-,+,-,+,-,-,-,-,-,-,-,+,+,-,+,-,-,-,+,-,+,-,+,+,-,+,DIM,-,-,+,-,+,-
+S422,"CD13, CD33, CD34, CD38, CD58, CD71, CD117,  CD123, HLA-DR + ",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,+,-,-,+,-,+,+,-,-,+,-,-,-
+C242,"CD34, CD117, dim CD33, CD13, HLA-DR, variable intracytoplasmic MPO",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,DIM,+,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,+,-
+C240,"CD4, CD11b, CD13, CD33, variable CD14, CD38,  dim CD56, CD58, bright CD64, dim CD123, HLA-DR, and partial MPO +",0.0,-,-,-,+,-,-,-,-,+,-,+,+,-,-,-,-,-,-,-,-,+,-,-,+,-,-,-,DIM,-,+,-,BRIGHT,-,-,-,DIM,-,-,+,-,PARTIAL,-
+S423,"CD4, CD11b, CD13, CD33, variable CD14, CD38,  dim CD56, CD58, bright CD64, dim CD123, HLA-DR, and partial MPO +",0.0,-,-,-,+,-,-,-,-,+,-,+,+,-,-,-,-,-,-,-,-,+,-,-,+,-,-,-,DIM,-,+,-,BRIGHT,-,-,-,DIM,-,-,+,-,PARTIAL,-
+S424,"dimCD7, dimCD13, CD33, CD34, CD38, variable CD64, dimCD117, CD123, HLA-DR, and MPO positive ",0.0,-,-,-,-,-,DIM,-,-,-,-,DIM,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,-,-,+,-,-,DIM,+,-,-,+,-,+,-
+S425,"CD4, CD7, partial CD13, CD33, CD71, partial CD117, CD123 and dim HLA-DR-positive ",0.0,-,-,-,+,-,+,-,-,-,-,PARTIAL,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,-,+,-,PARTIAL,+,-,-,DIM,-,-,-
+C245,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S426,"dim CD4, dim CD7, CD13, CD33, CD38, CD58, CD117, CD123, HLA-DR, and dim partial MPO (Myeloid Blast Population) | CD4, CD11b, CD13, dim CD14, dim CD15, CD16, CD33, CD38, CD58, CD63, CD123, HLA-DR  (Promonocyte/Monocyte Blast Population)",1.0,-,-,-,+,-,DIM,-,-,+,-,+,DIM,DIM,+,-,-,-,-,-,-,+,-,-,+,-,-,-,-,-,+,-,-,-,-,+,+,-,-,+,-,PARTIAL DIM,-
+S427,"partial CD11b, CD13, partial CD14, CD33, CD34, partial CD64, CD117, HLA-DR and dim MPO (+)",0.0,-,-,-,-,-,-,-,-,PARTIAL,-,+,PARTIAL,-,-,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,-,-,PARTIAL,-,-,+,-,-,-,+,-,DIM,-
+C248,"dim CD7, CD13, CD33, dimCD34, dimCD64, dim CD117, CD123, and dim HLA-DR+ ",0.0,-,-,-,-,-,DIM,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,DIM,-,-,-,-,-,-,-,-,-,DIM,-,-,DIM,+,-,-,DIM,-,-,-
+S430,"Positive (CD38, CD13, CD33, CD117, MPO, HLA-DR) | Negative (CD19, CD22, Cyt CD79a, Cyt CD3, CD7, CD56, CD11b, CD14, CD15, CD34, CD64, TdT, Glyc A) | DIM (CD45, CD71)",1.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,-,-,+,-,-,DIM,-,-,-,-,-,DIM,-,+,-,-,-,+,-,+,-
+C292,"CD13, CD33, HLA-DR, dim CD117, CD34, CD123, CD56,  CD38, CD58 and cytoplasmic MPO+",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,+,-,+,-,-,-,-,DIM,+,-,-,+,-,+,-
+S431,"CD4, CD11b, partial CD13, CD33, CD56, bright CD64, partial CD117, CD123, HLA-DR and partial MPO-positive",0.0,-,-,-,+,-,-,-,-,+,-,PARTIAL,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,+,-,-,-,BRIGHT,-,-,PARTIAL,+,-,-,+,-,PARTIAL,-
+S432,dim CD56 | dim CD15 | dim CD123,0.0,-,-,-,-,-,-,-,-,-,-,-,-,DIM,-,-,-,-,-,-,-,-,-,-,-,-,-,-,DIM,-,-,-,-,-,-,-,DIM,-,-,-,-,-,-
+S433,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S434,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C258,"partial CD13, partial CD33, CD34, CD117, CD123, partial HLA-DR, and partial MPO",0.0,-,-,-,-,-,-,-,-,-,-,PARTIAL,-,-,-,-,-,-,-,-,-,PARTIAL,+,-,-,-,-,-,-,-,-,-,-,-,-,+,+,-,-,PARTIAL,-,PARTIAL,-
+S435,"CD7, partial CD13, dim CD33, CD34, CD28, CD58, CD71, CD117, HLA-DR and MPO ",0.0,-,-,-,-,-,+,-,-,-,-,PARTIAL,-,-,-,-,-,-,-,-,-,DIM,+,-,-,-,-,-,-,-,+,-,-,+,-,+,-,-,-,+,-,+,-
+S436,"THESE ARE POSITIVE FOR HLA-DR, CD117, CD34, CD33 AND CD13. POSITIVE FOR HLA-DR, CD117, CD34, CD33 AND CD13. (Bone Marrow Immunnophenotype)",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,-,-
+S437,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S438,"positive for CD117, HLADR, CD33, CD11b, CD64 and MPO (partial).  (Bone Marrow Immunophenotyping)",0.0,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,+,-,-,+,-,-,-,+,-,PARTIAL,-
+C262,"positive for CD117, HLADR, CD33, CD11b, CD64 and MPO (partial).  (Bone Marrow Immunophenotyping)",0.0,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,+,-,-,+,-,-,-,+,-,PARTIAL,-
+S439,"Negative (CD10, CD19, CD16, CD14, CD34, CD117) | Bright Positive (CD64)",1.0,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,BRIGHT,-,-,-,-,-,-,-,-,-,-
+C266,"CD11b, CD13, CD14, CD33, bright CD64, HLA-DR and partial MPO-positive ",0.0,-,-,-,-,-,-,-,-,+,-,+,+,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,BRIGHT,-,-,-,-,-,-,+,-,PARTIAL,-
+S440,"CD11b, CD13, CD14, CD33, bright CD64, HLA-DR and partial MPO-positive ",0.0,-,-,-,-,-,-,-,-,+,-,+,+,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,BRIGHT,-,-,-,-,-,-,+,-,PARTIAL,-
+S441,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S600,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S443,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S601,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S444,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S446,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S447,"Positive for CD34, CD117, HLADR, CD33 and CD13.  (Bone Marrow Immunophentyping)",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,-,-
+S448,"CD11c, CD13, CD33, CD34, CD38, CD56, CD64, CD117,Â HLA-DR; negative TdT, CD19 and CD10 (from bmbx 5/3/17)",1.0,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,+,-,-,-,+,-,-,+,-,-,-,+,-,-,-
+S449,"positive (CD38 dim, CD33 dim, CD45 dim, CD117 var, MPO var) | negative (CD10, CD19, CD20, CD22, CD23, Surf Kappa, Surf Lambda, FMC7, CD3, CD5, CD7, CD56, CD13, CD14, CD15, CD34) | PP (CD11b VAR, CD64 VAR, HLA-DR VAR)",1.0,-,-,-,-,-,-,-,-,PARTIAL,-,-,-,-,-,-,-,-,-,-,-,DIM,-,-,DIM,-,-,DIM,-,-,-,-,PARTIAL,-,-,+,-,-,-,PARTIAL,-,+,-
+S450,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S451,"CD13, CD33, variable CD34, CD38, CD58, CD117,  CD123, HLA-DR, variable MPO",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,+,-,-,-,-,+,+,-,-,+,-,+,-
+C277,"CD13, CD33, variable CD34, CD38, CD58, CD117,  CD123, HLA-DR, variable MPO",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,+,-,-,-,-,+,+,-,-,+,-,+,-
+S452,"negative (CD19, CD22, CD7, CD11b, CD13, CD14, CD15, CD34, CD64, HLA-DR) | Dim (CD38, CD45) | Positive (CD56, CD33, CD117, MPO)",1.0,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,DIM,-,-,DIM,+,-,-,-,-,-,-,+,-,-,-,-,-,+,-
+S453,"CD4, partial CD11b, CD13, CD33, dim CD22, CD34, variable CD56, variable CD64, CD117, HLA-DR, dim PAX5+",0.0,-,-,-,+,-,-,-,-,PARTIAL,-,+,-,-,-,-,-,DIM,-,-,-,+,+,-,-,-,-,-,+,-,-,-,+,-,-,+,-,-,-,+,-,-,DIM
+C280,"CD4, partial CD11b, CD13, CD33, dim CD22, CD34, variable CD56, variable CD64, CD117, HLA-DR, dim PAX5+",0.0,-,-,-,+,-,-,-,-,PARTIAL,-,+,-,-,-,-,-,DIM,-,-,-,+,+,-,-,-,-,-,+,-,-,-,+,-,-,+,-,-,-,+,-,-,DIM
+S454,"CD4, CD11b, CD13, variable CD14, CD15, CD33, CD34,  variable CD38,CD56, CD58, CD64, variable CD117, and HLA-DR",0.0,-,-,-,+,-,-,-,-,+,-,+,+,+,-,-,-,-,-,-,-,+,+,-,+,-,-,-,+,-,+,-,+,-,-,+,-,-,-,+,-,-,-
+S455,"dim CD4, CD13, CD33, CD34, dim CD56, CD64, HLA-DR+",0.0,-,-,-,DIM,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,-,DIM,-,-,-,+,-,-,-,-,-,-,+,-,-,-
+C281,"positive for CD13, CD33, CD34, CD38, partial HLA-DR, CD117, and a minor population is also positive for MPO",1.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,-,-,-,-,-,+,-,-,-,PARTIAL,-,PARTIAL,-
+S456,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C283,"negative (CD19, CD22, Cyt CD79a, Cyt CD3, CD7, CD56, CD14, CD15, CD34, CD64 TdT) | positive (CD38, CD13, CD33, CD117, MPO, HLA-DR) | dim (CD11b, CD45)",1.0,-,-,-,-,-,-,-,-,DIM,-,+,-,-,-,-,-,-,-,-,-,+,-,-,+,-,-,DIM,-,-,-,-,-,-,-,+,-,-,-,+,-,+,-
+C596,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S602,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S457,"dim CD11b, CD13, CD33, partial CD34, partial CD38, dim CD45, partial CD64, CD58, partial CD117, CD123 and partial MPO positive",0.0,-,-,-,-,-,-,-,-,DIM,-,+,-,-,-,-,-,-,-,-,-,+,PARTIAL,-,PARTIAL,-,-,DIM,-,-,+,-,PARTIAL,-,-,PARTIAL,+,-,-,-,-,PARTIAL,-
+S458,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S459,"dim CD7, partial CD11b, variable CD13, CD33, CD64,  CD117, dim CD123, dim HLA-DR and partial MPO positive",0.0,-,-,-,-,-,DIM,-,-,PARTIAL,-,+,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,+,-,-,+,DIM,-,-,DIM,-,DIM,-
+C286,"dim CD7, partial CD11b, variable CD13, CD33, CD64,  CD117, dim CD123, dim HLA-DR and partial MPO positive",0.0,-,-,-,-,-,DIM,-,-,PARTIAL,-,+,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,+,-,-,+,DIM,-,-,DIM,-,DIM,-
+S460,"Population 1: Immature blasts (80%) expressed dim CD45+, partial CD34+ (68% of total cells), CD117+, HLA DR+, CD13+, CD33++, CD123+, and CD64neg /dim+ | Population 2:  Monoblasts (11%) expressed bright CD33 ++, intermediate SSC, brighter CD45, brCD64++, CD33++, and HLA DR++",1.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,BRIGHT,PARTIAL,-,-,-,-,DIM,-,-,-,-,BRIGHT,-,-,+,+,-,-,+,-,-,-
+S461,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C291,"positive for CD11b, CD13, CD14, CD15, CD33, CD38, CD45, CD64, HLA-DR and MPO",0.0,-,-,-,-,-,-,-,-,+,-,+,+,+,-,-,-,-,-,-,-,+,-,-,+,-,-,+,-,-,-,-,+,-,-,-,-,-,-,+,-,+,-
+C546,"CD13, CD33, CD34, CD117, variable MPO  positive ",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,+,-
+C296,"positive for dim CD7, CD11b, CD13, CD33, CD34, CD38, CD45, dim CD64, CD117, HLA-DR, and MPO",0.0,-,-,-,-,-,DIM,-,-,+,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,+,-,-,-,-,DIM,-,-,+,-,-,-,+,-,+,-
+S464,"partial CD11b, dim CD13, CD33, partial CD34, variable CD64, CD117, CD123, HLA-DR+ ",0.0,-,-,-,-,-,-,-,-,PARTIAL,-,DIM,-,-,-,-,-,-,-,-,-,+,PARTIAL,-,-,-,-,-,-,-,-,-,+,-,-,+,+,-,-,+,-,-,-
+S465,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C294,"dim CD4, CD11b, CD13, partial CD14, CD33,  CD38, variable CD56, CD58, CD64, dim CD71, dim CD123, and HLA-DR+",0.0,-,-,-,DIM,-,-,-,-,+,-,+,PARTIAL,-,-,-,-,-,-,-,-,+,-,-,+,-,-,-,+,-,+,-,+,DIM,-,-,DIM,-,-,+,-,-,-
+S466,"dim CD4, CD11b, CD13, partial CD14, CD33,  CD38, variable CD56, CD58, CD64, dim CD71, dim CD123, and HLA-DR+",0.0,-,-,-,DIM,-,-,-,-,+,-,+,PARTIAL,-,-,-,-,-,-,-,-,+,-,-,+,-,-,-,+,-,+,-,+,DIM,-,-,DIM,-,-,+,-,-,-
+S467,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C422,"CD13, CD33, dim CD34, CD117, variable MPO",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,DIM,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,+,-
+S469,"positive for dim CD2 (aberrant), CD11b (aberrant), CD13, CD33, CD34, CD38, CD117, HLA-DR, and dim nTdT (aberrant)",0.0,-,DIM,-,-,-,-,-,-,+,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,DIM,-,-
+S470,"CD2(-), CD4(-), CD5(-), CD7(-), CD8(-),CD10(-), CD11b(dim +), CD13(dim +),CD14(dim +), CD15(dim+CD16(-), CD20(-), CD22(-), CD25(dim +), CD33(dim +), CD34(+), CD38(+), CD36(subset +), CD56(-), CD64(subset +), CD79a +)(-), CD123(dim +), MPO(dim +), TdT(-), and surface kappa lambda light chain(-).,",0.0,-,-,-,-,-,-,-,-,DIM,-,DIM,DIM,-,-,-,-,-,-,DIM,-,DIM,+,PARTIAL,+,-,-,-,-,-,-,-,PARTIAL,-,-,-,DIM,-,-,-,-,DIM,-
+S472,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S473,"CD34(-), CD13(predominantly -), CD33(+), CD38(partial +), CD45(dim +), CD56(variably +), CD64(partial dim +), CD117(+),HLA-DR(-), MPO(+), TdT(-), other myeloid and lymphoid antigens(predominantly -).",0.0,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,PARTIAL,-,-,DIM,+,-,-,-,PARTIAL DIM,-,-,-,-,-,-,-,-,+,-
+S474,"Immunophenotype 1(15% WBCs): dim CD4, variable CD13, CD33, bright  CD34, CD58, CD64, CD117, CD123, variable MPO  | Immunophenotype 2 (79% WBCs): dim CD4, CD11b, variable CD13, CD33, CD38, CD58, CD64, CD117, CD123",0.0,-,-,-,DIM,-,-,-,-,+,-,+,-,-,-,-,-,-,-,-,-,+,BRIGHT,-,+,-,-,-,-,-,+,-,+,-,-,+,+,-,-,-,-,+,-
+C567,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C549,"positive for CD13, CD33, CD34, dim CD45, CD38, CD117, HLA-DR and MPO",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,DIM,-,-,-,-,-,-,-,+,-,-,-,+,-,+,-
+S475,"positive for CD11b, dim CD7, CD13, CD14, CD33, CD38, CD15, CD45, CD56, CD64 and HLA-DR",0.0,-,-,-,-,-,DIM,-,-,+,-,+,+,+,-,-,-,-,-,-,-,+,-,-,+,-,-,+,+,-,-,-,+,-,-,-,-,-,-,+,-,-,-
+C550,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C304,"dim partial CD4, dim partial CD7, dim CD11b, CD13, CD33,  partial CD34, CD38, CD58, dim CD71, CD117, CD123 and HLA-DR+ ",0.0,-,-,-,PARTIAL DIM,-,PARTIAL DIM,-,-,DIM,-,+,-,-,-,-,-,-,-,-,-,+,PARTIAL,-,+,-,-,-,-,-,+,-,-,DIM,-,+,DIM,-,-,+,PARTIAL,-,-
+S477,"CD4, dim CD20, dim CD11b, CD13, CD33, CD34, CD38, CD58,  variable CD64, partial dim CD117, MPO",0.0,-,-,-,+,-,-,-,-,DIM,-,+,-,-,-,-,DIM,-,-,-,-,+,+,-,+,-,-,-,-,-,+,-,+,-,-,PARTIAL DIM,-,-,-,-,-,+,-
+S478,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S479,"positive for CD11b, CD11c, CD14, CD64, CD33, CD38, HLA-DR and partial for CD13, CD15, cMPO",0.0,-,-,-,-,-,-,-,-,+,+,PARTIAL,+,PARTIAL,-,-,-,-,-,-,-,+,-,-,+,-,-,-,-,-,-,-,+,-,-,-,-,-,-,+,-,PARTIAL,-
+S480,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S481,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S482,"CD13, dim CD33, CD34, CD38, CD117, CD123, HLA-DR  and dim MPO+. (Blast Immunophenotype) | CD11b, CD13, dim CD14, CD33, CD38, CD64,  HLA-DR, dim CD117, CD123 and dim MPO+ (Monocytic Immunophenotype)",0.0,-,-,-,-,-,-,-,-,+,-,+,DIM,-,-,-,-,-,-,-,-,DIM,+,-,+,-,-,-,-,-,-,-,+,-,-,DIM,+,-,-,+,-,DIM,-
+S483,"partial CD13, CD33, CD38, partial CD56, CD58, CD117,  CD123, and MPO positive ",0.0,-,-,-,-,-,-,-,-,-,-,PARTIAL,-,-,-,-,-,-,-,-,-,+,-,-,+,-,-,-,PARTIAL,-,+,-,-,-,-,+,+,-,-,-,-,+,-
+C555,"CD13 , CD33 , partial CD34 , CD38 , CD58 , CD64 , CD71 , CD117 , CD123 and HLA-DR positive",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,PARTIAL,-,+,-,-,-,-,-,+,-,+,+,-,+,+,-,-,+,-,-,-
+C556,"A large blastic population, positive for CD13, CD15, CD33, CD38, dim CD45, dim CD64, CD117, HLA-DR, and MPO",0.0,-,-,-,-,-,-,-,-,-,-,+,-,+,-,-,-,-,-,-,-,+,-,-,+,-,-,DIM,-,-,-,-,DIM,-,-,+,-,-,-,+,-,+,-
+S485,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S486,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S487,"dim CD4, dim CD7, dim CD33, CD34, dim CD56, CD58, dim  CD123, CD117 and HLA-DR positive",0.0,-,-,-,DIM,-,DIM,-,-,-,-,-,-,-,-,-,-,-,-,-,-,DIM,+,-,-,-,-,-,DIM,-,+,-,-,-,-,+,DIM,-,-,+,-,-,-
+S488,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C561,"positive for CD13, CD33, CD34, CD38, CD117, HLA-DR, cytoplasmic myeloperoxidase (subset), and TdT (subset)",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,PARTIAL,PARTIAL,-
+C562,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S489,"CD13, CD33, HLA-DR, and CD34",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-
+C564,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S490,"CD4, variable CD13, CD33, CD38, variable CD56, CD58,  CD64, dim CD71, dim CD117, dim CD123 and HLA-DR+ ",0.0,-,-,-,+,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,-,-,+,-,-,-,+,-,+,-,+,DIM,-,DIM,DIM,-,-,+,-,-,-
+S491,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S492,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S493,"CD117(+) myeloid precursors comprise 26%Â of total events and are positive for dim CD7, CD13, CD33, CD38, CD117, HLA-DR, and cyMPO. Â They are negative for CD34. Â ",1.0,-,-,-,-,-,DIM,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,-,-,+,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,+,-
+C310,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S603,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S494,"Myeloid blasts comprise 16% of total events and are positive for CD13, CD33, CD34, CD38 (reduced), CD117, HLA-DR and cyMPO. They are negative for CD11b, CD11c, CD14, CD15, CD56, CD64, TdT, B- and other T-cell markers",1.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,+,-
+S495,"dim CD5, CD7, Â partial CD11b, CD13, CD33, CD34, variable  CD38, variable CD56, CD58, Â dim CD71, CD117, dim CD123, dim HLA-DR and MPO+",0.0,-,-,-,-,DIM,+,-,-,PARTIAL,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,+,-,+,-,-,DIM,-,+,DIM,-,-,DIM,-,DIM,-
+S496,"Myeloid blast immunophenotype: CD13, CD33, CD34, CD38, CD58, CD117,  CD123, dim HLA-DR and MPO+  | Monocytic blast immunophenotype: CD11b, CD13, CD14, partial CD16, CD33,  dim CD34, CD38, CD58, CD64, CD117, dim CD123, HLA-DR and MPO+ ",0.0,-,-,-,-,-,-,-,-,+,-,+,+,-,PARTIAL,-,-,-,-,-,-,+,DIM,-,+,-,-,-,-,-,+,-,+,-,-,+,DIM,-,-,+,-,+,-
+C315,"Myeloid blast immunophenotype: CD13, CD33, CD34, CD38, CD58, CD117,  CD123, dim HLA-DR and MPO+  | Monocytic blast immunophenotype: CD11b, CD13, CD14, partial CD16, CD33,  dim CD34, CD38, CD58, CD64, CD117, dim CD123, HLA-DR and MPO+ ",0.0,-,-,-,-,-,-,-,-,+,-,+,+,-,PARTIAL,-,-,-,-,-,-,+,DIM,-,+,-,-,-,-,-,+,-,+,-,-,+,DIM,-,-,+,-,+,-
+S497,"dim CD13, CD33, CD38, partial CD56, CD58, CD64, dim CD117, CD123 and MPO+",0.0,-,-,-,-,-,-,-,-,-,-,DIM,-,-,-,-,-,-,-,-,-,+,-,-,+,-,-,-,PARTIAL,-,+,-,+,-,-,DIM,+,-,-,-,-,+,-
+S498,"CD13, variable CD34, CD38, dim CD58, CD117, CD123,Â HLA-DR and dim MPO+",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,+,-,+,-,-,-,-,-,DIM,-,-,-,-,+,+,-,-,+,-,DIM,-
+S500,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C321,"CD13, CD33, CD34, CD38, CD58, dim CD71, CD117, dim CD123  and HLA-DR+ ",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,+,-,-,DIM,-,+,DIM,-,-,+,-,-,-
+S501,"CD13, CD33, CD34, CD38, CD58, dim CD71, CD117, dim CD123  and HLA-DR+ ",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,+,-,-,DIM,-,+,DIM,-,-,+,-,-,-
+S502,"dim partial CD7, CD13, CD33, CD34, dim CD38, CD58,  CD117, dim CD123, HLA-DR and partial TdT+",0.0,-,-,-,-,-,PARTIAL DIM,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,DIM,-,-,-,-,-,+,-,-,-,-,+,DIM,-,-,+,PARTIAL,-,-
+S503,"CD11b, variable CD14, CD15, CD33, CD38, variable CD56,  CD58, CD64, CD123, HLA-DR, variable MPO",0.0,-,-,-,-,-,-,-,-,+,-,-,+,+,-,-,-,-,-,-,-,+,-,-,+,-,-,-,+,-,+,-,+,-,-,-,+,-,-,+,-,+,-
+S504,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C324,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S505,"CD13, CD33, CD34, CD38, CD58, CD117, HLA-DR, partial  MPO ",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,+,-,-,-,-,+,-,-,-,+,-,PARTIAL,-
+S506,"CD13, CD33, CD34, CD38, CD58, dim CD64, CD117,  variable MPO ",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,+,-,DIM,-,-,+,-,-,-,-,-,PARTIAL,-
+S507,"partial CD11b, CD13, CD33, CD34, CD38, CD58, variable  CD64, CD117, CD123, partial HLA-DR and bright MPO",0.0,-,-,-,-,-,-,-,-,PARTIAL,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,+,-,+,-,-,+,+,-,-,DIM,-,+,-
+S606,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S607,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C328,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S509,"Monocytic blast immunophenotype (75%):  CD11b, CD13, CD14, CD33, CD38, CD58, CD64, dim CD117, CD123, and dim HLA-DR+. | Myeloid blast immunophenotype (13%): dim CD13, CD33, CD38, CD58 dim CD117, dim CD123 and MPO+.           | Monoclonal plasma cell population immunophenotype (approximately10% involvement): CD138 and kappa+. ",1.0,-,-,-,-,-,-,-,-,+,-,+,+,-,-,-,-,-,-,-,-,+,-,-,+,-,-,-,-,-,+,-,+,-,-,DIM,+,-,-,DIM,-,+,-
+S510,"CD13, CD33, CD38, CD58, CD117, CD123, partial MPO+",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,-,-,+,-,-,-,-,-,+,-,-,-,-,+,+,-,-,-,-,PARTIAL,-
+S511,"CD13, CD33, CD34, variable CD38, CD117, CD123, HLA-DR, partial MPO",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,-,-,-,-,-,+,+,-,-,+,-,PARTIAL,-
+S512,"CD13, CD33, CD34, variable CD38, partial CD64, CD117, dim CD123, HLA-DR, partial TdT. ",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,-,-,PARTIAL,-,-,+,DIM,-,-,+,PARTIAL,-,-
+S513,"CD7, CD13, CD33, CD34, CD117, and HLA-DR positive",0.0,-,-,-,-,-,+,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,-,-
+C577,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C372,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S514,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C335,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S515,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S516,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C337,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S518,"partial CD7, CD13, CD33, CD34, CD38, CD56,  CD117, HLA-DR, MPO",0.0,-,-,-,-,-,PARTIAL,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,+,-,-,-,-,-,-,+,-,-,-,+,-,+,-
+S519,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S520,"variable CD4, dim CD7, dim CD11b, CD13, variable CD14, variable CD15, CD33, variable CD34, CD38, dim CD56, partial CD64, CD117, HLA-DR, MPO positive.",0.0,-,-,-,+,-,DIM,-,-,DIM,-,+,+,+,-,-,-,-,-,-,-,+,+,-,+,-,-,-,DIM,-,-,-,PARTIAL,-,-,+,-,-,-,+,-,+,-
+S521,"variable CD11b, CD33, CD38, CD117, MPO positive",0.0,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,-,+,-,-,+,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,+,-
+S523,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S524,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C344,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S525,"dim CD13, CD33, CD38, CD117 and MPO+",0.0,-,-,-,-,-,-,-,-,-,-,DIM,-,-,-,-,-,-,-,-,-,+,-,-,+,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,+,-
+S526,"dim CD13, CD33, CD38, CD117, and MPO +",0.0,-,-,-,-,-,-,-,-,-,-,DIM,-,-,-,-,-,-,-,-,-,+,-,-,+,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,+,-
+S608,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S527,"dim CD4, dim CD11b, CD15, bright CD33, CD38, variable CD56, bright CD64, partial CD117, HLA-DR, MPO, and dim TdT+",0.0,-,-,-,DIM,-,-,-,-,DIM,-,-,-,+,-,-,-,-,-,-,-,BRIGHT,-,-,+,-,-,-,+,-,-,-,BRIGHT,-,-,PARTIAL,-,-,-,+,+,+,-
+S528,"variable CD11b, CD13, CD33, dim CD123, partial HLA-DR, dim/partial MPO",0.0,-,-,-,-,-,-,-,-,+,-,+,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,-,-,-,-,DIM,-,-,PARTIAL,-,PARTIAL DIM,-
+C349,"23% myeloid blasts: CD13, variable CD15, CD33, CD34, CD38, dimCD56, CD117, HLA-DR, MPO, partial/dim TdT | 40% promonocytes/monocytes: CD11b, CD13, variable CD14, variable CD16, CD33, CD38, CD64 and HLA-DR",0.0,-,-,-,-,-,-,-,-,+,-,+,+,+,+,-,-,-,-,-,-,+,+,-,+,-,-,-,DIM,-,-,-,+,-,-,+,-,-,-,+,PARTIAL DIM,+,-
+S529,"Myeloid blasts: CD13, CD33, CD34,  CD117, HLA-DR+ | Promonocytic/ monocytic population (56%): variable CD13, variable CD14, partial CD16, CD33, CD64, HLA-DR+",0.0,-,-,-,-,-,-,-,-,-,-,+,+,-,PARTIAL,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,-,-,+,-,-,+,-,-,-,+,-,-,-
+S530,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S531,"partial CD1a, CD13, variable CD14, CD33, CD34, CD38, dim CD117, HLA-DR and cMPO",0.0,PARTIAL,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,-,-,-,-,-,DIM,-,-,-,+,-,+,-
+S533,"Myeloid blast immunophenotype: CD13, CD33, CD34, CD117, HLA-DR, MPO positive | Aberrant monocytoid population with variable CD14, CD15, and CD64 expression",0.0,-,-,-,-,-,-,-,-,-,-,+,+,+,-,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,-,-,+,-,-,+,-,-,-,+,-,+,-
+S534,"Myeloid blasts: CD13, CD33, CD34, dimCD38, CD117, dim HLA-DR, and MPO. | Promonocytes/monocytes: dimCD4, CD11b, bright CD13, variable CD14, bright CD33, CD64, variable HLA-DR positive",0.0,-,-,-,DIM,-,-,-,-,+,-,BRIGHT,+,-,-,-,-,-,-,-,-,BRIGHT,+,-,DIM,-,-,-,-,-,-,-,+,-,-,+,-,-,-,+,-,+,-
+S535,"dimCD2, partial CD7, dimCD13, CD34, CD38, CD117, HLA-DR",0.0,-,DIM,-,-,-,PARTIAL,-,-,-,-,DIM,-,-,-,-,-,-,-,-,-,-,+,-,+,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,-,-
+S536,"dim CD7, partial CD11b, dim CD13, variable CD25, CD33, partial CD34, CD117, HLA-DR, and MPO positive",0.0,-,-,-,-,-,DIM,-,-,PARTIAL,-,DIM,-,-,-,-,-,-,-,+,-,+,PARTIAL,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,+,-
+S609,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S538,"partial CD7 and CD9, CD11b, dim CD13, CD14, CD15, CD33, CD38, partial CD56, CD64, HLA-DR+",0.0,-,-,-,-,-,PARTIAL,PARTIAL,-,+,-,DIM,+,+,-,-,-,-,-,-,-,+,-,-,+,-,-,-,PARTIAL,-,-,-,+,-,-,-,-,-,-,+,-,-,-
+S539,"Myeloid blasts: CD13, CD33, CD38, CD117, HLA-DR. | Blasts with monocytic features: CD11b, dim CD13, CD15, CD33, CD38, CD64, HLA-DR  ",0.0,-,-,-,-,-,-,-,-,+,-,DIM,-,+,-,-,-,-,-,-,-,+,-,-,+,-,-,-,-,-,-,-,+,-,-,+,-,-,-,+,-,-,-
+S540,"Myeloid blast population, about 25%: CD13, CD33, CD34, CD117, HLA-DR and MPO.   | Atypical monocyte population, about 20%: dim CD4, partial CD9, bright CD11b, CD13, CD14, CD33, CD64, HLA-DR and MPO",0.0,-,-,-,DIM,-,-,PARTIAL,-,BRIGHT,-,+,+,-,-,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,-,-,+,-,-,+,-,-,-,+,-,+,-
+S610,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C455,"Myeloid blasts: CD13, CD33, CD34, CD38, CD117, MPO | Promonocytes: CD9, CD11c, dimCD13, CD14, CD15,  bright CD33, CD38, CD64,and MPO",1.0,-,-,-,-,-,-,+,-,-,+,+,+,+,-,-,-,-,-,-,-,BRIGHT,+,-,+,-,-,-,-,-,-,-,+,-,-,+,-,-,-,-,-,+,-
+S612,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S613,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S543,"partial CD7, CD13, CD33, CD34, dim CD38, CD56, CD117, HLA-DR, partial MPO, and dim TDT.",0.0,-,-,-,-,-,PARTIAL,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,DIM,-,-,-,+,-,-,-,-,-,-,+,-,-,-,+,DIM,PARTIAL,-
+S544,"CD13, CD33, CD117, and MPO",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,+,-
+S545,"partial CD10, CD13, CD33, CD34, subset CD79a, CD117, HLA-DR, partial MPO, and TDT+",0.0,-,-,-,-,-,-,-,PARTIAL,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,-,-,-,-,PARTIAL,+,-,-,-,+,+,PARTIAL,-
+C396,"CD13, variable CD33, CD34, CD117, HLA-DR+",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,-,-
+S546,"partial CD10, CD34, CD13, CD117, and HLA-DR",0.0,-,-,-,-,-,-,-,PARTIAL,-,-,+,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,-,-
+C417,"partial CD10, CD13, variable CD33, variable CD34, CD117, HLA-DR+",0.0,-,-,-,-,-,-,-,PARTIAL,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,-,-
+C583,"partial CD10, CD13, variable CD33, variable CD34, CD117, HLA-DR+",0.0,-,-,-,-,-,-,-,PARTIAL,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,-,-
+C587,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C588,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C420,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S547,"CD7, CD33, CD34, CD38, CD117, HLA-DR, and MPO positive",0.0,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,+,-
+S614,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C412,"variable CD11b, CD13, CD33, CD34, CD38, CD117, and HLA-DR     ",0.0,-,-,-,-,-,-,-,-,+,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,-,-
+C368,"CD13, CD33, CD34, CD38, CD117, HLA-DR and MPO positive",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,+,-
+C371,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C486,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S548,"dim CD4, CD7, partial CD9, CD13, CD25, CD33, partial CD34, CD38, CD117, CD123, HLA-DR and MPO-positive",0.0,-,-,-,DIM,-,+,PARTIAL,-,-,-,+,-,-,-,-,-,-,-,+,-,+,PARTIAL,-,+,-,-,-,-,-,-,-,-,-,-,+,+,-,-,+,-,+,-
+S549,"CD7, dim CD13, CD33, CD34, CD38, CD117, partial HLA-DR, and partial MPO",0.0,-,-,-,-,-,+,-,-,-,-,DIM,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,-,-,-,-,-,+,-,-,-,PARTIAL,-,PARTIAL,-
+S550,"partial CD11b, CD13, partial CD25, CD33, CD34, CD38, partial CD56, CD117 and HLA-DR positive",0.0,-,-,-,-,-,-,-,-,PARTIAL,-,+,-,-,-,-,-,-,-,PARTIAL,-,+,+,-,+,-,-,-,PARTIAL,-,-,-,-,-,-,+,-,-,-,+,-,-,-
+S551,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S552,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S553,"CD7, CD13, CD33, dim CD38, CD117, HLA-DR and variable MPO +",0.0,-,-,-,-,-,+,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,-,-,DIM,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,+,-
+S554,"CD13, CD33, variable CD34, CD117, and HLA-DR positive (CD7, dim CD15, and MPO expression was noted on the prior flow cytometric analysis and was not tested in the current assay)",0.0,-,-,-,-,-,+,-,-,-,-,+,-,DIM,-,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,+,-
+S555,"CD33, CD38, CD117, MPO positive",0.0,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,+,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,+,-
+C435,"dimCD13, dimCD33, CD34, dimCD117, HLA-DR",0.0,-,-,-,-,-,-,-,-,-,-,DIM,-,-,-,-,-,-,-,-,-,DIM,+,-,-,-,-,-,-,-,-,-,-,-,-,DIM,-,-,-,+,-,-,-
+C462,"dim CD5, CD13, dim CD33, CD34, partial CD56, CD117, and HLA-DR",0.0,-,-,-,-,DIM,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,DIM,+,-,-,-,-,-,PARTIAL,-,-,-,-,-,-,+,-,-,-,+,-,-,-
+C473,"partial CD5, dim CD7, partial CD9, partial/dim CD11b, dim CD13, CD33, CD34, dim CD38, partial CD56, CD117, and HLA-DR positive",0.0,-,-,-,-,PARTIAL,DIM,PARTIAL,-,PARTIAL DIM,-,DIM,-,-,-,-,-,-,-,-,-,+,+,-,DIM,-,-,-,PARTIAL,-,-,-,-,-,-,+,-,-,-,+,-,-,-
+S556,"dim CD9, CD11b, variable CD13, partial CD14, dim CD15, dim CD16, CD33, CD38, dim CD56, CD64, CD123, and HLA-DR",0.0,-,-,-,-,-,-,DIM,-,+,-,+,PARTIAL,DIM,DIM,-,-,-,-,-,-,+,-,-,+,-,-,-,DIM,-,-,-,+,-,-,-,+,-,-,+,-,-,-
+S557,"CD7, CD11b, CD13, CD15, CD16, CD33, CD38, CD56, CD64, CD117, CD123, and MPO positive",0.0,-,-,-,-,-,+,-,-,+,-,+,-,+,+,-,-,-,-,-,-,+,-,-,+,-,-,-,+,-,-,-,+,-,-,+,+,-,-,-,-,+,-
+S558,"dimCD7, dimCD11b, dimCD13, CD33, varibleCD34, CD38, CD117, partial HLA-DR, and MPO positive ",0.0,-,-,-,-,-,DIM,-,-,DIM,-,DIM,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,-,-,-,-,-,+,-,-,-,PARTIAL,-,+,-
+C380,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C581,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C589,"CD13, dim CD33, CD34, CD56, CD117, and partial HLA-DR",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,DIM,+,-,-,-,-,-,+,-,-,-,-,-,-,+,-,-,-,PARTIAL,-,-,-
+S559,"variable CD11b, CD13, CD33, CD34, variable CD38, dim variable cCD79a, CD117, HLA-DR, cMPO, and cTdT positive",0.0,-,-,-,-,-,-,-,-,+,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,-,-,-,-,PARTIAL DIM,+,-,-,-,+,+,+,-
+S560,"dim CD13, CD33, CD117 and MPO",0.0,-,-,-,-,-,-,-,-,-,-,DIM,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,+,-
+C383,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S561,"CD33, CD38, CD56, CD117, and cMPO positive",0.0,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,+,-,-,-,+,-,-,-,-,-,-,+,-,-,-,-,-,+,-
+S562,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C386,"CD13, CD33, CD34, CD117, and HLA-DR",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,-,-
+C388,"CD13, CD33, CD34, CD117, and HLA-DR",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,-,-
+C391,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C392,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S563,"CD7, CD13, CD25, CD33, partial CD34, CD117, dim CD123, HLA-DR, and MPO.",0.0,-,-,-,-,-,+,-,-,-,-,+,-,-,-,-,-,-,-,+,-,+,PARTIAL,-,-,-,-,-,-,-,-,-,-,-,-,+,DIM,-,-,+,-,+,-
+S564,"CD43+ and dim CD45+ with dim CD13, dim CD33, dim CD38, partial CD11b, variable HLA-DR, and partial, dim CD117",0.0,-,-,-,-,-,-,-,-,PARTIAL,-,DIM,-,-,-,-,-,-,-,-,-,DIM,-,-,DIM,-,-,DIM,-,-,-,-,-,-,-,PARTIAL DIM,-,-,-,+,-,-,-
+S565,"CD4, dim CD7, CD11b, CD13, variable CD14, CD16, dim CD33, dim CD 38, dim CD56, CD64.",0.0,-,-,-,+,-,DIM,-,-,+,-,+,+,-,+,-,-,-,-,-,-,DIM,-,-,-,-,-,-,DIM,-,-,-,+,-,-,-,-,-,-,-,-,-,-
+S566,"CD11b, CD13, CD33, variable CD34, CD38, CD117, CD123, and MPO positive",0.0,-,-,-,-,-,-,-,-,+,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,+,-
+C394,"partial CD7, partial CD10, CD13, partial CD19, CD25, dim CD33, CD34, CD38, partial cCD79a, CD117, HLA-DR and TdT+",0.0,-,-,-,-,-,PARTIAL,-,PARTIAL,-,-,+,-,-,-,PARTIAL,-,-,-,+,-,DIM,+,-,+,-,-,-,-,-,-,-,-,-,PARTIAL,+,-,-,-,+,+,-,-
+C582,"dimCD7, partialCD10, CD13, CD33, CD34, CD38,CD117, HLA-DR, TdT",0.0,-,-,-,-,-,DIM,-,PARTIAL,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,+,-,-
+C398,"dimCD7, partialCD10, CD13, CD33, CD34, CD38,CD117, HLA-DR, TdT",0.0,-,-,-,-,-,DIM,-,PARTIAL,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,+,-,-
+C400,"dimCD7, partialCD10, CD13, CD33, CD34, CD38,CD117, HLA-DR, TdT",0.0,-,-,-,-,-,DIM,-,PARTIAL,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,+,-,-
+S568,"Myloid blast population, about 25%: variable CD13, CD33, partial CD34, CD38, CD117, CD123, HLA-DR and dim MPO | Monoblast population, about 50%: Dim CD9, bright CD11b, variable CD13, CD16, CD33, CD38, CD56, CD64, HLA-DR",0.0,-,-,-,-,-,-,DIM,-,BRIGHT,-,+,-,-,+,-,-,-,-,-,-,+,PARTIAL,-,+,-,-,-,+,-,-,-,+,-,-,+,+,-,-,+,-,DIM,-
+S569,"CD13, CD33, CD34, CD38, CD117, HLA-DR, MPO  (the monocytic cells show an aberrant immunophenotype: CD11b, CD13, variable CD14, variable CD15, CD33, CD64, HLA-DR positive)",0.0,-,-,-,-,-,-,-,-,+,-,,+,+,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,-,-,+,-,-,+,-,-,-,+,-,+,-
+S570,"cCD3, CD7, CD11b, dim CD13, CD33, CD34, CD56, C117, MPO",0.0,-,-,+,-,-,+,-,-,+,-,DIM,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,-,-,+,-
+C402,"CD13, CD33, partial CD34, CD117, variable HLA-DR",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,PARTIAL,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,-,-
+C452,"CD4, CD11b, variable CD11c, CD15, CD33, CD38, CD64, and dim MPO",0.0,-,-,-,+,-,-,-,-,+,+,-,-,+,-,-,-,-,-,-,-,+,-,-,+,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,DIM,-
+C401,"dim CD13, CD33, CD117 and MPO-positive",0.0,-,-,-,-,-,-,-,-,-,-,DIM,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,+,-
+S571,"dim CD13, CD33, CD117 and MPO-positive",0.0,-,-,-,-,-,-,-,-,-,-,DIM,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,+,-
+S616,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C405,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S572,"Myeloid blasts immunophenotype:  CD7, partial CD13, CD33, partial CD34, CD117, HLA-DR and MPO | Monoblasts immunophenotype: dim CD4, CD11b, partial CD13, CD14, CD15, bright CD33, CD64, HLA-DR",0.0,-,-,-,DIM,-,+,-,-,+,-,PARTIAL,+,+,-,-,-,-,-,-,-,BRIGHT,PARTIAL,-,-,-,-,-,-,-,-,-,+,-,-,+,-,-,-,+,-,+,-
+C407,"Myeloid blasts immunophenotype:  CD7, partial CD13, CD33, partial CD34, CD117, HLA-DR and MPO | Monoblasts immunophenotype: dim CD4, CD11b, partial CD13, CD14, CD15, bright CD33, CD64, HLA-DR",0.0,-,-,-,DIM,-,+,-,-,+,-,PARTIAL,+,+,-,-,-,-,-,-,-,BRIGHT,PARTIAL,-,-,-,-,-,-,-,-,-,+,-,-,+,-,-,-,+,-,+,-
+S573,"Partial immunophenotype: CD33, cCD79a, CD117, HLA-DR, and cMPO",1.0,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,PARTIAL,-,-,-,-,-,-,-,-,-,-,-,-,PARTIAL,+,-,-,-,PARTIAL,-,PARTIAL,-
+C451,"CD9, dim CD11b, CD33, CD34, CD38, variable CD56, dim CD117 ",0.0,-,-,-,-,-,-,+,-,DIM,-,-,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,+,-,-,-,-,-,-,DIM,-,-,-,-,-,-,-
+C413,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S575,"CD7, CD11b, CD13, CD33, CD34, CD38, CD117, HLA-DR, partial TdT and MPO+",0.0,-,-,-,-,-,+,-,-,+,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,PARTIAL,+,-
+S617,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S618,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+S576,"CD7, CD13, bright CD33, partial CD34, CD38, CD117, dim HLA-DR+, dim MPO",0.0,-,-,-,-,-,+,-,-,-,-,+,-,-,-,-,-,-,-,-,-,BRIGHT,PARTIAL,-,+,-,-,-,-,-,-,-,-,-,-,+,-,-,-,DIM,-,DIM,-
+S577,"CD7, CD11b, CD33, CD38, partial CD117 positive",0.0,-,-,-,-,-,+,-,-,+,-,-,-,-,-,-,-,-,-,-,-,+,-,-,+,-,-,-,-,-,-,-,-,-,-,PARTIAL,-,-,-,-,-,-,-
+S579,"CD13, CD33, CD117, and HLA-DR",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,-,-
+C586,"dim CD4, CD11b, partial CD13, variable CD14, dim CD15, CD33,  CD38, CD56, CD64, CD103, HLA-DR, MPO positive",0.0,-,-,-,DIM,-,-,-,-,+,-,PARTIAL,+,DIM,-,-,-,-,-,-,-,+,-,-,+,-,-,-,+,-,-,-,+,-,-,-,-,-,-,+,-,+,-
+C421,"dimCD13, bright CD33, partial CD34, CD38, CD117, and dim MPO",0.0,-,-,-,-,-,-,-,-,-,-,DIM,-,-,-,-,-,-,-,-,-,BRIGHT,PARTIAL,-,+,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,DIM,-
+C436,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C423,"Partial CD7, dim CD13, partial CD15, CD33, dim CD34, CD38, partial CD56, CD117, variable HLA-DR, MPO positive",0.0,-,-,-,-,-,PARTIAL,-,-,-,-,DIM,-,PARTIAL,-,-,-,-,-,-,-,+,DIM,-,+,-,-,-,PARTIAL,-,-,-,-,-,-,+,-,-,-,+,-,+,-
+C424,"CD13, CD33, CD117, variable CD34, CD11b, CD25, variable CD38, CD123, variable CD103, dim HLA-DR, and partial cMPO",0.0,-,-,-,-,-,-,-,-,+,-,+,-,-,-,-,-,-,-,+,-,+,+,-,+,-,-,-,-,-,-,-,-,-,-,+,+,-,-,DIM,-,PARTIAL,-
+C426,"T lymphoblasts: CD2, cCD3, CD7, dimCD10, CD25, partial CD34, CD38, dimCD56, variable CD117 | Myeloid blasts:  dimCD4, dimCD10, CD11b, CD13, CD14, CD15, CD16, CD33, variable CD117, CD38, dimCD56, CD64, cMPO, and dimTDT",0.0,-,+,+,DIM,-,+,-,DIM,+,-,+,+,+,+,-,-,-,-,+,-,+,PARTIAL,-,+,-,-,-,DIM,-,-,-,+,-,-,+,-,-,-,-,DIM,+,-
+C468,"T-lymphoblast population (90%) with immunophenotype: CD2, cCD3, CD7, CD25, partial CD34, CD38, and dim CD56 positive | Myeloid blast population (4%) with immunophenotype: dim CD10, CD11b, dim CD11c, CD13, CD14, CD15, CD16, CD33, CD38, dim CD56, dim CD64, cTDT, and cMPO positive",0.0,-,+,+,-,-,+,-,DIM,+,DIM,+,+,+,+,-,-,-,-,+,-,+,PARTIAL,-,+,-,-,-,DIM,-,-,-,DIM,-,-,-,-,-,-,-,+,+,-
+C425,"CD7, CD9, variable CD11b, CD13, variable CD15, CD33, CD34, CD38, dim CD56, CD117, HLA-DR",0.0,-,-,-,-,-,+,+,-,+,-,+,-,+,-,-,-,-,-,-,-,+,+,-,+,-,-,-,DIM,-,-,-,-,-,-,+,-,-,-,+,-,-,-
+C427,"myeloid blasts: dim CD7, CD13, CD33, partial CD34, CD38, CD117,  HLA-DR and dim MPO+ | monocytic cell population: dim CD9, CD13, CD14, CD33, CD64 and HLA-DR+.",0.0,-,-,-,-,-,DIM,DIM,-,-,-,+,+,-,-,-,-,-,-,-,-,+,PARTIAL,-,+,-,-,-,-,-,-,-,+,-,-,+,-,-,-,+,-,DIM,-
+C443,"CD13, CD33, variable CD34, CD117, and HLA-DR positive",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,-,-
+C428,"Myeloid blast immunophenotype (35%): CD13, dim CD14, CD33, CD34, CD38, CD117, variable HLA-DR and MPO positive | Monocytic cell immunophenotype: CD11b, CD13, partial CD14, CD15, variable CD16, CD33, CD38, partial CD56, partial HLA-DR, MPO positive",0.0,-,-,-,-,-,-,-,-,+,-,+,PARTIAL,+,+,-,-,-,-,-,-,+,+,-,+,-,-,-,PARTIAL,-,-,-,-,-,-,+,-,-,-,+,-,+,-
+C434,"partial CD7, CD13, CD33, CD34, CD38, CD117, HLA-DR, and dimMPO",0.0,-,-,-,-,-,PARTIAL,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,DIM,-
+C433,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C429,"Myeloid blast immunophenotype: CD13, CD25, CD33, CD34, CD38, CD117, and HLA-DR | Monocyte immunophenotype: dim CD4, partial CD9, CD11b, CD13, CD14, CD33, CD38, CD64, HLA-DR, dim MPO",0.0,-,-,-,DIM,-,-,PARTIAL,-,+,-,+,+,-,-,-,-,-,-,+,-,+,+,-,+,-,-,-,-,-,-,-,+,-,-,+,-,-,-,+,-,DIM,-
+C430,"dim CD4, variable dim CD9, CD11b, CD13, CD14, partial CD15, partial CD16, CD33, partial CD38, CD56, CD64, HLA-DR, and MPO ",0.0,-,-,-,DIM,-,-,DIM,-,+,-,+,+,PARTIAL,PARTIAL,-,-,-,-,-,-,+,-,-,PARTIAL,-,-,-,+,-,-,-,+,-,-,-,-,-,-,+,-,+,-
+C431,"CD13, CD33, variable CD34, CD38, CD117, and HLA-DR",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,-,-
+C432,"Myeloid blasts (36%): CD13, CD33, CD34, CD117, HLA-DR positive | Monocytes/promonocytes (40%): dim CD4, CD13, CD14, variable CD16, CD33, CD64, HLA-DR positive",0.0,-,-,-,DIM,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,-,-,+,-,-,+,-,-,-,+,-,-,-
+C496,"dim CD13, CD33, dim/partial CD34, CD117, and HLA-DR",0.0,-,-,-,-,-,-,-,-,-,-,DIM,-,-,-,-,-,-,-,-,-,+,PARTIAL DIM,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,-,-
+C437,"Myeloid blasts immunophenotype: CD9, dim CD11b, CD13, variable CD15, CD33, CD34, CD38, CD56, CD117, variable HLA-DR, cMPO | Monocytic population immunophenotype: dim CD2, CD9, CD11b, CD11c, CD13, CD14, variable CD15, CD16, partial/dim CD23, CD33, CD38, CD56, CD64, HLA-DR, and cMPO",1.0,-,DIM,-,-,-,-,+,-,DIM,+,+,+,+,+,-,-,-,PARTIAL DIM,-,-,+,+,-,+,-,-,-,+,-,-,-,+,-,-,+,-,-,-,+,-,+,-
+C438,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C439,"dim/partial CD9, CD11c, CD13, partial CD15, CD33, variable CD34, CD38, dim/partial CD64, CD117, variable HLA-DR and cMPO positive",0.0,-,-,-,-,-,-,PARTIAL DIM,-,-,+,+,-,PARTIAL,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,-,-,PARTIAL DIM,-,-,+,-,-,-,+,-,+,-
+C590,"CD13 (dim), CD33, partial CD34 (60%) , CD38, dim CD45, CD117, HLA-DR, MPO, partial CD7 (24%), CD11b, CD64, CD123",0.0,-,-,-,-,-,PARTIAL,-,-,+,-,DIM,-,-,-,-,-,-,-,-,-,+,PARTIAL,-,+,-,-,DIM,-,-,-,-,+,-,-,+,+,-,-,+,-,+,-
+C440,"positive for dim CD4, CD11b, CD15, CD33, MPO (subset) and HLA-DR",0.0,-,-,-,DIM,-,-,-,-,+,-,-,-,+,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,+,-,PARTIAL,-
+C591,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C453,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C441,"CD4, dim CD7, CD56, CD13, CD33, CD64, HLA-DR, dim CD14, CD15, CD11b, CD38, CD11c, CD9, and TdT positive",0.0,-,-,-,+,-,DIM,+,-,+,+,+,DIM,+,-,-,-,-,-,-,-,+,-,-,+,-,-,-,+,-,-,-,+,-,-,-,-,-,-,+,+,-,-
+C442,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C444,"subset CD7 (5-10%+), partial CD13 (40%+), partial CD33, CD34, CD38, dim CD45, CD117, CD123, Â HLA-DR, MPO ",0.0,-,-,-,-,-,PARTIAL,-,-,-,-,PARTIAL,-,-,-,-,-,-,-,-,-,PARTIAL,+,-,+,-,-,DIM,-,-,-,-,-,-,-,+,+,-,-,+,-,+,-
+C446,"dim CD4, dim CD7,  CD9, variable CD11b, variable CD11c, dimCD13, dimCD14, variable CD15, CD33, CD34,  CD38, dimCD56, variable CD64, dimCD123, HLA-DR, and dim MPO positive",0.0,-,-,-,DIM,-,DIM,+,-,+,+,DIM,DIM,+,-,-,-,-,-,-,-,+,+,-,+,-,-,-,DIM,-,-,-,+,-,-,-,DIM,-,-,+,-,DIM,-
+C447,"dimCD4, variable CD9,  bright CD11b,  CD11cvariable CD13, variable CD14, bright, dimCD15, CD33, CD38, dimCD56, CD64, dimCD123, HLA-DR, dimMPO",0.0,-,-,-,DIM,-,-,+,-,BRIGHT,-,+,+,DIM,-,-,-,-,-,-,-,+,-,-,+,-,-,-,DIM,-,-,-,+,-,-,-,DIM,-,-,+,-,DIM,-
+C445,"dimCD7, dimCD13, CD33, variable CD34, CD38, CD117,  HLADR, MPO positive",0.0,-,-,-,-,-,DIM,-,-,-,-,DIM,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,+,-
+C448,"variable CD9, variable CD11b, variable CD13, variable CD25, variable CD33, CD34, CD38, variable cCD79a, variable CD117, variable HLA-DR, variable PAX5, and TdT | Small CD5 clonal B cell population (less than 1% of total cells, ~10% of lymphocytes), immunophenotype: CD5, CD19, CD20, CD22, CD23, cCD79a, and lambda (the criteria for mixed phenotype are not met because there is no CD19 and only two other B cell antigens, PAX5 and cCD79a, were expressed, neither completely or strongly)",1.0,-,-,-,-,-,-,+,-,+,-,+,-,-,-,-,-,-,-,+,-,+,+,-,+,-,-,-,-,-,-,-,-,-,+,+,-,-,-,+,+,-,+
+C449,"variable CD9, variable CD11b, variable CD13, variable CD25, variable CD33, CD34, CD38, variable cCD79a, variable CD117, variable HLA-DR, variable PAX5, and TdT | Small CD5 clonal B cell population (less than 1% of total cells, ~10% of lymphocytes), immunophenotype: CD5, CD19, CD20, CD22, CD23, cCD79a, and lambda (the criteria for mixed phenotype are not met because there is no CD19 and only two other B cell antigens, PAX5 and cCD79a, were expressed, neither completely or strongly)",1.0,-,-,-,-,-,-,+,-,+,-,+,-,-,-,-,-,-,-,+,-,+,+,-,+,-,-,-,-,-,-,-,-,-,+,+,-,-,-,+,+,-,+
+C450,"CD13, CD33,CD34, CD38, CD117, dim HLA-DR and MPO positive",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,-,-,-,-,-,+,-,-,-,DIM,-,+,-
+C489,"CD4, CD9, CD11b, CD11c, CD13, CD14, CD15, partial CD16, CD33, CD38, partial CD56, CD64, HLA-DR, and cMPO positive",0.0,-,-,-,+,-,-,+,-,+,+,+,+,+,PARTIAL,-,-,-,-,-,-,+,-,-,+,-,-,-,PARTIAL,-,-,-,+,-,-,-,-,-,-,+,-,+,-
+C454,"Blast immunophenotype: dim CD9, CD13, CD33, CD34, CD38, CD117, variable HLA-DR, MPO | Monocytic blast equivalent immunophenotype: CD9, CD11b, CD11c, CD13, CD14, dim CD16, CD33, CD38, CD64, MPO",0.0,-,-,-,-,-,-,DIM,-,+,+,+,+,-,DIM,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,-,-,+,-,-,+,-,-,-,+,-,+,-
+C456,"dim CD5, CD9, CD13, variable CD33, CD34, CD38, dim CD45, dim CD56, CD117, HLA-DR positive",0.0,-,-,-,-,DIM,-,+,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,DIM,DIM,-,-,-,-,-,-,+,-,-,-,+,-,-,-
+C469,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C470,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C595,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C457,"CD13, dim CD33, variable CD34, CD117, and variable HLA-DR positive",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,DIM,+,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,-,-
+C458,"CD13, CD15, dim CD19, CD33, CD34, CD38, partial CD56, partial/dim CD79a, CD117, HLA-DR, dim TDT, and cMPO positive",0.0,-,-,-,-,-,-,-,-,-,-,+,-,+,-,DIM,-,-,-,-,-,+,+,-,+,-,-,-,PARTIAL,-,-,-,-,-,PARTIAL DIM,+,-,-,-,+,DIM,+,-
+C459,"dim CD4, CD11b, CD11c, CD15, CD33, CD38, dim CD64, dim CD117, HLA-DR, bright cMPO | dim CD4, CD9, CD11b, CD11c, variable CD13, variable CD14, variable CD15, dim CD16, CD33, CD38, CD64, variable HLA-DR, dim cMPO",0.0,-,-,-,DIM,-,-,+,-,+,+,+,+,+,DIM,-,-,-,-,-,-,+,-,-,+,-,-,-,-,-,-,-,DIM,-,-,DIM,-,-,-,+,-,DIM,-
+C460,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C461,"CD4(dim), CD9, CD11b, CD11c, CD13(partial), CD14(dim), CD15, CD25, CD33 (bright), CD34 (partial), CD38, CD64 (dim), CD117, HLA-DR and MPO",0.0,-,-,-,DIM,-,-,+,-,+,+,PARTIAL,DIM,+,-,-,-,-,-,+,-,BRIGHT,PARTIAL,-,+,-,-,-,-,-,-,-,DIM,-,-,+,-,-,-,+,-,+,-
+C464,"dim CD4, CD9, CD11b, CD11c, partial CD13, partial CD14, variable CD15, variable CD16, CD33, variable CD38,  CD64, CD123, dim HLA-DR",0.0,-,-,-,DIM,-,-,+,-,+,+,PARTIAL,PARTIAL,+,+,-,-,-,-,-,-,+,-,-,+,-,-,-,-,-,-,-,+,-,-,-,+,-,-,DIM,-,-,-
+C465,"dim CD4, CD9, CD11b, CD11c, partial CD13, partial CD14, variable CD15, variable CD16, CD33, variable CD38,  CD64, CD123, dim HLA-DR",0.0,-,-,-,DIM,-,-,+,-,+,+,PARTIAL,PARTIAL,+,+,-,-,-,-,-,-,+,-,-,+,-,-,-,-,-,-,-,+,-,-,-,+,-,-,DIM,-,-,-
+C463,"positive for CD2(partial), cCD22(dim), cCD79a, CD34(variable),CD33(partial), CD38, CD56, CD58, CD117, HLA-DR",0.0,-,PARTIAL,-,-,-,-,-,-,-,-,-,-,-,-,-,-,DIM,-,-,-,PARTIAL,PARTIAL,-,+,-,-,-,+,-,+,-,-,-,+,+,-,-,-,+,-,-,-
+C466,"dim CD5, dim CD7, dim CD9, dim CD11b, dim CD11c, CD13, dim CD33, CD34, variable CD38, CD117, and variable HLA-DR positive",0.0,-,-,-,-,DIM,DIM,DIM,-,DIM,DIM,+,-,-,-,-,-,-,-,-,-,DIM,+,-,+,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,-,-
+C467,"CD9, CD13, dim CD33, CD34, CD38, CD117, HLA-DR, and cMPO",0.0,-,-,-,-,-,-,+,-,-,-,+,-,-,-,-,-,-,-,-,-,DIM,+,-,+,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,+,-
+C491,"#1 (5%): CD13, Dim CD33 , CD34, CD117, HLA-DR | #2: (10%): CD13, dim CD33, dim CD34 positive ",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,DIM,+,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,-,-
+C497,"Immunophenotype 1 (2%): CD13, CD33 (dim), CD34, CD117 and HLA-DR | Immunophenotype 2 (9%): CD13, CD33 (dim), CD117 (bright)",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,DIM,+,-,-,-,-,-,-,-,-,-,-,-,-,BRIGHT,-,-,-,+,-,-,-
+C471,"CD9, dim CD13, dim CD15, dim CD16, CD33, dim CD34, CD117, dim CD123, and strong MPO",0.0,-,-,-,-,-,-,+,-,-,-,DIM,-,DIM,DIM,-,-,-,-,-,-,+,DIM,-,-,-,-,-,-,-,-,-,-,-,-,+,DIM,-,-,-,-,BRIGHT,-
+C472,"CD13, CD33, CD34, CD38, CD117, HLA-DR ",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,-,-
+C474,"dim CD7, dim/partial CD15, CD33, partial CD34, CD38, partial CD56, CD117, HLA-DR and MPO positive",0.0,-,-,-,-,-,DIM,-,-,-,-,-,-,PARTIAL DIM,-,-,-,-,-,-,-,+,PARTIAL,-,+,-,-,-,PARTIAL,-,-,-,-,-,-,+,-,-,-,+,-,+,-
+C475,"dim CD7, dim/partial CD15, CD33, partial CD34, CD38, partial CD56, CD117, HLA-DR and MPO positive",0.0,-,-,-,-,-,DIM,-,-,-,-,-,-,PARTIAL DIM,-,-,-,-,-,-,-,+,PARTIAL,-,+,-,-,-,PARTIAL,-,-,-,-,-,-,+,-,-,-,+,-,+,-
+C476,"dim CD13, variable CD33, CD34, CD38, CD117, HLA-DR",0.0,-,-,-,-,-,-,-,-,-,-,DIM,-,-,-,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,-,-
+C488,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C477,"partial CD9, CD13, CD34, CD38, CD117, HLA-DR, MPO",0.0,-,-,-,-,-,-,PARTIAL,-,-,-,+,-,-,-,-,-,-,-,-,-,-,+,-,+,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,+,-
+C478,"partial CD9, CD13, CD34, CD38, CD117, HLA-DR, MPO",0.0,-,-,-,-,-,-,PARTIAL,-,-,-,+,-,-,-,-,-,-,-,-,-,-,+,-,+,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,+,-
+C483,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C592,"Myeloid blast immunophenotype: CD9, dim CD11b, CD11c, CD13, CD14 (subset), partial CD15, CD33, CD38, partial CD117, CD123, and variable HLA-DR positive | Atypical monocyte immunophenotype: CD9, bright CD11b, CD11c, partial CD13, variable CD14, CD15, variable CD16, CD33, CD38, CD64, CD123, and HLA-DR positive",1.0,-,-,-,-,-,-,+,-,DIM,+,PARTIAL,PARTIAL,+,+,-,-,-,-,-,-,+,-,-,+,-,-,-,-,-,-,-,+,-,-,PARTIAL,+,-,-,+,-,-,-
+C479,"Myeloid blast immunophenotype: CD9, dim CD11b, CD11c, CD13, CD14 (subset), partial CD15, CD33, CD38, partial CD117, CD123, and variable HLA-DR positive | Atypical monocyte immunophenotype: CD9, bright CD11b, CD11c, partial CD13, variable CD14, CD15, variable CD16, CD33, CD38, CD64, CD123, and HLA-DR positive",1.0,-,-,-,-,-,-,+,-,DIM,+,PARTIAL,+,+,+,-,-,-,-,-,-,+,-,-,+,-,-,-,-,-,-,-,+,-,-,PARTIAL,+,-,-,+,-,-,-
+C480,"Myeloid blasts immunophenotype (~56% of the WBC): CD9, CD13, partial CD15, CD33, CD34, dim CD38, CD117, HLA-DR, cMPO | Monocytic population immunophenotype (~29% of the WBC): CD9, CD11b, CD11c, CD13, CD14, partial CD15, dim CD16,CD33, CD38, dim CD64, HLA-DR, and cMPO",0.0,-,-,-,-,-,-,+,-,+,+,+,+,PARTIAL,DIM,-,-,-,-,-,-,+,+,-,+,-,-,-,-,-,-,-,DIM,-,-,+,-,-,-,+,-,+,-
+C485,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C481,"B lymphoblasts (23%)-  partial CD9, CD13, CD19, partial CD22, CD25, CD38, CD34, CD79a, dim/partial CD123, HLA-DR, TdT positive   | Myeloid blasts (20%)- Immunophenotype: partial CD9, CD13, partial CD33, CD34, CD38, dim/partial CD123, HLA-DR, TdT, and MPO positive",0.0,-,-,-,-,-,-,PARTIAL,-,-,-,+,-,-,-,+,-,PARTIAL,-,+,-,PARTIAL,+,-,+,-,-,-,-,-,-,-,-,-,+,-,PARTIAL DIM,-,-,+,+,+,-
+C482,"dim CD13, CD33, partial CD34, CD38, CD117, HLA-DR, and MPO positive",0.0,-,-,-,-,-,-,-,-,-,-,DIM,-,-,-,-,-,-,-,-,-,+,PARTIAL,-,+,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,+,-
+C484,"variable CD11b, CD13, CD25, CD33, CD34, CD38, CD56, CD117, HLA-DR",0.0,-,-,-,-,-,-,-,-,+,-,+,-,-,-,-,-,-,-,+,-,+,+,-,+,-,-,-,+,-,-,-,-,-,-,+,-,-,-,+,-,-,-
+C487,"CD9, CD13, CD33 (partial), CD34, CD38 (partial), CD117, HLA-DR, and MPO positive ",0.0,-,-,-,-,-,-,+,-,-,-,+,-,-,-,-,-,-,-,-,-,PARTIAL,+,-,PARTIAL,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,+,-
+C490,"positive for partial CD9, CD11b, CD11c, CD13, CD14, CD15, CD33, CD38, CD64, dim CD123, HLA-DR, and cMPO; negative for CD34, CD117",1.0,-,-,-,-,-,-,PARTIAL,-,+,+,+,+,+,-,-,-,-,-,-,-,+,-,-,+,-,-,-,-,-,-,-,+,-,-,-,+,-,-,+,-,+,-
+C492,"Myeloid blast immunophenotype (19% by flow): dim CD9, CD13, variable CD15, CD33, CD34, dim CD38, CD117, HLA-DR, and dim cMPO | Atypical monocyte immunophenotype (14% by flow): dim CD4, dim CD9, CD11b, CD11c, variable CD13, CD14, variable dim CD16, CD33, CD38, CD64, dim cMPO",0.0,-,-,-,DIM,-,-,DIM,-,+,+,+,+,+,DIM,-,-,-,-,-,-,+,+,-,DIM,-,-,-,-,-,-,-,+,-,-,+,-,-,-,+,-,DIM,-
+C493,"partial CD13, dim CD33, CD34, CD117, and HLA-DR",0.0,-,-,-,-,-,-,-,-,-,-,PARTIAL,-,-,-,-,-,-,-,-,-,DIM,+,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,-,-
+C593,"CD13, CD33, CD34, CD117, HLA-DR positive",0.0,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,-,-
+C494,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C495,"CD5 (dim), CD9 (dim), CD13, CD33, CD34, CD38 (dim), CD117, HLA-DR",0.0,-,-,-,-,DIM,-,DIM,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,DIM,-,-,-,-,-,-,-,-,-,-,+,-,-,-,+,-,-,-
+C498,"dim/partial CD4, CD7, CD9, CD13, CD15, dim/partial CD22, CD33, CD34, CD38, CD56, CD117, HLA-DR positive ",0.0,-,-,-,PARTIAL DIM,-,+,+,-,-,-,+,-,+,-,-,-,PARTIAL DIM,-,-,-,+,+,-,+,-,-,-,+,-,-,-,-,-,-,+,-,-,-,+,-,-,-
+C499,"dim/partial CD7, partial CD11b, CD13, CD33, CD34, dim/partial CD38, partial CD56, CD117, HLA-DR, and partial cMPO positive",0.0,-,-,-,-,-,PARTIAL DIM,-,-,PARTIAL,-,+,-,-,-,-,-,-,-,-,-,+,+,-,PARTIAL DIM,-,-,-,PARTIAL,-,-,-,-,-,-,+,-,-,-,+,-,PARTIAL,-
+C500,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C594,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C501,"Myeloid blasts immunophenotype: dim CD5, partial CD7, dim CD11b, CD13, CD33, CD34, partial CD38, CD117, HLA-DR. (by flow ~7%)  | Monocytic blast equivalents immunophenotype: bright CD13, CD11b, CD11c, dim CD14, bright CD33, CD38, CD56, CD64, HLA-DR. (by flow ~11%)",1.0,-,-,-,-,DIM,PARTIAL,-,-,DIM,+,BRIGHT,DIM,-,-,-,-,-,-,-,-,BRIGHT,+,-,PARTIAL,-,-,-,+,-,-,-,+,-,-,+,-,-,-,+,-,-,-
+C502,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+C503,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HC1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HC2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HC3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HC4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

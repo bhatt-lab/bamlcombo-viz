@@ -269,35 +269,42 @@ function initializeClinicalTab(data) {
         const thead = document.createElement('thead');
         const tbody = document.createElement('tbody');
         const headerRow = document.createElement('tr');
+
         selectedColumns.forEach(headerText => {
             const th = document.createElement('th');
             th.textContent = headerText;
-            th.addEventListener('mouseover', (event) => {
-                const infoText = columnInfo[headerText] || 'No description available.';
-                tooltip.innerHTML = infoText;
-                tooltip.style.opacity = 1;
-                tooltip.style.left = `${event.pageX + 10}px`;
-                tooltip.style.top = `${event.pageY + 10}px`;
-            });
-            th.addEventListener('mouseout', () => {
-                tooltip.style.opacity = 0;
-            });
-            th.addEventListener('mousemove', (event) => {
-                tooltip.style.left = `${event.pageX + 10}px`;
-                tooltip.style.top = `${event.pageY + 10}px`;
-            });
+            th.addEventListener('mouseover', (event) => { /* ... tooltip logic ... */ });
+            th.addEventListener('mouseout', () => { /* ... tooltip logic ... */ });
+            th.addEventListener('mousemove', (event) => { /* ... tooltip logic ... */ });
             headerRow.appendChild(th);
         });
         thead.appendChild(headerRow);
+
         allData.forEach(row => {
             const tr = document.createElement('tr');
             selectedColumns.forEach(header => {
                 const td = document.createElement('td');
-                td.textContent = row[header] || ''; 
+                const cellValue = row[header] || '';
+
+                // If the current column is 'Sample_ID', create a link.
+                if (header === 'Sample_ID' && cellValue) {
+                    const link = document.createElement('a');
+                    // The link points to a new page, passing the sample ID as a URL parameter.
+                    link.href = `sample_details.html?sample=${encodeURIComponent(cellValue)}`;
+                    link.textContent = cellValue;
+                    link.classList.add('text-blue-600', 'hover:underline'); // Tailwind classes for link styling
+                    
+                    td.appendChild(link);
+                } else {
+                    // For all other columns, just display the text as before.
+                    td.textContent = cellValue;
+                }
+
                 tr.appendChild(td);
             });
             tbody.appendChild(tr);
         });
+
         table.appendChild(thead);
         table.appendChild(tbody);
         tableContainer.appendChild(table);

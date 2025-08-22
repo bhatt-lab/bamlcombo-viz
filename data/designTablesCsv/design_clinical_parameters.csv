@@ -1,0 +1,90 @@
+ToDisplay,PlotType,Uniqueness,Clinical Summary Field,Definition,Values,DataType,Notes
+False,,,sampleid,"Unique identifier for each specimen, for internal reference",,Identifier,For internal reference
+True,Internal reference,,Sample_ID,"Unique identifier for each specimen, for internal reference",,Identifier,S' indicates specimens overlapped in BeatAML; 'C' indicates newly added specimens
+False,Internal reference,,patientId,Unique identifier for each patient,,Identifier,
+True,Internal reference,,labId,Unique identifier for each specimen,"Formatted as 00-00000, where first 2 digits are year and last 5 digits indicate order collected",Identifier,"Can be referred to in other datasets as Original_LabID,AML_Original_LabID, Lab_ID, Specimen ID, or Sample ID."
+False,External reference,,dbgap_subject_id,Unique dbGaP identifier for each patient,,Identifier,Assigned to Beat AML wave1-4 patients only
+False,External reference,,dbgap_dnaseq_sample,Unique dbGaP identifier for the dna sequencing of the specimen,,Identifier,Assigned to Beat AML wave1-4 patients only
+False,External reference,,dbgap_rnaseq_sample,Unique dbGaP identifier for the rna sequencing of the specimen,,Identifier,Assigned to Beat AML wave1-4 patients only
+True,Table,,Data available,Multiomics data available,,Category,
+True,Pie,Patient,gender,Sex description for each patient obtained from the EMR,"Male', 'Female', 'Unknown'",Category,
+True,Histogram,Patient,ageAtDiagnosis,Difference in years between diagnosis date (of the heme malignancy at the time of specimen collection) and patient's date of birth,,Numeric,"If one or both of these dates are missing, then the field is blank; ""0"" when the patient is between 0 and 1 years old"
+False,Pie,Patient,priorMalignancyNonMyeloid,Did patient have a prior non-myeloid malignancy?,TRUE/FALSE,Logical,"If data is not collected, this field appears as 'n'"
+False,Table,Patient,priorMalignancyType,Type of prior non-myeloid malignancy,,Text,All instances are listed separated by a vertical bar; can be duplicated due to multiple treatment regimens
+False,Pie,Patient,cumulativeChemo,Has patient received chemotherapy during the course of their treatment for the current heme malignancy?,TRUE/FALSE,Logical,
+False,Pie,Patient,priorMalignancyRadiationTx,Has patient received radiation treatment for a prior non-heme malignancy?,TRUE/FALSE,Logical,
+False,Pie,Patient,priorMDS,Was patient ever diagnosed with MDS?,TRUE/FALSE,Logical,
+False,Pie,Patient,priorMDSMoreThanTwoMths,Was the date difference between the earliest MDS diagnosis and AML diagnosis greater than 2 months?,TRUE/FALSE,Logical,u' if dates were not recorded
+False,Pie,Patient,priorMDSMPN,Was the patient ever diagnosed with MDS/MPN?,TRUE/FALSE,Logical,
+False,Pie,Patient,priorMDSMPNMoreThanTwoMths,Was the date difference between the earliest MDS/MPN diagnosis and AML diagnosis greater than 2 months?,TRUE/FALSE,Logical,u' if dates were not recorded
+False,Pie,Patient,priorMPN,Was the patient ever diagnosed with MPN?,TRUE/FALSE,Logical,
+False,Pie,Patient,priorMPNMoreThanTwoMths,Was the date difference between the earliest MPN diagnosis and AML diagnosis greater than 2 months?,TRUE/FALSE,Logical,u' if dates were not recorded
+True,Table,Patient,dxAtSpecimenAcquisition,2022 World Health Organization diagnosis category at the time of the specimen acquisition,Ex: Acute Myeloid Leukaemia,Category,
+True,Table,Patient,specificDxAtAcquisition,2022 World Health Organization diagnosis subtype at the time of the specimen acquisition,Ex: AML with t(8;21)(q22;q22); RUNX1::RUNX1T1 fusion,Category,unknown' if not known
+False,Table,Patient,secondarySpecificDxAtAcquisition,2022 World Health Organization diagnosis subtype at the time of the specimen acquisition,Ex: Myeloid neoplasm post cytotoxic therapy,Category,Blank if no secondary specific diagnosis
+False,Table,Patient,dxAtInclusion,Diagnosis at the time of earliest specimen inclusion by collection date,,Category,
+False,Table,Patient,specificDxAtInclusion,Specific diagnosis at the time of earliest specimen inclusion by collection date,,Category,
+False,Pie,Patient,fabBlastMorphology,French-American-British (FAB) morphological classification,"Ex: M0, M1, M2, M3",Category,"Pulled within the time window (from specimen collection date) specified under the MetaData tab, ""Cytogenetics & FAB"" grouping. Consider reviewing specimenGroups to further filter your results."
+True,Pie,Patient,AML_subtype,"Annotated based on specificDxAtAcquisition, secondarySpecificDxAtAcquisition and fabBlastMorphology","Ex: M0, M1, M2, M3",Category,
+True,Pie,Sample,ELN2022,Risk classification assigned to the specimen based on the European Leukemia Network 2022 guidelines.,"Adverse, Favorable, Intermediate, Unknown, Noninitial",Category,Only complete for specimen diagnoses Acute Myeloid Leukemia at diagnosis; Unknown for other diagnoses or if unknown; Noninitial if not at diagnosis
+True,Pie/Table,Sample,AMLFusion,"Manual review of clinical cytogenetic testing and previous annotations (specificDxAtAcquisition, consensusAMLFusion) for common AML cytogenetic fusions","Ex: RUNX1-RUNX1T1, KMT2A_re",Category,Blank if no evidence for fusion or information is not available.
+False,Other parameters,Sample,karyotype,Karyotype pulled from the cytogenetic report in the EMR,,Text,"""Not available"" recorded as result if test was not done. Pulled within the time window (from specimen collection date) specified under the MetaData tab, ""Cytogenetics & FAB"" grouping. Consider reviewing specimenGroups to further filter your results."
+False,Other parameters,Sample,otherCytogenetics,FISH results pulled from the cytogenetic report in the EMR,,Text,"Not available recorded as result if test was not done. Pulled within the time window (from specimen collection date) specified under the MetaData tab, ""Cytogenetics & FAB"" grouping. Consider reviewing specimenGroups to further filter your results."
+False,Other parameters,Sample,mutationsSummary,Concatenated list of CLIA gene variants and variant allele frequencies,,Text,"Pulled within the time window (from specimen collection date) specified under the MetaData tab, ""Molecular Pathology"" grouping."
+False,Pie,Sample,FLT3_ITDCall,Consensus result from internally run PCR assay and capillary electrophoresis and/or CLIA lab assay and/or whole-exome sequencing.,Positive/Negative,Category,CLIA result pulled within the time window (from specimen collection date) specified under the MetaData tab. Negative: tested but no mutation identified; Blank: no information available.
+False,Pie,Sample,NPM1Call,Consensus result from internally run PCR assay and capillary electrophoresis and/or CLIA lab assay and/or whole-exome sequencing.,Positive/Negative,Category,CLIA result pulled within the time window (from specimen collection date) specified under the MetaData tab. Negative: tested but no mutation identified; Blank: no information available.
+False,Pie,Sample,CEBPA_Biallelic,Was the CEBPA variant biallelic?,bi/mono,Category,bi: biallelic; mono: monoallelic; N/A: insufficient evidence; Blank if no known CEBPA variant or if not tested. This was evaluated for Beat AML wave1-4 patients only.
+False,,Sample,ageAtSpecimenAcquisition,Difference in years between the specimen collection date and the date of birth of the patient,,Numeric,
+False,,Sample,timeOfSampleCollectionRelativeToInclusion,Difference in days between the earliest specimen collection date and the date of this sample collection,,Numeric,
+False,,Sample,replicate,Identifier for serial specimens from the same patients,<patientId>_<serial number>,Text,manually curated: order are numbered based in time of sample collection relative to inclusion (ie samples on the same day are considered as one sample)
+False,,Sample,diseaseStageAtSpecimenCollection,Brief description of the patient's disease stage at the time point of this specimen collection,"Initial Diagnosis, Relapse, Remission, Residual, Unknown",Category,
+True,Bar,Sample,Status,,,Category,
+False,,Sample,specimenGroups,Concatenated list of Specimen Groups referring to disease stage at the time point of this specimen collection,"Initial Acute Leukemia Diagnosis: initial AML diagnosis, however the patient may have had prior chemotherapy for another cancer; Post-Chemotherapy: the patient has had chemotherapy for any cancer prior to the specimen collection date; Relapse: the patient was previously in remission, but is in relapse at the time of the specimen collection date; Residual Disease: the cancer remains after chemotherapy ; Post-Transplant: the patient had a bone marrow transplant prior to the specimen collection date; Post-DLI: the patient had a donor leukocyte infusion prior to the specimen collection date",Text,Order of listing does not have any importance. A specimen will be designated as Initial Acute Leukemia Diagnosis and also Post-Chemotherapy and/or Post-Transplant if the patient received treatment for another heme or non-heme malignancy.
+True,Pie,Sample,specimenType,Type of specimen,"peripheral blood, bone marrow, leukapheresis",Category,
+False,,Patient,priorTreatmentTypeCount,Number of treatments that the patient has received as of the last date the patient was updated in the database. This field is not relative to the patient's sample collection date.,,Numeric,
+False,,Patient,priorTreatmentTypes,Concatenated list of treatment types that the patient has received as of the last time the clinical annotations were updated in the database. This field is not relative to the patient’s sample collection date.,"Ex: Standard Chemotherapy, Targeted Therapy",Text,A combination treatment of Standard and Targeted is listed as Standard
+False,,Patient,priorTreatmentRegimenCount,Number of treatment regimens that the patient received as of the last time the clinical annotations were updated in the database. This field is not relative to the patient’s sample collection date.,,Numeric,
+False,,Patient,priorTreatmentStageCount,The number of treatment stages that the patient has been in as of the last time the clinical annotations were updated in the database. This field is not relative to the patient’s sample collection date.,,Numeric,
+False,,Patient,priorTreatmentStages,Concatenated list of treatment stages that the patient has been in as of the last time the clinical annotations were updated in the database. This field is not relative to the patient’s sample collection date.,"Ex: Induction, Consolidation, Re-Induction, Maintenance, Salvage",Text,
+True,Pie,Patient,responseToInductionTx,Treatment response corresponding to the first treatment record found with a stage of induction,"Complete response, Refractory, Unknown",Category,Blank when not completed
+True,Table,Patient,typeInductionTx,Treatment type corresponding to the first treatment record found with a stage of induction,"Ex: Standard Chemotherapy, Targeted Therapy",Category,
+False,,Patient,responseDurationToInductionTx,Days between start and end dates of the first treatment record found with a stage of induction,,Numeric,"Empty if no induction treatment exists; If the end date is not recorded, -1 is returned"
+False,,Patient,cumulativeTreatmentRegimens,Concatenated list of treatment regimens that the patient has received as of the last time the clinical annotations were updated in the database. This field is not relative to the patient’s sample collection date.,,Text,Treatment regimens are not in order by date
+True,Table,Patient,mostRecentTreatmentRegimen,Regimen of the most current treatment (in regard to the last time in the EMR) determined by start date,,Text,None: no treatments are recorded. Note that the regimen does not necessarily correspond to the specimen collection date.
+True,Table,Patient,currentTreatmentType,Treatment type of the most recent treatment determined by start date,,Category,"Empty if no treatment type exists; If the end date is not recorded, -1 is returned; None: no treatments are recorded"
+True,Table,Patient,currentStage,Stage of the most current treatment determined by start date,,Category,None: no treatments are recorded; Blank: no treatment information exists
+False,,Patient,currentTreatmentDuration,Days between start and end dates of the most current treatment determined by start date,,Numeric,"Empty if no induction treatment exists. If the end date is not recorded, -1 is returned"
+True,Pie,Patient,vitalStatus,Patient vital status at the date of most recent follow-up,Alive/Dead/Unknown,Category,"When vitalStatus=Unknown and overallSurvival is not blank, then the patient was lost to follow-up"
+True,Survival,Patient,overallSurvival,Number of days between diagnosis date (of the heme malignancy at the time of specimen collection) and last followup date found when determining vitalStatus,,Numeric,Blank: vital status is unknown; -1: diagnosis date does not exist and overall survival cannot be calculated; 0: no follow-up after the date of diagnosis
+True,Pie,Patient,causeOfDeath,"Assessment of cause of death if vitalStatus is ""Dead""",Dead: Disease/Dead: Treatment/Dead: Other/Dead: Unknown,Category,Alive if patient was last known to be alive
+True,Histogram,Sample,percentBlastsBM,% Blasts in the bone marrow,,Numeric,
+True,Histogram,Sample,percentBlastsPB,% Blasts in the peripheral blood,,Numeric,
+False,Histogram,Sample,percentAbnormalPlasmaBM,% Abnormal plasma cells in the bone marrow,,Numeric,
+False,Histogram,Sample,percentBandsPB,% Bands in the peripheral blood,,Numeric,
+True,Histogram,Sample,percentBasophilsPB,% Basophils in the peripheral blood,,Numeric,
+True,Histogram,Sample,percentEosinophilsPB,% Eosinophils in the peripheral blood,,Numeric,
+True,Histogram,Sample,percentImmatureGranulocytesPB,% Immature granulocytes in the peripheral blood,,Numeric,
+True,Histogram,Sample,percentLymphocytesPB,% Lymphocytes in the peripheral blood,,Numeric,
+False,Histogram,Sample,percentMetamyelocytesPB,% Metamyelocytes in the peripheral blood,,Numeric,
+True,Histogram,Sample,percentMonocytesPB,% Monocytes in the peripheral blood,,Numeric,
+False,Histogram,Sample,percentMyelocytesPB,% Myelocytes in the peripheral blood,,Numeric,
+True,Histogram,Sample,percentNeutrophilsPB,% Neutrophils in the peripheral blood,,Numeric,
+False,Histogram,Sample,percentNucleatedRBCsPB,% Nucleated RBCs in the peripheral blood ,,Numeric,
+False,Histogram,Sample,percentPromonocytes,% Promonocytes in the peripheral blood,,Numeric,
+False,Histogram,Sample,percentPromyelocytes,% Promyelocytes in the peripheral blood,,Numeric,
+False,Histogram,Sample,percentPromyelocytesPB,% Promyelocytes in the peripheral blood,,Numeric,
+False,Histogram,Sample,percentReactiveLymphocytesPB,% Reactive lymphocytes in the peripheral blood,,Numeric,
+False,Histogram,Sample,percentWBC,% White blood cells in the peripheral blood,,Numeric,
+False,Histogram,Sample,wbcCount,White blood cell count expressed in international units (x10^9 cells/litre),,Numeric,
+False,Histogram,Sample,plateletCount,Number of platelets (per litre),,Numeric,
+False,Histogram,Sample,albumin,Albumin levels in the peripheral blood (g/dL),,Numeric,
+False,Histogram,Sample,bCellGeneRearrangement,Immunoglobulin Gene Rearrangement in bone marrow,Negative: tested but no mutation identified; Blank: no information available; Mutations: location and amino acid change/frameshift/insertion identified; MAF: minor allele frequency (%); VAF: variant allele frequency (%),Numeric,
+False,Histogram,Sample,bilirubin,Total bilirubin in the peripheral blood (mg/dL),,Numeric,
+False,Histogram,Sample,creatinine,Creatinine levels in the peripheral blood (mg/dL),,Numeric,
+False,Histogram,Sample,hemoglobin,Hemoglobin levels (%),,Numeric,
+False,Histogram,Sample,tCellReceptorGene,Clinical gene mutation testing result,Negative: tested but no mutation identified; Blank: no information available; Mutations: location and amino acid change/frameshift/insertion identified; MAF: minor allele frequency (%); VAF: variant allele frequency (%),Numeric,
+False,Histogram,Sample,ALT,Alanine aminotransferase levels in the peripheral blood (units/litre),,Numeric,
+False,Histogram,Sample,AST,Aspartate aminotransferase levels in the peripheral blood (units/litre),,Numeric,
+False,Histogram,Sample,LDH,Lactic acid dehydrogenase (LDH) levels (Units/Litre),,Numeric,
+False,Histogram,Sample,MCV,Mean corpuscular volume (fL),,Numeric,
+False,Other parameters,Sample,surfaceAntigensImmunohistochemicalStains,"Positive surface antigens, as determined by clinical flow",,Text,"Negative surface antigens where noted. Results pulled within the time window (from specimen collection date) specified under the MetaData tab, ""Pathology"" grouping."

@@ -1,0 +1,172 @@
+Drug1,Drug2,Chemical_compound,combo_class,Samples_tested,Samples_postfilt
+AGI combo,Crizotinib,AGI combo - Crizotinib,Kinase inhibitor - Other,25.0,24
+AGI combo,Dasatinib,AGI combo - Dasatinib,Kinase inhibitor - Other,25.0,24
+AGI combo,Doramapimod,AGI combo - Doramapimod,Kinase inhibitor - Other,25.0,25
+AGI combo,Idelalisib,AGI combo - Idelalisib,Kinase inhibitor - Other,25.0,24
+AGI combo,Quizartinib,AGI combo - Quizartinib,Kinase inhibitor - Other,25.0,25
+AGI combo,Ruxolitinib,AGI combo - Ruxolitinib,Kinase inhibitor - Other,25.0,25
+AGI combo,Sorafenib,AGI combo - Sorafenib,Kinase inhibitor - Other,25.0,25
+Alisertib,Crizotinib,Alisertib - Crizotinib,Kinase inhibitor - Kinase inhibitor,271.0,266
+Alisertib,Midostaurin,Alisertib - Midostaurin,Kinase inhibitor - Kinase inhibitor,34.0,34
+Alisertib,Ruxolitinib,Alisertib - Ruxolitinib,Kinase inhibitor - Kinase inhibitor,34.0,34
+Artemisinin,Venetoclax,Artemisinin - Venetoclax,Apoptotic modulator - Other,259.0,258
+AT 101,Bortezomib,AT 101 - Bortezomib,Apoptotic modulator - Chemotherapeutics,108.0,107
+AT 101,Doramapimod,AT 101 - Doramapimod,Apoptotic modulator - Kinase inhibitor,108.0,103
+AT 101,GW-2580,AT 101 - GW-2580,Apoptotic modulator - Kinase inhibitor,108.0,102
+AT 101,Idelalisib,AT 101 - Idelalisib,Apoptotic modulator - Kinase inhibitor,106.0,102
+AT 101,Olaparib,AT 101 - Olaparib,Apoptotic modulator - Epigenetic modifier,109.0,107
+AT 101,Quizartinib,AT 101 - Quizartinib,Apoptotic modulator - Kinase inhibitor,108.0,108
+AT 101,Ruxolitinib,AT 101 - Ruxolitinib,Apoptotic modulator - Kinase inhibitor,107.0,104
+AT 101,Trametinib,AT 101 - Trametinib,Apoptotic modulator - Kinase inhibitor,108.0,102
+Axitinib,Bosutinib,Axitinib - Bosutinib,Kinase inhibitor - Kinase inhibitor,25.0,25
+Axitinib,Doramapimod,Axitinib - Doramapimod,Kinase inhibitor - Kinase inhibitor,34.0,32
+Axitinib,GW-2580,Axitinib - GW-2580,Kinase inhibitor - Kinase inhibitor,34.0,34
+Axitinib,KI20227,Axitinib - KI20227,Kinase inhibitor - Kinase inhibitor,34.0,32
+Axitinib,Motesanib,Axitinib - Motesanib,Kinase inhibitor - Kinase inhibitor,34.0,32
+Azacitidine,Quizartinib,Azacitidine - Quizartinib,Epigenetic modifier - Kinase inhibitor,34.0,34
+Azacitidine,Vemurafenib,Azacitidine - Vemurafenib,Epigenetic modifier - Kinase inhibitor,34.0,34
+Azacitidine,Venetoclax,Azacitidine - Venetoclax,Apoptotic modulator - Epigenetic modifier,191.0,180
+AZD5991,Bortezomib,AZD5991 - Bortezomib,Apoptotic modulator - Chemotherapeutics,82.0,82
+AZD5991,Doramapimod,AZD5991 - Doramapimod,Apoptotic modulator - Kinase inhibitor,82.0,78
+AZD5991,Dordaviprone,AZD5991 - Dordaviprone,Apoptotic modulator - Kinase inhibitor,83.0,82
+AZD5991,GW-2580,AZD5991 - GW-2580,Apoptotic modulator - Kinase inhibitor,82.0,79
+AZD5991,Idelalisib,AZD5991 - Idelalisib,Apoptotic modulator - Kinase inhibitor,81.0,78
+AZD5991,Quizartinib,AZD5991 - Quizartinib,Apoptotic modulator - Kinase inhibitor,82.0,80
+AZD5991,Ruxolitinib,AZD5991 - Ruxolitinib,Apoptotic modulator - Kinase inhibitor,81.0,81
+AZD5991,Trametinib,AZD5991 - Trametinib,Apoptotic modulator - Kinase inhibitor,82.0,82
+Birabresib,Bortezomib,Birabresib - Bortezomib,Chemotherapeutics - Epigenetic modifier,187.0,184
+Birabresib,Doramapimod,Birabresib - Doramapimod,Epigenetic modifier - Kinase inhibitor,187.0,184
+Birabresib,Dordaviprone,Birabresib - Dordaviprone,Epigenetic modifier - Kinase inhibitor,81.0,80
+Birabresib,GW-2580,Birabresib - GW-2580,Epigenetic modifier - Kinase inhibitor,187.0,184
+Birabresib,Idelalisib,Birabresib - Idelalisib,Epigenetic modifier - Kinase inhibitor,187.0,186
+Birabresib,Olaparib,Birabresib - Olaparib,Epigenetic modifier - Epigenetic modifier,107.0,107
+Birabresib,Quizartinib,Birabresib - Quizartinib,Epigenetic modifier - Kinase inhibitor,187.0,180
+Birabresib,Ruxolitinib,Birabresib - Ruxolitinib,Epigenetic modifier - Kinase inhibitor,188.0,187
+Birabresib,Trametinib,Birabresib - Trametinib,Epigenetic modifier - Kinase inhibitor,187.0,182
+Birinapant,Bortezomib,Birinapant - Bortezomib,Apoptotic modulator - Chemotherapeutics,190.0,188
+Birinapant,Doramapimod,Birinapant - Doramapimod,Apoptotic modulator - Kinase inhibitor,190.0,188
+Birinapant,Dordaviprone,Birinapant - Dordaviprone,Apoptotic modulator - Kinase inhibitor,83.0,82
+Birinapant,GW-2580,Birinapant - GW-2580,Apoptotic modulator - Kinase inhibitor,190.0,186
+Birinapant,Idelalisib,Birinapant - Idelalisib,Apoptotic modulator - Kinase inhibitor,187.0,187
+Birinapant,Olaparib,Birinapant - Olaparib,Apoptotic modulator - Epigenetic modifier,109.0,109
+Birinapant,Quizartinib,Birinapant - Quizartinib,Apoptotic modulator - Kinase inhibitor,190.0,187
+Birinapant,Ruxolitinib,Birinapant - Ruxolitinib,Apoptotic modulator - Kinase inhibitor,188.0,187
+Birinapant,Trametinib,Birinapant - Trametinib,Apoptotic modulator - Kinase inhibitor,190.0,186
+Bortezomib,Dasatinib,Bortezomib - Dasatinib,Chemotherapeutics - Kinase inhibitor,25.0,25
+Bortezomib,GSK2879552,Bortezomib - GSK2879552,Chemotherapeutics - Epigenetic modifier,108.0,106
+Bortezomib,Palbociclib,Bortezomib - Palbociclib,Chemotherapeutics - Kinase inhibitor,189.0,184
+Bortezomib,Telaglenastat,Bortezomib - Telaglenastat,Chemotherapeutics - Metabolic modifier,82.0,76
+Bortezomib,Trametinib,Bortezomib - Trametinib,Chemotherapeutics - Kinase inhibitor,25.0,25
+Bortezomib,Venetoclax,Bortezomib - Venetoclax,Apoptotic modulator - Chemotherapeutics,189.0,180
+Cabozantinib,Ruxolitinib,Cabozantinib - Ruxolitinib,Kinase inhibitor - Kinase inhibitor,271.0,265
+Crizotinib,Quizartinib,Crizotinib - Quizartinib,Kinase inhibitor - Kinase inhibitor,25.0,25
+Cytarabine,Nutlin-3,Cytarabine - Nutlin-3,Apoptotic modulator - Chemotherapeutics,269.0,264
+Cytarabine,Venetoclax,Cytarabine - Venetoclax,Apoptotic modulator - Chemotherapeutics,71.0,70
+Cytarabine,Vismodegib,Cytarabine - Vismodegib,Chemotherapeutics - Other,25.0,25
+Dasatinib,Doramapimod,Dasatinib - Doramapimod,Kinase inhibitor - Kinase inhibitor,34.0,31
+Dasatinib,GW-2580,Dasatinib - GW-2580,Kinase inhibitor - Kinase inhibitor,34.0,34
+Dasatinib,Idelalisib,Dasatinib - Idelalisib,Kinase inhibitor - Kinase inhibitor,34.0,34
+Dasatinib,JQ1,Dasatinib - JQ1,Epigenetic modifier - Kinase inhibitor,25.0,23
+Dasatinib,Midostaurin,Dasatinib - Midostaurin,Kinase inhibitor - Kinase inhibitor,34.0,34
+Dasatinib,NF-kB Activation Inhibitor,Dasatinib - NF-kB Activation Inhibitor,Kinase inhibitor - Kinase inhibitor,34.0,33
+Dasatinib,Pazopanib,Dasatinib - Pazopanib,Kinase inhibitor - Kinase inhibitor,34.0,34
+Dasatinib,Quizartinib,Dasatinib - Quizartinib,Kinase inhibitor - Kinase inhibitor,25.0,24
+Dasatinib,Ruxolitinib,Dasatinib - Ruxolitinib,Kinase inhibitor - Kinase inhibitor,34.0,34
+Dasatinib,Sirolimus,Dasatinib - Sirolimus,Kinase inhibitor - mTOR inhibitor,25.0,25
+Dasatinib,Sorafenib,Dasatinib - Sorafenib,Kinase inhibitor - Kinase inhibitor,34.0,34
+Dasatinib,Trametinib,Dasatinib - Trametinib,Kinase inhibitor - Kinase inhibitor,25.0,25
+Dasatinib,Vatalanib,Dasatinib - Vatalanib,Kinase inhibitor - Kinase inhibitor,25.0,25
+Dasatinib,Venetoclax,Dasatinib - Venetoclax,Apoptotic modulator - Kinase inhibitor,348.0,345
+Decitabine,Venetoclax,Decitabine - Venetoclax,Apoptotic modulator - Epigenetic modifier,73.0,73
+Doramapimod,GSK2879552,Doramapimod - GSK2879552,Epigenetic modifier - Kinase inhibitor,108.0,103
+Doramapimod,GW-2580,Doramapimod - GW-2580,Kinase inhibitor - Kinase inhibitor,136.0,33
+Doramapimod,Idelalisib,Doramapimod - Idelalisib,Kinase inhibitor - Kinase inhibitor,34.0,33
+Doramapimod,JQ1,Doramapimod - JQ1,Epigenetic modifier - Kinase inhibitor,242.0,241
+Doramapimod,Midostaurin,Doramapimod - Midostaurin,Kinase inhibitor - Kinase inhibitor,34.0,34
+Doramapimod,Motesanib,Doramapimod - Motesanib,Kinase inhibitor - Kinase inhibitor,34.0,32
+Doramapimod,NF-kB Activation Inhibitor,Doramapimod - NF-kB Activation Inhibitor,Kinase inhibitor - Kinase inhibitor,34.0,33
+Doramapimod,Palbociclib,Doramapimod - Palbociclib,Kinase inhibitor - Kinase inhibitor,431.0,426
+Doramapimod,Panobinostat,Doramapimod - Panobinostat,Epigenetic modifier - Kinase inhibitor,242.0,240
+Doramapimod,Ruxolitinib,Doramapimod - Ruxolitinib,Kinase inhibitor - Kinase inhibitor,34.0,33
+Doramapimod,Sorafenib,Doramapimod - Sorafenib,Kinase inhibitor - Kinase inhibitor,34.0,34
+Doramapimod,Telaglenastat,Doramapimod - Telaglenastat,Kinase inhibitor - Metabolic modifier,82.0,78
+Doramapimod,Venetoclax,Doramapimod - Venetoclax,Apoptotic modulator - Kinase inhibitor,456.0,444
+Dordaviprone,Palbociclib,Dordaviprone - Palbociclib,Kinase inhibitor - Kinase inhibitor,83.0,81
+Dordaviprone,Telaglenastat,Dordaviprone - Telaglenastat,Kinase inhibitor - Metabolic modifier,83.0,81
+Dordaviprone,Venetoclax,Dordaviprone - Venetoclax,Apoptotic modulator - Kinase inhibitor,92.0,92
+Entospletinib,Sorafenib,Entospletinib - Sorafenib,Kinase inhibitor - Kinase inhibitor,270.0,262
+Foretinib,NVP-TAE684,Foretinib - NVP-TAE684,Kinase inhibitor - Kinase inhibitor,34.0,34
+GSK2879552,GW-2580,GSK2879552 - GW-2580,Epigenetic modifier - Kinase inhibitor,108.0,103
+GSK2879552,Idelalisib,GSK2879552 - Idelalisib,Epigenetic modifier - Kinase inhibitor,106.0,100
+GSK2879552,Olaparib,GSK2879552 - Olaparib,Epigenetic modifier - Epigenetic modifier,109.0,101
+GSK2879552,Quizartinib,GSK2879552 - Quizartinib,Epigenetic modifier - Kinase inhibitor,108.0,104
+GSK2879552,Ruxolitinib,GSK2879552 - Ruxolitinib,Epigenetic modifier - Kinase inhibitor,107.0,105
+GSK2879552,Trametinib,GSK2879552 - Trametinib,Epigenetic modifier - Kinase inhibitor,108.0,101
+GW-2580,Idelalisib,GW-2580 - Idelalisib,Kinase inhibitor - Kinase inhibitor,34.0,33
+GW-2580,KI20227,GW-2580 - KI20227,Kinase inhibitor - Kinase inhibitor,34.0,33
+GW-2580,Midostaurin,GW-2580 - Midostaurin,Kinase inhibitor - Kinase inhibitor,34.0,34
+GW-2580,Motesanib,GW-2580 - Motesanib,Kinase inhibitor - Kinase inhibitor,34.0,31
+GW-2580,Palbociclib,GW-2580 - Palbociclib,Kinase inhibitor - Kinase inhibitor,107.0,104
+GW-2580,Pazopanib,GW-2580 - Pazopanib,Kinase inhibitor - Kinase inhibitor,34.0,34
+GW-2580,Sunitinib,GW-2580 - Sunitinib,Kinase inhibitor - Kinase inhibitor,34.0,34
+GW-2580,Telaglenastat,GW-2580 - Telaglenastat,Kinase inhibitor - Metabolic modifier,82.0,81
+GW-2580,Venetoclax,GW-2580 - Venetoclax,Apoptotic modulator - Kinase inhibitor,189.0,177
+Ibrutinib,Quizartinib,Ibrutinib - Quizartinib,Kinase inhibitor - Kinase inhibitor,242.0,232
+Ibrutinib,Venetoclax,Ibrutinib - Venetoclax,Apoptotic modulator - Kinase inhibitor,526.0,523
+Idelalisib,JQ1,Idelalisib - JQ1,Epigenetic modifier - Kinase inhibitor,267.0,262
+Idelalisib,Midostaurin,Idelalisib - Midostaurin,Kinase inhibitor - Kinase inhibitor,34.0,34
+Idelalisib,Palbociclib,Idelalisib - Palbociclib,Kinase inhibitor - Kinase inhibitor,428.0,418
+Idelalisib,Panobinostat,Idelalisib - Panobinostat,Epigenetic modifier - Kinase inhibitor,242.0,238
+Idelalisib,Quizartinib,Idelalisib - Quizartinib,Kinase inhibitor - Kinase inhibitor,271.0,270
+Idelalisib,Ruxolitinib,Idelalisib - Ruxolitinib,Kinase inhibitor - Kinase inhibitor,305.0,303
+Idelalisib,Telaglenastat,Idelalisib - Telaglenastat,Kinase inhibitor - Metabolic modifier,81.0,79
+Idelalisib,Trametinib,Idelalisib - Trametinib,Kinase inhibitor - Kinase inhibitor,271.0,265
+Idelalisib,Venetoclax,Idelalisib - Venetoclax,Apoptotic modulator - Kinase inhibitor,453.0,446
+JQ1,Palbociclib,JQ1 - Palbociclib,Epigenetic modifier - Kinase inhibitor,243.0,232
+JQ1,Panobinostat,JQ1 - Panobinostat,Epigenetic modifier - Epigenetic modifier,243.0,241
+JQ1,Quizartinib,JQ1 - Quizartinib,Epigenetic modifier - Kinase inhibitor,242.0,235
+JQ1,Ruxolitinib,JQ1 - Ruxolitinib,Epigenetic modifier - Kinase inhibitor,268.0,266
+JQ1,Sorafenib,JQ1 - Sorafenib,Epigenetic modifier - Kinase inhibitor,267.0,266
+JQ1,Trametinib,JQ1 - Trametinib,Epigenetic modifier - Kinase inhibitor,242.0,235
+JQ1,Venetoclax,JQ1 - Venetoclax,Apoptotic modulator - Epigenetic modifier,243.0,242
+KI20227,Motesanib,KI20227 - Motesanib,Kinase inhibitor - Kinase inhibitor,34.0,33
+Linifanib,Ruxolitinib,Linifanib - Ruxolitinib,Kinase inhibitor - Kinase inhibitor,34.0,34
+Midostaurin,NF-kB Activation Inhibitor,Midostaurin - NF-kB Activation Inhibitor,Kinase inhibitor - Kinase inhibitor,34.0,33
+Midostaurin,NVP-TAE684,Midostaurin - NVP-TAE684,Kinase inhibitor - Kinase inhibitor,34.0,33
+Midostaurin,Pazopanib,Midostaurin - Pazopanib,Kinase inhibitor - Kinase inhibitor,34.0,34
+Midostaurin,Ruxolitinib,Midostaurin - Ruxolitinib,Kinase inhibitor - Kinase inhibitor,34.0,34
+Midostaurin,Sorafenib,Midostaurin - Sorafenib,Kinase inhibitor - Kinase inhibitor,34.0,34
+Motesanib,Sunitinib,Motesanib - Sunitinib,Kinase inhibitor - Kinase inhibitor,34.0,34
+NF-kB Activation Inhibitor,Ruxolitinib,NF-kB Activation Inhibitor - Ruxolitinib,Kinase inhibitor - Kinase inhibitor,34.0,34
+NF-kB Activation Inhibitor,Vemurafenib,NF-kB Activation Inhibitor - Vemurafenib,Kinase inhibitor - Kinase inhibitor,34.0,34
+Nintedanib,Trametinib,Nintedanib - Trametinib,Kinase inhibitor - Kinase inhibitor,25.0,25
+NVP-TAE684,Quizartinib,NVP-TAE684 - Quizartinib,Kinase inhibitor - Kinase inhibitor,34.0,34
+Olaparib,Palbociclib,Olaparib - Palbociclib,Epigenetic modifier - Kinase inhibitor,108.0,106
+Olaparib,Trametinib,Olaparib - Trametinib,Epigenetic modifier - Kinase inhibitor,108.0,101
+Olaparib,Venetoclax,Olaparib - Venetoclax,Apoptotic modulator - Epigenetic modifier,148.0,139
+Palbociclib,Panobinostat,Palbociclib - Panobinostat,Epigenetic modifier - Kinase inhibitor,243.0,234
+Palbociclib,Quizartinib,Palbociclib - Quizartinib,Kinase inhibitor - Kinase inhibitor,431.0,428
+Palbociclib,Ruxolitinib,Palbociclib - Ruxolitinib,Kinase inhibitor - Kinase inhibitor,430.0,424
+Palbociclib,Sorafenib,Palbociclib - Sorafenib,Kinase inhibitor - Kinase inhibitor,242.0,235
+Palbociclib,Trametinib,Palbociclib - Trametinib,Kinase inhibitor - Kinase inhibitor,431.0,424
+Palbociclib,Venetoclax,Palbociclib - Venetoclax,Apoptotic modulator - Kinase inhibitor,243.0,236
+Panobinostat,Quizartinib,Panobinostat - Quizartinib,Epigenetic modifier - Kinase inhibitor,242.0,238
+Panobinostat,Ruxolitinib,Panobinostat - Ruxolitinib,Epigenetic modifier - Kinase inhibitor,243.0,242
+Panobinostat,Sorafenib,Panobinostat - Sorafenib,Epigenetic modifier - Kinase inhibitor,242.0,238
+Panobinostat,Trametinib,Panobinostat - Trametinib,Epigenetic modifier - Kinase inhibitor,242.0,238
+Panobinostat,Venetoclax,Panobinostat - Venetoclax,Apoptotic modulator - Epigenetic modifier,243.0,241
+PH-797804,Venetoclax,PH-797804 - Venetoclax,Apoptotic modulator - Kinase inhibitor,96.0,96
+Quizartinib,Ruxolitinib,Quizartinib - Ruxolitinib,Kinase inhibitor - Kinase inhibitor,25.0,25
+Quizartinib,Telaglenastat,Quizartinib - Telaglenastat,Kinase inhibitor - Metabolic modifier,82.0,80
+Quizartinib,Trametinib,Quizartinib - Trametinib,Kinase inhibitor - Kinase inhibitor,271.0,263
+Quizartinib,Venetoclax,Quizartinib - Venetoclax,Apoptotic modulator - Kinase inhibitor,242.0,231
+Ruxolitinib,Sunitinib,Ruxolitinib - Sunitinib,Kinase inhibitor - Kinase inhibitor,25.0,25
+Ruxolitinib,Telaglenastat,Ruxolitinib - Telaglenastat,Kinase inhibitor - Metabolic modifier,81.0,80
+Ruxolitinib,Venetoclax,Ruxolitinib - Venetoclax,Apoptotic modulator - Kinase inhibitor,455.0,443
+Sirolimus,Trametinib,Sirolimus - Trametinib,Kinase inhibitor - mTOR inhibitor,25.0,25
+Sorafenib,Venetoclax,Sorafenib - Venetoclax,Apoptotic modulator - Kinase inhibitor,267.0,265
+Telaglenastat,Trametinib,Telaglenastat - Trametinib,Kinase inhibitor - Metabolic modifier,82.0,81
+Telaglenastat,Venetoclax,Telaglenastat - Venetoclax,Apoptotic modulator - Metabolic modifier,92.0,90
+Trametinib,Venetoclax,Trametinib - Venetoclax,Apoptotic modulator - Kinase inhibitor,324.0,312
+Vandetanib,Vemurafenib,Vandetanib - Vemurafenib,Kinase inhibitor - Kinase inhibitor,271.0,267
+,,,,,22150

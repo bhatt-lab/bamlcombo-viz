@@ -1,0 +1,14 @@
+Selections,Description,Notes,Unnamed: 3,Remarks
+Internal reference,lab_id,Unique identifier for each specimen,,
+Internal reference,Sample_ID,"Unique identifier for each specimen, for internal reference",,
+RNA expression,"Raw counts, CQN-normalised","24784 genes (Gene symbol, ENSG ID)",n=341,
+Proteomics,Relative abundance,7084 genes (Gene symbol),n=111,
+Cluster,Sample_ID - cluster,Cluster identified in the stufy,n=6,
+,DEGs,"Gene, avg_diff, power, avg_log2FC",,
+,Gene signature scores,,,Do we want to allow user to upload their own genes and calculate?
+,Drug - cluster association,"Statisitical testing, ",,
+,Pathway enrichment?,,,
+WGCNA,Gene - module,"Gene, adjacency",n=11,
+,traits - module association,,,
+,Pathway enrichment?,,,
+Common gene,transcript - protein correlation,,n=6790,

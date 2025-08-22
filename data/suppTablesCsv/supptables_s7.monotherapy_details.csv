@@ -1,0 +1,52 @@
+Chemical_compound,Code,Alias,MOA,Drug_Sub_Class,Drug_Class,Approval_status,Samples_tested,Samples_postfilt
+AGI combo,,,Alpha-glucosidase inhibitors,Antidiabetic,Other,Probe,25,25
+Alisertib,MLN8237,,Aurora A inhibitor,Aurora Kinase inhibitor,Kinase inhibitor,Investigational (Ph 3),305,303
+Artemisinin,,,,Anti-malaria,Other,Approved,259,259
+AT 101,AT 101,R-(-)-gossypol,"Bcl-2 family inhibitor, non-selective",BCL-2 family inhibitor,Apoptotic modulator,Investigational (Ph 2),109,105
+Axitinib,AG013736,,"VEGFR, PDGFR, KIT inhibitor",Tyrosine kinase inhibitor,Kinase inhibitor,Approved,59,57
+Azacitidine,,"5-azacytidine, 5-AzaC",Nucleoside analog DNA methyl transferase inhibitor,Nucleoside analog,Epigenetic modifier,Approved,225,218
+AZD5991,,,MCL1 inhibitor,BCL-2 family inhibitor,Apoptotic modulator,Investigational,83,83
+Birabresib,MK-8628,OTX015,BET family inhibitor,BET family inhibitor,Epigenetic modifier,Investigational (Ph 2),188,187
+Birinapant,TL32711,,"IAP inhibitor, SMAC mimetic",SMAC mimetic,Apoptotic modulator,Investigational (Ph 2),192,190
+Bortezomib,PS-341,MS-341,Proteasome inhibitor (26S subunit),Proteasome inhibitor,Other,Approved,215,215
+Bosutinib,SKI-606,,"ABL, Src inhibitor",Tyrosine kinase inhibitor,Kinase inhibitor,Approved,25,25
+Cabozantinib,BMS-907351,XL184,"VEGFR2, Met, FLT3, Tie2, Kit and Ret inhibitor",Tyrosine kinase inhibitor,Kinase inhibitor,Approved,271,269
+Crizotinib,PF-02341066,,"ALK, MET inhibitor",ALK inhibitor,Kinase inhibitor,Approved,271,271
+Cytarabine,,Ara-C,"Antimetabolite, interferes with DNA synthesis",Nucleoside analog,Chemotherapeutics,Approved,340,340
+Dasatinib,BMS-354825,,"ABL, Src, KIT, EphR... Inhibitor",Tyrosine kinase inhibitor,Kinase inhibitor,Approved,382,382
+Decitabine,,5-aza-2'-deoxycytidine,Nucleoside analog DNA methyl transferase inhibitor,Nucleoside analog,Epigenetic modifier,Approved,73,72
+Doramapimod,BIRB 796,,p38MAPK inhibitor,p38MAPK inhibitor,Kinase inhibitor,Investigational (Ph 1),491,489
+Dordaviprone,TIC-10,ONC-201,"AKT, ERK inhibitor",AKT inhibitor,Kinase inhibitor,Investigational,92,92
+Entospletinib,GS-9973,,SYK inhibitor,Kinase inhibitor,Kinase inhibitor,Investigational (Ph 2),270,268
+Foretinib,GSK1363089,"XL880, EXEL-2880","MET, VEGFR2 inhibitor",MET inhibitor,Kinase inhibitor,Investigational (Ph 2),34,34
+GSK2879552,GSK2879552,,LSD1 inhibitor,Demethylase inhibitor ,Epigenetic modifier,Investigational (Ph 2),109,109
+GW-2580,,,CSF1R inhibitor,Tyrosine kinase inhibitor,Kinase inhibitor,Probe,224,222
+Ibrutinib,PCI-32765,CRA-032765,BTK inhibitor,BTK inhibitor,Kinase inhibitor,Approved,531,523
+Idelalisib,GS-1101,CAL-101,PI3Kdelta selective inhibitor,PI3K inhibitor,Kinase inhibitor,Approved,492,489
+JQ1,JQ1,"(+)JQ1, SGCBD01(+)",BET family inhibitor,BET family inhibitor,Epigenetic modifier,Probe,268,268
+KI20227,,,"M-CSFR, CSF1R, VEGFR, c-KIT, PDGFR inhibitor",Tyrosine kinase inhibitor,Kinase inhibitor,Probe,34,34
+Linifanib,ABT-869,"AL-39324, RG3635","VEGFR, PDGFR, CSF-1R, FLT3 inhibitor",Tyrosine kinase inhibitor,Kinase inhibitor,Investigational (Ph 3),34,33
+Midostaurin,NVP-PKC412,"PKC412, CGP 41251","FLT3 inhibitor, broad spectrum kinase inhibitor",Tyrosine kinase inhibitor,Kinase inhibitor,Approved,34,34
+Motesanib,AMG-706,,"VEGFR, PDGFR, Ret, Kit inhibitor",Tyrosine kinase inhibitor,Kinase inhibitor,Investigational (Ph 2),34,33
+NF-kB Activation Inhibitor,SC75741,,,NF-kB Inhibitor,Immunomodulator,Probe,34,33
+Nintedanib,BIBF 1120,Indetanib,"VEGFR, PDGFR, FGFR inhibitor",Tyrosine kinase inhibitor,Kinase inhibitor,Approved,25,24
+Nutlin-3,,Nutlin-3,MDM2 inhibitor,p53 reactivator,Apoptotic modulator,Probe,269,269
+NVP-TAE684,,,ALK Inhibitor,ALK Inhibitor,Kinase inhibitor,Probe,34,34
+Olaparib,AZD2281,KU-0059436,PARP inhibitor,PARP inhibitor,Epigenetic modifier,Approved,149,148
+Palbociclib,PD-0332991,,CDK4/6 inhibitor,CDK inhibitor,Kinase inhibitor,Approved,434,431
+Panobinostat,LBH589,,HDAC inhibitor,HDAC inhibitor,Epigenetic modifier,Approved,243,230
+Pazopanib,GW786034,,VEGFR inhibitor,Tyrosine kinase inhibitor,Kinase inhibitor,Approved,34,34
+PH-797804,PH-797804,,p38MAPK inhibitor,p38MAPK inhibitor,Kinase inhibitor,Investigational (Ph 2),96,96
+Quizartinib,AC220,,FLT3 inhibitor,FLT3 inhibitor,Kinase inhibitor,Approved,495,494
+Ruxolitinib,INCB018424,,JAK1&2 inhibitor,JAK inhibitor,Kinase inhibitor,Approved,494,494
+Sirolimus,,Rapamycin,"binds FKBP12, causes inhibition of mTORC1",mTOR inhibitor,mTOR inhibitor,Approved,25,25
+Sorafenib,Bay 43-9006,,"FGFR-1, VEGFR-2 & -3, PDGFRbeta, KIT, and FLT3 inhibitor",Tyrosine kinase inhibitor,Kinase inhibitor,Approved,305,305
+Sunitinib,SU-11248,,Broad TK inhibitor,Tyrosine kinase inhibitor,Kinase inhibitor,Approved,59,59
+Telaglenastat,,,Glutaminase inhibitor,Metabolic modifier,Metabolic modifier,Investigational,92,91
+Trametinib,GSK1120212,JTP-74057,MEK1/2 inhibitor,MEK inhibitor,Kinase inhibitor,Approved,461,457
+Vandetanib,ZD6474,,"VEGFR,EGFR, RET inhibitor",Tyrosine kinase inhibitor,Kinase inhibitor,Approved,271,271
+Vatalanib,CGP-79787,"PTK 787, ZK222584",VEGFR-1 & -2 inhibitor,Tyrosine kinase inhibitor,Kinase inhibitor,Investigational (Ph 3),25,25
+Vemurafenib,PLX4032,"RG7204, RO5185426",BRAF(V600E) inhibitor,RAF inhibitor,Kinase inhibitor,Approved,305,305
+Venetoclax,ABT-199,GDC-0199,Bcl-2 selective inhibitor,BCL-2 family inhibitor,Apoptotic modulator,Approved,556,552
+Vismodegib,GDC-0449,HhAntag691,Smothened (Hh) inhibitor,Smoothened inhibitor,Other,Approved,25,25
+,,,,,,,10100,10031
