@@ -1,0 +1,15 @@
+[
+    {
+        "Sample_ID":"S175",
+        "Disease.status":"Residual",
+        "Drug1":"Cytarabine",
+        "Drug2":"Nutlin-3",
+        "Combination":"Cytarabine - Nutlin-3",
+        "Concentration":"13.7_10000",
+        "DSS":6.4,
+        "s_dss":0.128,
+        "dbgap_subject_id":2262.0,
+        "dbgap_dnaseq_sample":"BA3025D",
+        "dbgap_rnaseq_sample":"BA3025R"
+    }
+]

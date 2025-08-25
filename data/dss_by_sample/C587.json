@@ -1,0 +1,67 @@
+[
+    {
+        "Sample_ID":"C587",
+        "Disease.status":"Residual",
+        "Drug1":"Dordaviprone",
+        "Drug2":"Venetoclax",
+        "Combination":"Dordaviprone - Venetoclax",
+        "Concentration":"13.7_10000",
+        "DSS":18.4,
+        "s_dss":0.368,
+        "dbgap_subject_id":null,
+        "dbgap_dnaseq_sample":null,
+        "dbgap_rnaseq_sample":null
+    },
+    {
+        "Sample_ID":"C587",
+        "Disease.status":"Residual",
+        "Drug1":"Ibrutinib",
+        "Drug2":"Venetoclax",
+        "Combination":"Ibrutinib - Venetoclax",
+        "Concentration":"13.7_10000",
+        "DSS":26.75,
+        "s_dss":0.535,
+        "dbgap_subject_id":null,
+        "dbgap_dnaseq_sample":null,
+        "dbgap_rnaseq_sample":null
+    },
+    {
+        "Sample_ID":"C587",
+        "Disease.status":"Residual",
+        "Drug1":"Olaparib",
+        "Drug2":"Venetoclax",
+        "Combination":"Olaparib - Venetoclax",
+        "Concentration":"13.7_10000",
+        "DSS":14.2,
+        "s_dss":0.284,
+        "dbgap_subject_id":null,
+        "dbgap_dnaseq_sample":null,
+        "dbgap_rnaseq_sample":null
+    },
+    {
+        "Sample_ID":"C587",
+        "Disease.status":"Residual",
+        "Drug1":"PH-797804",
+        "Drug2":"Venetoclax",
+        "Combination":"PH-797804 - Venetoclax",
+        "Concentration":"13.7_10000",
+        "DSS":28.45,
+        "s_dss":0.569,
+        "dbgap_subject_id":null,
+        "dbgap_dnaseq_sample":null,
+        "dbgap_rnaseq_sample":null
+    },
+    {
+        "Sample_ID":"C587",
+        "Disease.status":"Residual",
+        "Drug1":"Telaglenastat",
+        "Drug2":"Venetoclax",
+        "Combination":"Telaglenastat - Venetoclax",
+        "Concentration":"13.7_10000",
+        "DSS":22.5,
+        "s_dss":0.45,
+        "dbgap_subject_id":null,
+        "dbgap_dnaseq_sample":null,
+        "dbgap_rnaseq_sample":null
+    }
+]

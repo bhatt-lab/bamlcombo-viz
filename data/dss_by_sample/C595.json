@@ -1,0 +1,67 @@
+[
+    {
+        "Sample_ID":"C595",
+        "Disease.status":"Unknown",
+        "Drug1":"Cytarabine",
+        "Drug2":"Venetoclax",
+        "Combination":"Cytarabine - Venetoclax",
+        "Concentration":"13.7_10000",
+        "DSS":10.4,
+        "s_dss":0.208,
+        "dbgap_subject_id":null,
+        "dbgap_dnaseq_sample":null,
+        "dbgap_rnaseq_sample":null
+    },
+    {
+        "Sample_ID":"C595",
+        "Disease.status":"Unknown",
+        "Drug1":"Decitabine",
+        "Drug2":"Venetoclax",
+        "Combination":"Decitabine - Venetoclax",
+        "Concentration":"13.7_10000",
+        "DSS":10.1,
+        "s_dss":0.202,
+        "dbgap_subject_id":null,
+        "dbgap_dnaseq_sample":null,
+        "dbgap_rnaseq_sample":null
+    },
+    {
+        "Sample_ID":"C595",
+        "Disease.status":"Unknown",
+        "Drug1":"Dordaviprone",
+        "Drug2":"Venetoclax",
+        "Combination":"Dordaviprone - Venetoclax",
+        "Concentration":"13.7_10000",
+        "DSS":13.8,
+        "s_dss":0.276,
+        "dbgap_subject_id":null,
+        "dbgap_dnaseq_sample":null,
+        "dbgap_rnaseq_sample":null
+    },
+    {
+        "Sample_ID":"C595",
+        "Disease.status":"Unknown",
+        "Drug1":"Ibrutinib",
+        "Drug2":"Venetoclax",
+        "Combination":"Ibrutinib - Venetoclax",
+        "Concentration":"13.7_10000",
+        "DSS":13.0,
+        "s_dss":0.26,
+        "dbgap_subject_id":null,
+        "dbgap_dnaseq_sample":null,
+        "dbgap_rnaseq_sample":null
+    },
+    {
+        "Sample_ID":"C595",
+        "Disease.status":"Unknown",
+        "Drug1":"Telaglenastat",
+        "Drug2":"Venetoclax",
+        "Combination":"Telaglenastat - Venetoclax",
+        "Concentration":"13.7_10000",
+        "DSS":19.6,
+        "s_dss":0.392,
+        "dbgap_subject_id":null,
+        "dbgap_dnaseq_sample":null,
+        "dbgap_rnaseq_sample":null
+    }
+]

@@ -1,0 +1,41 @@
+[
+    {
+        "Sample_ID":"C593",
+        "Disease.status":"Relapse",
+        "Drug1":"Dordaviprone",
+        "Drug2":"Venetoclax",
+        "Combination":"Dordaviprone - Venetoclax",
+        "Concentration":"13.7_10000",
+        "DSS":14.3,
+        "s_dss":0.286,
+        "dbgap_subject_id":null,
+        "dbgap_dnaseq_sample":null,
+        "dbgap_rnaseq_sample":null
+    },
+    {
+        "Sample_ID":"C593",
+        "Disease.status":"Relapse",
+        "Drug1":"Ibrutinib",
+        "Drug2":"Venetoclax",
+        "Combination":"Ibrutinib - Venetoclax",
+        "Concentration":"13.7_10000",
+        "DSS":29.6,
+        "s_dss":0.592,
+        "dbgap_subject_id":null,
+        "dbgap_dnaseq_sample":null,
+        "dbgap_rnaseq_sample":null
+    },
+    {
+        "Sample_ID":"C593",
+        "Disease.status":"Relapse",
+        "Drug1":"Telaglenastat",
+        "Drug2":"Venetoclax",
+        "Combination":"Telaglenastat - Venetoclax",
+        "Concentration":"13.7_10000",
+        "DSS":13.0,
+        "s_dss":0.26,
+        "dbgap_subject_id":null,
+        "dbgap_dnaseq_sample":null,
+        "dbgap_rnaseq_sample":null
+    }
+]

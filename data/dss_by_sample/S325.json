@@ -1,0 +1,28 @@
+[
+    {
+        "Sample_ID":"S325",
+        "Disease.status":"Diagnosis",
+        "Drug1":"Artemisinin",
+        "Drug2":"Venetoclax",
+        "Combination":"Artemisinin - Venetoclax",
+        "Concentration":"13.7_10000",
+        "DSS":0.0,
+        "s_dss":0.0,
+        "dbgap_subject_id":2591.0,
+        "dbgap_dnaseq_sample":"BA3067D",
+        "dbgap_rnaseq_sample":"BA3067R"
+    },
+    {
+        "Sample_ID":"S325",
+        "Disease.status":"Diagnosis",
+        "Drug1":"Ibrutinib",
+        "Drug2":"Venetoclax",
+        "Combination":"Ibrutinib - Venetoclax",
+        "Concentration":"13.7_10000",
+        "DSS":0.7,
+        "s_dss":0.014,
+        "dbgap_subject_id":2591.0,
+        "dbgap_dnaseq_sample":"BA3067D",
+        "dbgap_rnaseq_sample":"BA3067R"
+    }
+]

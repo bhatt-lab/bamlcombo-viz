@@ -15,8 +15,10 @@
     <div class="container mx-auto p-4 md:p-8">
         <header class="mb-8">
             <h1 id="details-header" class="text-3xl md:text-4xl font-bold text-gray-800">Loading Sample Details...</h1>
-            <a href="index.html" class="text-blue-600 hover:underline mt-2 inline-block">&larr; Back to Dashboard</a>
-        </header>
+            <button id="back-to-dashboard-btn" class="text-blue-600 hover:underline mt-2 inline-block bg-transparent border-none p-0 cursor-pointer">
+                &larr; Back to Dashboard
+            </button>
+              </header>
 
         <!-- Tabs Navigation -->
         <div class="border-b border-gray-200">
@@ -51,6 +53,9 @@
         </main>
     </div>
 
+    <!-- Load the hard-coded color configuration first -->
+    <script src="js/color_config.js"></script>
+    <!-- This page needs its own JavaScript file -->
     <script src="js/sample_details.js"></script>
 
 </body>

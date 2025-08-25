@@ -1,0 +1,80 @@
+[
+    {
+        "Sample_ID":"C590",
+        "Disease.status":"Diagnosis",
+        "Drug1":"Cytarabine",
+        "Drug2":"Venetoclax",
+        "Combination":"Cytarabine - Venetoclax",
+        "Concentration":"13.7_10000",
+        "DSS":33.2,
+        "s_dss":0.664,
+        "dbgap_subject_id":null,
+        "dbgap_dnaseq_sample":null,
+        "dbgap_rnaseq_sample":null
+    },
+    {
+        "Sample_ID":"C590",
+        "Disease.status":"Diagnosis",
+        "Drug1":"Decitabine",
+        "Drug2":"Venetoclax",
+        "Combination":"Decitabine - Venetoclax",
+        "Concentration":"13.7_10000",
+        "DSS":25.7,
+        "s_dss":0.514,
+        "dbgap_subject_id":null,
+        "dbgap_dnaseq_sample":null,
+        "dbgap_rnaseq_sample":null
+    },
+    {
+        "Sample_ID":"C590",
+        "Disease.status":"Diagnosis",
+        "Drug1":"Dordaviprone",
+        "Drug2":"Venetoclax",
+        "Combination":"Dordaviprone - Venetoclax",
+        "Concentration":"13.7_10000",
+        "DSS":20.9,
+        "s_dss":0.418,
+        "dbgap_subject_id":null,
+        "dbgap_dnaseq_sample":null,
+        "dbgap_rnaseq_sample":null
+    },
+    {
+        "Sample_ID":"C590",
+        "Disease.status":"Diagnosis",
+        "Drug1":"Ibrutinib",
+        "Drug2":"Venetoclax",
+        "Combination":"Ibrutinib - Venetoclax",
+        "Concentration":"13.7_10000",
+        "DSS":34.7,
+        "s_dss":0.694,
+        "dbgap_subject_id":null,
+        "dbgap_dnaseq_sample":null,
+        "dbgap_rnaseq_sample":null
+    },
+    {
+        "Sample_ID":"C590",
+        "Disease.status":"Diagnosis",
+        "Drug1":"Olaparib",
+        "Drug2":"Venetoclax",
+        "Combination":"Olaparib - Venetoclax",
+        "Concentration":"13.7_10000",
+        "DSS":9.2,
+        "s_dss":0.184,
+        "dbgap_subject_id":null,
+        "dbgap_dnaseq_sample":null,
+        "dbgap_rnaseq_sample":null
+    },
+    {
+        "Sample_ID":"C590",
+        "Disease.status":"Diagnosis",
+        "Drug1":"Telaglenastat",
+        "Drug2":"Venetoclax",
+        "Combination":"Telaglenastat - Venetoclax",
+        "Concentration":"13.7_10000",
+        "DSS":31.7,
+        "s_dss":0.634,
+        "dbgap_subject_id":null,
+        "dbgap_dnaseq_sample":null,
+        "dbgap_rnaseq_sample":null
+    }
+]

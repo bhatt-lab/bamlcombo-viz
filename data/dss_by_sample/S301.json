@@ -1,0 +1,15 @@
+[
+    {
+        "Sample_ID":"S301",
+        "Disease.status":"Diagnosis",
+        "Drug1":"Ibrutinib",
+        "Drug2":"Venetoclax",
+        "Combination":"Ibrutinib - Venetoclax",
+        "Concentration":"13.7_10000",
+        "DSS":7.5,
+        "s_dss":0.15,
+        "dbgap_subject_id":2568.0,
+        "dbgap_dnaseq_sample":"BA2880D",
+        "dbgap_rnaseq_sample":"BA2880R"
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "Sample_ID":"C577",
+        "Disease.status":"Residual",
+        "Drug1":"Ibrutinib",
+        "Drug2":"Venetoclax",
+        "Combination":"Ibrutinib - Venetoclax",
+        "Concentration":"13.7_10000",
+        "DSS":40.1,
+        "s_dss":0.802,
+        "dbgap_subject_id":null,
+        "dbgap_dnaseq_sample":null,
+        "dbgap_rnaseq_sample":null
+    },
+    {
+        "Sample_ID":"C577",
+        "Disease.status":"Residual",
+        "Drug1":"PH-797804",
+        "Drug2":"Venetoclax",
+        "Combination":"PH-797804 - Venetoclax",
+        "Concentration":"13.7_10000",
+        "DSS":46.4,
+        "s_dss":0.928,
+        "dbgap_subject_id":null,
+        "dbgap_dnaseq_sample":null,
+        "dbgap_rnaseq_sample":null
+    }
+]
