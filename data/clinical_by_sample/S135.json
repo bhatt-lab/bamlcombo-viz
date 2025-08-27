@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S135","patientId":1670,"labId":"14-00477","gender":"Male","ageAtDiagnosis":47.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with 11q23; KMT2A rearrangement","AML_subtype":"M5","responseToInductionTx":"Complete Response","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Hydroxyurea","currentTreatmentType":"Supportive\/Palliative Care","currentStage":"Supportive\/Palliative Care","vitalStatus":"Dead","overallSurvival":228.0,"causeOfDeath":"Dead-Disease"},
+    "related_samples": [{"Sample_ID":"S135","ELN2022":"Adverse","AMLFusion":"KMT2A_re","Status":"Diagnosis","specimenType":"Peripheral Blood","percentBlastsBM":70.0,"percentBlastsPB":79.0,"percentBasophilsPB":null,"percentEosinophilsPB":null,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":null,"percentMonocytesPB":2.0,"percentNeutrophilsPB":null}]
+}

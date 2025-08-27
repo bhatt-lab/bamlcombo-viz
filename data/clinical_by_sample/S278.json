@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S278","patientId":2460,"labId":"16-00001","gender":"Female","ageAtDiagnosis":36.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with inv(16)(p13.1q22) or t(16;16)(p13.1;q22); CBFB::MYH11 fusion","AML_subtype":"M2","responseToInductionTx":"Complete Response","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Busulfan, Cyclophosphamide","currentTreatmentType":"Bone Marrow Transplant","currentStage":"Allogeneic - Matched Unrelated Donor","vitalStatus":"Alive","overallSurvival":2075.0,"causeOfDeath":"Alive"},
+    "related_samples": [{"Sample_ID":"S278","ELN2022":"Favorable","AMLFusion":"CBFB-MYH11","Status":"Diagnosis","specimenType":"Peripheral Blood","percentBlastsBM":40.0,"percentBlastsPB":60.0,"percentBasophilsPB":0.0,"percentEosinophilsPB":1.7,"percentImmatureGranulocytesPB":0.0,"percentLymphocytesPB":33.4,"percentMonocytesPB":5.1,"percentNeutrophilsPB":18.8}]
+}

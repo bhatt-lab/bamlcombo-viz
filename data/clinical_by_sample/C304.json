@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"C304","patientId":4666,"labId":"17-00775","gender":"Male","ageAtDiagnosis":55.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with mutated NPM1","AML_subtype":"M0","responseToInductionTx":"Complete Response","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Decitabine, Sorafenib ","currentTreatmentType":"Standard Chemotherapy","currentStage":"Salvage","vitalStatus":"Dead","overallSurvival":272.0,"causeOfDeath":"Dead-Disease"},
+    "related_samples": [{"Sample_ID":"C304","ELN2022":"Intermediate","AMLFusion":"NotDetected","Status":"Diagnosis","specimenType":"Peripheral Blood","percentBlastsBM":90.0,"percentBlastsPB":null,"percentBasophilsPB":0.0,"percentEosinophilsPB":0.0,"percentImmatureGranulocytesPB":3.4,"percentLymphocytesPB":17.1,"percentMonocytesPB":8.5,"percentNeutrophilsPB":7.7}]
+}

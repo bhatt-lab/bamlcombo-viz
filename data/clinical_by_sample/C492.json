@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"C492","patientId":6002,"labId":"21-00574","gender":"Female","ageAtDiagnosis":31.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with inv(16)(p13.1q22) or t(16;16)(p13.1;q22); CBFB::MYH11 fusion","AML_subtype":"M2","responseToInductionTx":"Complete Response","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"IDAC","currentTreatmentType":"Standard Chemotherapy","currentStage":"Consolidation","vitalStatus":"Alive","overallSurvival":350.0,"causeOfDeath":"Alive"},
+    "related_samples": [{"Sample_ID":"C492","ELN2022":"Favorable","AMLFusion":"CBFB-MYH11","Status":"Diagnosis","specimenType":"Bone Marrow Aspirate","percentBlastsBM":22.0,"percentBlastsPB":18.0,"percentBasophilsPB":2.6,"percentEosinophilsPB":0.9,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":37.4,"percentMonocytesPB":29.6,"percentNeutrophilsPB":11.3}]
+}

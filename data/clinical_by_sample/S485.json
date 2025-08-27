@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S485","patientId":4691,"labId":"17-00862","gender":"Male","ageAtDiagnosis":33.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML, myelodysplasia-related","AML_subtype":null,"responseToInductionTx":"Unknown","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"7+3 (Cytarabine, Idarubicin)","currentTreatmentType":"Standard Chemotherapy","currentStage":"Induction","vitalStatus":"Alive","overallSurvival":30.0,"causeOfDeath":"Alive"},
+    "related_samples": [{"Sample_ID":"S485","ELN2022":"Adverse","AMLFusion":"NotDetected","Status":"Diagnosis","specimenType":"Peripheral Blood","percentBlastsBM":69.0,"percentBlastsPB":28.0,"percentBasophilsPB":null,"percentEosinophilsPB":null,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":null,"percentMonocytesPB":null,"percentNeutrophilsPB":null}]
+}

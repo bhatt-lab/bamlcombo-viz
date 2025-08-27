@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"C237","patientId":4418,"labId":"17-00190","gender":"Female","ageAtDiagnosis":31.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with mutated CEBPA","AML_subtype":null,"responseToInductionTx":"Complete Response","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Busulfan, Fludarabine","currentTreatmentType":"Bone Marrow Transplant","currentStage":"Allogeneic - Matched Unrelated Donor","vitalStatus":"Alive","overallSurvival":153.0,"causeOfDeath":"Alive"},
+    "related_samples": [{"Sample_ID":"C237","ELN2022":"Adverse","AMLFusion":"Other","Status":"Diagnosis","specimenType":"Peripheral Blood","percentBlastsBM":80.0,"percentBlastsPB":69.0,"percentBasophilsPB":null,"percentEosinophilsPB":null,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":null,"percentMonocytesPB":null,"percentNeutrophilsPB":null}]
+}

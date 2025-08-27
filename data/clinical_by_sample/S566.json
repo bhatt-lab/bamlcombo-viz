@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S566","patientId":5169,"labId":"19-00200","gender":"Female","ageAtDiagnosis":58.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with mutated NPM1","AML_subtype":"M1","responseToInductionTx":"Complete Response","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Gilteritinib or Placebo","currentTreatmentType":"Targeted Therapy - Other","currentStage":"Maintenance","vitalStatus":"Alive","overallSurvival":1697.0,"causeOfDeath":"Alive"},
+    "related_samples": [{"Sample_ID":"S566","ELN2022":"Intermediate","AMLFusion":"NotDetected","Status":"Diagnosis","specimenType":"Bone Marrow Aspirate","percentBlastsBM":91.0,"percentBlastsPB":null,"percentBasophilsPB":0.9,"percentEosinophilsPB":0.0,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":4.3,"percentMonocytesPB":1.7,"percentNeutrophilsPB":1.7}]
+}

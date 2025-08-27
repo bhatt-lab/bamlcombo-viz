@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"C445","patientId":5531,"labId":"20-00465","gender":"Male","ageAtDiagnosis":60.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with mutated NPM1","AML_subtype":"M2","responseToInductionTx":"Complete Response","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Gilteritinib, Cytarabine, Venetoclax","currentTreatmentType":"Standard Chemotherapy","currentStage":"Salvage","vitalStatus":"Dead","overallSurvival":541.0,"causeOfDeath":"Dead-Disease"},
+    "related_samples": [{"Sample_ID":"C445","ELN2022":"Intermediate","AMLFusion":"Other","Status":"Diagnosis","specimenType":"Peripheral Blood","percentBlastsBM":17.0,"percentBlastsPB":23.0,"percentBasophilsPB":1.7,"percentEosinophilsPB":0.0,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":16.7,"percentMonocytesPB":5.0,"percentNeutrophilsPB":63.3}]
+}

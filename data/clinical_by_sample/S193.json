@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S193","patientId":2068,"labId":"15-00302","gender":"Female","ageAtDiagnosis":65.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with mutated NPM1","AML_subtype":null,"responseToInductionTx":"Unknown","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"7+3 (Cytarabine, Idarubicin)","currentTreatmentType":"Standard Chemotherapy","currentStage":"Induction","vitalStatus":"Dead","overallSurvival":21.0,"causeOfDeath":"Dead-Treatment"},
+    "related_samples": [{"Sample_ID":"S193","ELN2022":"Favorable","AMLFusion":null,"Status":"Diagnosis","specimenType":"Peripheral Blood","percentBlastsBM":null,"percentBlastsPB":null,"percentBasophilsPB":null,"percentEosinophilsPB":null,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":null,"percentMonocytesPB":null,"percentNeutrophilsPB":null}]
+}

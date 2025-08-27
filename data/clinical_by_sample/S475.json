@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S475","patientId":4664,"labId":"17-00770","gender":"Female","ageAtDiagnosis":88.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with 11q23; KMT2A rearrangement","AML_subtype":null,"responseToInductionTx":null,"typeInductionTx":null,"mostRecentTreatmentRegimen":"NONE","currentTreatmentType":"NONE","currentStage":"NONE","vitalStatus":"Dead","overallSurvival":5.0,"causeOfDeath":"Dead-Disease"},
+    "related_samples": [{"Sample_ID":"S475","ELN2022":"Adverse","AMLFusion":"KMT2A_re","Status":"Diagnosis","specimenType":"Peripheral Blood","percentBlastsBM":80.0,"percentBlastsPB":24.0,"percentBasophilsPB":null,"percentEosinophilsPB":null,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":null,"percentMonocytesPB":null,"percentNeutrophilsPB":null}]
+}

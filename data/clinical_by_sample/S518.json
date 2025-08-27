@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S518","patientId":4894,"labId":"18-00103","gender":"Female","ageAtDiagnosis":79.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML, myelodysplasia-related","AML_subtype":"M2","responseToInductionTx":null,"typeInductionTx":null,"mostRecentTreatmentRegimen":"NONE","currentTreatmentType":"NONE","currentStage":"NONE","vitalStatus":"Dead","overallSurvival":14.0,"causeOfDeath":"Dead-Disease"},
+    "related_samples": [{"Sample_ID":"S518","ELN2022":"Adverse","AMLFusion":"Other","Status":"Diagnosis","specimenType":"Bone Marrow Aspirate","percentBlastsBM":65.0,"percentBlastsPB":15.0,"percentBasophilsPB":0.0,"percentEosinophilsPB":0.0,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":25.2,"percentMonocytesPB":0.9,"percentNeutrophilsPB":24.3}]
+}

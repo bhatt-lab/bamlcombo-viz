@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"C441","patientId":5497,"labId":"20-00383","gender":"Male","ageAtDiagnosis":74.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML, myelodysplasia-related","AML_subtype":"M4","responseToInductionTx":"Complete Response","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Azacitidine","currentTreatmentType":"Standard Chemotherapy","currentStage":"Maintenance","vitalStatus":"Dead","overallSurvival":294.0,"causeOfDeath":"Dead-Disease"},
+    "related_samples": [{"Sample_ID":"C441","ELN2022":"Adverse","AMLFusion":"NotDetected","Status":"Diagnosis","specimenType":"Peripheral Blood","percentBlastsBM":null,"percentBlastsPB":null,"percentBasophilsPB":0.0,"percentEosinophilsPB":0.9,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":37.4,"percentMonocytesPB":40.9,"percentNeutrophilsPB":0.0}]
+}

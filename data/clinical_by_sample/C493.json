@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"C493","patientId":6006,"labId":"21-00589","gender":"Male","ageAtDiagnosis":59.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML, myelodysplasia-related","AML_subtype":"M2","responseToInductionTx":"Refractory","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"LSD1 inhibitor","currentTreatmentType":"Targeted Therapy - Other","currentStage":"Salvage","vitalStatus":"Dead","overallSurvival":426.0,"causeOfDeath":"Dead-Disease"},
+    "related_samples": [{"Sample_ID":"C493","ELN2022":"Adverse","AMLFusion":"NotDetected","Status":"Diagnosis","specimenType":"Bone Marrow Aspirate","percentBlastsBM":22.5,"percentBlastsPB":21.0,"percentBasophilsPB":2.6,"percentEosinophilsPB":4.4,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":49.1,"percentMonocytesPB":0.9,"percentNeutrophilsPB":24.6}]
+}

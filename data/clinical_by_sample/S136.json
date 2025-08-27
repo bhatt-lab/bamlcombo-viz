@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S136","patientId":1693,"labId":"14-00504","gender":"Male","ageAtDiagnosis":35.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with 11q23; KMT2A rearrangement","AML_subtype":null,"responseToInductionTx":"Complete Response","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Busulfan, Cyclophosphamide, Thymoglobulin","currentTreatmentType":"Bone Marrow Transplant","currentStage":"Allogeneic - Matched Unrelated Donor","vitalStatus":"Alive","overallSurvival":1156.0,"causeOfDeath":"Alive"},
+    "related_samples": [{"Sample_ID":"S136","ELN2022":"Intermediate","AMLFusion":"KMT2A_re","Status":"Diagnosis","specimenType":"Bone Marrow Aspirate","percentBlastsBM":86.0,"percentBlastsPB":null,"percentBasophilsPB":null,"percentEosinophilsPB":null,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":null,"percentMonocytesPB":null,"percentNeutrophilsPB":null}]
+}

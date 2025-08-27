@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"C489","patientId":5641,"labId":"21-00523","gender":"Male","ageAtDiagnosis":68.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with mutated NPM1","AML_subtype":"M4","responseToInductionTx":"Complete Response","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Venetoclax (ABT-199), Azacitidine","currentTreatmentType":"Standard Chemotherapy","currentStage":"Salvage","vitalStatus":"Dead","overallSurvival":292.0,"causeOfDeath":"Dead-Disease"},
+    "related_samples": [{"Sample_ID":"C489","ELN2022":"NonInitial","AMLFusion":"NotDetected","Status":"Relapse","specimenType":"Peripheral Blood","percentBlastsBM":null,"percentBlastsPB":50.0,"percentBasophilsPB":0.0,"percentEosinophilsPB":0.0,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":59.0,"percentMonocytesPB":22.9,"percentNeutrophilsPB":17.1}]
+}

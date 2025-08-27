@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"C20","patientId":1098,"labId":"14-00765","gender":"Female","ageAtDiagnosis":31.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML, myelodysplasia-related","AML_subtype":null,"responseToInductionTx":"Complete Response","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Dasatinib","currentTreatmentType":"Targeted Therapy - Kinase Inhibitor(s)","currentStage":"Experimental","vitalStatus":"Dead","overallSurvival":2661.0,"causeOfDeath":"Dead-Unknown"},
+    "related_samples": [{"Sample_ID":"C20","ELN2022":"NonInitial","AMLFusion":"NotDetected","Status":"Relapse","specimenType":"Bone Marrow Aspirate","percentBlastsBM":8.0,"percentBlastsPB":1.0,"percentBasophilsPB":0.2,"percentEosinophilsPB":1.9,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":7.6,"percentMonocytesPB":7.5,"percentNeutrophilsPB":82.7}]
+}

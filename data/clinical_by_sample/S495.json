@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S495","patientId":4762,"labId":"17-01021","gender":"Female","ageAtDiagnosis":67.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with 3q26; MECOM rearrangement","AML_subtype":"M1","responseToInductionTx":null,"typeInductionTx":null,"mostRecentTreatmentRegimen":"NONE","currentTreatmentType":"NONE","currentStage":"NONE","vitalStatus":"Dead","overallSurvival":49.0,"causeOfDeath":"Dead-Unknown"},
+    "related_samples": [{"Sample_ID":"S495","ELN2022":"Adverse","AMLFusion":"MECOM_re","Status":"Diagnosis","specimenType":"Bone Marrow Aspirate","percentBlastsBM":70.0,"percentBlastsPB":88.0,"percentBasophilsPB":0.0,"percentEosinophilsPB":2.6,"percentImmatureGranulocytesPB":0.9,"percentLymphocytesPB":14.8,"percentMonocytesPB":0.0,"percentNeutrophilsPB":3.5}]
+}

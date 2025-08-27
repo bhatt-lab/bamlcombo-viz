@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S530","patientId":4952,"labId":"18-00205","gender":"Male","ageAtDiagnosis":49.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with 3q26; MECOM rearrangement","AML_subtype":"M2","responseToInductionTx":"Refractory","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Decitabine","currentTreatmentType":"Standard Chemotherapy","currentStage":"Maintenance","vitalStatus":"Alive","overallSurvival":1057.0,"causeOfDeath":"Alive"},
+    "related_samples": [{"Sample_ID":"S530","ELN2022":"Adverse","AMLFusion":"MECOM_re","Status":"Diagnosis","specimenType":"Peripheral Blood","percentBlastsBM":30.0,"percentBlastsPB":10.0,"percentBasophilsPB":null,"percentEosinophilsPB":null,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":null,"percentMonocytesPB":null,"percentNeutrophilsPB":null}]
+}

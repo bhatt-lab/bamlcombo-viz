@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"C440","patientId":5490,"labId":"20-00365","gender":"Female","ageAtDiagnosis":73.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML, myelodysplasia-related","AML_subtype":"M1","responseToInductionTx":"Complete Response","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Bu\/Flu\/TBI (Busulfan, Fludarabine, Total Body Irradiation)","currentTreatmentType":"Bone Marrow Transplant","currentStage":"Allogeneic - Matched Unrelated Donor","vitalStatus":"Alive","overallSurvival":625.0,"causeOfDeath":"Alive"},
+    "related_samples": [{"Sample_ID":"C440","ELN2022":"Adverse","AMLFusion":"Other","Status":"Diagnosis","specimenType":"Peripheral Blood","percentBlastsBM":80.0,"percentBlastsPB":2.0,"percentBasophilsPB":0.9,"percentEosinophilsPB":5.4,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":27.9,"percentMonocytesPB":11.7,"percentNeutrophilsPB":47.7}]
+}

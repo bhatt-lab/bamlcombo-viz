@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"C496","patientId":5459,"labId":"21-00683","gender":"Female","ageAtDiagnosis":62.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML, myelodysplasia-related","AML_subtype":"M1","responseToInductionTx":"Refractory","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"HAM (Cytarabine, Mitoxantrone)","currentTreatmentType":"Standard Chemotherapy","currentStage":"Salvage","vitalStatus":"Dead","overallSurvival":90.0,"causeOfDeath":"Dead-Treatment"},
+    "related_samples": [{"Sample_ID":"C496","ELN2022":"Adverse","AMLFusion":"NotDetected","Status":"Diagnosis","specimenType":"Peripheral Blood","percentBlastsBM":58.0,"percentBlastsPB":null,"percentBasophilsPB":0.0,"percentEosinophilsPB":0.0,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":22.0,"percentMonocytesPB":3.7,"percentNeutrophilsPB":3.7}]
+}

@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S240","patientId":2304,"labId":"15-00755","gender":"Male","ageAtDiagnosis":59.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with mutated NPM1","AML_subtype":"M4","responseToInductionTx":"Complete Response","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Azacitidine, Sorafenib","currentTreatmentType":"Standard Chemotherapy","currentStage":"Re-induction","vitalStatus":"Dead","overallSurvival":256.0,"causeOfDeath":"Dead-Disease"},
+    "related_samples": [{"Sample_ID":"S240","ELN2022":"NonInitial","AMLFusion":"Other","Status":"Relapse","specimenType":"Bone Marrow Aspirate","percentBlastsBM":93.2,"percentBlastsPB":47.5,"percentBasophilsPB":null,"percentEosinophilsPB":null,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":null,"percentMonocytesPB":null,"percentNeutrophilsPB":null}]
+}

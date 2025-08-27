@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S498","patientId":4770,"labId":"17-01038","gender":"Female","ageAtDiagnosis":79.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML, myelodysplasia-related","AML_subtype":"M1","responseToInductionTx":"Unknown","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Vyxeos (Daunorubicin, Cytarabine - liposomal)","currentTreatmentType":"Standard Chemotherapy","currentStage":"Induction","vitalStatus":"Dead","overallSurvival":20.0,"causeOfDeath":"Dead-Disease"},
+    "related_samples": [{"Sample_ID":"S498","ELN2022":"Adverse","AMLFusion":"BCR-ABL1","Status":"Diagnosis","specimenType":"Bone Marrow Aspirate","percentBlastsBM":90.0,"percentBlastsPB":null,"percentBasophilsPB":0.0,"percentEosinophilsPB":0.0,"percentImmatureGranulocytesPB":0.0,"percentLymphocytesPB":2.9,"percentMonocytesPB":1.5,"percentNeutrophilsPB":1.4}]
+}

@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"C220","patientId":4336,"labId":"17-00028","gender":"Female","ageAtDiagnosis":44.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"unknown","AML_subtype":null,"responseToInductionTx":"Refractory","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Azacitidine","currentTreatmentType":"Standard Chemotherapy","currentStage":"Salvage","vitalStatus":"Dead","overallSurvival":768.0,"causeOfDeath":"Dead-Unknown"},
+    "related_samples": [{"Sample_ID":"C220","ELN2022":"NonInitial","AMLFusion":null,"Status":"Relapse","specimenType":"Peripheral Blood","percentBlastsBM":83.0,"percentBlastsPB":80.0,"percentBasophilsPB":null,"percentEosinophilsPB":null,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":16.0,"percentMonocytesPB":null,"percentNeutrophilsPB":4.0}]
+}

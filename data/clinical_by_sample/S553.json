@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S553","patientId":5065,"labId":"18-00414","gender":"Female","ageAtDiagnosis":71.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML, myelodysplasia-related","AML_subtype":"M1","responseToInductionTx":"Complete Response","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Venetoclax (ABT-199), Azacitidine","currentTreatmentType":"Bone Marrow Transplant","currentStage":"Allogeneic - Matched Unrelated Donor","vitalStatus":"Dead","overallSurvival":972.0,"causeOfDeath":"Dead-Other"},
+    "related_samples": [{"Sample_ID":"S553","ELN2022":"Adverse","AMLFusion":"Other","Status":"Diagnosis","specimenType":"Bone Marrow Aspirate","percentBlastsBM":98.0,"percentBlastsPB":44.8,"percentBasophilsPB":1.0,"percentEosinophilsPB":3.8,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":39.4,"percentMonocytesPB":1.0,"percentNeutrophilsPB":7.7}]
+}

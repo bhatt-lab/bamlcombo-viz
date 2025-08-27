@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"C556","patientId":4689,"labId":"17-00858","gender":"Female","ageAtDiagnosis":76.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with mutated NPM1","AML_subtype":null,"responseToInductionTx":null,"typeInductionTx":null,"mostRecentTreatmentRegimen":"Decitabine","currentTreatmentType":"Targeted Therapy - Kinase Inhibitor(s)","currentStage":"Supportive\/Palliative Care","vitalStatus":"Unknown","overallSurvival":19.0,"causeOfDeath":null},
+    "related_samples": [{"Sample_ID":"C556","ELN2022":"Favorable","AMLFusion":"NotDetected","Status":"Diagnosis","specimenType":"Peripheral Blood","percentBlastsBM":91.0,"percentBlastsPB":85.0,"percentBasophilsPB":null,"percentEosinophilsPB":null,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":null,"percentMonocytesPB":null,"percentNeutrophilsPB":null}]
+}

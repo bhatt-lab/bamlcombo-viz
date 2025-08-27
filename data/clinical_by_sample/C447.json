@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"C447","patientId":5528,"labId":"20-00450","gender":"Female","ageAtDiagnosis":31.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with mutated NPM1","AML_subtype":"M4","responseToInductionTx":"Complete Response","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Busulfan, Cyclophosphamide","currentTreatmentType":"Bone Marrow Transplant","currentStage":"Allogeneic - Sibling","vitalStatus":"Alive","overallSurvival":1238.0,"causeOfDeath":"Alive"},
+    "related_samples": [{"Sample_ID":"C447","ELN2022":"Intermediate","AMLFusion":"Other","Status":"Diagnosis","specimenType":"Bone Marrow Aspirate","percentBlastsBM":90.0,"percentBlastsPB":null,"percentBasophilsPB":0.4,"percentEosinophilsPB":0.9,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":29.3,"percentMonocytesPB":42.2,"percentNeutrophilsPB":16.4}]
+}

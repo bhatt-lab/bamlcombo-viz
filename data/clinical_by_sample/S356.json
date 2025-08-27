@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S356","patientId":4006,"labId":"16-00882","gender":"Male","ageAtDiagnosis":81.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML, myelodysplasia-related","AML_subtype":null,"responseToInductionTx":null,"typeInductionTx":null,"mostRecentTreatmentRegimen":"Decitabine","currentTreatmentType":"Supportive\/Palliative Care","currentStage":"Supportive\/Palliative Care","vitalStatus":"Dead","overallSurvival":97.0,"causeOfDeath":"Dead-Disease"},
+    "related_samples": [{"Sample_ID":"S356","ELN2022":"NonInitial","AMLFusion":"Other","Status":"Residual","specimenType":"Peripheral Blood","percentBlastsBM":null,"percentBlastsPB":70.0,"percentBasophilsPB":0.0,"percentEosinophilsPB":0.0,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":3.0,"percentMonocytesPB":1.0,"percentNeutrophilsPB":36.0}]
+}

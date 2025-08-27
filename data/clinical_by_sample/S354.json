@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S354","patientId":3990,"labId":"16-00731","gender":"Female","ageAtDiagnosis":69.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML, myelodysplasia-related","AML_subtype":"M2","responseToInductionTx":"Complete Response","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"IMGN779 (Immunogen Trial)","currentTreatmentType":"Targeted Therapy - Other","currentStage":"Salvage","vitalStatus":"Dead","overallSurvival":565.0,"causeOfDeath":"Dead-Disease"},
+    "related_samples": [{"Sample_ID":"S354","ELN2022":"Adverse","AMLFusion":"NotDetected","Status":"Diagnosis","specimenType":"Peripheral Blood","percentBlastsBM":null,"percentBlastsPB":40.0,"percentBasophilsPB":1.8,"percentEosinophilsPB":0.9,"percentImmatureGranulocytesPB":8.8,"percentLymphocytesPB":10.5,"percentMonocytesPB":9.6,"percentNeutrophilsPB":26.3}]
+}

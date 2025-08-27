@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S308","patientId":2581,"labId":"16-00249","gender":"Male","ageAtDiagnosis":75.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML, myelodysplasia-related","AML_subtype":null,"responseToInductionTx":null,"typeInductionTx":null,"mostRecentTreatmentRegimen":"Vidaza","currentTreatmentType":"Standard Chemotherapy","currentStage":"Supportive\/Palliative Care","vitalStatus":"Alive","overallSurvival":302.0,"causeOfDeath":"Alive"},
+    "related_samples": [{"Sample_ID":"S308","ELN2022":"NonInitial","AMLFusion":"NotDetected","Status":"Residual","specimenType":"Bone Marrow Aspirate","percentBlastsBM":60.0,"percentBlastsPB":50.0,"percentBasophilsPB":null,"percentEosinophilsPB":null,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":null,"percentMonocytesPB":null,"percentNeutrophilsPB":null}]
+}

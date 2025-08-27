@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"C458","patientId":5688,"labId":"21-00023","gender":"Male","ageAtDiagnosis":28.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with t(8;21)(q22;q22); RUNX1::RUNX1T1 fusion","AML_subtype":"M2","responseToInductionTx":"Complete Response","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"HIDAC + Gemtuzumab Ozogamicin","currentTreatmentType":"Standard Chemotherapy","currentStage":"Consolidation","vitalStatus":"Alive","overallSurvival":1296.0,"causeOfDeath":"Alive"},
+    "related_samples": [{"Sample_ID":"C458","ELN2022":"Favorable","AMLFusion":"RUNX1-RUNX1T1","Status":"Diagnosis","specimenType":"Bone Marrow Aspirate","percentBlastsBM":45.0,"percentBlastsPB":35.0,"percentBasophilsPB":0.9,"percentEosinophilsPB":1.8,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":41.2,"percentMonocytesPB":3.5,"percentNeutrophilsPB":21.1}]
+}

@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S618","patientId":5260,"labId":"19-00428","gender":"Male","ageAtDiagnosis":null,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with mutated NPM1","AML_subtype":null,"responseToInductionTx":null,"typeInductionTx":null,"mostRecentTreatmentRegimen":"NONE","currentTreatmentType":"NONE","currentStage":"NONE","vitalStatus":"Unknown","overallSurvival":null,"causeOfDeath":null},
+    "related_samples": [{"Sample_ID":"S618","ELN2022":"NonInitial","AMLFusion":null,"Status":"Unknown","specimenType":"Peripheral Blood","percentBlastsBM":null,"percentBlastsPB":null,"percentBasophilsPB":null,"percentEosinophilsPB":null,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":null,"percentMonocytesPB":null,"percentNeutrophilsPB":null}]
+}

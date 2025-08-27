@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"C495","patientId":6020,"labId":"21-00619","gender":"Female","ageAtDiagnosis":80.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML, myelodysplasia-related","AML_subtype":"M2","responseToInductionTx":"Unknown","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Decitabine, TP-0903 (AXL kinase inhibitor)","currentTreatmentType":"Standard Chemotherapy","currentStage":"Induction","vitalStatus":"Alive","overallSurvival":38.0,"causeOfDeath":"Alive"},
+    "related_samples": [{"Sample_ID":"C495","ELN2022":"Adverse","AMLFusion":"Other","Status":"Diagnosis","specimenType":"Bone Marrow Aspirate","percentBlastsBM":15.0,"percentBlastsPB":13.0,"percentBasophilsPB":2.6,"percentEosinophilsPB":2.6,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":16.4,"percentMonocytesPB":0.9,"percentNeutrophilsPB":49.1}]
+}

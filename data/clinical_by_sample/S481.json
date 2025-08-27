@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S481","patientId":4682,"labId":"17-00843","gender":"Female","ageAtDiagnosis":62.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML, myelodysplasia-related","AML_subtype":null,"responseToInductionTx":"Refractory","typeInductionTx":"Targeted Therapy - Other","mostRecentTreatmentRegimen":"Enasidenib","currentTreatmentType":"Targeted Therapy - Other","currentStage":"Induction","vitalStatus":"Alive","overallSurvival":52.0,"causeOfDeath":"Alive"},
+    "related_samples": [{"Sample_ID":"S481","ELN2022":"Intermediate","AMLFusion":"Other","Status":"Diagnosis","specimenType":"Bone Marrow Aspirate","percentBlastsBM":48.0,"percentBlastsPB":26.0,"percentBasophilsPB":null,"percentEosinophilsPB":null,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":null,"percentMonocytesPB":null,"percentNeutrophilsPB":null}]
+}

@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S199","patientId":2113,"labId":"15-00371","gender":"Male","ageAtDiagnosis":74.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"unknown","AML_subtype":null,"responseToInductionTx":"Refractory","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"HiDAC","currentTreatmentType":"Standard Chemotherapy","currentStage":"Consolidation","vitalStatus":"Dead","overallSurvival":324.0,"causeOfDeath":"Dead-Unknown"},
+    "related_samples": [{"Sample_ID":"S199","ELN2022":"NonInitial","AMLFusion":"NotDetected","Status":"Residual","specimenType":"Bone Marrow Aspirate","percentBlastsBM":32.0,"percentBlastsPB":5.0,"percentBasophilsPB":0.0,"percentEosinophilsPB":0.0,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":69.0,"percentMonocytesPB":8.0,"percentNeutrophilsPB":18.0}]
+}

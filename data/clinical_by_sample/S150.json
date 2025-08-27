@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S150","patientId":1765,"labId":"14-00644","gender":null,"ageAtDiagnosis":null,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"Acute monocytic leukaemia","AML_subtype":"M5","responseToInductionTx":"Complete Response","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Cyclophoshamide, TBI, ATG","currentTreatmentType":"Bone Marrow Transplant","currentStage":"Allogeneic - Matched Unrelated Donor","vitalStatus":"Alive","overallSurvival":560.0,"causeOfDeath":"Alive"},
+    "related_samples": [{"Sample_ID":"S150","ELN2022":"Intermediate","AMLFusion":"Other","Status":"Diagnosis","specimenType":"Peripheral Blood","percentBlastsBM":96.0,"percentBlastsPB":null,"percentBasophilsPB":null,"percentEosinophilsPB":null,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":null,"percentMonocytesPB":null,"percentNeutrophilsPB":null}]
+}

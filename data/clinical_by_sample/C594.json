@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"C594","patientId":6072,"labId":"21-00780","gender":"Female","ageAtDiagnosis":null,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"unknown","AML_subtype":null,"responseToInductionTx":null,"typeInductionTx":null,"mostRecentTreatmentRegimen":"NONE","currentTreatmentType":"NONE","currentStage":"NONE","vitalStatus":"Unknown","overallSurvival":null,"causeOfDeath":null},
+    "related_samples": [{"Sample_ID":"C594","ELN2022":"NonInitial","AMLFusion":null,"Status":"Unknown","specimenType":"Peripheral Blood","percentBlastsBM":null,"percentBlastsPB":null,"percentBasophilsPB":null,"percentEosinophilsPB":null,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":null,"percentMonocytesPB":null,"percentNeutrophilsPB":null}]
+}

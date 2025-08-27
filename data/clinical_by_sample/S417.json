@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S417","patientId":4389,"labId":"17-00111","gender":"Female","ageAtDiagnosis":45.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"Myeloid sarcoma","AML_subtype":null,"responseToInductionTx":"Complete Response","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"HiDAC","currentTreatmentType":"Standard Chemotherapy","currentStage":"Consolidation","vitalStatus":"Alive","overallSurvival":279.0,"causeOfDeath":"Alive"},
+    "related_samples": [{"Sample_ID":"S417","ELN2022":"Favorable","AMLFusion":"CBFB-MYH11","Status":"Diagnosis","specimenType":"Peripheral Blood","percentBlastsBM":null,"percentBlastsPB":null,"percentBasophilsPB":null,"percentEosinophilsPB":null,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":null,"percentMonocytesPB":null,"percentNeutrophilsPB":null}]
+}

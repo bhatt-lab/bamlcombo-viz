@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S372","patientId":4076,"labId":"16-00952","gender":"Male","ageAtDiagnosis":72.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML, myelodysplasia-related","AML_subtype":null,"responseToInductionTx":null,"typeInductionTx":null,"mostRecentTreatmentRegimen":"NONE","currentTreatmentType":"NONE","currentStage":"NONE","vitalStatus":"Alive","overallSurvival":8.0,"causeOfDeath":"Alive"},
+    "related_samples": [{"Sample_ID":"S372","ELN2022":"NonInitial","AMLFusion":"Other","Status":"Residual","specimenType":"Bone Marrow Aspirate","percentBlastsBM":92.0,"percentBlastsPB":null,"percentBasophilsPB":null,"percentEosinophilsPB":null,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":null,"percentMonocytesPB":null,"percentNeutrophilsPB":null}]
+}

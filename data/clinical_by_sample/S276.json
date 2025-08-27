@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S276","patientId":2455,"labId":"15-00979","gender":"Female","ageAtDiagnosis":44.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with mutated NPM1","AML_subtype":"M5","responseToInductionTx":"Complete Response i","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Azacitidine","currentTreatmentType":"Standard Chemotherapy","currentStage":"Post-Transplant Relapse","vitalStatus":"Dead","overallSurvival":319.0,"causeOfDeath":"Dead-Disease"},
+    "related_samples": [{"Sample_ID":"S276","ELN2022":"Intermediate","AMLFusion":"NotDetected","Status":"Diagnosis","specimenType":"Bone Marrow Aspirate","percentBlastsBM":75.0,"percentBlastsPB":80.0,"percentBasophilsPB":0.0,"percentEosinophilsPB":0.0,"percentImmatureGranulocytesPB":7.7,"percentLymphocytesPB":10.3,"percentMonocytesPB":22.2,"percentNeutrophilsPB":6.8}]
+}

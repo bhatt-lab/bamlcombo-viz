@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S154","patientId":1813,"labId":"17-00641","gender":"Male","ageAtDiagnosis":74.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with t(6;9)(p23;q34); DEK::NUP214 fusion","AML_subtype":null,"responseToInductionTx":"Complete Response","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Crenolanib","currentTreatmentType":"Targeted Therapy - Other","currentStage":"Maintenance","vitalStatus":"Dead","overallSurvival":1003.0,"causeOfDeath":"Dead-Disease"},
+    "related_samples": [{"Sample_ID":"S154","ELN2022":"NonInitial","AMLFusion":"DEK-NUP214","Status":"Residual","specimenType":"Peripheral Blood","percentBlastsBM":null,"percentBlastsPB":null,"percentBasophilsPB":null,"percentEosinophilsPB":null,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":null,"percentMonocytesPB":null,"percentNeutrophilsPB":null}]
+}

@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S147","patientId":1752,"labId":"14-00613","gender":"Male","ageAtDiagnosis":31.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with inv(16)(p13.1q22) or t(16;16)(p13.1;q22); CBFB::MYH11 fusion","AML_subtype":null,"responseToInductionTx":"Complete Response","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"HiDAC","currentTreatmentType":"Standard Chemotherapy","currentStage":"Consolidation","vitalStatus":"Unknown","overallSurvival":595.0,"causeOfDeath":null},
+    "related_samples": [{"Sample_ID":"S147","ELN2022":"Favorable","AMLFusion":"CBFB-MYH11","Status":"Diagnosis","specimenType":"Peripheral Blood","percentBlastsBM":80.0,"percentBlastsPB":56.0,"percentBasophilsPB":null,"percentEosinophilsPB":2.0,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":17.0,"percentMonocytesPB":21.0,"percentNeutrophilsPB":3.0}]
+}

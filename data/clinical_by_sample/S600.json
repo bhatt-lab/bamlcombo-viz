@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S600","patientId":4513,"labId":"17-00444","gender":"Female","ageAtDiagnosis":75.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with mutated NPM1","AML_subtype":null,"responseToInductionTx":"Unknown","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"FLAG (Fludarabine, High-dose Cytarabine, G-CSF)","currentTreatmentType":"Standard Chemotherapy","currentStage":"Induction","vitalStatus":"Dead","overallSurvival":93.0,"causeOfDeath":"Dead-Disease"},
+    "related_samples": [{"Sample_ID":"S600","ELN2022":"Favorable","AMLFusion":"NotDetected","Status":"Diagnosis","specimenType":"Peripheral Blood","percentBlastsBM":null,"percentBlastsPB":null,"percentBasophilsPB":null,"percentEosinophilsPB":null,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":null,"percentMonocytesPB":null,"percentNeutrophilsPB":null}]
+}

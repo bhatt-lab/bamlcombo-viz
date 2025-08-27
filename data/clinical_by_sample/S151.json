@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S151","patientId":1775,"labId":"14-00658","gender":"Female","ageAtDiagnosis":59.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with mutated NPM1","AML_subtype":null,"responseToInductionTx":"Complete Response","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Azacitidine, Sorafenib","currentTreatmentType":"Standard Chemotherapy","currentStage":"Hypomethylating\/Low Dose Cytarabine","vitalStatus":"Dead","overallSurvival":254.0,"causeOfDeath":"Dead-Disease"},
+    "related_samples": [{"Sample_ID":"S151","ELN2022":"Intermediate","AMLFusion":"NotDetected","Status":"Diagnosis","specimenType":"Bone Marrow Aspirate","percentBlastsBM":51.5,"percentBlastsPB":72.0,"percentBasophilsPB":null,"percentEosinophilsPB":null,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":null,"percentMonocytesPB":null,"percentNeutrophilsPB":null}]
+}

@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S119","patientId":1533,"labId":"14-00528","gender":"Female","ageAtDiagnosis":57.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML, myelodysplasia-related","AML_subtype":null,"responseToInductionTx":"Refractory","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Decitabine, Hydroxyurea","currentTreatmentType":"Supportive\/Palliative Care","currentStage":"Supportive\/Palliative Care","vitalStatus":"Dead","overallSurvival":138.0,"causeOfDeath":"Dead-Unknown"},
+    "related_samples": [{"Sample_ID":"S119","ELN2022":"NonInitial","AMLFusion":"NUP98_re","Status":"Relapse","specimenType":"Peripheral Blood","percentBlastsBM":null,"percentBlastsPB":58.0,"percentBasophilsPB":0.0,"percentEosinophilsPB":0.0,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":14.0,"percentMonocytesPB":3.0,"percentNeutrophilsPB":19.0}]
+}

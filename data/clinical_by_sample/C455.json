@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"C455","patientId":4995,"labId":"20-00655","gender":"Male","ageAtDiagnosis":75.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML, myelodysplasia-related","AML_subtype":"M4","responseToInductionTx":"Refractory","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Enasidenib","currentTreatmentType":"Standard Chemotherapy","currentStage":"Induction","vitalStatus":"Dead","overallSurvival":183.0,"causeOfDeath":"Dead-Disease"},
+    "related_samples": [{"Sample_ID":"C455","ELN2022":"Adverse","AMLFusion":"Other","Status":"Diagnosis","specimenType":"Peripheral Blood","percentBlastsBM":38.0,"percentBlastsPB":27.0,"percentBasophilsPB":0.0,"percentEosinophilsPB":0.0,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":20.0,"percentMonocytesPB":16.5,"percentNeutrophilsPB":35.7}]
+}

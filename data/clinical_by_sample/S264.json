@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S264","patientId":2423,"labId":"15-00903","gender":"Male","ageAtDiagnosis":73.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"unknown","AML_subtype":null,"responseToInductionTx":null,"typeInductionTx":null,"mostRecentTreatmentRegimen":"Azacitidine","currentTreatmentType":"Standard Chemotherapy","currentStage":"Hypomethylating\/Low Dose Cytarabine","vitalStatus":"Dead","overallSurvival":36.0,"causeOfDeath":"Dead-Disease"},
+    "related_samples": [{"Sample_ID":"S264","ELN2022":"NonInitial","AMLFusion":"Other","Status":"Residual","specimenType":"Peripheral Blood","percentBlastsBM":null,"percentBlastsPB":79.0,"percentBasophilsPB":null,"percentEosinophilsPB":null,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":null,"percentMonocytesPB":null,"percentNeutrophilsPB":null}]
+}

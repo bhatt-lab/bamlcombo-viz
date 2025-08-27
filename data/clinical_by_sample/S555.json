@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S555","patientId":5080,"labId":"19-00025","gender":"Female","ageAtDiagnosis":61.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with mutated NPM1","AML_subtype":"M1","responseToInductionTx":"Complete Response","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"MiDAC","currentTreatmentType":"Standard Chemotherapy","currentStage":"Consolidation","vitalStatus":"Alive","overallSurvival":1167.0,"causeOfDeath":"Alive"},
+    "related_samples": [{"Sample_ID":"S555","ELN2022":"Favorable","AMLFusion":"NotDetected","Status":"Diagnosis","specimenType":"Bone Marrow Aspirate","percentBlastsBM":90.0,"percentBlastsPB":65.0,"percentBasophilsPB":0.8,"percentEosinophilsPB":0.0,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":30.2,"percentMonocytesPB":3.1,"percentNeutrophilsPB":6.2}]
+}

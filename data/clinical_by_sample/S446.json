@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S446","patientId":4532,"labId":"17-00463","gender":"Male","ageAtDiagnosis":33.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"unknown","AML_subtype":null,"responseToInductionTx":"Refractory","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Cytarabine, OXi4503","currentTreatmentType":"Standard Chemotherapy","currentStage":"Salvage","vitalStatus":"Unknown","overallSurvival":255.0,"causeOfDeath":null},
+    "related_samples": [{"Sample_ID":"S446","ELN2022":"NonInitial","AMLFusion":"NotDetected","Status":"Residual","specimenType":"Peripheral Blood","percentBlastsBM":null,"percentBlastsPB":18.0,"percentBasophilsPB":null,"percentEosinophilsPB":null,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":null,"percentMonocytesPB":null,"percentNeutrophilsPB":null}]
+}

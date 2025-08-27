@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S575","patientId":5255,"labId":"19-00418","gender":"Male","ageAtDiagnosis":60.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with mutated CEBPA","AML_subtype":"M2","responseToInductionTx":"Complete Response","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Ruxolitinib","currentTreatmentType":"Standard Chemotherapy","currentStage":"Maintenance","vitalStatus":"Alive","overallSurvival":725.0,"causeOfDeath":"Alive"},
+    "related_samples": [{"Sample_ID":"S575","ELN2022":"Favorable","AMLFusion":"Other","Status":"Diagnosis","specimenType":"Bone Marrow Aspirate","percentBlastsBM":35.0,"percentBlastsPB":25.0,"percentBasophilsPB":0.0,"percentEosinophilsPB":0.0,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":39.3,"percentMonocytesPB":0.9,"percentNeutrophilsPB":32.7}]
+}

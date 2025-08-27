@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S401","patientId":4275,"labId":"16-01227","gender":"Female","ageAtDiagnosis":39.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with mutated NPM1","AML_subtype":"M4","responseToInductionTx":"Complete Response","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Decitabine","currentTreatmentType":"Standard Chemotherapy","currentStage":"Salvage","vitalStatus":"Dead","overallSurvival":433.0,"causeOfDeath":"Dead-Unknown"},
+    "related_samples": [{"Sample_ID":"S401","ELN2022":"NonInitial","AMLFusion":null,"Status":"Relapse","specimenType":"Peripheral Blood","percentBlastsBM":null,"percentBlastsPB":91.0,"percentBasophilsPB":null,"percentEosinophilsPB":null,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":9.0,"percentMonocytesPB":null,"percentNeutrophilsPB":null}]
+}

@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S340","patientId":2712,"labId":"16-00510","gender":"Male","ageAtDiagnosis":34.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with 3q26; MECOM rearrangement","AML_subtype":"M1","responseToInductionTx":"Refractory","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"anti-CD33","currentTreatmentType":"Targeted Therapy - Kinase Inhibitor(s)","currentStage":"Experimental","vitalStatus":"Dead","overallSurvival":291.0,"causeOfDeath":"Dead-Disease"},
+    "related_samples": [{"Sample_ID":"S340","ELN2022":"Adverse","AMLFusion":"MECOM_re","Status":"Diagnosis","specimenType":"Bone Marrow Aspirate","percentBlastsBM":60.0,"percentBlastsPB":40.0,"percentBasophilsPB":0.0,"percentEosinophilsPB":0.0,"percentImmatureGranulocytesPB":2.1,"percentLymphocytesPB":44.3,"percentMonocytesPB":8.2,"percentNeutrophilsPB":16.5}]
+}

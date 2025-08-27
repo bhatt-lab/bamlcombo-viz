@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"HC1","patientId":5058,"labId":"18-00396","gender":null,"ageAtDiagnosis":null,"dxAtSpecimenAcquisition":null,"specificDxAtAcquisition":null,"AML_subtype":null,"responseToInductionTx":null,"typeInductionTx":null,"mostRecentTreatmentRegimen":null,"currentTreatmentType":null,"currentStage":null,"vitalStatus":null,"overallSurvival":null,"causeOfDeath":null},
+    "related_samples": [{"Sample_ID":"HC1","ELN2022":null,"AMLFusion":null,"Status":"Healthy","specimenType":"Bone Marrow Aspirate","percentBlastsBM":null,"percentBlastsPB":null,"percentBasophilsPB":null,"percentEosinophilsPB":null,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":null,"percentMonocytesPB":null,"percentNeutrophilsPB":null}]
+}

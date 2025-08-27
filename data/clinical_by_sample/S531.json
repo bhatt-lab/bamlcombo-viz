@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S531","patientId":4953,"labId":"18-00206","gender":"Male","ageAtDiagnosis":66.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with inv(16)(p13.1q22) or t(16;16)(p13.1;q22); CBFB::MYH11 fusion","AML_subtype":null,"responseToInductionTx":null,"typeInductionTx":null,"mostRecentTreatmentRegimen":"NONE","currentTreatmentType":"NONE","currentStage":"NONE","vitalStatus":"Dead","overallSurvival":1.0,"causeOfDeath":"Dead-Disease"},
+    "related_samples": [{"Sample_ID":"S531","ELN2022":"Favorable","AMLFusion":"CBFB-MYH11","Status":"Diagnosis","specimenType":"Leukapheresis","percentBlastsBM":null,"percentBlastsPB":82.0,"percentBasophilsPB":0.0,"percentEosinophilsPB":0.9,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":17.4,"percentMonocytesPB":7.8,"percentNeutrophilsPB":1.7}]
+}

@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S282","patientId":2467,"labId":"16-00015","gender":"Male","ageAtDiagnosis":69.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with mutated NPM1","AML_subtype":null,"responseToInductionTx":"Complete Response","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Sorafenib","currentTreatmentType":"Targeted Therapy - Kinase Inhibitor(s)","currentStage":"Maintenance","vitalStatus":"Alive","overallSurvival":3078.0,"causeOfDeath":"Alive"},
+    "related_samples": [{"Sample_ID":"S282","ELN2022":"NonInitial","AMLFusion":"NotDetected","Status":"Relapse","specimenType":"Peripheral Blood","percentBlastsBM":95.0,"percentBlastsPB":50.0,"percentBasophilsPB":0.0,"percentEosinophilsPB":2.6,"percentImmatureGranulocytesPB":0.9,"percentLymphocytesPB":29.8,"percentMonocytesPB":0.0,"percentNeutrophilsPB":30.7}]
+}

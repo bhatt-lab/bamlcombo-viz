@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"C431","patientId":5455,"labId":"20-00266","gender":"Male","ageAtDiagnosis":18.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with t(6;9)(p23;q34); DEK::NUP214 fusion","AML_subtype":"M2","responseToInductionTx":"Refractory","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Fludarabine, Melphalan","currentTreatmentType":"Standard Chemotherapy","currentStage":"Re-induction","vitalStatus":"Alive","overallSurvival":991.0,"causeOfDeath":"Alive"},
+    "related_samples": [{"Sample_ID":"C431","ELN2022":"Adverse","AMLFusion":"DEK-NUP214","Status":"Diagnosis","specimenType":"Bone Marrow Aspirate","percentBlastsBM":65.0,"percentBlastsPB":58.0,"percentBasophilsPB":1.8,"percentEosinophilsPB":0.0,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":7.1,"percentMonocytesPB":2.7,"percentNeutrophilsPB":33.6}]
+}

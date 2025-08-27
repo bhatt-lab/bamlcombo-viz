@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S266","patientId":2426,"labId":"15-00912","gender":"Female","ageAtDiagnosis":76.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML, myelodysplasia-related","AML_subtype":null,"responseToInductionTx":null,"typeInductionTx":null,"mostRecentTreatmentRegimen":"Azacitidine","currentTreatmentType":"Unknown","currentStage":"Unknown","vitalStatus":"Dead","overallSurvival":151.0,"causeOfDeath":"Dead-Unknown"},
+    "related_samples": [{"Sample_ID":"S266","ELN2022":"NonInitial","AMLFusion":"Other","Status":"Residual","specimenType":"Bone Marrow Aspirate","percentBlastsBM":86.0,"percentBlastsPB":50.0,"percentBasophilsPB":null,"percentEosinophilsPB":1.0,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":14.0,"percentMonocytesPB":5.0,"percentNeutrophilsPB":20.0}]
+}

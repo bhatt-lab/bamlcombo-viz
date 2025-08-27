@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S477","patientId":4673,"labId":"17-00779","gender":"Male","ageAtDiagnosis":53.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with 11q23; KMT2A rearrangement","AML_subtype":"M1","responseToInductionTx":"Refractory","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"5+2 (Cytarabine, Idarubicin)","currentTreatmentType":"Standard Chemotherapy","currentStage":"Re-induction","vitalStatus":"Dead","overallSurvival":65.0,"causeOfDeath":"Dead-Disease"},
+    "related_samples": [{"Sample_ID":"S477","ELN2022":"Adverse","AMLFusion":"KMT2A_re","Status":"Diagnosis","specimenType":"Bone Marrow Aspirate","percentBlastsBM":95.0,"percentBlastsPB":null,"percentBasophilsPB":3.5,"percentEosinophilsPB":1.7,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":69.8,"percentMonocytesPB":0.9,"percentNeutrophilsPB":15.5}]
+}

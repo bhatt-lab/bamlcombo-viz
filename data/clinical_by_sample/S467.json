@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S467","patientId":4631,"labId":"17-00687","gender":"Male","ageAtDiagnosis":68.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with t(8;21)(q22;q22); RUNX1::RUNX1T1 fusion","AML_subtype":null,"responseToInductionTx":null,"typeInductionTx":null,"mostRecentTreatmentRegimen":"NONE","currentTreatmentType":"NONE","currentStage":"NONE","vitalStatus":"Unknown","overallSurvival":0.0,"causeOfDeath":null},
+    "related_samples": [{"Sample_ID":"S467","ELN2022":"Favorable","AMLFusion":"RUNX1-RUNX1T1","Status":"Diagnosis","specimenType":"Peripheral Blood","percentBlastsBM":90.8,"percentBlastsPB":null,"percentBasophilsPB":null,"percentEosinophilsPB":null,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":null,"percentMonocytesPB":null,"percentNeutrophilsPB":null}]
+}

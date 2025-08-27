@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"C541","patientId":1094,"labId":"17-00332","gender":"Female","ageAtDiagnosis":41.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with t(8;21)(q22;q22); RUNX1::RUNX1T1 fusion","AML_subtype":"M1","responseToInductionTx":"Complete Response","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"FLAG-IDA (Cytarabine, Filgrastim, Fludarabine, Idarubicin)","currentTreatmentType":"Standard Chemotherapy","currentStage":"Salvage","vitalStatus":"Dead","overallSurvival":1497.0,"causeOfDeath":"Dead-Disease"},
+    "related_samples": [{"Sample_ID":"C541","ELN2022":"NonInitial","AMLFusion":"RUNX1-RUNX1T1","Status":"Relapse","specimenType":"Bone Marrow Aspirate","percentBlastsBM":65.0,"percentBlastsPB":55.0,"percentBasophilsPB":0.0,"percentEosinophilsPB":0.0,"percentImmatureGranulocytesPB":0.0,"percentLymphocytesPB":3.5,"percentMonocytesPB":6.0,"percentNeutrophilsPB":35.3}]
+}

@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S579","patientId":5275,"labId":"19-00465","gender":"Male","ageAtDiagnosis":57.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with mutated NPM1","AML_subtype":"M2","responseToInductionTx":"Complete Response","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Fludarabine, Melphalan","currentTreatmentType":"Bone Marrow Transplant","currentStage":"Allogeneic - Sibling","vitalStatus":"Dead","overallSurvival":597.0,"causeOfDeath":"Dead-Treatment"},
+    "related_samples": [{"Sample_ID":"S579","ELN2022":"Favorable","AMLFusion":"NotDetected","Status":"Diagnosis","specimenType":"Bone Marrow Aspirate","percentBlastsBM":40.0,"percentBlastsPB":29.0,"percentBasophilsPB":0.9,"percentEosinophilsPB":0.0,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":22.6,"percentMonocytesPB":5.2,"percentNeutrophilsPB":58.2}]
+}

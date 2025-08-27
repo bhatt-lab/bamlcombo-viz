@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S436","patientId":4475,"labId":"17-00337","gender":"Male","ageAtDiagnosis":62.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"unknown","AML_subtype":null,"responseToInductionTx":"Refractory","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Busulfan, Fludarabine","currentTreatmentType":"Bone Marrow Transplant","currentStage":"Allogeneic - Sibling","vitalStatus":"Dead","overallSurvival":310.0,"causeOfDeath":"Dead-Disease"},
+    "related_samples": [{"Sample_ID":"S436","ELN2022":"Adverse","AMLFusion":"Other","Status":"Diagnosis","specimenType":"Peripheral Blood","percentBlastsBM":35.0,"percentBlastsPB":39.0,"percentBasophilsPB":null,"percentEosinophilsPB":1.0,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":36.0,"percentMonocytesPB":2.0,"percentNeutrophilsPB":9.0}]
+}

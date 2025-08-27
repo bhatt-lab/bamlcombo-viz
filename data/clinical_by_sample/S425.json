@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S425","patientId":4443,"labId":"17-00252","gender":"Female","ageAtDiagnosis":0.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML, myelodysplasia-related","AML_subtype":"M0","responseToInductionTx":"Complete Response","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"FLAG (Fludarabine, High-dose Cytarabine, G-CSF)","currentTreatmentType":"Standard Chemotherapy","currentStage":"Re-induction","vitalStatus":"Dead","overallSurvival":855.0,"causeOfDeath":"Dead-Disease"},
+    "related_samples": [{"Sample_ID":"S425","ELN2022":"Adverse","AMLFusion":"RARA_re","Status":"Diagnosis","specimenType":"Peripheral Blood","percentBlastsBM":null,"percentBlastsPB":82.0,"percentBasophilsPB":0.0,"percentEosinophilsPB":0.0,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":23.1,"percentMonocytesPB":63.1,"percentNeutrophilsPB":5.8}]
+}

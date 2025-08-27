@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S351","patientId":3978,"labId":"16-00705","gender":"Male","ageAtDiagnosis":59.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"unknown","AML_subtype":null,"responseToInductionTx":"Complete Response","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Fludarabine, Cyclophosphamide, TBI ","currentTreatmentType":"Bone Marrow Transplant","currentStage":"Double Umbilical Cord Blood Transplant (DUCBT)","vitalStatus":"Dead","overallSurvival":1824.0,"causeOfDeath":"Dead-Disease"},
+    "related_samples": [{"Sample_ID":"S351","ELN2022":"NonInitial","AMLFusion":"Other","Status":"Relapse","specimenType":"Peripheral Blood","percentBlastsBM":59.5,"percentBlastsPB":12.0,"percentBasophilsPB":0.0,"percentEosinophilsPB":0.0,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":55.0,"percentMonocytesPB":3.0,"percentNeutrophilsPB":29.0}]
+}

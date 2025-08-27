@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S231","patientId":2272,"labId":"15-00680","gender":"Male","ageAtDiagnosis":68.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with mutated NPM1","AML_subtype":"M5","responseToInductionTx":"Complete Response","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Bu\/Flu\/TBI (Busulfan, Fludarabine, Total Body Irradiation)","currentTreatmentType":"Bone Marrow Transplant","currentStage":"Allogeneic - Matched Unrelated Donor","vitalStatus":"Dead","overallSurvival":861.0,"causeOfDeath":"Dead-Other"},
+    "related_samples": [{"Sample_ID":"S231","ELN2022":"Adverse","AMLFusion":"NotDetected","Status":"Diagnosis","specimenType":"Bone Marrow Aspirate","percentBlastsBM":86.0,"percentBlastsPB":null,"percentBasophilsPB":0.9,"percentEosinophilsPB":0.0,"percentImmatureGranulocytesPB":0.0,"percentLymphocytesPB":2.6,"percentMonocytesPB":20.8,"percentNeutrophilsPB":0.9}]
+}

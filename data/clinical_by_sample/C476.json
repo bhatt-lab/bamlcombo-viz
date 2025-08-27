@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"C476","patientId":5767,"labId":"21-00235","gender":"Male","ageAtDiagnosis":77.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML, myelodysplasia-related","AML_subtype":"M2","responseToInductionTx":"Unknown","typeInductionTx":"Targeted Therapy - Kinase Inhibitor(s)","mostRecentTreatmentRegimen":"Ivosidenib","currentTreatmentType":"Targeted Therapy - Kinase Inhibitor(s)","currentStage":"Induction","vitalStatus":"Dead","overallSurvival":31.0,"causeOfDeath":"Dead-Disease"},
+    "related_samples": [{"Sample_ID":"C476","ELN2022":"Adverse","AMLFusion":"Other","Status":"Diagnosis","specimenType":"Bone Marrow Aspirate","percentBlastsBM":21.0,"percentBlastsPB":null,"percentBasophilsPB":0.0,"percentEosinophilsPB":0.0,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":14.8,"percentMonocytesPB":0.0,"percentNeutrophilsPB":83.5}]
+}

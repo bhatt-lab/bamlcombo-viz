@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"C172","patientId":4001,"labId":"16-00751","gender":"Female","ageAtDiagnosis":58.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with 3q26; MECOM rearrangement","AML_subtype":"M2","responseToInductionTx":"Complete Response","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Azacitidine","currentTreatmentType":"Standard Chemotherapy","currentStage":"Maintenance","vitalStatus":"Alive","overallSurvival":1911.0,"causeOfDeath":"Alive"},
+    "related_samples": [{"Sample_ID":"C172","ELN2022":"Adverse","AMLFusion":"MECOM_re","Status":"Diagnosis","specimenType":"Peripheral Blood","percentBlastsBM":21.0,"percentBlastsPB":0.0,"percentBasophilsPB":0.0,"percentEosinophilsPB":0.0,"percentImmatureGranulocytesPB":2.3,"percentLymphocytesPB":41.7,"percentMonocytesPB":25.9,"percentNeutrophilsPB":30.1}]
+}

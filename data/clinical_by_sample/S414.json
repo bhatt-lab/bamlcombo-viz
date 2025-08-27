@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S414","patientId":4366,"labId":"17-00072","gender":"Male","ageAtDiagnosis":70.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML, myelodysplasia-related","AML_subtype":null,"responseToInductionTx":"Refractory","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"MEC (Cytarabine, Etoposide, Mitoxantrone)","currentTreatmentType":"Standard Chemotherapy","currentStage":"Salvage","vitalStatus":"Dead","overallSurvival":362.0,"causeOfDeath":"Dead-Disease"},
+    "related_samples": [{"Sample_ID":"S414","ELN2022":"NonInitial","AMLFusion":"NotDetected","Status":"Residual","specimenType":"Peripheral Blood","percentBlastsBM":null,"percentBlastsPB":15.0,"percentBasophilsPB":0.0,"percentEosinophilsPB":0.0,"percentImmatureGranulocytesPB":16.2,"percentLymphocytesPB":16.2,"percentMonocytesPB":8.1,"percentNeutrophilsPB":6.3}]
+}

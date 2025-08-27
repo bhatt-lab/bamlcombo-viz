@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S549","patientId":5053,"labId":"18-00390","gender":"Female","ageAtDiagnosis":73.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML, myelodysplasia-related","AML_subtype":"M1","responseToInductionTx":"Complete Response","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Ivosidenib","currentTreatmentType":"Targeted Therapy - Other","currentStage":"Maintenance","vitalStatus":"Alive","overallSurvival":1028.0,"causeOfDeath":"Alive"},
+    "related_samples": [{"Sample_ID":"S549","ELN2022":"Adverse","AMLFusion":"Other","Status":"Diagnosis","specimenType":"Bone Marrow Aspirate","percentBlastsBM":92.0,"percentBlastsPB":90.0,"percentBasophilsPB":0.0,"percentEosinophilsPB":0.0,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":17.7,"percentMonocytesPB":1.0,"percentNeutrophilsPB":0.0}]
+}

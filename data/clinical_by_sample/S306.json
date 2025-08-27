@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S306","patientId":2569,"labId":"16-00217","gender":"Male","ageAtDiagnosis":86.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with mutated CEBPA","AML_subtype":null,"responseToInductionTx":null,"typeInductionTx":null,"mostRecentTreatmentRegimen":"Hydroxyurea","currentTreatmentType":"Standard Chemotherapy","currentStage":"Consolidation","vitalStatus":"Dead","overallSurvival":596.0,"causeOfDeath":"Dead-Disease"},
+    "related_samples": [{"Sample_ID":"S306","ELN2022":"NonInitial","AMLFusion":"Other","Status":"Residual","specimenType":"Bone Marrow Aspirate","percentBlastsBM":23.0,"percentBlastsPB":null,"percentBasophilsPB":0.0,"percentEosinophilsPB":0.0,"percentImmatureGranulocytesPB":0.8,"percentLymphocytesPB":8.6,"percentMonocytesPB":19.0,"percentNeutrophilsPB":59.5}]
+}

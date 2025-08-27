@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"C596","patientId":4559,"labId":"17-00521","gender":"Female","ageAtDiagnosis":null,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"Acute megakaryoblastic leukaemia","AML_subtype":"M7","responseToInductionTx":null,"typeInductionTx":null,"mostRecentTreatmentRegimen":"NONE","currentTreatmentType":"NONE","currentStage":"NONE","vitalStatus":"Unknown","overallSurvival":null,"causeOfDeath":null},
+    "related_samples": [{"Sample_ID":"C596","ELN2022":"NonInitial","AMLFusion":null,"Status":"Unknown","specimenType":"Bone Marrow Aspirate","percentBlastsBM":null,"percentBlastsPB":null,"percentBasophilsPB":null,"percentEosinophilsPB":null,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":null,"percentMonocytesPB":null,"percentNeutrophilsPB":null}]
+}

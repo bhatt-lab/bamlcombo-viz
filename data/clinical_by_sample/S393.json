@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S393","patientId":4248,"labId":"16-01151","gender":"Male","ageAtDiagnosis":81.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with mutated NPM1","AML_subtype":"M1","responseToInductionTx":"Complete Response","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Vidaza, BI836858 (anti-CD33)","currentTreatmentType":"Standard Chemotherapy","currentStage":"Induction","vitalStatus":"Dead","overallSurvival":581.0,"causeOfDeath":"Dead-Disease"},
+    "related_samples": [{"Sample_ID":"S393","ELN2022":"Favorable","AMLFusion":"NotDetected","Status":"Diagnosis","specimenType":"Peripheral Blood","percentBlastsBM":80.0,"percentBlastsPB":80.0,"percentBasophilsPB":0.0,"percentEosinophilsPB":0.0,"percentImmatureGranulocytesPB":7.0,"percentLymphocytesPB":7.8,"percentMonocytesPB":0.0,"percentNeutrophilsPB":6.9}]
+}

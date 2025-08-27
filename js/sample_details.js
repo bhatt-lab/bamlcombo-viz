@@ -1,176 +1,192 @@
 // js/sample_details.js
-// This script controls the behavior of the sample_details.html page.
-// It depends on 'js/color_config.js' being loaded first.
 
 document.addEventListener('DOMContentLoaded', function() {
     
-    // --- 1. Get the Sample ID from the URL ---
     const urlParams = new URLSearchParams(window.location.search);
     const sampleId = urlParams.get('sample');
     const header = document.getElementById('details-header');
     const backButton = document.getElementById('back-to-dashboard-btn');
 
-    // Add a click listener to the button
-    backButton.addEventListener('click', () => {
-        // This command tells the browser to go back one step in its history,
-        // preserving the state of the previous page.
-        window.history.back();
-    });
+    backButton.addEventListener('click', () => { window.history.back(); });
 
     if (!sampleId) {
         header.textContent = 'Error: No Sample ID provided';
-        console.error("No 'sample' parameter found in the URL.");
-        return; // Stop execution if no sample ID is present
+        return;
     }
     
     header.textContent = `Details for Sample: ${sampleId}`;
 
-    // --- 2. Lazy Loading Configuration for Tabs ---
-    // This object maps tab IDs to their data sources and initialization functions.
-    // It's designed to be easily extended for the other tabs in the future.
     const tabConfig = {
         'tab-clinical': {
-            // The path is now dynamic and will be constructed when needed.
+            path: `data/clinical_by_sample/${sampleId}.json`,
             initFunction: initializeClinicalDataTab,
-            dataLoaded: false // Flag to prevent re-loading data
-        },
-        'tab-mutations': {
-            // Placeholder for future development
-            // initFunction: initializeMutationsTab,
             dataLoaded: false
         },
         'tab-drug': {
-            // Placeholder for future development
-            // initFunction: initializeDrugResponseTab,
+            path: `data/dss_by_sample/${sampleId}.json`,
+            initFunction: initializeDrugResponseTab,
             dataLoaded: false
+        },
+        'tab-mutations': {
+            dataLoaded: true // No data to load
         }
     };
 
-    // --- 3. Tab Switching Logic ---
     const tabs = document.querySelectorAll('.tab');
     const tabContents = document.querySelectorAll('.tab-content');
 
     tabs.forEach(tab => {
         tab.addEventListener('click', () => {
-            // Part A: Handle the visual switching of tabs
             tabs.forEach(t => t.classList.remove('active'));
             tabContents.forEach(c => c.classList.remove('active'));
             tab.classList.add('active');
             const contentId = 'content-' + tab.id.split('-')[1];
             document.getElementById(contentId).classList.add('active');
             
-            // Part B: Handle lazy-loading the data for the clicked tab
             const config = tabConfig[tab.id];
-            if (config && !config.dataLoaded) {
-                // This is a simple way to route to the correct data loading function
-                if (tab.id === 'tab-clinical') {
-                    loadClinicalData(config);
-                }
-                // Add 'else if' blocks here for other tabs like 'tab-mutations'
+            if (config && !config.dataLoaded && config.path) {
+                loadDataForTab(config);
             }
         });
     });
 
-    // --- 4. Specific Data Loader for the Clinical Tab ---
-    // This function fetches the pre-processed JSON for the current sample.
-    function loadClinicalData(config) {
-        const dataPath = `data/dss_by_sample/${sampleId}.json`;
-        console.log(`Loading pre-processed data from: ${dataPath}`);
-        const plotContainer = document.getElementById('dss-waterfall-plot-container');
-
-        fetch(dataPath)
+    function loadDataForTab(config) {
+        fetch(config.path)
             .then(response => {
-                if (!response.ok) {
-                    // This handles cases where a sample ID has no corresponding data file
-                    throw new Error(`No DSS data file found for sample '${sampleId}'.`);
-                }
-                return response.json(); // The response is already JSON, no parsing needed
+                if (!response.ok) throw new Error(`File not found: ${config.path}`);
+                return response.json();
             })
             .then(data => {
-                // The data is already filtered, so we pass it directly to the plotting function
                 config.initFunction(data);
-                config.dataLoaded = true; // Mark as loaded to prevent future fetches
-            })
-            .catch(error => {
-                console.error("Error loading clinical data:", error);
-                plotContainer.innerHTML = `<p class="text-gray-600 text-center">${error.message}</p>`;
+                config.dataLoaded = true;
+            }).catch(err => {
+                console.error("Error loading tab data:", err);
+                const tabId = config.initFunction.name.replace('initialize', '').replace('Tab', '').toLowerCase();
+                const container = document.querySelector(`#content-${tabId} > div > div`);
+                if(container) container.innerHTML = `<p class="text-red-500 text-center">${err.message}</p>`;
             });
     }
-
-    // --- 5. Function to Initialize the Clinical Data Tab Content ---
-    // This function receives the pre-filtered data and renders the plot.
-    function initializeClinicalDataTab(sampleDssData) {
+    
+    // --- LOGIC FOR DRUG RESPONSE TAB ---
+    function initializeDrugResponseTab(sampleDssData) {
         const plotContainer = document.getElementById('dss-waterfall-plot-container');
-
-        // Step 1: Use the pre-loaded global config from 'color_config.js'
         const compoundToClassMap = COLOR_CONFIG.compoundToClass;
         const classColorMap = COLOR_CONFIG.classColors;
 
-        // Step 2: The data is already filtered, so we just need to sort it
         if (!sampleDssData || sampleDssData.length === 0) {
-            plotContainer.innerHTML = `<p class="text-gray-600 text-center">The data file for this sample is empty.</p>`;
+            plotContainer.innerHTML = `<p class="text-gray-600 text-center">The data file for this sample is empty or contains no records.</p>`;
             return;
         }
-        sampleDssData.sort((a, b) => b.DSS - a.DSS); // Sort descending
+        sampleDssData.sort((a, b) => b.DSS - a.DSS);
 
-        // Step 3: Prepare data arrays for Plotly
         const plotData = { x: [], y: [], hovertext: [], marker: { color: [] } };
-        console.log("--- Starting Final Color Debugging ---");
-
         sampleDssData.forEach(row => {
-            plotData.x.push(row.Combination);
-            plotData.y.push(row.DSS);
-            // 1. Normalize the combination name from the DSS file.
+            plotData.x.push(row.DSS);
+            plotData.y.push(row.Combination);
             const normalizedCompoundName = String(row.Combination).toLowerCase().replace(/\s/g, '');
-            
-            // 2. Use the normalized name to find the combo class.
             const comboClass = compoundToClassMap[normalizedCompoundName];
-            
-            // 3. Use the combo class to find the color.
-            const barColor = classColorMap[comboClass] || '#cccccc'; // Fallback grey
-        
-            // Definitive log to see if the lookup is working
-            if (barColor === '#cccccc') {
-                console.log({
-                    status: "Lookup FAILED",
-                    original: `"${originalCombinationName}"`,
-                    normalized_lookup_key: `"${normalizedCombinationName}"`,
-                    found_class: comboClass // Will be undefined
-                });
-            }
-          plotData.marker.color.push(barColor);
-
-            // Create rich hover text
-            plotData.hovertext.push(
-                `<b>Combination:</b> ${row.Combination}<br>` +
-                `<b>DSS:</b> ${row.DSS.toFixed(3)}<br>` +
-                `<b>Class:</b> ${comboClass || 'N/A'}`
-            );
+            const barColor = classColorMap[comboClass] || '#cccccc';
+            plotData.marker.color.push(barColor);
+            plotData.hovertext.push(`<b>Combination:</b> ${row.Combination}<br><b>DSS:</b> ${row.DSS.toFixed(3)}<br><b>Class:</b> ${comboClass || 'N/A'}`);
         });
 
-        // Step 4: Define the layout and create the plot
+        plotData.x.reverse();
+        plotData.y.reverse();
+        plotData.marker.color.reverse();
+        plotData.hovertext.reverse();
+
         const layout = {
             title: `Drug Sensitivity Score (DSS) for Sample ${sampleId}`,
-            yaxis: { title: 'DSS (Drug Sensitivity Score)' },
-            xaxis: { 
-                title: 'Drug Combination',
-                type: 'category', // Treat x-axis labels as distinct categories
-                tickangle: -45    // Angle the labels if they are long
-            },
-            margin: { b: 150 } // Add bottom margin to prevent labels from being cut off
+            xaxis: { title: 'DSS (Drug Sensitivity Score)' },
+            yaxis: { title: 'Drug Combination', type: 'category' },
+            margin: { l: 250 }
         };
 
-        Plotly.newPlot(plotContainer, [{
-            ...plotData,
-            type: 'bar',
-            hoverinfo: 'text' // Use the custom hovertext we created
-        }], layout, { responsive: true });
-
+        Plotly.newPlot(plotContainer, [{ ...plotData, type: 'bar', orientation: 'h', hoverinfo: 'text' }], layout, { responsive: true });
         Plotly.Plots.resize(plotContainer);
     }
 
-    // --- 6. Auto-load the data for the default active tab ---
-    // This makes the page feel responsive by loading the first tab's content immediately.
+    // --- LOGIC FOR CLINICAL DATA TAB ---
+    function initializeClinicalDataTab(data) {
+        const patientContainer = document.getElementById('patient-table-container');
+        const samplesContainer = document.getElementById('samples-table-container');
+
+        const patientData = data.patient_data;
+        const allPatientSamples = data.related_samples;
+
+        const patientColumns = Object.keys(patientData);
+        const samplesColumns = allPatientSamples.length > 0 ? Object.keys(allPatientSamples[0]) : [];
+
+        const patientTable = createKeyValueTable(patientData, patientColumns);
+        patientContainer.innerHTML = '';
+        patientContainer.appendChild(patientTable);
+
+        const samplesTable = createTransposedSamplesTable(allPatientSamples, samplesColumns);
+        samplesContainer.innerHTML = '';
+        samplesContainer.appendChild(samplesTable);
+    }
+
+    // --- HELPER FUNCTIONS FOR TABLES ---
+    function createKeyValueTable(dataRow, headers) {
+        const table = document.createElement('table');
+        table.className = 'w-full text-sm';
+        const tbody = document.createElement('tbody');
+        headers.forEach(header => {
+            const tr = document.createElement('tr');
+            tr.className = 'border-b';
+            const th = document.createElement('th');
+            th.className = 'text-left p-2 bg-gray-50 font-semibold w-1/3';
+            th.textContent = header;
+            const td = document.createElement('td');
+            td.className = 'text-left p-2';
+            td.textContent = dataRow[header] !== null && dataRow[header] !== undefined ? dataRow[header] : 'N/A';
+            tr.appendChild(th);
+            tr.appendChild(td);
+            tbody.appendChild(tr);
+        });
+        table.appendChild(tbody);
+        return table;
+    }
+
+    function createTransposedSamplesTable(dataRows, headers) {
+        const table = document.createElement('table');
+        table.className = 'w-full text-sm';
+        const thead = document.createElement('thead');
+        const tbody = document.createElement('tbody');
+        const headerRow = document.createElement('tr');
+        headerRow.className = 'border-b bg-gray-100';
+        let th = document.createElement('th');
+        th.className = 'text-left p-2 font-semibold';
+        th.textContent = 'Attribute';
+        headerRow.appendChild(th);
+        dataRows.forEach(sample => {
+            th = document.createElement('th');
+            th.className = 'text-left p-2 font-semibold';
+            th.textContent = sample.Sample_ID;
+            headerRow.appendChild(th);
+        });
+        thead.appendChild(headerRow);
+        headers.forEach(attribute => {
+            const tr = document.createElement('tr');
+            tr.className = 'border-b';
+            let td = document.createElement('td');
+            td.className = 'p-2 font-semibold bg-gray-50';
+            td.textContent = attribute;
+            tr.appendChild(td);
+            dataRows.forEach(sample => {
+                td = document.createElement('td');
+                td.className = 'p-2';
+                td.textContent = sample[attribute] !== null && sample[attribute] !== undefined ? sample[attribute] : 'N/A';
+                tr.appendChild(td);
+            });
+            tbody.appendChild(tr);
+        });
+        table.appendChild(thead);
+        table.appendChild(tbody);
+        return table;
+    }
+
+    // Auto-load the default active tab
     const activeTab = document.querySelector('.tab.active');
     if (activeTab) {
         activeTab.click();

@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S265","patientId":2425,"labId":"15-00909","gender":"Female","ageAtDiagnosis":44.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with minimal differentiation","AML_subtype":"M0","responseToInductionTx":null,"typeInductionTx":null,"mostRecentTreatmentRegimen":"Radiation","currentTreatmentType":"Targeted Therapy - Other","currentStage":"Unknown","vitalStatus":"Unknown","overallSurvival":1231.0,"causeOfDeath":null},
+    "related_samples": [{"Sample_ID":"S265","ELN2022":"NonInitial","AMLFusion":"NotDetected","Status":"Residual","specimenType":"Peripheral Blood","percentBlastsBM":90.0,"percentBlastsPB":45.0,"percentBasophilsPB":null,"percentEosinophilsPB":0.0,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":28.0,"percentMonocytesPB":5.0,"percentNeutrophilsPB":1.0}]
+}

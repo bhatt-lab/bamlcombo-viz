@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S570","patientId":5205,"labId":"19-00290","gender":"Male","ageAtDiagnosis":0.0,"dxAtSpecimenAcquisition":"ACUTE LEUKAEMIAS OF MIXED OR AMBIGUOUS LINEAGE","specificDxAtAcquisition":"Mixed-phenotype acute leukaemia, T\/myeloid","AML_subtype":null,"responseToInductionTx":"Complete Response","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Busulfan, Cyclophosphamide","currentTreatmentType":"Bone Marrow Transplant","currentStage":"Allogeneic - Matched Unrelated Donor","vitalStatus":"Dead","overallSurvival":314.0,"causeOfDeath":"Dead-Disease"},
+    "related_samples": [{"Sample_ID":"S570","ELN2022":"Unknown","AMLFusion":"Other","Status":"Diagnosis","specimenType":"Peripheral Blood","percentBlastsBM":90.0,"percentBlastsPB":92.0,"percentBasophilsPB":0.0,"percentEosinophilsPB":0.9,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":13.0,"percentMonocytesPB":3.5,"percentNeutrophilsPB":2.6}]
+}

@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"C242","patientId":4429,"labId":"17-00227","gender":"Male","ageAtDiagnosis":69.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with minimal differentiation","AML_subtype":"M0","responseToInductionTx":"Complete Response i","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Cytarabine, Cyclophosphamide, TBI","currentTreatmentType":"Bone Marrow Transplant","currentStage":"Allogeneic - Matched Unrelated Donor","vitalStatus":"Dead","overallSurvival":512.0,"causeOfDeath":"Dead-Disease"},
+    "related_samples": [{"Sample_ID":"C242","ELN2022":"Intermediate","AMLFusion":"NotDetected","Status":"Diagnosis","specimenType":"Peripheral Blood","percentBlastsBM":18.0,"percentBlastsPB":null,"percentBasophilsPB":null,"percentEosinophilsPB":null,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":87.0,"percentMonocytesPB":1.0,"percentNeutrophilsPB":null}]
+}

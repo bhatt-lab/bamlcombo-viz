@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S312","patientId":2597,"labId":"16-00278","gender":"Male","ageAtDiagnosis":64.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with mutated NPM1","AML_subtype":null,"responseToInductionTx":"Complete Response","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Fludarabine, Cyclophosphamide, Thiotepa, TBI","currentTreatmentType":"Bone Marrow Transplant","currentStage":"Double Umbilical Cord Blood Transplant (DUCBT)","vitalStatus":"Alive","overallSurvival":636.0,"causeOfDeath":"Alive"},
+    "related_samples": [{"Sample_ID":"S312","ELN2022":"Intermediate","AMLFusion":"NotDetected","Status":"Diagnosis","specimenType":"Bone Marrow Aspirate","percentBlastsBM":83.0,"percentBlastsPB":74.0,"percentBasophilsPB":0.0,"percentEosinophilsPB":0.0,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":13.0,"percentMonocytesPB":0.0,"percentNeutrophilsPB":13.0}]
+}

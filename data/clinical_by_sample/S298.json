@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S298","patientId":2508,"labId":"16-00102","gender":"Male","ageAtDiagnosis":72.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with mutated NPM1","AML_subtype":"M1","responseToInductionTx":"Complete Response","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"CPX-351 (Liposomal Cytarabine + Daunorubicin)","currentTreatmentType":"Standard Chemotherapy","currentStage":"Induction","vitalStatus":"Alive","overallSurvival":95.0,"causeOfDeath":"Alive"},
+    "related_samples": [{"Sample_ID":"S298","ELN2022":"Favorable","AMLFusion":"Other","Status":"Diagnosis","specimenType":"Bone Marrow Aspirate","percentBlastsBM":97.0,"percentBlastsPB":96.0,"percentBasophilsPB":null,"percentEosinophilsPB":null,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":null,"percentMonocytesPB":null,"percentNeutrophilsPB":null}]
+}

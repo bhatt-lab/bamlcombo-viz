@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S165","patientId":1868,"labId":"14-00832","gender":"Female","ageAtDiagnosis":65.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML, myelodysplasia-related","AML_subtype":null,"responseToInductionTx":"Complete Response","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Fludarabine, Melphalan","currentTreatmentType":"Bone Marrow Transplant","currentStage":"Allogeneic - Mismatched Unrelated Donor","vitalStatus":"Alive","overallSurvival":2426.0,"causeOfDeath":"Alive"},
+    "related_samples": [{"Sample_ID":"S165","ELN2022":"Adverse","AMLFusion":null,"Status":"Diagnosis","specimenType":"Bone Marrow Aspirate","percentBlastsBM":null,"percentBlastsPB":30.0,"percentBasophilsPB":0.8,"percentEosinophilsPB":0.0,"percentImmatureGranulocytesPB":12.5,"percentLymphocytesPB":24.2,"percentMonocytesPB":28.3,"percentNeutrophilsPB":18.4}]
+}

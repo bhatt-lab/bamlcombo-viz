@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S249","patientId":2322,"labId":"15-00786","gender":"Male","ageAtDiagnosis":40.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with mutated CEBPA","AML_subtype":"M1","responseToInductionTx":"Complete Response","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Treo\/Flu\/TBI (Treosulfan, Fludarabine, Total Body Irradiation)","currentTreatmentType":"Bone Marrow Transplant","currentStage":"Allogeneic - Matched Unrelated Donor","vitalStatus":"Alive","overallSurvival":2163.0,"causeOfDeath":"Alive"},
+    "related_samples": [{"Sample_ID":"S249","ELN2022":"Favorable","AMLFusion":"NotDetected","Status":"Diagnosis","specimenType":"Bone Marrow Aspirate","percentBlastsBM":80.0,"percentBlastsPB":27.8,"percentBasophilsPB":0.0,"percentEosinophilsPB":0.0,"percentImmatureGranulocytesPB":0.0,"percentLymphocytesPB":62.6,"percentMonocytesPB":4.4,"percentNeutrophilsPB":5.2}]
+}

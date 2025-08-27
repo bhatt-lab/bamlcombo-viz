@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S506","patientId":4841,"labId":"17-01117","gender":"Male","ageAtDiagnosis":20.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with maturation","AML_subtype":"M2","responseToInductionTx":"Refractory","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Sorafenib","currentTreatmentType":"Targeted Therapy - Kinase Inhibitor(s)","currentStage":"Maintenance","vitalStatus":"Alive","overallSurvival":1356.0,"causeOfDeath":"Alive"},
+    "related_samples": [{"Sample_ID":"S506","ELN2022":"Intermediate","AMLFusion":"Other","Status":"Diagnosis","specimenType":"Peripheral Blood","percentBlastsBM":80.0,"percentBlastsPB":75.0,"percentBasophilsPB":0.0,"percentEosinophilsPB":0.9,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":11.3,"percentMonocytesPB":0.0,"percentNeutrophilsPB":11.3}]
+}

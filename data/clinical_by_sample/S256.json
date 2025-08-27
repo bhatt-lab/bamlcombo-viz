@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S256","patientId":2360,"labId":"15-00855","gender":"Male","ageAtDiagnosis":8.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with mutated NPM1","AML_subtype":"M1","responseToInductionTx":"Complete Response","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Cytarabine","currentTreatmentType":"Intrathecal","currentStage":"CNS","vitalStatus":"Alive","overallSurvival":2327.0,"causeOfDeath":"Alive"},
+    "related_samples": [{"Sample_ID":"S256","ELN2022":"Favorable","AMLFusion":"Other","Status":"Diagnosis","specimenType":"Peripheral Blood","percentBlastsBM":70.0,"percentBlastsPB":null,"percentBasophilsPB":10.8,"percentEosinophilsPB":0.0,"percentImmatureGranulocytesPB":1.8,"percentLymphocytesPB":8.1,"percentMonocytesPB":13.5,"percentNeutrophilsPB":8.1}]
+}

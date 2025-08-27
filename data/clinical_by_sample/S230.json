@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S230","patientId":2265,"labId":"15-00670","gender":"Male","ageAtDiagnosis":61.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML, myelodysplasia-related","AML_subtype":"M1","responseToInductionTx":"Complete Response","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Midostaurin","currentTreatmentType":"Targeted Therapy - Kinase Inhibitor(s)","currentStage":"Maintenance","vitalStatus":"Alive","overallSurvival":2182.0,"causeOfDeath":"Alive"},
+    "related_samples": [{"Sample_ID":"S230","ELN2022":"Adverse","AMLFusion":"NotDetected","Status":"Diagnosis","specimenType":"Peripheral Blood","percentBlastsBM":92.0,"percentBlastsPB":98.0,"percentBasophilsPB":0.0,"percentEosinophilsPB":0.0,"percentImmatureGranulocytesPB":0.8,"percentLymphocytesPB":2.6,"percentMonocytesPB":0.0,"percentNeutrophilsPB":0.0}]
+}

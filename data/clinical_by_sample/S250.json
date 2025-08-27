@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S250","patientId":2333,"labId":"15-00807","gender":"Female","ageAtDiagnosis":14.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with t(8;21)(q22;q22); RUNX1::RUNX1T1 fusion","AML_subtype":"M2","responseToInductionTx":"Complete Response","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Bellicum Trial (Flu\/Cy\/TBI + ATG + Rituximab then BPX-501)","currentTreatmentType":"Bone Marrow Transplant","currentStage":"Allogeneic - Sibling","vitalStatus":"Alive","overallSurvival":2083.0,"causeOfDeath":"Alive"},
+    "related_samples": [{"Sample_ID":"S250","ELN2022":"Favorable","AMLFusion":"RUNX1-RUNX1T1","Status":"Diagnosis","specimenType":"Peripheral Blood","percentBlastsBM":18.0,"percentBlastsPB":null,"percentBasophilsPB":null,"percentEosinophilsPB":null,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":null,"percentMonocytesPB":null,"percentNeutrophilsPB":null}]
+}

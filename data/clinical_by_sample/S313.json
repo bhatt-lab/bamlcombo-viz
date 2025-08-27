@@ -1,0 +1,4 @@
+{
+    "patient_data": {"Sample_ID":"S313","patientId":2606,"labId":"16-00289","gender":"Female","ageAtDiagnosis":65.0,"dxAtSpecimenAcquisition":"ACUTE MYELOID LEUKAEMIA","specificDxAtAcquisition":"AML with mutated NPM1","AML_subtype":"M1","responseToInductionTx":"Complete Response i","typeInductionTx":"Standard Chemotherapy","mostRecentTreatmentRegimen":"Azacitidine","currentTreatmentType":"Standard Chemotherapy","currentStage":"Consolidation","vitalStatus":"Dead","overallSurvival":142.0,"causeOfDeath":"Dead-Treatment"},
+    "related_samples": [{"Sample_ID":"S313","ELN2022":"Intermediate","AMLFusion":"NotDetected","Status":"Diagnosis","specimenType":"Bone Marrow Aspirate","percentBlastsBM":95.0,"percentBlastsPB":92.9,"percentBasophilsPB":0.0,"percentEosinophilsPB":0.0,"percentImmatureGranulocytesPB":0.7,"percentLymphocytesPB":3.6,"percentMonocytesPB":1.4,"percentNeutrophilsPB":1.4}]
+}
