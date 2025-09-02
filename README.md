@@ -42,7 +42,9 @@ cd <your-repo-directory>
 
 If you have Python 3, run the following command in the project's root directory:
 
-`python3 -m http.server`
+```
+python3 -m http.server
+```
 
 ### View the dashboard:
 
