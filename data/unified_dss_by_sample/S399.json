@@ -1,0 +1,97 @@
+[
+    {
+        "Sample_ID":"S399",
+        "Combination":"Alisertib",
+        "DSS":12.7
+    },
+    {
+        "Sample_ID":"S399",
+        "Combination":"Cabozantinib",
+        "DSS":25.2
+    },
+    {
+        "Sample_ID":"S399",
+        "Combination":"Crizotinib",
+        "DSS":28.3
+    },
+    {
+        "Sample_ID":"S399",
+        "Combination":"Entospletinib",
+        "DSS":29.0
+    },
+    {
+        "Sample_ID":"S399",
+        "Combination":"Idelalisib",
+        "DSS":23.2
+    },
+    {
+        "Sample_ID":"S399",
+        "Combination":"Quizartinib",
+        "DSS":25.5
+    },
+    {
+        "Sample_ID":"S399",
+        "Combination":"Ruxolitinib",
+        "DSS":24.3
+    },
+    {
+        "Sample_ID":"S399",
+        "Combination":"Sorafenib",
+        "DSS":25.8
+    },
+    {
+        "Sample_ID":"S399",
+        "Combination":"Trametinib",
+        "DSS":37.9
+    },
+    {
+        "Sample_ID":"S399",
+        "Combination":"Vandetanib",
+        "DSS":20.7
+    },
+    {
+        "Sample_ID":"S399",
+        "Combination":"Vemurafenib",
+        "DSS":0.0
+    },
+    {
+        "Sample_ID":"S399",
+        "Combination":"Alisertib - Crizotinib",
+        "DSS":45.2
+    },
+    {
+        "Sample_ID":"S399",
+        "Combination":"Cabozantinib - Ruxolitinib",
+        "DSS":38.6
+    },
+    {
+        "Sample_ID":"S399",
+        "Combination":"Entospletinib - Sorafenib",
+        "DSS":29.3
+    },
+    {
+        "Sample_ID":"S399",
+        "Combination":"Idelalisib - Quizartinib",
+        "DSS":36.1
+    },
+    {
+        "Sample_ID":"S399",
+        "Combination":"Idelalisib - Ruxolitinib",
+        "DSS":47.7
+    },
+    {
+        "Sample_ID":"S399",
+        "Combination":"Idelalisib - Trametinib",
+        "DSS":38.2
+    },
+    {
+        "Sample_ID":"S399",
+        "Combination":"Quizartinib - Trametinib",
+        "DSS":47.7
+    },
+    {
+        "Sample_ID":"S399",
+        "Combination":"Vandetanib - Vemurafenib",
+        "DSS":47.7
+    }
+]

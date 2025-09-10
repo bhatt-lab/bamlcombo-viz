@@ -1,0 +1,327 @@
+[
+    {
+        "Sample_ID":"S556",
+        "Combination":"AT 101",
+        "DSS":9.8
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"Azacitidine",
+        "DSS":0.0
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"Birabresib",
+        "DSS":27.0
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"Birinapant",
+        "DSS":16.1
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"Bortezomib",
+        "DSS":37.7
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"Doramapimod",
+        "DSS":29.6
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"GSK2879552",
+        "DSS":0.0
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"GW-2580",
+        "DSS":18.2
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"Ibrutinib",
+        "DSS":14.3
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"Idelalisib",
+        "DSS":6.45
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"Olaparib",
+        "DSS":0.0
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"PH-797804",
+        "DSS":31.3
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"Palbociclib",
+        "DSS":18.8
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"Quizartinib",
+        "DSS":20.3
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"Ruxolitinib",
+        "DSS":1.6
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"Trametinib",
+        "DSS":47.4
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"Venetoclax",
+        "DSS":0.0
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"AT 101 - Bortezomib",
+        "DSS":35.7
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"AT 101 - Doramapimod",
+        "DSS":29.3
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"AT 101 - Idelalisib",
+        "DSS":33.5
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"AT 101 - Olaparib",
+        "DSS":5.4
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"AT 101 - Quizartinib",
+        "DSS":32.5
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"AT 101 - Ruxolitinib",
+        "DSS":10.1
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"AT 101 - Trametinib",
+        "DSS":47.7
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"Azacitidine - Venetoclax",
+        "DSS":0.0
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"Birabresib - Bortezomib",
+        "DSS":40.2
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"Birabresib - Doramapimod",
+        "DSS":47.7
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"Birabresib - GW-2580",
+        "DSS":33.6
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"Birabresib - Idelalisib",
+        "DSS":47.0
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"Birabresib - Olaparib",
+        "DSS":41.0
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"Birabresib - Quizartinib",
+        "DSS":47.4
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"Birabresib - Ruxolitinib",
+        "DSS":41.5
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"Birabresib - Trametinib",
+        "DSS":47.7
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"Birinapant - Bortezomib",
+        "DSS":41.4
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"Birinapant - Doramapimod",
+        "DSS":41.0
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"Birinapant - GW-2580",
+        "DSS":26.2
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"Birinapant - Idelalisib",
+        "DSS":29.3
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"Birinapant - Olaparib",
+        "DSS":28.0
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"Birinapant - Quizartinib",
+        "DSS":29.3
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"Birinapant - Ruxolitinib",
+        "DSS":24.8
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"Birinapant - Trametinib",
+        "DSS":47.7
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"Bortezomib - GSK2879552",
+        "DSS":37.4
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"Bortezomib - Palbociclib",
+        "DSS":38.6
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"Bortezomib - Venetoclax",
+        "DSS":12.3
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"Doramapimod - GSK2879552",
+        "DSS":28.7
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"Doramapimod - Palbociclib",
+        "DSS":24.6
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"Doramapimod - Venetoclax",
+        "DSS":33.6
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"GSK2879552 - GW-2580",
+        "DSS":0.0
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"GSK2879552 - Idelalisib",
+        "DSS":32.3
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"GSK2879552 - Olaparib",
+        "DSS":0.0
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"GSK2879552 - Quizartinib",
+        "DSS":11.5
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"GSK2879552 - Ruxolitinib",
+        "DSS":3.5
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"GSK2879552 - Trametinib",
+        "DSS":47.7
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"GW-2580 - Palbociclib",
+        "DSS":27.7
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"GW-2580 - Venetoclax",
+        "DSS":23.5
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"Ibrutinib - Venetoclax",
+        "DSS":14.7
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"Idelalisib - Palbociclib",
+        "DSS":14.6
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"Idelalisib - Venetoclax",
+        "DSS":25.2
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"Olaparib - Palbociclib",
+        "DSS":15.1
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"Olaparib - Trametinib",
+        "DSS":13.0
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"Olaparib - Venetoclax",
+        "DSS":47.7
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"PH-797804 - Venetoclax",
+        "DSS":36.5
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"Palbociclib - Quizartinib",
+        "DSS":0.0
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"Palbociclib - Trametinib",
+        "DSS":47.7
+    },
+    {
+        "Sample_ID":"S556",
+        "Combination":"Ruxolitinib - Venetoclax",
+        "DSS":35.6
+    }
+]

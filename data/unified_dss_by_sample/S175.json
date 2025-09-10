@@ -1,0 +1,17 @@
+[
+    {
+        "Sample_ID":"S175",
+        "Combination":"Cytarabine",
+        "DSS":3.7
+    },
+    {
+        "Sample_ID":"S175",
+        "Combination":"Nutlin-3",
+        "DSS":4.3
+    },
+    {
+        "Sample_ID":"S175",
+        "Combination":"Cytarabine - Nutlin-3",
+        "DSS":6.4
+    }
+]

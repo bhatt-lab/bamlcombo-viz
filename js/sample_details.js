@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
             dataLoaded: false
         },
         'tab-drug': {
-            path: `data/dss_by_sample/${sampleId}.json`,
+            path: `data/unified_dss_by_sample/${sampleId}.json`,
             initFunction: initializeDrugResponseTab,
             dataLoaded: false
         },
@@ -68,26 +68,72 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     // --- LOGIC FOR DRUG RESPONSE TAB ---
-    function initializeDrugResponseTab(sampleDssData) {
-        const plotContainer = document.getElementById('dss-waterfall-plot-container');
-        const compoundToClassMap = COLOR_CONFIG.compoundToClass;
-        const classColorMap = COLOR_CONFIG.classColors;
+    function initializeDrugResponseTab(unifiedData) {
+        const colorConfig = COLOR_CONFIG;
 
-        if (!sampleDssData || sampleDssData.length === 0) {
-            plotContainer.innerHTML = `<p class="text-gray-600 text-center">The data file for this sample is empty or contains no records.</p>`;
+        const comboData = unifiedData.filter(row => row.Combination.includes('-'));
+        const monoData = unifiedData.filter(row => !row.Combination.includes('-'));
+
+        createWaterfallPlot({
+            data: unifiedData,
+            containerId: 'unified-dss-plot-container',
+            title: `All Therapies Sensitivity for Sample ${sampleId}`,
+            colorConfig: colorConfig 
+        });
+
+        createWaterfallPlot({
+            data: comboData,
+            containerId: 'combo-dss-plot-container',
+            title: `Combination Therapy Sensitivity`,
+            colorConfig: colorConfig
+        });
+
+        createWaterfallPlot({
+            data: monoData,
+            containerId: 'mono-dss-plot-container',
+            title: `Monotherapy Sensitivity`,
+            colorConfig: colorConfig
+        });
+    }
+
+    // --- LOGIC FOR CLINICAL DATA TAB ---
+    function initializeClinicalDataTab(data) {
+        const patientContainer = document.getElementById('patient-table-container');
+        const samplesContainer = document.getElementById('samples-table-container');
+        const patientData = data.patient_data;
+        const allPatientSamples = data.related_samples;
+        const patientColumns = Object.keys(patientData);
+        const samplesColumns = allPatientSamples.length > 0 ? Object.keys(allPatientSamples[0]) : [];
+        const patientTable = createKeyValueTable(patientData, patientColumns);
+        patientContainer.innerHTML = '';
+        patientContainer.appendChild(patientTable);
+        const samplesTable = createTransposedSamplesTable(allPatientSamples, samplesColumns);
+        samplesContainer.innerHTML = '';
+        samplesContainer.appendChild(samplesTable);
+    }
+
+    // --- REUSABLE HELPER FUNCTIONS ---
+    function createWaterfallPlot(options) {
+        const { data, containerId, title, colorConfig } = options;
+        const plotContainer = document.getElementById(containerId);
+
+        if (!data || data.length === 0) {
+            plotContainer.innerHTML = `<p class="text-gray-600 text-center">No data available for this view.</p>`;
             return;
         }
-        sampleDssData.sort((a, b) => b.DSS - a.DSS);
+
+        data.sort((a, b) => b.DSS - a.DSS);
 
         const plotData = { x: [], y: [], hovertext: [], marker: { color: [] } };
-        sampleDssData.forEach(row => {
+        data.forEach(row => {
+            const drugName = row.Combination;
             plotData.x.push(row.DSS);
-            plotData.y.push(row.Combination);
-            const normalizedCompoundName = String(row.Combination).toLowerCase().replace(/\s/g, '');
-            const comboClass = compoundToClassMap[normalizedCompoundName];
-            const barColor = classColorMap[comboClass] || '#cccccc';
+            plotData.y.push(drugName);
+            const normalizedName = String(drugName).toLowerCase().replace(/\s/g, '');
+            const drugClass = colorConfig.compoundToClass[normalizedName];
+            const barColor = colorConfig.classColors[drugClass] || '#cccccc';
             plotData.marker.color.push(barColor);
-            plotData.hovertext.push(`<b>Combination:</b> ${row.Combination}<br><b>DSS:</b> ${row.DSS.toFixed(3)}<br><b>Class:</b> ${comboClass || 'N/A'}`);
+            plotData.hovertext.push(`<b>Therapy:</b> ${drugName}<br><b>DSS:</b> ${row.DSS.toFixed(3)}<br><b>Class:</b> ${drugClass || 'N/A'}`);
         });
 
         plotData.x.reverse();
@@ -96,9 +142,9 @@ document.addEventListener('DOMContentLoaded', function() {
         plotData.hovertext.reverse();
 
         const layout = {
-            title: `Drug Sensitivity Score (DSS) for Sample ${sampleId}`,
+            title: title,
             xaxis: { title: 'DSS (Drug Sensitivity Score)' },
-            yaxis: { title: 'Drug Combination', type: 'category' },
+            yaxis: { type: 'category' },
             margin: { l: 250 }
         };
 
@@ -106,27 +152,6 @@ document.addEventListener('DOMContentLoaded', function() {
         Plotly.Plots.resize(plotContainer);
     }
 
-    // --- LOGIC FOR CLINICAL DATA TAB ---
-    function initializeClinicalDataTab(data) {
-        const patientContainer = document.getElementById('patient-table-container');
-        const samplesContainer = document.getElementById('samples-table-container');
-
-        const patientData = data.patient_data;
-        const allPatientSamples = data.related_samples;
-
-        const patientColumns = Object.keys(patientData);
-        const samplesColumns = allPatientSamples.length > 0 ? Object.keys(allPatientSamples[0]) : [];
-
-        const patientTable = createKeyValueTable(patientData, patientColumns);
-        patientContainer.innerHTML = '';
-        patientContainer.appendChild(patientTable);
-
-        const samplesTable = createTransposedSamplesTable(allPatientSamples, samplesColumns);
-        samplesContainer.innerHTML = '';
-        samplesContainer.appendChild(samplesTable);
-    }
-
-    // --- HELPER FUNCTIONS FOR TABLES ---
     function createKeyValueTable(dataRow, headers) {
         const table = document.createElement('table');
         table.className = 'w-full text-sm';

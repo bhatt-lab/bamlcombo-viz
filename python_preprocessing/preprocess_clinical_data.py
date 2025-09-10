@@ -15,7 +15,7 @@ PATIENT_COLUMNS = [
     'overallSurvival', 'causeOfDeath'
 ]
 SAMPLES_COLUMNS = [
-    'Sample_ID', 'ELN2022', 'AMLFusion', 'Status', 'specimenType', 'percentBlastsBM', 
+    'Sample_ID', 'ELN2022', 'AMLFusion', 'Status', 'specimenType', 'timeOfSampleCollectionRelativeToInclusion', 'percentBlastsBM', 
     'percentBlastsPB', 'percentBasophilsPB', 'percentEosinophilsPB', 'percentImmatureGranulocytesPB', 
     'percentLymphocytesPB', 'percentMonocytesPB', 'percentNeutrophilsPB'
 ]

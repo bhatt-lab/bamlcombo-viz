@@ -1,0 +1,92 @@
+[
+    {
+        "Sample_ID":"C487",
+        "Combination":"AZD5991",
+        "DSS":10.8
+    },
+    {
+        "Sample_ID":"C487",
+        "Combination":"Azacitidine",
+        "DSS":32.7
+    },
+    {
+        "Sample_ID":"C487",
+        "Combination":"Birinapant",
+        "DSS":5.2
+    },
+    {
+        "Sample_ID":"C487",
+        "Combination":"Decitabine",
+        "DSS":8.9
+    },
+    {
+        "Sample_ID":"C487",
+        "Combination":"Dordaviprone",
+        "DSS":40.0
+    },
+    {
+        "Sample_ID":"C487",
+        "Combination":"Ibrutinib",
+        "DSS":47.3
+    },
+    {
+        "Sample_ID":"C487",
+        "Combination":"Palbociclib",
+        "DSS":14.2
+    },
+    {
+        "Sample_ID":"C487",
+        "Combination":"Telaglenastat",
+        "DSS":17.4
+    },
+    {
+        "Sample_ID":"C487",
+        "Combination":"Venetoclax",
+        "DSS":47.7
+    },
+    {
+        "Sample_ID":"C487",
+        "Combination":"AZD5991 - Dordaviprone",
+        "DSS":14.0
+    },
+    {
+        "Sample_ID":"C487",
+        "Combination":"Azacitidine - Venetoclax",
+        "DSS":42.7
+    },
+    {
+        "Sample_ID":"C487",
+        "Combination":"Birinapant - Dordaviprone",
+        "DSS":36.1
+    },
+    {
+        "Sample_ID":"C487",
+        "Combination":"Decitabine - Venetoclax",
+        "DSS":47.7
+    },
+    {
+        "Sample_ID":"C487",
+        "Combination":"Dordaviprone - Palbociclib",
+        "DSS":10.7
+    },
+    {
+        "Sample_ID":"C487",
+        "Combination":"Dordaviprone - Telaglenastat",
+        "DSS":0.0
+    },
+    {
+        "Sample_ID":"C487",
+        "Combination":"Dordaviprone - Venetoclax",
+        "DSS":0.0
+    },
+    {
+        "Sample_ID":"C487",
+        "Combination":"Ibrutinib - Venetoclax",
+        "DSS":47.7
+    },
+    {
+        "Sample_ID":"C487",
+        "Combination":"Telaglenastat - Venetoclax",
+        "DSS":0.0
+    }
+]

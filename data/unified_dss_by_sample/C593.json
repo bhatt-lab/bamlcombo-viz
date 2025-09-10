@@ -1,0 +1,37 @@
+[
+    {
+        "Sample_ID":"C593",
+        "Combination":"Dordaviprone",
+        "DSS":14.1
+    },
+    {
+        "Sample_ID":"C593",
+        "Combination":"Ibrutinib",
+        "DSS":17.7
+    },
+    {
+        "Sample_ID":"C593",
+        "Combination":"Telaglenastat",
+        "DSS":16.9
+    },
+    {
+        "Sample_ID":"C593",
+        "Combination":"Venetoclax",
+        "DSS":21.4
+    },
+    {
+        "Sample_ID":"C593",
+        "Combination":"Dordaviprone - Venetoclax",
+        "DSS":14.3
+    },
+    {
+        "Sample_ID":"C593",
+        "Combination":"Ibrutinib - Venetoclax",
+        "DSS":29.6
+    },
+    {
+        "Sample_ID":"C593",
+        "Combination":"Telaglenastat - Venetoclax",
+        "DSS":13.0
+    }
+]

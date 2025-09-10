@@ -1,0 +1,322 @@
+[
+    {
+        "Sample_ID":"S217",
+        "Combination":"AGI combo",
+        "DSS":4.8
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Alisertib",
+        "DSS":9.3
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Axitinib",
+        "DSS":23.0
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Bortezomib",
+        "DSS":32.1
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Bosutinib",
+        "DSS":22.0
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Cabozantinib",
+        "DSS":33.5
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Crizotinib",
+        "DSS":18.0
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Cytarabine",
+        "DSS":17.5
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Dasatinib",
+        "DSS":33.55
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Doramapimod",
+        "DSS":8.6
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Entospletinib",
+        "DSS":11.7
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Idelalisib",
+        "DSS":18.4
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"JQ1",
+        "DSS":26.9
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Nintedanib",
+        "DSS":22.0
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Nutlin-3",
+        "DSS":3.25
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Quizartinib",
+        "DSS":31.65
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Ruxolitinib",
+        "DSS":13.85
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Sirolimus",
+        "DSS":17.2
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Sorafenib",
+        "DSS":19.25
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Sunitinib",
+        "DSS":16.8
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Trametinib",
+        "DSS":30.2
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Vandetanib",
+        "DSS":5.0
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Vatalanib",
+        "DSS":27.0
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Vemurafenib",
+        "DSS":0.0
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Venetoclax",
+        "DSS":30.1
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Vismodegib",
+        "DSS":0.0
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"AGI combo - Crizotinib",
+        "DSS":7.4
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"AGI combo - Dasatinib",
+        "DSS":29.3
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"AGI combo - Doramapimod",
+        "DSS":10.1
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"AGI combo - Idelalisib",
+        "DSS":21.0
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"AGI combo - Quizartinib",
+        "DSS":30.5
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"AGI combo - Ruxolitinib",
+        "DSS":2.6
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"AGI combo - Sorafenib",
+        "DSS":27.2
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Alisertib - Crizotinib",
+        "DSS":22.2
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Axitinib - Bosutinib",
+        "DSS":30.6
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Bortezomib - Dasatinib",
+        "DSS":42.6
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Bortezomib - Trametinib",
+        "DSS":43.4
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Cabozantinib - Ruxolitinib",
+        "DSS":27.6
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Crizotinib - Quizartinib",
+        "DSS":33.2
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Cytarabine - Nutlin-3",
+        "DSS":29.2
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Cytarabine - Vismodegib",
+        "DSS":19.9
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Dasatinib - JQ1",
+        "DSS":45.8
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Dasatinib - Quizartinib",
+        "DSS":35.8
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Dasatinib - Sirolimus",
+        "DSS":43.5
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Dasatinib - Trametinib",
+        "DSS":25.5
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Dasatinib - Vatalanib",
+        "DSS":33.7
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Dasatinib - Venetoclax",
+        "DSS":45.4
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Doramapimod - Venetoclax",
+        "DSS":47.7
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Entospletinib - Sorafenib",
+        "DSS":16.7
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Idelalisib - JQ1",
+        "DSS":38.5
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Idelalisib - Quizartinib",
+        "DSS":34.3
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Idelalisib - Ruxolitinib",
+        "DSS":28.8
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Idelalisib - Trametinib",
+        "DSS":43.7
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Idelalisib - Venetoclax",
+        "DSS":41.0
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"JQ1 - Ruxolitinib",
+        "DSS":28.5
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"JQ1 - Sorafenib",
+        "DSS":44.5
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Nintedanib - Trametinib",
+        "DSS":38.8
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Quizartinib - Ruxolitinib",
+        "DSS":34.4
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Quizartinib - Trametinib",
+        "DSS":38.0
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Ruxolitinib - Sunitinib",
+        "DSS":21.0
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Ruxolitinib - Venetoclax",
+        "DSS":47.7
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Sirolimus - Trametinib",
+        "DSS":47.2
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Sorafenib - Venetoclax",
+        "DSS":46.5
+    },
+    {
+        "Sample_ID":"S217",
+        "Combination":"Vandetanib - Vemurafenib",
+        "DSS":11.9
+    }
+]

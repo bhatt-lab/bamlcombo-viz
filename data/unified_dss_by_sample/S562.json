@@ -1,0 +1,132 @@
+[
+    {
+        "Sample_ID":"S562",
+        "Combination":"AT 101",
+        "DSS":11.4
+    },
+    {
+        "Sample_ID":"S562",
+        "Combination":"Azacitidine",
+        "DSS":0.0
+    },
+    {
+        "Sample_ID":"S562",
+        "Combination":"Birabresib",
+        "DSS":39.9
+    },
+    {
+        "Sample_ID":"S562",
+        "Combination":"Birinapant",
+        "DSS":26.7
+    },
+    {
+        "Sample_ID":"S562",
+        "Combination":"GSK2879552",
+        "DSS":0.0
+    },
+    {
+        "Sample_ID":"S562",
+        "Combination":"Ibrutinib",
+        "DSS":0.0
+    },
+    {
+        "Sample_ID":"S562",
+        "Combination":"Olaparib",
+        "DSS":0.0
+    },
+    {
+        "Sample_ID":"S562",
+        "Combination":"PH-797804",
+        "DSS":22.5
+    },
+    {
+        "Sample_ID":"S562",
+        "Combination":"Palbociclib",
+        "DSS":1.4
+    },
+    {
+        "Sample_ID":"S562",
+        "Combination":"Ruxolitinib",
+        "DSS":0.0
+    },
+    {
+        "Sample_ID":"S562",
+        "Combination":"Venetoclax",
+        "DSS":26.5
+    },
+    {
+        "Sample_ID":"S562",
+        "Combination":"AT 101 - Olaparib",
+        "DSS":9.6
+    },
+    {
+        "Sample_ID":"S562",
+        "Combination":"AT 101 - Ruxolitinib",
+        "DSS":20.5
+    },
+    {
+        "Sample_ID":"S562",
+        "Combination":"Azacitidine - Venetoclax",
+        "DSS":39.6
+    },
+    {
+        "Sample_ID":"S562",
+        "Combination":"Birabresib - Olaparib",
+        "DSS":0.0
+    },
+    {
+        "Sample_ID":"S562",
+        "Combination":"Birabresib - Ruxolitinib",
+        "DSS":29.4
+    },
+    {
+        "Sample_ID":"S562",
+        "Combination":"Birinapant - Olaparib",
+        "DSS":20.7
+    },
+    {
+        "Sample_ID":"S562",
+        "Combination":"Birinapant - Ruxolitinib",
+        "DSS":24.5
+    },
+    {
+        "Sample_ID":"S562",
+        "Combination":"GSK2879552 - Olaparib",
+        "DSS":0.0
+    },
+    {
+        "Sample_ID":"S562",
+        "Combination":"GSK2879552 - Ruxolitinib",
+        "DSS":0.0
+    },
+    {
+        "Sample_ID":"S562",
+        "Combination":"Ibrutinib - Venetoclax",
+        "DSS":24.7
+    },
+    {
+        "Sample_ID":"S562",
+        "Combination":"Olaparib - Palbociclib",
+        "DSS":4.5
+    },
+    {
+        "Sample_ID":"S562",
+        "Combination":"Olaparib - Venetoclax",
+        "DSS":41.5
+    },
+    {
+        "Sample_ID":"S562",
+        "Combination":"PH-797804 - Venetoclax",
+        "DSS":33.1
+    },
+    {
+        "Sample_ID":"S562",
+        "Combination":"Palbociclib - Ruxolitinib",
+        "DSS":36.8
+    },
+    {
+        "Sample_ID":"S562",
+        "Combination":"Ruxolitinib - Venetoclax",
+        "DSS":41.8
+    }
+]

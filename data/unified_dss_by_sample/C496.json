@@ -1,0 +1,352 @@
+[
+    {
+        "Sample_ID":"C496",
+        "Combination":"AZD5991",
+        "DSS":0.0
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Azacitidine",
+        "DSS":5.8
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Birabresib",
+        "DSS":25.0
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Bortezomib",
+        "DSS":47.6
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Cytarabine",
+        "DSS":9.8
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Dasatinib",
+        "DSS":22.1
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Decitabine",
+        "DSS":8.8
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Doramapimod",
+        "DSS":33.2
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Dordaviprone",
+        "DSS":16.3
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"GW-2580",
+        "DSS":20.6
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Ibrutinib",
+        "DSS":7.9
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Idelalisib",
+        "DSS":4.05
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Palbociclib",
+        "DSS":2.0
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Quizartinib",
+        "DSS":17.7
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Ruxolitinib",
+        "DSS":5.7
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Telaglenastat",
+        "DSS":0.0
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Trametinib",
+        "DSS":0.0
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Venetoclax",
+        "DSS":42.6
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"AZD5991 - Bortezomib",
+        "DSS":44.1
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"AZD5991 - Doramapimod",
+        "DSS":37.3
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"AZD5991 - Dordaviprone",
+        "DSS":32.9
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"AZD5991 - GW-2580",
+        "DSS":33.2
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"AZD5991 - Idelalisib",
+        "DSS":44.1
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"AZD5991 - Quizartinib",
+        "DSS":45.8
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"AZD5991 - Ruxolitinib",
+        "DSS":44.9
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"AZD5991 - Trametinib",
+        "DSS":45.0
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Azacitidine - Venetoclax",
+        "DSS":47.7
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Birabresib - Bortezomib",
+        "DSS":47.7
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Birabresib - Doramapimod",
+        "DSS":44.8
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Birabresib - Dordaviprone",
+        "DSS":25.4
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Birabresib - GW-2580",
+        "DSS":5.0
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Birabresib - Idelalisib",
+        "DSS":14.2
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Birabresib - Quizartinib",
+        "DSS":22.5
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Birabresib - Ruxolitinib",
+        "DSS":30.6
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Birabresib - Trametinib",
+        "DSS":40.3
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Birinapant - Bortezomib",
+        "DSS":47.7
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Birinapant - Doramapimod",
+        "DSS":35.5
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Birinapant - Dordaviprone",
+        "DSS":26.4
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Birinapant - GW-2580",
+        "DSS":37.9
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Birinapant - Idelalisib",
+        "DSS":0.9
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Birinapant - Quizartinib",
+        "DSS":27.0
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Birinapant - Ruxolitinib",
+        "DSS":25.8
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Birinapant - Trametinib",
+        "DSS":45.1
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Bortezomib - Palbociclib",
+        "DSS":38.6
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Bortezomib - Telaglenastat",
+        "DSS":47.6
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Bortezomib - Venetoclax",
+        "DSS":46.0
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Cytarabine - Venetoclax",
+        "DSS":44.1
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Dasatinib - Venetoclax",
+        "DSS":42.3
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Decitabine - Venetoclax",
+        "DSS":46.6
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Doramapimod - Palbociclib",
+        "DSS":4.2
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Doramapimod - Telaglenastat",
+        "DSS":26.5
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Doramapimod - Venetoclax",
+        "DSS":35.3
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Dordaviprone - Palbociclib",
+        "DSS":7.5
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Dordaviprone - Telaglenastat",
+        "DSS":16.3
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Dordaviprone - Venetoclax",
+        "DSS":22.1
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"GW-2580 - Telaglenastat",
+        "DSS":26.0
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"GW-2580 - Venetoclax",
+        "DSS":32.7
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Ibrutinib - Venetoclax",
+        "DSS":47.7
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Idelalisib - Palbociclib",
+        "DSS":10.2
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Idelalisib - Telaglenastat",
+        "DSS":0.0
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Idelalisib - Venetoclax",
+        "DSS":43.9
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Palbociclib - Quizartinib",
+        "DSS":21.7
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Palbociclib - Ruxolitinib",
+        "DSS":12.3
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Palbociclib - Trametinib",
+        "DSS":29.4
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Quizartinib - Telaglenastat",
+        "DSS":9.7
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Ruxolitinib - Telaglenastat",
+        "DSS":14.8
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Ruxolitinib - Venetoclax",
+        "DSS":47.0
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Telaglenastat - Trametinib",
+        "DSS":32.4
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Telaglenastat - Venetoclax",
+        "DSS":29.3
+    },
+    {
+        "Sample_ID":"C496",
+        "Combination":"Trametinib - Venetoclax",
+        "DSS":47.7
+    }
+]

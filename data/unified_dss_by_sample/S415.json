@@ -1,0 +1,317 @@
+[
+    {
+        "Sample_ID":"S415",
+        "Combination":"Alisertib",
+        "DSS":5.5
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Artemisinin",
+        "DSS":0.0
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Cabozantinib",
+        "DSS":11.1
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Crizotinib",
+        "DSS":11.05
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Cytarabine",
+        "DSS":17.8
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Dasatinib",
+        "DSS":13.1
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Doramapimod",
+        "DSS":17.7
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Entospletinib",
+        "DSS":10.5
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Ibrutinib",
+        "DSS":14.6
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Idelalisib",
+        "DSS":4.1
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"JQ1",
+        "DSS":20.5
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Nutlin-3",
+        "DSS":18.0
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Palbociclib",
+        "DSS":19.4
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Panobinostat",
+        "DSS":38.0
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Quizartinib",
+        "DSS":25.25
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Ruxolitinib",
+        "DSS":6.55
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Sorafenib",
+        "DSS":14.15
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Trametinib",
+        "DSS":16.4
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Vandetanib",
+        "DSS":8.0
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Vemurafenib",
+        "DSS":6.45
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Venetoclax",
+        "DSS":35.7
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Alisertib - Crizotinib",
+        "DSS":44.2
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Artemisinin - Venetoclax",
+        "DSS":28.5
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Cabozantinib - Ruxolitinib",
+        "DSS":27.7
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Cytarabine - Nutlin-3",
+        "DSS":44.1
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Dasatinib - Venetoclax",
+        "DSS":47.6
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Doramapimod - JQ1",
+        "DSS":17.3
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Doramapimod - Palbociclib",
+        "DSS":0.0
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Doramapimod - Panobinostat",
+        "DSS":35.0
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Doramapimod - Venetoclax",
+        "DSS":22.1
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Ibrutinib - Quizartinib",
+        "DSS":35.3
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Ibrutinib - Venetoclax",
+        "DSS":31.1
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Idelalisib - JQ1",
+        "DSS":12.5
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Idelalisib - Palbociclib",
+        "DSS":17.4
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Idelalisib - Panobinostat",
+        "DSS":29.0
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Idelalisib - Quizartinib",
+        "DSS":33.5
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Idelalisib - Ruxolitinib",
+        "DSS":47.7
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Idelalisib - Trametinib",
+        "DSS":47.7
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Idelalisib - Venetoclax",
+        "DSS":9.3
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"JQ1 - Palbociclib",
+        "DSS":15.3
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"JQ1 - Panobinostat",
+        "DSS":30.5
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"JQ1 - Quizartinib",
+        "DSS":4.2
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"JQ1 - Ruxolitinib",
+        "DSS":21.8
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"JQ1 - Sorafenib",
+        "DSS":22.3
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"JQ1 - Trametinib",
+        "DSS":14.2
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"JQ1 - Venetoclax",
+        "DSS":32.7
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Palbociclib - Panobinostat",
+        "DSS":34.4
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Palbociclib - Quizartinib",
+        "DSS":43.5
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Palbociclib - Ruxolitinib",
+        "DSS":47.7
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Palbociclib - Sorafenib",
+        "DSS":36.3
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Palbociclib - Trametinib",
+        "DSS":47.4
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Palbociclib - Venetoclax",
+        "DSS":47.7
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Panobinostat - Quizartinib",
+        "DSS":13.6
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Panobinostat - Ruxolitinib",
+        "DSS":43.3
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Panobinostat - Sorafenib",
+        "DSS":13.2
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Panobinostat - Trametinib",
+        "DSS":7.8
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Panobinostat - Venetoclax",
+        "DSS":47.7
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Quizartinib - Trametinib",
+        "DSS":47.7
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Quizartinib - Venetoclax",
+        "DSS":34.4
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Ruxolitinib - Venetoclax",
+        "DSS":15.4
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Sorafenib - Venetoclax",
+        "DSS":46.2
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Trametinib - Venetoclax",
+        "DSS":47.7
+    },
+    {
+        "Sample_ID":"S415",
+        "Combination":"Vandetanib - Vemurafenib",
+        "DSS":41.2
+    }
+]

@@ -1,0 +1,282 @@
+[
+    {
+        "Sample_ID":"S414",
+        "Combination":"Alisertib",
+        "DSS":15.8
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Artemisinin",
+        "DSS":0.0
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Crizotinib",
+        "DSS":9.5
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Cytarabine",
+        "DSS":13.7
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Dasatinib",
+        "DSS":7.3
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Doramapimod",
+        "DSS":16.2
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Ibrutinib",
+        "DSS":5.2
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Idelalisib",
+        "DSS":12.2
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"JQ1",
+        "DSS":19.3
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Nutlin-3",
+        "DSS":7.0
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Palbociclib",
+        "DSS":0.2
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Quizartinib",
+        "DSS":22.9
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Ruxolitinib",
+        "DSS":0.0
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Sorafenib",
+        "DSS":6.5
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Trametinib",
+        "DSS":15.4
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Venetoclax",
+        "DSS":40.4
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Alisertib - Crizotinib",
+        "DSS":29.3
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Artemisinin - Venetoclax",
+        "DSS":37.4
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Cytarabine - Nutlin-3",
+        "DSS":38.4
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Dasatinib - Venetoclax",
+        "DSS":43.8
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Doramapimod - JQ1",
+        "DSS":26.6
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Doramapimod - Palbociclib",
+        "DSS":38.9
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Doramapimod - Panobinostat",
+        "DSS":16.3
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Doramapimod - Venetoclax",
+        "DSS":20.6
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Ibrutinib - Quizartinib",
+        "DSS":3.9
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Ibrutinib - Venetoclax",
+        "DSS":39.6
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Idelalisib - JQ1",
+        "DSS":12.0
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Idelalisib - Palbociclib",
+        "DSS":12.0
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Idelalisib - Panobinostat",
+        "DSS":27.6
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Idelalisib - Quizartinib",
+        "DSS":40.2
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Idelalisib - Ruxolitinib",
+        "DSS":46.5
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Idelalisib - Trametinib",
+        "DSS":47.6
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Idelalisib - Venetoclax",
+        "DSS":30.7
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"JQ1 - Palbociclib",
+        "DSS":21.2
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"JQ1 - Panobinostat",
+        "DSS":15.4
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"JQ1 - Quizartinib",
+        "DSS":0.6
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"JQ1 - Ruxolitinib",
+        "DSS":32.6
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"JQ1 - Sorafenib",
+        "DSS":28.0
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"JQ1 - Trametinib",
+        "DSS":6.7
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"JQ1 - Venetoclax",
+        "DSS":29.1
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Palbociclib - Panobinostat",
+        "DSS":37.8
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Palbociclib - Quizartinib",
+        "DSS":41.4
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Palbociclib - Ruxolitinib",
+        "DSS":47.7
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Palbociclib - Sorafenib",
+        "DSS":34.5
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Palbociclib - Trametinib",
+        "DSS":43.2
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Palbociclib - Venetoclax",
+        "DSS":43.4
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Panobinostat - Quizartinib",
+        "DSS":10.8
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Panobinostat - Ruxolitinib",
+        "DSS":40.9
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Panobinostat - Sorafenib",
+        "DSS":21.0
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Panobinostat - Trametinib",
+        "DSS":0.0
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Panobinostat - Venetoclax",
+        "DSS":46.2
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Quizartinib - Trametinib",
+        "DSS":42.5
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Quizartinib - Venetoclax",
+        "DSS":31.8
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Ruxolitinib - Venetoclax",
+        "DSS":25.4
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Sorafenib - Venetoclax",
+        "DSS":42.2
+    },
+    {
+        "Sample_ID":"S414",
+        "Combination":"Trametinib - Venetoclax",
+        "DSS":45.2
+    }
+]

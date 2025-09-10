@@ -1,0 +1,27 @@
+[
+    {
+        "Sample_ID":"S543",
+        "Combination":"Ibrutinib",
+        "DSS":0.3
+    },
+    {
+        "Sample_ID":"S543",
+        "Combination":"PH-797804",
+        "DSS":8.4
+    },
+    {
+        "Sample_ID":"S543",
+        "Combination":"Venetoclax",
+        "DSS":47.7
+    },
+    {
+        "Sample_ID":"S543",
+        "Combination":"Ibrutinib - Venetoclax",
+        "DSS":47.7
+    },
+    {
+        "Sample_ID":"S543",
+        "Combination":"PH-797804 - Venetoclax",
+        "DSS":47.7
+    }
+]

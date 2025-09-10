@@ -1,0 +1,57 @@
+[
+    {
+        "Sample_ID":"C587",
+        "Combination":"Dordaviprone",
+        "DSS":10.0
+    },
+    {
+        "Sample_ID":"C587",
+        "Combination":"Ibrutinib",
+        "DSS":11.15
+    },
+    {
+        "Sample_ID":"C587",
+        "Combination":"Olaparib",
+        "DSS":8.6
+    },
+    {
+        "Sample_ID":"C587",
+        "Combination":"PH-797804",
+        "DSS":14.65
+    },
+    {
+        "Sample_ID":"C587",
+        "Combination":"Telaglenastat",
+        "DSS":10.0
+    },
+    {
+        "Sample_ID":"C587",
+        "Combination":"Venetoclax",
+        "DSS":21.05
+    },
+    {
+        "Sample_ID":"C587",
+        "Combination":"Dordaviprone - Venetoclax",
+        "DSS":18.4
+    },
+    {
+        "Sample_ID":"C587",
+        "Combination":"Ibrutinib - Venetoclax",
+        "DSS":26.75
+    },
+    {
+        "Sample_ID":"C587",
+        "Combination":"Olaparib - Venetoclax",
+        "DSS":14.2
+    },
+    {
+        "Sample_ID":"C587",
+        "Combination":"PH-797804 - Venetoclax",
+        "DSS":28.45
+    },
+    {
+        "Sample_ID":"C587",
+        "Combination":"Telaglenastat - Venetoclax",
+        "DSS":22.5
+    }
+]

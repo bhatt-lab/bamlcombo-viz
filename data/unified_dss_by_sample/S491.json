@@ -1,0 +1,27 @@
+[
+    {
+        "Sample_ID":"S491",
+        "Combination":"Artemisinin",
+        "DSS":14.0
+    },
+    {
+        "Sample_ID":"S491",
+        "Combination":"Ibrutinib",
+        "DSS":21.4
+    },
+    {
+        "Sample_ID":"S491",
+        "Combination":"Venetoclax",
+        "DSS":17.9
+    },
+    {
+        "Sample_ID":"S491",
+        "Combination":"Artemisinin - Venetoclax",
+        "DSS":45.3
+    },
+    {
+        "Sample_ID":"S491",
+        "Combination":"Ibrutinib - Venetoclax",
+        "DSS":36.3
+    }
+]

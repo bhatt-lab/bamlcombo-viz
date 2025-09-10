@@ -1,0 +1,227 @@
+[
+    {
+        "Sample_ID":"S566",
+        "Combination":"AT 101",
+        "DSS":1.7
+    },
+    {
+        "Sample_ID":"S566",
+        "Combination":"Birabresib",
+        "DSS":7.4
+    },
+    {
+        "Sample_ID":"S566",
+        "Combination":"Birinapant",
+        "DSS":7.6
+    },
+    {
+        "Sample_ID":"S566",
+        "Combination":"Bortezomib",
+        "DSS":28.6
+    },
+    {
+        "Sample_ID":"S566",
+        "Combination":"Doramapimod",
+        "DSS":18.4
+    },
+    {
+        "Sample_ID":"S566",
+        "Combination":"GSK2879552",
+        "DSS":0.0
+    },
+    {
+        "Sample_ID":"S566",
+        "Combination":"GW-2580",
+        "DSS":22.5
+    },
+    {
+        "Sample_ID":"S566",
+        "Combination":"Idelalisib",
+        "DSS":0.3
+    },
+    {
+        "Sample_ID":"S566",
+        "Combination":"Olaparib",
+        "DSS":7.8
+    },
+    {
+        "Sample_ID":"S566",
+        "Combination":"Quizartinib",
+        "DSS":32.1
+    },
+    {
+        "Sample_ID":"S566",
+        "Combination":"Ruxolitinib",
+        "DSS":1.7
+    },
+    {
+        "Sample_ID":"S566",
+        "Combination":"Trametinib",
+        "DSS":28.1
+    },
+    {
+        "Sample_ID":"S566",
+        "Combination":"AT 101 - Bortezomib",
+        "DSS":39.2
+    },
+    {
+        "Sample_ID":"S566",
+        "Combination":"AT 101 - Doramapimod",
+        "DSS":1.4
+    },
+    {
+        "Sample_ID":"S566",
+        "Combination":"AT 101 - GW-2580",
+        "DSS":0.0
+    },
+    {
+        "Sample_ID":"S566",
+        "Combination":"AT 101 - Idelalisib",
+        "DSS":13.4
+    },
+    {
+        "Sample_ID":"S566",
+        "Combination":"AT 101 - Olaparib",
+        "DSS":3.4
+    },
+    {
+        "Sample_ID":"S566",
+        "Combination":"AT 101 - Quizartinib",
+        "DSS":32.4
+    },
+    {
+        "Sample_ID":"S566",
+        "Combination":"AT 101 - Ruxolitinib",
+        "DSS":14.0
+    },
+    {
+        "Sample_ID":"S566",
+        "Combination":"AT 101 - Trametinib",
+        "DSS":22.7
+    },
+    {
+        "Sample_ID":"S566",
+        "Combination":"Birabresib - Bortezomib",
+        "DSS":44.8
+    },
+    {
+        "Sample_ID":"S566",
+        "Combination":"Birabresib - Doramapimod",
+        "DSS":39.9
+    },
+    {
+        "Sample_ID":"S566",
+        "Combination":"Birabresib - GW-2580",
+        "DSS":35.9
+    },
+    {
+        "Sample_ID":"S566",
+        "Combination":"Birabresib - Idelalisib",
+        "DSS":28.0
+    },
+    {
+        "Sample_ID":"S566",
+        "Combination":"Birabresib - Olaparib",
+        "DSS":24.7
+    },
+    {
+        "Sample_ID":"S566",
+        "Combination":"Birabresib - Quizartinib",
+        "DSS":46.9
+    },
+    {
+        "Sample_ID":"S566",
+        "Combination":"Birabresib - Ruxolitinib",
+        "DSS":25.9
+    },
+    {
+        "Sample_ID":"S566",
+        "Combination":"Birabresib - Trametinib",
+        "DSS":37.4
+    },
+    {
+        "Sample_ID":"S566",
+        "Combination":"Birinapant - Bortezomib",
+        "DSS":39.5
+    },
+    {
+        "Sample_ID":"S566",
+        "Combination":"Birinapant - Doramapimod",
+        "DSS":34.9
+    },
+    {
+        "Sample_ID":"S566",
+        "Combination":"Birinapant - GW-2580",
+        "DSS":32.5
+    },
+    {
+        "Sample_ID":"S566",
+        "Combination":"Birinapant - Idelalisib",
+        "DSS":12.9
+    },
+    {
+        "Sample_ID":"S566",
+        "Combination":"Birinapant - Olaparib",
+        "DSS":18.5
+    },
+    {
+        "Sample_ID":"S566",
+        "Combination":"Birinapant - Quizartinib",
+        "DSS":43.4
+    },
+    {
+        "Sample_ID":"S566",
+        "Combination":"Birinapant - Ruxolitinib",
+        "DSS":20.9
+    },
+    {
+        "Sample_ID":"S566",
+        "Combination":"Birinapant - Trametinib",
+        "DSS":33.2
+    },
+    {
+        "Sample_ID":"S566",
+        "Combination":"Bortezomib - GSK2879552",
+        "DSS":34.2
+    },
+    {
+        "Sample_ID":"S566",
+        "Combination":"Doramapimod - GSK2879552",
+        "DSS":27.7
+    },
+    {
+        "Sample_ID":"S566",
+        "Combination":"GSK2879552 - GW-2580",
+        "DSS":29.0
+    },
+    {
+        "Sample_ID":"S566",
+        "Combination":"GSK2879552 - Idelalisib",
+        "DSS":3.3
+    },
+    {
+        "Sample_ID":"S566",
+        "Combination":"GSK2879552 - Olaparib",
+        "DSS":7.3
+    },
+    {
+        "Sample_ID":"S566",
+        "Combination":"GSK2879552 - Quizartinib",
+        "DSS":30.0
+    },
+    {
+        "Sample_ID":"S566",
+        "Combination":"GSK2879552 - Ruxolitinib",
+        "DSS":1.6
+    },
+    {
+        "Sample_ID":"S566",
+        "Combination":"GSK2879552 - Trametinib",
+        "DSS":29.6
+    },
+    {
+        "Sample_ID":"S566",
+        "Combination":"Olaparib - Trametinib",
+        "DSS":43.3
+    }
+]

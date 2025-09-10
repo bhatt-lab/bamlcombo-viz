@@ -1,0 +1,57 @@
+[
+    {
+        "Sample_ID":"C594",
+        "Combination":"Cytarabine",
+        "DSS":3.2
+    },
+    {
+        "Sample_ID":"C594",
+        "Combination":"Decitabine",
+        "DSS":0.1
+    },
+    {
+        "Sample_ID":"C594",
+        "Combination":"Dordaviprone",
+        "DSS":18.5
+    },
+    {
+        "Sample_ID":"C594",
+        "Combination":"Ibrutinib",
+        "DSS":2.3
+    },
+    {
+        "Sample_ID":"C594",
+        "Combination":"Telaglenastat",
+        "DSS":0.0
+    },
+    {
+        "Sample_ID":"C594",
+        "Combination":"Venetoclax",
+        "DSS":0.0
+    },
+    {
+        "Sample_ID":"C594",
+        "Combination":"Cytarabine - Venetoclax",
+        "DSS":26.4
+    },
+    {
+        "Sample_ID":"C594",
+        "Combination":"Decitabine - Venetoclax",
+        "DSS":27.8
+    },
+    {
+        "Sample_ID":"C594",
+        "Combination":"Dordaviprone - Venetoclax",
+        "DSS":35.6
+    },
+    {
+        "Sample_ID":"C594",
+        "Combination":"Ibrutinib - Venetoclax",
+        "DSS":3.3
+    },
+    {
+        "Sample_ID":"C594",
+        "Combination":"Telaglenastat - Venetoclax",
+        "DSS":12.2
+    }
+]

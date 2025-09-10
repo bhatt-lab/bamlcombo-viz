@@ -1,0 +1,312 @@
+[
+    {
+        "Sample_ID":"C13",
+        "Combination":"Alisertib",
+        "DSS":5.8
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Axitinib",
+        "DSS":10.1
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Azacitidine",
+        "DSS":0.0
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Dasatinib",
+        "DSS":19.9
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Doramapimod",
+        "DSS":9.3
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Foretinib",
+        "DSS":17.2
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"GW-2580",
+        "DSS":7.5
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Idelalisib",
+        "DSS":0.0
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"KI20227",
+        "DSS":19.2
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Linifanib",
+        "DSS":9.3
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Midostaurin",
+        "DSS":8.0
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Motesanib",
+        "DSS":7.0
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"NF-kB Activation Inhibitor",
+        "DSS":17.9
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"NVP-TAE684",
+        "DSS":9.4
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Pazopanib",
+        "DSS":7.6
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Quizartinib",
+        "DSS":16.6
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Ruxolitinib",
+        "DSS":11.9
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Sorafenib",
+        "DSS":16.15
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Sunitinib",
+        "DSS":13.35
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Vemurafenib",
+        "DSS":1.85
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Alisertib - Midostaurin",
+        "DSS":9.1
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Alisertib - Ruxolitinib",
+        "DSS":5.1
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Axitinib - GW-2580",
+        "DSS":7.1
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Axitinib - KI20227",
+        "DSS":15.0
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Axitinib - Motesanib",
+        "DSS":6.7
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Azacitidine - Quizartinib",
+        "DSS":8.5
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Azacitidine - Vemurafenib",
+        "DSS":1.6
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Dasatinib - Doramapimod",
+        "DSS":22.1
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Dasatinib - GW-2580",
+        "DSS":13.5
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Dasatinib - Idelalisib",
+        "DSS":12.1
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Dasatinib - Midostaurin",
+        "DSS":13.2
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Dasatinib - NF-kB Activation Inhibitor",
+        "DSS":20.2
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Dasatinib - Pazopanib",
+        "DSS":13.9
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Dasatinib - Ruxolitinib",
+        "DSS":12.1
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Dasatinib - Sorafenib",
+        "DSS":9.9
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Doramapimod - GW-2580",
+        "DSS":15.25
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Doramapimod - Idelalisib",
+        "DSS":14.8
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Doramapimod - Midostaurin",
+        "DSS":12.3
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Doramapimod - Motesanib",
+        "DSS":17.5
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Doramapimod - NF-kB Activation Inhibitor",
+        "DSS":10.7
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Doramapimod - Ruxolitinib",
+        "DSS":12.9
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Doramapimod - Sorafenib",
+        "DSS":14.5
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Foretinib - NVP-TAE684",
+        "DSS":8.6
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"GW-2580 - Idelalisib",
+        "DSS":9.0
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"GW-2580 - KI20227",
+        "DSS":9.5
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"GW-2580 - Midostaurin",
+        "DSS":0.0
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"GW-2580 - Motesanib",
+        "DSS":9.3
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"GW-2580 - Pazopanib",
+        "DSS":8.3
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"GW-2580 - Sunitinib",
+        "DSS":12.4
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Idelalisib - Midostaurin",
+        "DSS":11.9
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Idelalisib - Ruxolitinib",
+        "DSS":13.4
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"KI20227 - Motesanib",
+        "DSS":15.8
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Linifanib - Ruxolitinib",
+        "DSS":15.2
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Midostaurin - NF-kB Activation Inhibitor",
+        "DSS":12.9
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Midostaurin - NVP-TAE684",
+        "DSS":14.2
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Midostaurin - Pazopanib",
+        "DSS":9.4
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Midostaurin - Ruxolitinib",
+        "DSS":8.65
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Midostaurin - Sorafenib",
+        "DSS":11.6
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"Motesanib - Sunitinib",
+        "DSS":8.7
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"NF-kB Activation Inhibitor - Ruxolitinib",
+        "DSS":8.9
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"NF-kB Activation Inhibitor - Vemurafenib",
+        "DSS":0.9
+    },
+    {
+        "Sample_ID":"C13",
+        "Combination":"NVP-TAE684 - Quizartinib",
+        "DSS":9.8
+    }
+]

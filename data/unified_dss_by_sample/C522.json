@@ -1,0 +1,27 @@
+[
+    {
+        "Sample_ID":"C522",
+        "Combination":"Artemisinin",
+        "DSS":0.0
+    },
+    {
+        "Sample_ID":"C522",
+        "Combination":"Ibrutinib",
+        "DSS":12.9
+    },
+    {
+        "Sample_ID":"C522",
+        "Combination":"Venetoclax",
+        "DSS":5.3
+    },
+    {
+        "Sample_ID":"C522",
+        "Combination":"Artemisinin - Venetoclax",
+        "DSS":6.8
+    },
+    {
+        "Sample_ID":"C522",
+        "Combination":"Ibrutinib - Venetoclax",
+        "DSS":20.1
+    }
+]

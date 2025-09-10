@@ -1,0 +1,127 @@
+[
+    {
+        "Sample_ID":"C220",
+        "Combination":"Cabozantinib",
+        "DSS":12.9
+    },
+    {
+        "Sample_ID":"C220",
+        "Combination":"Cytarabine",
+        "DSS":26.1
+    },
+    {
+        "Sample_ID":"C220",
+        "Combination":"Ibrutinib",
+        "DSS":44.2
+    },
+    {
+        "Sample_ID":"C220",
+        "Combination":"JQ1",
+        "DSS":28.4
+    },
+    {
+        "Sample_ID":"C220",
+        "Combination":"Nutlin-3",
+        "DSS":0.0
+    },
+    {
+        "Sample_ID":"C220",
+        "Combination":"Palbociclib",
+        "DSS":29.7
+    },
+    {
+        "Sample_ID":"C220",
+        "Combination":"Panobinostat",
+        "DSS":47.7
+    },
+    {
+        "Sample_ID":"C220",
+        "Combination":"Ruxolitinib",
+        "DSS":24.7
+    },
+    {
+        "Sample_ID":"C220",
+        "Combination":"Vandetanib",
+        "DSS":44.3
+    },
+    {
+        "Sample_ID":"C220",
+        "Combination":"Vemurafenib",
+        "DSS":43.35
+    },
+    {
+        "Sample_ID":"C220",
+        "Combination":"Venetoclax",
+        "DSS":37.1
+    },
+    {
+        "Sample_ID":"C220",
+        "Combination":"Cabozantinib - Ruxolitinib",
+        "DSS":43.1
+    },
+    {
+        "Sample_ID":"C220",
+        "Combination":"Cytarabine - Nutlin-3",
+        "DSS":31.0
+    },
+    {
+        "Sample_ID":"C220",
+        "Combination":"Ibrutinib - Venetoclax",
+        "DSS":47.7
+    },
+    {
+        "Sample_ID":"C220",
+        "Combination":"JQ1 - Palbociclib",
+        "DSS":32.7
+    },
+    {
+        "Sample_ID":"C220",
+        "Combination":"JQ1 - Panobinostat",
+        "DSS":27.4
+    },
+    {
+        "Sample_ID":"C220",
+        "Combination":"JQ1 - Ruxolitinib",
+        "DSS":45.7
+    },
+    {
+        "Sample_ID":"C220",
+        "Combination":"JQ1 - Venetoclax",
+        "DSS":31.9
+    },
+    {
+        "Sample_ID":"C220",
+        "Combination":"Palbociclib - Panobinostat",
+        "DSS":12.9
+    },
+    {
+        "Sample_ID":"C220",
+        "Combination":"Palbociclib - Ruxolitinib",
+        "DSS":43.0
+    },
+    {
+        "Sample_ID":"C220",
+        "Combination":"Palbociclib - Venetoclax",
+        "DSS":31.4
+    },
+    {
+        "Sample_ID":"C220",
+        "Combination":"Panobinostat - Ruxolitinib",
+        "DSS":32.9
+    },
+    {
+        "Sample_ID":"C220",
+        "Combination":"Panobinostat - Venetoclax",
+        "DSS":37.0
+    },
+    {
+        "Sample_ID":"C220",
+        "Combination":"Ruxolitinib - Venetoclax",
+        "DSS":42.6
+    },
+    {
+        "Sample_ID":"C220",
+        "Combination":"Vandetanib - Vemurafenib",
+        "DSS":43.9
+    }
+]

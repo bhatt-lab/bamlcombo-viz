@@ -8,6 +8,7 @@ function initializeClinicalTab(data) {
     const defaultColumns = [
         'Sample_ID', 
         'labId', 
+        'patientId',
         'Data available', 
         'gender', 
         'ageAtDiagnosis', 
@@ -33,7 +34,8 @@ function initializeClinicalTab(data) {
         'percentImmatureGranulocytesPB', 
         'percentLymphocytesPB', 
         'percentMonocytesPB', 
-        'percentNeutrophilsPB'
+        'percentNeutrophilsPB',
+        'timeOfSampleCollectionRelativeToInclusion'
     ];
 
     const columnInfo = {

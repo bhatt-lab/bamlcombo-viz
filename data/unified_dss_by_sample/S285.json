@@ -1,0 +1,17 @@
+[
+    {
+        "Sample_ID":"S285",
+        "Combination":"Ibrutinib",
+        "DSS":4.4
+    },
+    {
+        "Sample_ID":"S285",
+        "Combination":"Venetoclax",
+        "DSS":26.2
+    },
+    {
+        "Sample_ID":"S285",
+        "Combination":"Ibrutinib - Venetoclax",
+        "DSS":47.7
+    }
+]
