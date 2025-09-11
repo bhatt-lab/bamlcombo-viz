@@ -1,55 +1,86 @@
-// js/main.js
-
-// --- Main script to load data, create plots, and initialize tabs ---
+// js/main.js - Corrected to load JSON files for the Drug Response tab
 
 document.addEventListener('DOMContentLoaded', function() {
-    const csvFilePath = '../data/clinical_summary.csv';
+    // --- Central Data Loading ---
+    const summaryContainer = document.getElementById('content-summary');
+    summaryContainer.innerHTML = `<p class="text-center text-gray-500 p-8">Loading all datasets, please wait...</p>`;
 
-    // Use Papa Parse to fetch and parse the CSV file ONCE for the whole app
-    Papa.parse(csvFilePath, {
-        download: true,
-        header: true,
-        dynamicTyping: true,
-        skipEmptyLines: true,
-        complete: function(results) {
-            console.log("CSV data loaded and parsed:", results.data);
-            
-            // --- Pass the loaded data to all relevant components ---
-            createPlots(results.data);
-            
-            // Call the clinical tab initializer and pass the data to it
-            if (typeof initializeClinicalTab === 'function') {
-                initializeClinicalTab(results.data);
-            } else {
-                console.error("initializeClinicalTab function not found. Make sure clinical.js is loaded correctly before main.js.");
-            }
-        },
-        error: function(error) {
-            console.error("Error parsing CSV file:", error);
-            document.getElementById('plots-container').innerHTML = `<p class="text-red-500 text-center col-span-2">Error: Could not load or parse ${csvFilePath}. Please ensure the file exists and you are using a local web server.</p>`;
-        }
+    // Define all data file paths, now using .json for the drug data
+    const dataPaths = [
+        d3.csv("data/S2.Clinical summary.csv"),
+        d3.csv("data/S3.Mutation.csv"),
+        d3.csv("data/S10&11.DSS.csv"),
+        d3.csv("data/S12.GlobalProteomics.csv"),
+        d3.json("data/summary/baml_ida_predictions.json"), // CORRECTED PATH AND METHOD
+        d3.json("data/summary/HSA_summary.json")           // CORRECTED PATH AND METHOD
+    ];
+
+    Promise.all(dataPaths).then(function(data) {
+        // Assign all loaded data to a structured object
+        const appData = {
+            clinical: data[0],
+            mutation: data[1],
+            dss: data[2],
+            proteomics: data[3],
+            comboDss: data[4],   // This is now from baml_ida_predictions.json
+            hsaSynergy: data[5]  // This is now from HSA_summary.json
+        };
+
+        // --- Initialize Dashboard Components ---
+        summaryContainer.innerHTML = `
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-2xl font-semibold text-center mb-6 text-gray-700">Dataset Summary</h3>
+                <div id="plots-container" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div id="gender-plot" class="plot-container border rounded-lg p-2"></div>
+                    <div id="vital-plot" class="plot-container border rounded-lg p-2"></div>
+                    <div id="age-plot" class="plot-container border rounded-lg p-2"></div>
+                    <div id="fab-plot" class="plot-container border rounded-lg p-2"></div>
+                </div>
+            </div>`;
+        
+        createSummaryPlots(appData.clinical);
+        initializeClinicalTab(appData.clinical);
+        initCustomPlots(appData); 
+        initializeTabs(appData);
+
+    }).catch(function(error) {
+        console.error("Fatal Error: Could not load required dashboard data.", error);
+        summaryContainer.innerHTML = `<div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative" role="alert">
+            <strong class="font-bold">Failed to load critical data!</strong>
+            <span class="block sm:inline">Please check that all required files are in the 'data' folder and the server is running correctly.</span>
+        </div>`;
     });
+});
 
-    // --- Tab Switching Logic (now the single source of truth) ---
+// --- Tab Initialization Logic (Unchanged) ---
+function initializeTabs(appData) {
+    let drugTabInitialized = false;
     const tabs = document.querySelectorAll('.tab');
     const tabContents = document.querySelectorAll('.tab-content');
 
     tabs.forEach(tab => {
         tab.addEventListener('click', () => {
-            // Deactivate all tabs and content
             tabs.forEach(t => t.classList.remove('active'));
             tabContents.forEach(c => c.classList.remove('active'));
 
-            // Activate the clicked tab and its corresponding content
             tab.classList.add('active');
             const contentId = 'content-' + tab.id.split('-')[1];
             document.getElementById(contentId).classList.add('active');
+
+            if (tab.id === 'tab-drug' && !drugTabInitialized) {
+                if (typeof initializeDrugResponseTab === 'function') {
+                    initializeDrugResponseTab(appData.hsaSynergy, appData.comboDss);
+                    drugTabInitialized = true;
+                } else {
+                    console.error("initializeDrugResponseTab function not found.");
+                }
+            }
         });
     });
-});
+}
 
-// --- Data Processing and Plotting Function (Unchanged) ---
-function createPlots(data) {
+// --- Summary Plots Function (Unchanged) ---
+function createSummaryPlots(clinicalData) {
     const getValueCounts = (data, column) => {
         const counts = {};
         for (const row of data) {
@@ -61,67 +92,37 @@ function createPlots(data) {
         return counts;
     };
 
-    // 1. Gender Distribution Plot
-    const genderCounts = getValueCounts(data, 'gender');
-    const genderData = [{
+    const genderCounts = getValueCounts(clinicalData, 'gender');
+    Plotly.newPlot('gender-plot', [{
         values: Object.values(genderCounts),
         labels: Object.keys(genderCounts),
-        type: 'pie',
-        hole: 0.3,
-        textinfo: 'percent+label',
-        hoverinfo: 'label+value+percent',
-        marker: { colors: ['#FEBFB3', '#E1BEE7', '#B3E5FC'] }
-    }];
-    const genderLayout = { title: 'Gender Distribution' };
-    Plotly.newPlot('gender-plot', genderData, genderLayout, {responsive: true});
+        type: 'pie', hole: 0.3
+    }], { title: 'Gender Distribution' }, {responsive: true});
 
-    // 2. Vital Status Plot
-    const vitalCounts = getValueCounts(data, 'vitalStatus');
-    const vitalData = [{
+    const vitalCounts = getValueCounts(clinicalData, 'vitalStatus');
+    Plotly.newPlot('vital-plot', [{
         values: Object.values(vitalCounts),
         labels: Object.keys(vitalCounts),
-        type: 'pie',
-        hole: 0.3,
-        textinfo: 'percent+label',
-        hoverinfo: 'label+value+percent',
-        marker: { colors: ['#C8E6C9', '#FFECB3', '#D1C4E9'] }
-    }];
-    const vitalLayout = { title: 'Patient Vital Status' };
-    Plotly.newPlot('vital-plot', vitalData, vitalLayout, {responsive: true});
+        type: 'pie', hole: 0.3
+    }], { title: 'Patient Vital Status' }, {responsive: true});
 
-    // 3. Age at Diagnosis Plot
-    const ages = data.map(row => row.ageAtDiagnosis).filter(age => age !== null && !isNaN(age));
-    const ageData = [{
+    const ages = clinicalData.map(row => row.ageAtDiagnosis).filter(age => age !== null && !isNaN(age));
+    Plotly.newPlot('age-plot', [{
         x: ages,
-        type: 'histogram',
-        nbinsx: 20,
-        marker: { color: '#636EFA' }
-    }];
-    const ageLayout = {
+        type: 'histogram', nbinsx: 20
+    }], {
         title: 'Distribution of Age at Diagnosis',
-        xaxis: { title: 'Age at Diagnosis' },
-        yaxis: { title: 'Number of Patients' },
-        bargap: 0.1
-    };
-    Plotly.newPlot('age-plot', ageData, ageLayout, {responsive: true});
+        xaxis: { title: 'Age' }, yaxis: { title: 'Count' }
+    }, {responsive: true});
 
-    // 4. FAB Subtype Plot
-    const fabCounts = getValueCounts(data, 'FAB_subtype');
+    const fabCounts = getValueCounts(clinicalData, 'FAB_subtype');
     const sortedFab = Object.entries(fabCounts).sort(([,a],[,b]) => a-b);
-    const fabData = [{
+    Plotly.newPlot('fab-plot', [{
         y: sortedFab.map(item => item[0]),
         x: sortedFab.map(item => item[1]),
-        type: 'bar',
-        orientation: 'h',
-        marker: {
-            color: sortedFab.map(item => item[1]),
-            colorscale: 'Viridis'
-        }
-    }];
-    const fabLayout = {
+        type: 'bar', orientation: 'h'
+    }], {
         title: 'FAB Subtype Distribution',
-        xaxis: { title: 'Number of Patients' },
-        yaxis: { title: 'FAB Subtype' }
-    };
-    Plotly.newPlot('fab-plot', fabData, fabLayout, {responsive: true});
+        xaxis: { title: 'Count' }, yaxis: { title: 'Subtype' }
+    }, {responsive: true});
 }

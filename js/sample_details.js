@@ -1,5 +1,3 @@
-// js/sample_details.js
-
 document.addEventListener('DOMContentLoaded', function() {
     
     const urlParams = new URLSearchParams(window.location.search);
@@ -20,11 +18,6 @@ document.addEventListener('DOMContentLoaded', function() {
         'tab-clinical': {
             path: `data/clinical_by_sample/${sampleId}.json`,
             initFunction: initializeClinicalDataTab,
-            dataLoaded: false
-        },
-        'tab-drug': {
-            path: `data/dss_by_sample/${sampleId}.json`,
-            initFunction: initializeDrugResponseTab,
             dataLoaded: false
         },
         'tab-mutations': {
@@ -57,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 return response.json();
             })
             .then(data => {
-                config.initFunction(data);
+                config.initFunction(data, sampleId);
                 config.dataLoaded = true;
             }).catch(err => {
                 console.error("Error loading tab data:", err);
@@ -65,45 +58,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 const container = document.querySelector(`#content-${tabId} > div > div`);
                 if(container) container.innerHTML = `<p class="text-red-500 text-center">${err.message}</p>`;
             });
-    }
-    
-    // --- LOGIC FOR DRUG RESPONSE TAB ---
-    function initializeDrugResponseTab(sampleDssData) {
-        const plotContainer = document.getElementById('dss-waterfall-plot-container');
-        const compoundToClassMap = COLOR_CONFIG.compoundToClass;
-        const classColorMap = COLOR_CONFIG.classColors;
-
-        if (!sampleDssData || sampleDssData.length === 0) {
-            plotContainer.innerHTML = `<p class="text-gray-600 text-center">The data file for this sample is empty or contains no records.</p>`;
-            return;
-        }
-        sampleDssData.sort((a, b) => b.DSS - a.DSS);
-
-        const plotData = { x: [], y: [], hovertext: [], marker: { color: [] } };
-        sampleDssData.forEach(row => {
-            plotData.x.push(row.DSS);
-            plotData.y.push(row.Combination);
-            const normalizedCompoundName = String(row.Combination).toLowerCase().replace(/\s/g, '');
-            const comboClass = compoundToClassMap[normalizedCompoundName];
-            const barColor = classColorMap[comboClass] || '#cccccc';
-            plotData.marker.color.push(barColor);
-            plotData.hovertext.push(`<b>Combination:</b> ${row.Combination}<br><b>DSS:</b> ${row.DSS.toFixed(3)}<br><b>Class:</b> ${comboClass || 'N/A'}`);
-        });
-
-        plotData.x.reverse();
-        plotData.y.reverse();
-        plotData.marker.color.reverse();
-        plotData.hovertext.reverse();
-
-        const layout = {
-            title: `Drug Sensitivity Score (DSS) for Sample ${sampleId}`,
-            xaxis: { title: 'DSS (Drug Sensitivity Score)' },
-            yaxis: { title: 'Drug Combination', type: 'category' },
-            margin: { l: 250 }
-        };
-
-        Plotly.newPlot(plotContainer, [{ ...plotData, type: 'bar', orientation: 'h', hoverinfo: 'text' }], layout, { responsive: true });
-        Plotly.Plots.resize(plotContainer);
     }
 
     // --- LOGIC FOR CLINICAL DATA TAB ---
