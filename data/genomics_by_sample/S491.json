@@ -1,0 +1,102 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S491",
+            "lab_id": "17-00908",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.382352941176471,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000141527",
+            "symbol": "CARD14",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S491",
+            "lab_id": "17-00908",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.382352941176471,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000141527",
+            "symbol": "CARD14",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S491",
+            "lab_id": "17-00908",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.40625,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S491",
+            "lab_id": "17-00908",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.414893617021277,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S491",
+            "lab_id": "17-00908",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.555555555555556,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182054",
+            "symbol": "IDH2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S491",
+            "lab_id": "17-00908",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.546666666666667,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182054",
+            "symbol": "IDH2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S491",
+            "lab_id": "17-00908",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.442622950819672,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000156531",
+            "symbol": "PHF6",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S491",
+            "lab_id": "17-00908",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.45,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000156531",
+            "symbol": "PHF6",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S491",
+            "lab_id": "17-00908",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.348993288590604,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000101972",
+            "symbol": "STAG2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S491",
+            "karyotype": "46,xx,-15,+dic(1;15)(p11;p11)[10]/47,idem,+11[10]",
+            "otherCytogenetics": "67.5% of cells had an extra copy of MLL(11q23)",
+            "consensusAMLfusion": "Other_re, Other_abn2"
+        }
+    ]
+}

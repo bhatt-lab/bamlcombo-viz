@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "S387",
+            "karyotype": "45,xx,der(5)inv(5)(p13q15)del(5)(q15q33),-16,-17,der(17)t(17;17)(p13;q11.2),der(18;22)(q10;q10),+22,+r[cp20].ishr(mll+)[2]",
+            "otherCytogenetics": "nuc ish(D4Z1,D10Z1)x2[200],(D5S2064x2,D5S630x2,EGR1x1)[196/200],(D7Z1,D7S522)x2[200], (D8Z2,D20S108)x2[197],(RUNX1T1,RUNX1)x2[200],(ABL1,BCR)x2[200],(5'MLL,3'MLL)x3(5'MLL con 3'MLLx3) [142/200],(ETV6,RUNX1)x2[200],(PML,RARA)x2[200],(5'CBFB,3'CBFB)x1(5'CBFB con 3'CBFBx1)[200]",
+            "consensusAMLfusion": "Other_re, Other_abn, Other_abn2"
+        }
+    ]
+}

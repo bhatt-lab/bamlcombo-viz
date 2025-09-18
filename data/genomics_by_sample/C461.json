@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C461",
+            "karyotype": "46,xy,t(5;16)(q32;p13)[14]/49,sl,+3,+8,+10[6]",
+            "otherCytogenetics": "GATA2/MECOM: 43/200 cells (21.5) had three signals for both probes, consistent with the trisomy 3 observed in the metaphase karyotype.  There was no evidence for GATA2/MECOM fusion. | RUNX1T1/RUNX1:  32/200 cells (16%) had three RUNX1T1 (8q21.3) signals, consistent with the trisomy 8 observed in the metaphase karyotype.  There was no evidence for RUNX1T1/RUNX1 fusion | NUP98:  94/100 cells (94%) had the abnormal 1 red/ 1 green/1 yellow signal pattern, reflecting NUP98 (11p15.4) rearrangement. In one metaphase cell, the green signal appeared to be present on a chromosome 19.  The translocation was not observable in the metaphase karyotype.",
+            "consensusAMLfusion": "NUP98_re, Other_re, Other_abn, Other_abn2"
+        }
+    ]
+}

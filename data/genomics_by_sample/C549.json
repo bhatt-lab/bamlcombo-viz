@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C549",
+            "karyotype": null,
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

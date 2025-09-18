@@ -1,0 +1,52 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S452",
+            "lab_id": "17-00491",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0945945945945946,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000145555",
+            "symbol": "MYO10",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S452",
+            "lab_id": "17-00491",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0869565217391304,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000173193",
+            "symbol": "PARP14",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S452",
+            "lab_id": "17-00491",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.451807228915663,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S452",
+            "lab_id": "17-00491",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.451807228915663,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S452",
+            "karyotype": "46,xy[20]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

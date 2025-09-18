@@ -1,0 +1,42 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S495",
+            "lab_id": "17-01021",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.544117647058823,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S495",
+            "lab_id": "17-01021",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.32089552238806,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S495",
+            "lab_id": "17-01021",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.087719298245614,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000159450",
+            "symbol": "TCHH",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S495",
+            "karyotype": "45,xx,t(3;3)(q21;q26),del(5)(q22q35),-7[20]",
+            "otherCytogenetics": "EGR-1/ D5S23, D5S721: \u00c2\u00a096/100 cells (96%) had a 1 red/ 2 green signal  pattern, reflecting a deleted 5q, consistent with the metaphase karyotype. | D7S522/ CEP 7: \u00c2\u00a098/100 cells (98%) had a 1 red/ 1 green signal pattern,  reflecting monosomy 7, consistent with the metaphase karyotype. | MECOM/ RPN1: \u00c2\u00a097/100 cells (97%) had a 1 red/ 1 green/ 2 yellow signal  pattern, reflecting MECOM/RPN1 fusion, consistent with the 3;3  translocation in the metaphase karyotype. ",
+            "consensusAMLfusion": "MECOM_re, Other_abn"
+        }
+    ]
+}

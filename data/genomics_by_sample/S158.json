@@ -1,0 +1,112 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S158",
+            "lab_id": "14-00781",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.15,
+            "variant_classification": "splice_donor_variant",
+            "gene": "ENSG00000116254",
+            "symbol": "CHD5",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S158",
+            "lab_id": "14-00781",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.346774193548387,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000108055",
+            "symbol": "SMC3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S158",
+            "lab_id": "14-00781",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.346774193548387,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000108055",
+            "symbol": "SMC3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S158",
+            "lab_id": "14-00781",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.318181818181818,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000133703",
+            "symbol": "KRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S158",
+            "lab_id": "14-00781",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.314393939393939,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000133703",
+            "symbol": "KRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S158",
+            "lab_id": "14-00781",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.155555555555556,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000101544",
+            "symbol": "ADNP2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S158",
+            "lab_id": "14-00781",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.2,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000126461",
+            "symbol": "SCAF1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S158",
+            "lab_id": "14-00781",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.291666666666667,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000153012",
+            "symbol": "LGI2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S158",
+            "lab_id": "14-00781",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.297297297297297,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000153012",
+            "symbol": "LGI2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S158",
+            "lab_id": "14-00781",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.36283185840708,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S158",
+            "karyotype": "47,xy,t(1;11)(p32;q23),+8[cp20]",
+            "otherCytogenetics": "c/w karyotype (CEP 8: 56/100 cells (56%) had three signals, consistent with the trisomy 8 in the metaphase karyotype.  RUNX1T1: 70/100 cells (70%) had three signals, consistent with the trisomy 8 in the metaphase karyotype.  MLL: 72/100 cells (72%) had the abnormal 1 red/ 1 green/1 yellow signal pattern, reflecting MLL rearrangement and its involvement in the 1;11 translocation.)",
+            "consensusAMLfusion": "KMT2A_re, Other_abn, Other_abn2"
+        }
+    ]
+}

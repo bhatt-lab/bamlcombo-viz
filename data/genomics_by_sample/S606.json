@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "S606",
+            "karyotype": null,
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "Not available"
+        }
+    ]
+}

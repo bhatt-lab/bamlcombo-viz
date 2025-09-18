@@ -1,0 +1,52 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S527",
+            "lab_id": "18-00190",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.396825396825397,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000117713",
+            "symbol": "ARID1A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S527",
+            "lab_id": "18-00190",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0882352941176471,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000124795",
+            "symbol": "DEK",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S527",
+            "lab_id": "18-00190",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.428571428571429,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000179295",
+            "symbol": "PTPN11",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S527",
+            "lab_id": "18-00190",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.428571428571429,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000179295",
+            "symbol": "PTPN11",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S527",
+            "karyotype": "46,xx,t(8;16)(p11.2;p13.3)[19]/46,xx[1]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Other_re"
+        }
+    ]
+}

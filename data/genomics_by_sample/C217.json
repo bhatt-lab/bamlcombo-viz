@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C217",
+            "karyotype": "46,xx,inv(16)(p13q22)[cp20]",
+            "otherCytogenetics": "CBFB: \u00c2\u00a079/100 cells (79%) reflecting CBFB rearrangement and the inverted chromosome 16 observed in the metaphase karyotype.",
+            "consensusAMLfusion": "CBFB-MYH11"
+        }
+    ]
+}

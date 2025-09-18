@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C280",
+            "karyotype": "47~49,xy,+8[cp13]/46,xy[7]",
+            "otherCytogenetics": "RUNX1T1/CEP8: 140/200 cells (70%) reflect the trisomy 8 in the metaphase karyotype; 20 cells (10%) reflect extra centromere signals only. It is possible the G-banded cell with two small markers reflects a small clone containing extra copies\u00c2\u00a0of a derivative chromosome 8. | MLL: 88/100 cells (88%) had a variant. A green signal appears on the short arm of a chromosome 10 with a red/small green signal retained on the chromosome 11q. It is unclear whether the material translocated disrupts MLL.",
+            "consensusAMLfusion": "KMT2A_re, Other_abn, Other_abn2"
+        }
+    ]
+}

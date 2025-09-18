@@ -1,0 +1,112 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S575",
+            "lab_id": "19-00418",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.222222222222222,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000245848",
+            "symbol": "CEBPA",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S575",
+            "lab_id": "19-00418",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.129032258064516,
+            "variant_classification": "inframe_insertion",
+            "gene": "ENSG00000245848",
+            "symbol": "CEBPA",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S575",
+            "lab_id": "19-00418",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.453333333333333,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000088538",
+            "symbol": "DOCK3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S575",
+            "lab_id": "19-00418",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.451505016722408,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000088538",
+            "symbol": "DOCK3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S575",
+            "lab_id": "19-00418",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.43359375,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000005483",
+            "symbol": "KMT2E",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S575",
+            "lab_id": "19-00418",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.135416666666667,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000110713",
+            "symbol": "NUP98",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S575",
+            "lab_id": "19-00418",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.36,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000159216",
+            "symbol": "RUNX1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S575",
+            "lab_id": "19-00418",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.571428571428571,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000161547",
+            "symbol": "SRSF2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S575",
+            "lab_id": "19-00418",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.575757575757576,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000161547",
+            "symbol": "SRSF2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S575",
+            "lab_id": "19-00418",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.851063829787234,
+            "variant_classification": "splice_donor_variant",
+            "gene": "ENSG00000101972",
+            "symbol": "STAG2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S575",
+            "karyotype": "46,xy,del(20)(q11.2q13.3)[19]/46,xy[1]",
+            "otherCytogenetics": "81% of cells were missing a signal for 20q12 but had two signals for 20q telomere, consistent with interstitial deletion.",
+            "consensusAMLfusion": "Other_abn, Other_abn2"
+        }
+    ]
+}

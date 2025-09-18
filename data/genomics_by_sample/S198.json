@@ -1,0 +1,122 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S198",
+            "lab_id": "15-00338",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.430379746835443,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000149256",
+            "symbol": "TENM4",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S198",
+            "lab_id": "15-00338",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.465753424657534,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000149256",
+            "symbol": "TENM4",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S198",
+            "lab_id": "15-00338",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.4,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000221961",
+            "symbol": "PRR21",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S198",
+            "lab_id": "15-00338",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.364705882352941,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000136068",
+            "symbol": "FLNB",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S198",
+            "lab_id": "15-00338",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.359756097560976,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000136068",
+            "symbol": "FLNB",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S198",
+            "lab_id": "15-00338",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.365853658536585,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000186090",
+            "symbol": "HTR3D",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S198",
+            "lab_id": "15-00338",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.359550561797753,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000186090",
+            "symbol": "HTR3D",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S198",
+            "lab_id": "15-00338",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.455882352941176,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000156931",
+            "symbol": "VPS8",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S198",
+            "lab_id": "15-00338",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.459259259259259,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000156931",
+            "symbol": "VPS8",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S198",
+            "lab_id": "15-00338",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.0821917808219178,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000124508",
+            "symbol": "BTN2A2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S198",
+            "lab_id": "15-00338",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.217391304347826,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000127083",
+            "symbol": "OMD",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S198",
+            "karyotype": "46,xx,t(15;17)(q24;q21.1)[1]",
+            "otherCytogenetics": "nuc ish(RUNX1T1,RUNX1)x2[200],(5'MLL,3'MLL)x2(5'MLL con 3'MLLx2)[200],(PML, RARA)x3(PML con RARAx2)[154/200],(5'CBFB,3'CBFB)x2(5'CBFB con 3'CBFBx2)[200]",
+            "consensusAMLfusion": "PML-RARA"
+        }
+    ]
+}

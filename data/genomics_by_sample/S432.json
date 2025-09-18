@@ -1,0 +1,52 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S432",
+            "lab_id": "17-00313",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.475409836065574,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182054",
+            "symbol": "IDH2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S432",
+            "lab_id": "17-00313",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.478494623655914,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182054",
+            "symbol": "IDH2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S432",
+            "lab_id": "17-00313",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.294117647058824,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000181163",
+            "symbol": "NPM1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S432",
+            "lab_id": "17-00313",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.260869565217391,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000161547",
+            "symbol": "SRSF2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S432",
+            "karyotype": null,
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "Not available"
+        }
+    ]
+}

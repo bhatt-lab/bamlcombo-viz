@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "S338",
+            "karyotype": null,
+            "otherCytogenetics": "This analysis showed evidence of a PML-RARA rearrangement in 177/200 (88.5 percent) interphase cells scored.",
+            "consensusAMLfusion": "PML-RARA"
+        }
+    ]
+}

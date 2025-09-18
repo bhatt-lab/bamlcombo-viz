@@ -1,0 +1,52 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S438",
+            "lab_id": "17-00360",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.484210526315789,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S438",
+            "lab_id": "17-00360",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.478723404255319,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S438",
+            "lab_id": "17-00360",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.374269005847953,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182054",
+            "symbol": "IDH2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S438",
+            "lab_id": "17-00360",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.386904761904762,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182054",
+            "symbol": "IDH2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S438",
+            "karyotype": "46,xx[20]",
+            "otherCytogenetics": "An apparently NORMAL KARYOTYPE was observed in all 20 mitotic cells analyzed. Specifically, there was no significant numerical chromosomal abnormality and no clonal structural aberration of any chromosome detectable within the limits of resolution. ",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

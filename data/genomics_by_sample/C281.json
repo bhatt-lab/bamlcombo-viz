@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C281",
+            "karyotype": "46~47,xx,add(3)(p13),del(5)(q13q33),der(14)t(14;17)(q32;q11.2),del(16)(q22),-17,-22,+2~4mar[cp19]/46,xx[1]",
+            "otherCytogenetics": "Not available",
+            "consensusAMLfusion": "Other_re, Other_abn, Other_abn2"
+        }
+    ]
+}

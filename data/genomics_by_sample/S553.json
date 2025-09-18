@@ -1,0 +1,62 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S553",
+            "lab_id": "18-00414",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.454545454545455,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S553",
+            "lab_id": "18-00414",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.446153846153846,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S553",
+            "lab_id": "18-00414",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0909090909090909,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000197110",
+            "symbol": "IFNL3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S553",
+            "lab_id": "18-00414",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0833333333333333,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000156925",
+            "symbol": "ZIC3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S553",
+            "lab_id": "18-00414",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.386363636363636,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000143373",
+            "symbol": "ZNF687",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S553",
+            "karyotype": "46,xx,del(5)(q13q33)[14]/46,xx[6]",
+            "otherCytogenetics": "5q:  96% of cells were missing a signal for EGR1 (5q31) and 5q33, consistent with deletion, as seen on metaphase analysis. ",
+            "consensusAMLfusion": "Other_abn"
+        }
+    ]
+}

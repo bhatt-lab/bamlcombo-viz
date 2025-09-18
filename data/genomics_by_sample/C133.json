@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C133",
+            "karyotype": "46,xx,del(7)(q22q36)[18]/46,sl,t(1;10)(p13;q24)[2]",
+            "otherCytogenetics": "- 3 copies of the MECOM locus at 3q26.2, suggestive of a  rearrangement or gain of this locus, in 156/200 (78.0  percent) cells scored.  - deletion 7q31 involving the D7S486 locus in 162/200 (81.0  percent) cells scored.",
+            "consensusAMLfusion": "Other_re, Other_abn"
+        }
+    ]
+}

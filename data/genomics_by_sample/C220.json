@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C220",
+            "karyotype": null,
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "Not available"
+        }
+    ]
+}

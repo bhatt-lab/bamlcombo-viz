@@ -1,0 +1,72 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S160",
+            "lab_id": "14-00798",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.0854430379746835,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S160",
+            "lab_id": "14-00798",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.13,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000133703",
+            "symbol": "KRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S160",
+            "lab_id": "14-00798",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.153846153846154,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000151148",
+            "symbol": "UBE3B",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S160",
+            "lab_id": "14-00798",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.157894736842105,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000163501",
+            "symbol": "IHH",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S160",
+            "lab_id": "14-00798",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.157894736842105,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000146205",
+            "symbol": "ANO7",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S160",
+            "lab_id": "14-00798",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.0956521739130435,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000114861",
+            "symbol": "FOXP1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S160",
+            "karyotype": "46,xx,inv(16)(p13.1q22)[20]",
+            "otherCytogenetics": "CBFB; 76/100 cells (76%) had the abnormal 1 red/ 1 green/1 yellow signal pattern, reflecting CBFB rearrangement. ",
+            "consensusAMLfusion": "CBFB-MYH11"
+        }
+    ]
+}

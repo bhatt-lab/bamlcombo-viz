@@ -1,0 +1,52 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S494",
+            "lab_id": "17-00953",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.415204678362573,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000141510",
+            "symbol": "TP53",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S494",
+            "lab_id": "17-00953",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.417647058823529,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000141510",
+            "symbol": "TP53",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S494",
+            "lab_id": "17-00953",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.46474358974359,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000141510",
+            "symbol": "TP53",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S494",
+            "lab_id": "17-00953",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.462540716612378,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000141510",
+            "symbol": "TP53",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S494",
+            "karyotype": "44-45,xy,-3,-5,der(7)del(7)(q22)inv(7)(p13q22),del(12)9p11.2),add(19)(q13.1),+mar[cp20]",
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "Other_abn, Other_abn2"
+        }
+    ]
+}

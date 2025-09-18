@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C452",
+            "karyotype": "46,xy,der(15)t(1;15)(q12;p11.1)[12]/46,xy,der(13)t(1;13)(q12;p11.1)[7]/46,xy,der(16)t(13;16)(p11.1;q11.2)t(1;13)(q12;p11.1)[2]/46,x,der(y)t(y;1)(q12;q12)[2]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Other_re"
+        }
+    ]
+}

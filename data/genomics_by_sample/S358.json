@@ -1,0 +1,102 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S358",
+            "lab_id": "16-00771",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.461904761904762,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S358",
+            "lab_id": "16-00771",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.494791666666667,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S358",
+            "lab_id": "16-00771",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.5,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000172508",
+            "symbol": "CARNS1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S358",
+            "lab_id": "16-00771",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.555555555555556,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000172508",
+            "symbol": "CARNS1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S358",
+            "lab_id": "16-00771",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.465116279069767,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000141510",
+            "symbol": "TP53",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S358",
+            "lab_id": "16-00771",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.465648854961832,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000141510",
+            "symbol": "TP53",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S358",
+            "lab_id": "16-00771",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.387096774193548,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S358",
+            "lab_id": "16-00771",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.44,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S358",
+            "lab_id": "16-00771",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.195121951219512,
+            "variant_classification": "inframe_insertion",
+            "gene": "ENSG00000113318",
+            "symbol": "MSH3",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S358",
+            "karyotype": "46,xx[20]",
+            "otherCytogenetics": "Not Available",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

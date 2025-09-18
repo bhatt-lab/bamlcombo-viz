@@ -1,0 +1,62 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S354",
+            "lab_id": "16-00731",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.8125,
+            "variant_classification": "splice_donor_variant",
+            "gene": "ENSG00000171517",
+            "symbol": "LPAR3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S354",
+            "lab_id": "16-00731",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.25,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000171914",
+            "symbol": "TLN2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S354",
+            "lab_id": "16-00731",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.508771929824561,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000115524",
+            "symbol": "SF3B1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S354",
+            "lab_id": "16-00731",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.517241379310345,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000115524",
+            "symbol": "SF3B1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S354",
+            "lab_id": "16-00731",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.423809523809524,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S354",
+            "karyotype": "46,xx[20]",
+            "otherCytogenetics": "normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

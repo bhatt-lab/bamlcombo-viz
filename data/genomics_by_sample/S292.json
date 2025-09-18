@@ -1,0 +1,112 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S292",
+            "lab_id": "16-00070",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.458333333333333,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000204950",
+            "symbol": "LRRC10B",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S292",
+            "lab_id": "16-00070",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.468354430379747,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000204950",
+            "symbol": "LRRC10B",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S292",
+            "lab_id": "16-00070",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.144230769230769,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000162302",
+            "symbol": "RPS6KA4",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S292",
+            "lab_id": "16-00070",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.148936170212766,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000162302",
+            "symbol": "RPS6KA4",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S292",
+            "lab_id": "16-00070",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.534883720930233,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000149380",
+            "symbol": "P4HA3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S292",
+            "lab_id": "16-00070",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.142857142857143,
+            "variant_classification": "stop_lost",
+            "gene": "ENSG00000198156",
+            "symbol": "NPIPB6",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S292",
+            "lab_id": "16-00070",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.523809523809524,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000185862",
+            "symbol": "EVI2B",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S292",
+            "lab_id": "16-00070",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.51219512195122,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000185862",
+            "symbol": "EVI2B",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S292",
+            "lab_id": "16-00070",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.329113924050633,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000144031",
+            "symbol": "ANKRD53",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S292",
+            "lab_id": "16-00070",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.0833333333333333,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000163735",
+            "symbol": "CXCL5",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S292",
+            "karyotype": "46,xy,t(15;17)(q22;q21)[20]",
+            "otherCytogenetics": "Cytogenetic testing (FISH) for the t(15;17) - PML-RARA translocation is positive in about 98% of the cells (GLC-16-338);",
+            "consensusAMLfusion": "PML-RARA"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "S329",
+            "karyotype": "46,xy,t(8;21)(q22;q22)[20]",
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "RUNX1-RUNX1T1"
+        }
+    ]
+}

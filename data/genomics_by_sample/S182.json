@@ -1,0 +1,162 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S182",
+            "lab_id": "15-00175",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.509090909090909,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S182",
+            "lab_id": "15-00175",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.142857142857143,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000197721",
+            "symbol": "CR1L",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S182",
+            "lab_id": "15-00175",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.0810810810810811,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000138182",
+            "symbol": "KIF20B",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S182",
+            "lab_id": "15-00175",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.366666666666667,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000137857",
+            "symbol": "DUOX1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S182",
+            "lab_id": "15-00175",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.388888888888889,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000137857",
+            "symbol": "DUOX1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S182",
+            "lab_id": "15-00175",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.535714285714286,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000141510",
+            "symbol": "TP53",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S182",
+            "lab_id": "15-00175",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.529411764705882,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000141510",
+            "symbol": "TP53",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S182",
+            "lab_id": "15-00175",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.375,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000187013",
+            "symbol": "C17orf82",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S182",
+            "lab_id": "15-00175",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.375,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000187013",
+            "symbol": "C17orf82",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S182",
+            "lab_id": "15-00175",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.0806451612903226,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000133193",
+            "symbol": "FAM104A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S182",
+            "lab_id": "15-00175",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.214285714285714,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000183186",
+            "symbol": "C2CD4C",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S182",
+            "lab_id": "15-00175",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.1875,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000101160",
+            "symbol": "CTSZ",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S182",
+            "lab_id": "15-00175",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.4,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000146216",
+            "symbol": "TTBK1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S182",
+            "lab_id": "15-00175",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.4375,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000146216",
+            "symbol": "TTBK1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S182",
+            "lab_id": "15-00175",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.25,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000101825",
+            "symbol": "MXRA5",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S182",
+            "karyotype": "43~47,xy,del(1)(q42),r(2)(p2?3q37),t(3;5)(q27;q31),del(4)(q31),+del(5)(q31),add(5)(q11.2),-7,del(11)(q23),add(12)(p13),-22,+mar[cp11]/43~46,idem,add(14)(q24)[cp8]",
+            "otherCytogenetics": "deleted 5q and three short arm signals;  monosomy 7 and the metaphase karyotype;  no evidence for MLL deletion or rearrangement",
+            "consensusAMLfusion": "Other_re, Other_abn, Other_abn2"
+        }
+    ]
+}

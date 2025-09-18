@@ -1,0 +1,102 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S540",
+            "lab_id": "18-00267",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0818713450292398,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000198271",
+            "symbol": "KRTAP4-5",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S540",
+            "lab_id": "18-00267",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.481318681318681,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000131711",
+            "symbol": "MAP1B",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S540",
+            "lab_id": "18-00267",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.477678571428571,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000131711",
+            "symbol": "MAP1B",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S540",
+            "lab_id": "18-00267",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.430167597765363,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000089250",
+            "symbol": "NOS1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S540",
+            "lab_id": "18-00267",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.436619718309859,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000089250",
+            "symbol": "NOS1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S540",
+            "lab_id": "18-00267",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.444723618090452,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S540",
+            "lab_id": "18-00267",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.444444444444444,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S540",
+            "lab_id": "18-00267",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.456066945606695,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000188162",
+            "symbol": "OTOG",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S540",
+            "lab_id": "18-00267",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.459915611814346,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000188162",
+            "symbol": "OTOG",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S540",
+            "karyotype": "46,xy,inv(16)(p13.1q22)[20]",
+            "otherCytogenetics": "CBFB/MYH11: 91% of cells had the 1r1g2f dual-fusion signal pattern consistent with CBFB/MYH11 fusion and inv(16). ",
+            "consensusAMLfusion": "CBFB-MYH11"
+        }
+    ]
+}

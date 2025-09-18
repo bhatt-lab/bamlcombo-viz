@@ -1,0 +1,32 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S482",
+            "lab_id": "17-00848",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.451104100946372,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S482",
+            "lab_id": "17-00848",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.45,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S482",
+            "karyotype": "notavailable",
+            "otherCytogenetics": "Positive for CBFB rearrangement. (96/100 cells (96%) reflected a loss of the distal green portion of one break-apart signal. Presence of an  inverted chromosome 16 was confirmed. \u00c2\u00a0In addition, metaphase FISH showed a  normal chromosome 16 with a yellow (red/green) signal in the long arm and the inverted chromosome 16 with the proximal\u00c2\u00a0red signal in the short arm and the green signal missing.)",
+            "consensusAMLfusion": "CBFB-MYH11"
+        }
+    ]
+}

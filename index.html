@@ -4,29 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clinical Data Dashboard</title>
-    <!-- Tailwind CSS for styling -->
+    <base href="./"> 
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Plotly.js for charting -->
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-    <!-- Papa Parse for reading CSV files -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
-    <!-- D3.js is no longer strictly needed for data loading but might be useful for future DOM manipulation -->
+    <script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script> 
     <script src="https://d3js.org/d3.v7.min.js"></script>
-    <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="bg-gray-50 font-sans">
 
     <div class="container mx-auto p-4 md:p-8">
-        <!-- Header Section -->
         <header class="text-center mb-8">
             <h1 class="text-3xl md:text-4xl font-bold text-gray-800">Comprehensive Biological Data Dashboard</h1>
             <p class="text-gray-600 mt-2">An interactive portal for clinical data exploration</p>
         </header>
 
-        <!-- Tabs Navigation -->
         <div class="border-b border-gray-200">
-            <!-- The onclick attributes have been removed. The logic is now solely in main.js -->
             <nav class="flex -mb-px space-x-4" aria-label="Tabs">
                 <div id="tab-summary" class="tab active">Summary</div>
                 <div id="tab-clinical" class="tab">Clinical Data</div>
@@ -35,14 +27,11 @@
             </nav>
         </div>
 
-        <!-- Tab Content Area -->
         <main class="mt-6">
-            <!-- Summary Tab Content -->
             <div id="content-summary" class="tab-content active">
                 <div class="bg-white p-6 rounded-lg shadow-md">
                     <h3 class="text-2xl font-semibold text-center mb-6 text-gray-700">Dataset Summary</h3>
                     <div id="plots-container" class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        <!-- Plotly graphs will be injected here by JavaScript -->
                         <div id="gender-plot" class="plot-container border rounded-lg p-2"></div>
                         <div id="vital-plot" class="plot-container border rounded-lg p-2"></div>
                         <div id="age-plot" class="plot-container border rounded-lg p-2"></div>
@@ -51,9 +40,7 @@
                 </div>
             </div>
 
-            <!-- Clinical Data Tab -->
             <div id="content-clinical" class="tab-content">
-                <!--Header container for title and custom dropdown -->
                 <div class="clinical-data-header">
                     <h2>Clinical Data Explorer</h2>
                     <div id="column-select-custom-dropdown" class="custom-dropdown-wrapper">
@@ -61,12 +48,10 @@
                         <div id="selected-columns-display" class="selected-items-display" tabindex="0">
                             <span class="placeholder-text">Click to select...</span>
                         </div>
-                        <!-- This div will contain the search bar and then the checkboxes -->
                         <div id="checkbox-list-container" class="checkbox-list-container">
                             <input type="text" id="column-search-input" class="column-search-input" placeholder="Search columns...">
                             <div id="checkboxes-wrapper" class="checkboxes-wrapper">
-                                <!-- Checkboxes will be dynamically inserted here -->
-                            </div>
+                                </div>
                         </div>
                     </div>
                 </div>
@@ -74,32 +59,58 @@
                 <p>Select columns to display in the table. Hover over column headers for more information.</p>
                 
                 <div id="table-container">
-                    <!-- The table will be inserted here by JavaScript -->
-                </div>
+                    </div>
             </div>
-            <!-- This is for the tooltip -->
             <div id="tooltip" class="tooltip" style="opacity:0;"></div>
 
-            <!-- Placeholder for Drug Response Tab -->
             <div id="content-drug" class="tab-content">
-                 <div class="bg-white p-6 rounded-lg shadow-md text-center">
-                    <h3 class="text-2xl font-semibold text-gray-700">Drug Response Analysis</h3>
-                    <p class="text-gray-500 mt-2">This section is under construction.</p>
+                 <div class="bg-white p-6 rounded-lg shadow-md space-y-8">
+                    <div>
+                        <h3 class="text-2xl font-semibold mb-4 text-gray-700">Drug Combination Synergy Overview</h3>
+                        <div id="hsa-bubble-plot-container"><p class="text-gray-500">Loading plot...</p></div>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-semibold mb-4 text-gray-700">Top Drugs by Predicted Combination DSS</h3>
+                        <div id="drug-swarm-plot-container"><p class="text-gray-500">Loading plot...</p></div>
+                    </div>
                 </div>
             </div>
-            <!-- Placeholder for Custom Plots Tab -->
+            
             <div id="content-custom" class="tab-content">
-                 <div class="bg-white p-6 rounded-lg shadow-md text-center">
-                    <h3 class="text-2xl font-semibold text-gray-700">Custom Plot Generator</h3>
-                    <p class="text-gray-500 mt-2">This section is under construction.</p>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-semibold text-gray-700 mb-4">Custom Plot Generator</h3>
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-4">
+                        <div>
+                            <label for="x-axis-select" class="block text-sm font-medium text-gray-700">X-Axis (Categorical):</label>
+                            <select id="x-axis-select" class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"></select>
+                        </div>
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div>
+                                <label for="y-axis-file-select" class="block text-sm font-medium text-gray-700">Y-Axis File:</label>
+                                <select id="y-axis-file-select" class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md">
+                                    <option value="" selected disabled>Select File...</option>
+                                    <option value="dss">DSS</option>
+                                    <option value="proteomics">Proteomics</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700">Y-Axis Columns:</label>
+                                <div id="y-axis-column-select-container" class="mt-1 relative">
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="custom-plot" class="border rounded-lg p-2 min-h-[400px]"></div>
                 </div>
             </div>
         </main>
     </div>
 
-    <!-- Custom JavaScript -->
     <script src="js/clinical.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/drug_response_plots.js"></script>
+    <script src="js/custom_plots.js"></script>
 
 </body>
 </html>

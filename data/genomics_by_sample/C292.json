@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C292",
+            "karyotype": "49,x,-y,add(3)(q21),t(3;12)(q25;q24.1),add(8)(q22),t(9;22)(q34;q11.2),+19,+21,+der(22)t(9;22)(q34;q11.2),+mar[2]/48~49,idem,+12,-der(12)t(3;12)(q25;q24.1)[cp12]/46,xy[6]",
+            "otherCytogenetics": "43/200 cells (21.5%) had a fusion signal pattern consistent with BCR/ABL fusion and the Philadelphia rearrangement plus extra derivative 22 observed in the metaphase karyotype.",
+            "consensusAMLfusion": "BCR-ABL1, Other_re, Other_abn2"
+        }
+    ]
+}

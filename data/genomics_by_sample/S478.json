@@ -1,0 +1,72 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S478",
+            "lab_id": "17-00781",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0892857142857143,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000165521",
+            "symbol": "EML5",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S478",
+            "lab_id": "17-00781",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.395833333333333,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000159216",
+            "symbol": "RUNX1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S478",
+            "lab_id": "17-00781",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.395833333333333,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000159216",
+            "symbol": "RUNX1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S478",
+            "lab_id": "17-00781",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.388059701492537,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000161547",
+            "symbol": "SRSF2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S478",
+            "lab_id": "17-00781",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.378787878787879,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000161547",
+            "symbol": "SRSF2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S478",
+            "lab_id": "17-00781",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.5,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000124535",
+            "symbol": "WRNIP1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S478",
+            "karyotype": "47,xx,+8[20]",
+            "otherCytogenetics": "POSITIVE for RUNX1T1 copy number gain",
+            "consensusAMLfusion": "Other_abn, Other_abn2"
+        }
+    ]
+}

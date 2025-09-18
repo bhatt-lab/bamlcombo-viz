@@ -1,0 +1,162 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S149",
+            "lab_id": "14-00643",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.166666666666667,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000183856",
+            "symbol": "IQGAP3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S149",
+            "lab_id": "14-00643",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.15,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000258572",
+            "symbol": "RP11-1070N10.3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S149",
+            "lab_id": "14-00643",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.15,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000258572",
+            "symbol": "RP11-1070N10.3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S149",
+            "lab_id": "14-00643",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.1,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000005339",
+            "symbol": "CREBBP",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S149",
+            "lab_id": "14-00643",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.408163265306122,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000103154",
+            "symbol": "NECAB2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S149",
+            "lab_id": "14-00643",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.404255319148936,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000103154",
+            "symbol": "NECAB2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S149",
+            "lab_id": "14-00643",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.181818181818182,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000180011",
+            "symbol": "ZADH2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S149",
+            "lab_id": "14-00643",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.157894736842105,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000142513",
+            "symbol": "ACPT",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S149",
+            "lab_id": "14-00643",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.4,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000066032",
+            "symbol": "CTNNA2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S149",
+            "lab_id": "14-00643",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.4,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000066032",
+            "symbol": "CTNNA2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S149",
+            "lab_id": "14-00643",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.458333333333333,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000183873",
+            "symbol": "SCN5A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S149",
+            "lab_id": "14-00643",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.458333333333333,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000183873",
+            "symbol": "SCN5A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S149",
+            "lab_id": "14-00643",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.171806167400881,
+            "variant_classification": "inframe_insertion",
+            "gene": "ENSG00000157404",
+            "symbol": "KIT",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S149",
+            "lab_id": "14-00643",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.168224299065421,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000106462",
+            "symbol": "EZH2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S149",
+            "lab_id": "14-00643",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.166666666666667,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000133131",
+            "symbol": "MORC4",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S149",
+            "karyotype": "45,x,-y,t(8;21)(q22;q22)[20]",
+            "otherCytogenetics": "RUNX1T1/RUNX1: \u00c2\u00a0 94% of cells had the dual fusion signal pattern consistent with RUNX1T1/RUNX1 fusion and t(8;21), as seen on metaphase analysis.",
+            "consensusAMLfusion": "RUNX1-RUNX1T1, Other_abn2"
+        }
+    ]
+}

@@ -1,0 +1,132 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S231",
+            "lab_id": "15-00680",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.176470588235294,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000174332",
+            "symbol": "GLIS1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S231",
+            "lab_id": "15-00680",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.470588235294118,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000143126",
+            "symbol": "CELSR2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S231",
+            "lab_id": "15-00680",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.470588235294118,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000143126",
+            "symbol": "CELSR2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S231",
+            "lab_id": "15-00680",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.105263157894737,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000168679",
+            "symbol": "SLC16A4",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S231",
+            "lab_id": "15-00680",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.5,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000137815",
+            "symbol": "RTF1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S231",
+            "lab_id": "15-00680",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.5,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000137815",
+            "symbol": "RTF1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S231",
+            "lab_id": "15-00680",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.166666666666667,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000067369",
+            "symbol": "TP53BP1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S231",
+            "lab_id": "15-00680",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.0821917808219178,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000206530",
+            "symbol": "WDR52",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S231",
+            "lab_id": "15-00680",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.465753424657534,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000080493",
+            "symbol": "SLC4A4",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S231",
+            "lab_id": "15-00680",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.465753424657534,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000080493",
+            "symbol": "SLC4A4",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S231",
+            "lab_id": "15-00680",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.296296296296296,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000181163",
+            "symbol": "NPM1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S231",
+            "lab_id": "15-00680",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.454545454545455,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000080503",
+            "symbol": "SMARCA2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S231",
+            "karyotype": "46,xy[20]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S174",
+            "lab_id": "16-00315",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.2,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000176165",
+            "symbol": "FOXG1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S174",
+            "lab_id": "16-00315",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.129411764705882,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000006788",
+            "symbol": "MYH13",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S174",
+            "lab_id": "16-00315",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.134831460674157,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000006788",
+            "symbol": "MYH13",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S174",
+            "lab_id": "16-00315",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.185185185185185,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000196367",
+            "symbol": "TRRAP",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S174",
+            "lab_id": "16-00315",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.214285714285714,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000196367",
+            "symbol": "TRRAP",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S174",
+            "lab_id": "16-00315",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.0909090909090909,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000085185",
+            "symbol": "BCORL1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S174",
+            "karyotype": "47,xy,+4[2]/46,xy[18]",
+            "otherCytogenetics": "Two of twenty metaphase cells examined were abnormal, with trisomy 4, as seen previously.",
+            "consensusAMLfusion": "Other_abn, Other_abn2"
+        }
+    ]
+}

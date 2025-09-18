@@ -1,0 +1,82 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S557",
+            "lab_id": "19-00062",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.338164251207729,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000214944",
+            "symbol": "ARHGEF28",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S557",
+            "lab_id": "19-00062",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.385869565217391,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000198752",
+            "symbol": "CDC42BPB",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S557",
+            "lab_id": "19-00062",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.383333333333333,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000198752",
+            "symbol": "CDC42BPB",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S557",
+            "lab_id": "19-00062",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.320512820512821,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000185823",
+            "symbol": "NPAP1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S557",
+            "lab_id": "19-00062",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.324324324324324,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000185823",
+            "symbol": "NPAP1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S557",
+            "lab_id": "19-00062",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.161654135338346,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S557",
+            "lab_id": "19-00062",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.162878787878788,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S557",
+            "karyotype": "46,xx,t(15;17)(q22;q21)[20]",
+            "otherCytogenetics": "positive for PML/RARA fusion",
+            "consensusAMLfusion": "PML-RARA"
+        }
+    ]
+}

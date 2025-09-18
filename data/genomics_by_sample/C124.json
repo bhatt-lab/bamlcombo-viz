@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C124",
+            "karyotype": "46,xx[19]",
+            "otherCytogenetics": "Normal (FISH) | 60% (Percent blasts/promonocytes/atypical monocytes in PB)",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

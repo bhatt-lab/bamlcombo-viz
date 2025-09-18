@@ -1,0 +1,72 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S561",
+            "lab_id": "19-00107",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0847457627118644,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000021776",
+            "symbol": "AQR",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S561",
+            "lab_id": "19-00107",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.441176470588235,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000181163",
+            "symbol": "NPM1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S561",
+            "lab_id": "19-00107",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.426108374384236,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000156531",
+            "symbol": "PHF6",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S561",
+            "lab_id": "19-00107",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.427860696517413,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000156531",
+            "symbol": "PHF6",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S561",
+            "lab_id": "19-00107",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.418691588785047,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S561",
+            "lab_id": "19-00107",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.416195856873823,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S561",
+            "karyotype": "46,xx[8]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

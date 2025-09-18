@@ -1,0 +1,52 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S454",
+            "lab_id": "17-00831",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.430232558139535,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000133703",
+            "symbol": "KRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S454",
+            "lab_id": "17-00831",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.431137724550898,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000133703",
+            "symbol": "KRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S454",
+            "lab_id": "17-00831",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.458064516129032,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000160201",
+            "symbol": "U2AF1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S454",
+            "lab_id": "17-00831",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.458064516129032,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000160201",
+            "symbol": "U2AF1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S454",
+            "karyotype": "49,xy,+8,+mar1,+mar1[cp13]/49,idem,del(6)(q13q21)[8]",
+            "otherCytogenetics": "RUNX1T1/CEP8: \u00c2\u00a095/100 cells (95%) had an abnormal 3 red/ 3 aqua signal  pattern, reflecting the trisomy 8 in the metaphase karyotype and previously  observed. There was no evidence for RUNX1T1/RUNX1 fusion. | MLL: \u00c2\u00a093/100 cells (93%) had a variant abnormal 0 red/ 1 green/ 1 yellow  (red/small green)/ 1 yellow (red/green) signal pattern, reflecting MLL rearrangement and previously observed. | MECOM/RPN1: \u00c2\u00a084/100 cells (84%) had an abnormal 5-6 red/ 2 green signal  pattern, reflecting extra copies of MECOM (3q26.2) and gain of 3q.  Metaphase FISH shows the extra signals to be on the two markers. There was  no evidence for MECOM/RPN1 fusion.",
+            "consensusAMLfusion": "KMT2A_re, Other_abn, Other_abn2"
+        }
+    ]
+}

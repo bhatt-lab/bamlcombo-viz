@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "S300",
+            "karyotype": "46,xy,t(15;17)(q24;q21)[18]/46,xy[2]",
+            "otherCytogenetics": "Normal (Apparently only tested for 5q31, 7cen, 7q31, 11q23)",
+            "consensusAMLfusion": "PML-RARA"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S239",
+            "lab_id": "15-00742",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.146341463414634,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000163645",
+            "symbol": "FAM194A",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S239",
+            "karyotype": "46,xx,t(15;17)(q22;q21)[8]/46,idem,add(6)(p23),der(6)add(6)(p21)add(6)(q13),add(9)(p22),add(11)(q21),add(14)(q24)[12]",
+            "otherCytogenetics": "21/200 (10.5%) interphase cells  scored had the 1 red/ 1 green/ 2 yellow fusion signal pattern consistent  with PML/RARA fusion.",
+            "consensusAMLfusion": "PML-RARA, Other_abn2"
+        }
+    ]
+}

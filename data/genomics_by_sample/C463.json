@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C463",
+            "karyotype": "45,xy,inv(1)(p34q21),t(2;6)(p13;q23),der(5)t(5;15)(q13;q24),dic(6;7)(p10;q10),der(12)t(5;12)(q22;q15),der(15)t(5;15)(q13;q23)t(5;12)(q22;q15)[13]/47,idem,+14,+20[7]",
+            "otherCytogenetics": "6q21/6q23: 91% of cells were missing both signals for 6q probes (6q21 and MYB at 6q23) but had two signals for the centromere, consistent with deletion due to dic(6;7) formation. | Chromosome 20: 35.5% of cells had an extra signal for both probes, consistent with trisomy 20. | IGH (14q32): 30.5% of cells had an extra intact signal, consistent with trisomy 14.",
+            "consensusAMLfusion": "Other_re, Other_abn, Other_abn2"
+        }
+    ]
+}

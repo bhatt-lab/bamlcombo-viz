@@ -1,0 +1,72 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S534",
+            "lab_id": "18-00223",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.13,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000085185",
+            "symbol": "BCORL1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S534",
+            "lab_id": "18-00223",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.283582089552239,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000122025",
+            "symbol": "FLT3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S534",
+            "lab_id": "18-00223",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.283582089552239,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000122025",
+            "symbol": "FLT3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S534",
+            "lab_id": "18-00223",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.166666666666667,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000133703",
+            "symbol": "KRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S534",
+            "lab_id": "18-00223",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.166666666666667,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000133703",
+            "symbol": "KRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S534",
+            "lab_id": "18-00223",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.128440366972477,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000131013",
+            "symbol": "PPIL4",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S534",
+            "karyotype": "46,xy,inv(16)(p13.1q22)[cp20]",
+            "otherCytogenetics": "CBFB/MYH11: 93/100 cells (93%) had the abnormal 1 red/ 1 green/ 2 yellow signal pattern, reflecting CBFB/MYH11 fusion, consistent with the metaphase karyotype and the diagnosis of AML. ",
+            "consensusAMLfusion": "CBFB-MYH11"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S181",
+            "lab_id": "15-00167",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.44140625,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182054",
+            "symbol": "IDH2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S181",
+            "lab_id": "15-00167",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.25,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000181163",
+            "symbol": "NPM1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S181",
+            "karyotype": "46,xy[20]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

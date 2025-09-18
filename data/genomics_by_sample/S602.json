@@ -1,0 +1,82 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S602",
+            "lab_id": "17-00536",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.503030303030303,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000081803",
+            "symbol": "CADPS2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S602",
+            "lab_id": "17-00536",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.496932515337423,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000081803",
+            "symbol": "CADPS2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S602",
+            "lab_id": "17-00536",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.386363636363636,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000122025",
+            "symbol": "FLT3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S602",
+            "lab_id": "17-00536",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.388235294117647,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000122025",
+            "symbol": "FLT3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S602",
+            "lab_id": "17-00536",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.484536082474227,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000170011",
+            "symbol": "MYRIP",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S602",
+            "lab_id": "17-00536",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.463917525773196,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000170011",
+            "symbol": "MYRIP",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S602",
+            "lab_id": "17-00536",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.111111111111111,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000115970",
+            "symbol": "THADA",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S602",
+            "karyotype": "46,xy[20]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

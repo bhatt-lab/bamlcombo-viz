@@ -1,0 +1,32 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S196",
+            "lab_id": "15-00296",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.157142857142857,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S196",
+            "lab_id": "15-00296",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.158273381294964,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S196",
+            "karyotype": "46,xx,t(9;11)(p22;q23)[3]/50,sl,+6,+8,+der(9)t(9;11),+19[14]/51,sdl1,+5[3]",
+            "otherCytogenetics": "MLL: \u00c2\u00a0 14% of cells had a 1 red / 1 green / 1 fused split pattern consistent with the t(9;11) seen on metaphase analysis. \u00c2\u00a0An addition 65% of cells had two red / 1 green / 1 fused signal pattern, consistent with the clone with the +der(9). | BCR/ABL+ASS: \u00c2\u00a0 62% of cells had three signals for both ABL and ASS (9q34), consistent with the clone with +9. | RUNX1T1 (8q22): \u00c2\u00a0 69% of cells had three signals for RUNX1T1, consistent with the clone with +8. | EGR1: \u00c2\u00a0 7% of cells had three signals for EGR1 (5q31), consistent with the clone with +5.",
+            "consensusAMLfusion": "KMT2A_re, Other_abn, Other_abn2"
+        }
+    ]
+}

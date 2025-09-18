@@ -1,0 +1,102 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S613",
+            "lab_id": "18-00280",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.268292682926829,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000171456",
+            "symbol": "ASXL1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S613",
+            "lab_id": "18-00280",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.367272727272727,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S613",
+            "lab_id": "18-00280",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.36996336996337,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S613",
+            "lab_id": "18-00280",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.310810810810811,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000161547",
+            "symbol": "SRSF2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S613",
+            "lab_id": "18-00280",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.310810810810811,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000161547",
+            "symbol": "SRSF2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S613",
+            "lab_id": "18-00280",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.614035087719298,
+            "variant_classification": "splice_donor_variant",
+            "gene": "ENSG00000101972",
+            "symbol": "STAG2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S613",
+            "lab_id": "18-00280",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.614035087719298,
+            "variant_classification": "splice_donor_variant",
+            "gene": "ENSG00000101972",
+            "symbol": "STAG2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S613",
+            "lab_id": "18-00280",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.44949494949495,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S613",
+            "lab_id": "18-00280",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.447236180904523,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S613",
+            "karyotype": null,
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "Not available"
+        }
+    ]
+}

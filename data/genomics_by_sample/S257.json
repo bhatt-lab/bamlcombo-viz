@@ -1,0 +1,132 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S257",
+            "lab_id": "15-00858",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.25,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000095564",
+            "symbol": "BTAF1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S257",
+            "lab_id": "15-00858",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.34453781512605,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000151929",
+            "symbol": "BAG3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S257",
+            "lab_id": "15-00858",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.34453781512605,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000151929",
+            "symbol": "BAG3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S257",
+            "lab_id": "15-00858",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.157894736842105,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000100599",
+            "symbol": "RIN3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S257",
+            "lab_id": "15-00858",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.108108108108108,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000157106",
+            "symbol": "SMG1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S257",
+            "lab_id": "15-00858",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.222222222222222,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S257",
+            "lab_id": "15-00858",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.297520661157025,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S257",
+            "lab_id": "15-00858",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.475,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S257",
+            "lab_id": "15-00858",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.206896551724138,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000181163",
+            "symbol": "NPM1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S257",
+            "lab_id": "15-00858",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.0855263157894737,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000112249",
+            "symbol": "ASCC3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S257",
+            "lab_id": "15-00858",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.235294117647059,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000156531",
+            "symbol": "PHF6",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S257",
+            "lab_id": "15-00858",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.235294117647059,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000156531",
+            "symbol": "PHF6",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S257",
+            "karyotype": "46,xx[22]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

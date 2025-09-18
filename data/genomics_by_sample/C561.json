@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C561",
+            "karyotype": "46xy",
+            "otherCytogenetics": "Not available",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S344",
+            "lab_id": "16-00540",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.333333333333333,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000184937",
+            "symbol": "WT1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S344",
+            "karyotype": "47,xx,+8[18]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Other_abn"
+        }
+    ]
+}

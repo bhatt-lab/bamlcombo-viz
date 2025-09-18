@@ -1,0 +1,72 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S154",
+            "lab_id": "17-00641",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.105263157894737,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000171456",
+            "symbol": "ASXL1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S154",
+            "lab_id": "17-00641",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.5,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S154",
+            "lab_id": "17-00641",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.4,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000135476",
+            "symbol": "ESPL1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S154",
+            "lab_id": "17-00641",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.4,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000135476",
+            "symbol": "ESPL1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S154",
+            "lab_id": "17-00641",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.573099415204678,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000183873",
+            "symbol": "SCN5A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S154",
+            "lab_id": "17-00641",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.571428571428571,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000183873",
+            "symbol": "SCN5A",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S154",
+            "karyotype": "47,xy,t(6;9)(p23;q34),+8[13]/48,idem,+13[4]/46,xy[3]",
+            "otherCytogenetics": "DEK-NUP214 fusion; MAF unavailable (DEK-NUP214 fusion; MAF unavailable) | nuc ish(D5S2064,D5S630,EGR1)x2[200],(D7Z1,D7S522)x2[200],(D8Z2,D20S108)x2[198], (RUNX1T1,RUNX1)x2[199],(5'MLL,3'MLL)x3(5'MLL con 3'MLLx3)[17/200],(PML,RARA)x2[200],(5'CBFB,3'CBFB)x2(5'CBFB con 3'CBFBx2)[200]",
+            "consensusAMLfusion": "DEK-NUP214, Other_abn, Other_abn2"
+        }
+    ]
+}

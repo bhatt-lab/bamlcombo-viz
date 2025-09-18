@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C495",
+            "karyotype": "46,xx,del(5)(q12q33)[12]/46,sl,add(2)(p23)[5]/47-48,sdl1,-13,+2-3mar[cp4]",
+            "otherCytogenetics": "90% of cells missing both 5q probes",
+            "consensusAMLfusion": "Other_abn, Other_abn2"
+        }
+    ]
+}

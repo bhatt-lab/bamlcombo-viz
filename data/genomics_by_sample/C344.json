@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C344",
+            "karyotype": "47,xy,+6[4]/49,sl,+6,+22[2]/49,sl,+4,+8,i(8)(q10)x2[5]/47,xy,+r[2]/46,xy[7]",
+            "otherCytogenetics": "Gain of 8q22, 8 centromere and 16q22 sequences",
+            "consensusAMLfusion": "Other_abn, Other_abn2"
+        }
+    ]
+}

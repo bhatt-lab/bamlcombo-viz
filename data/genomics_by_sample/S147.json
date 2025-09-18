@@ -1,0 +1,42 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S147",
+            "lab_id": "14-00613",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.285714285714286,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000157404",
+            "symbol": "KIT",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S147",
+            "lab_id": "14-00613",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.290030211480363,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000157404",
+            "symbol": "KIT",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S147",
+            "lab_id": "14-00613",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.5,
+            "variant_classification": "splice_acceptor_variant",
+            "gene": "ENSG00000138658",
+            "symbol": "C4orf21",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S147",
+            "karyotype": "46,xy,inv(16)(p13.1q22)[7]/46,idem,add(17)(p11.2)[13]",
+            "otherCytogenetics": "nuc ish(RUNX1T1,RUNX1)x2[200],(ABL1,BCR)x2[200],(5'MLL,3'MLL)x2(5'MLL con 3'MLLx2)[198],(PML,RARA)x2[198],(CBFBx2)(5\u00e2\u20ac\u2122CBFB sep 3\u00e2\u20ac\u2122CBFBx1)[164/200]",
+            "consensusAMLfusion": "CBFB-MYH11, Other_abn"
+        }
+    ]
+}

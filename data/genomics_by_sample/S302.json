@@ -1,0 +1,82 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S302",
+            "lab_id": "16-00115",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.515723270440252,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S302",
+            "lab_id": "16-00115",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.516556291390728,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S302",
+            "lab_id": "16-00115",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.469387755102041,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000161547",
+            "symbol": "SRSF2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S302",
+            "lab_id": "16-00115",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.489795918367347,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000161547",
+            "symbol": "SRSF2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S302",
+            "lab_id": "16-00115",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.35243553008596,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S302",
+            "lab_id": "16-00115",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.326086956521739,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S302",
+            "lab_id": "16-00115",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.4,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000101972",
+            "symbol": "STAG2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S302",
+            "karyotype": "45,xy,-7,del(12)(p11.2p13)[20]",
+            "otherCytogenetics": "Monosomy 7 is detected in 87% of cells.",
+            "consensusAMLfusion": "Other_abn"
+        }
+    ]
+}

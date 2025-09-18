@@ -1,0 +1,32 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S139",
+            "lab_id": "14-00537",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.426966292134831,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000133703",
+            "symbol": "KRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S139",
+            "lab_id": "14-00537",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.426966292134831,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000133703",
+            "symbol": "KRAS",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S139",
+            "karyotype": "46,xy,t(11;19)(q23;p13.1)[19]/46,xy[1]",
+            "otherCytogenetics": "Not available",
+            "consensusAMLfusion": "KMT2A_re"
+        }
+    ]
+}

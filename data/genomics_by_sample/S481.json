@@ -1,0 +1,112 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S481",
+            "lab_id": "17-00843",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.321917808219178,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000065883",
+            "symbol": "CDK13",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S481",
+            "lab_id": "17-00843",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.292307692307692,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000082458",
+            "symbol": "DLG3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S481",
+            "lab_id": "17-00843",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.296875,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000082458",
+            "symbol": "DLG3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S481",
+            "lab_id": "17-00843",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.385714285714286,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S481",
+            "lab_id": "17-00843",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.385714285714286,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S481",
+            "lab_id": "17-00843",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.409722222222222,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182054",
+            "symbol": "IDH2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S481",
+            "lab_id": "17-00843",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.412587412587413,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182054",
+            "symbol": "IDH2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S481",
+            "lab_id": "17-00843",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.117117117117117,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000173193",
+            "symbol": "PARP14",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S481",
+            "lab_id": "17-00843",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.111111111111111,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000099995",
+            "symbol": "SF3A1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S481",
+            "lab_id": "17-00843",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.108108108108108,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000074755",
+            "symbol": "ZZEF1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S481",
+            "karyotype": "46,xx,del(7)(q22q32)[cp4]/46,xx[16]",
+            "otherCytogenetics": "Evidence of deletion of the BCR (22q11.2) gene in 7% of the cells examined.",
+            "consensusAMLfusion": "Other_abn"
+        }
+    ]
+}

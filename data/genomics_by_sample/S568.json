@@ -1,0 +1,72 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S568",
+            "lab_id": "19-00232",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.511627906976744,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S568",
+            "lab_id": "19-00232",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.505813953488372,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S568",
+            "lab_id": "19-00232",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.424242424242424,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000181163",
+            "symbol": "NPM1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S568",
+            "lab_id": "19-00232",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.157232704402516,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S568",
+            "lab_id": "19-00232",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.15987460815047,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S568",
+            "lab_id": "19-00232",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0952380952380952,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000131653",
+            "symbol": "TRAF7",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S568",
+            "karyotype": "46,xy[20]",
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

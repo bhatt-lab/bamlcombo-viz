@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C555",
+            "karyotype": "46,xx,t(6;11)(q27;q23)[25]",
+            "otherCytogenetics": "MLL: \u00c2\u00a092/100 cells (92%) had the abnormal 1 red/ 1 green/1 yellow signal  pattern, reflecting MLL rearrangement and consistent with the 6;11  translocation observed in a companion bone marrow G-banded chromosome  study. One metaphase cell showed the 6;11 rearrangement.",
+            "consensusAMLfusion": "KMT2A_re"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C464",
+            "karyotype": "46,xy,add(16)(q24)[14]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Other_abn2"
+        }
+    ]
+}

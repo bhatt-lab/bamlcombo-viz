@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C481",
+            "karyotype": "45,xx,der(7)t(7;18)(q11.2;q11.2),t(9;22)(q34;q11.2),-18[20]",
+            "otherCytogenetics": "BCR/ABL:  94% of cells had the 1r1g2f pattern consistent with BCR/ABL fusion and t(9;22). | D7S486 (7q31):  83% of cells were missing a signal, consistent with deletion due to t(7;18).",
+            "consensusAMLfusion": "BCR-ABL1, Other_re, Other_abn2"
+        }
+    ]
+}

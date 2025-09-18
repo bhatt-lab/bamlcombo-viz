@@ -1,0 +1,72 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S320",
+            "lab_id": "16-00354",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.439252336448598,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000185823",
+            "symbol": "NPAP1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S320",
+            "lab_id": "16-00354",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.447619047619048,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000185823",
+            "symbol": "NPAP1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S320",
+            "lab_id": "16-00354",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.930232558139535,
+            "variant_classification": "splice_acceptor_variant",
+            "gene": "ENSG00000141510",
+            "symbol": "TP53",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S320",
+            "lab_id": "16-00354",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.931818181818182,
+            "variant_classification": "splice_acceptor_variant",
+            "gene": "ENSG00000141510",
+            "symbol": "TP53",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S320",
+            "lab_id": "16-00354",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.425414364640884,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000157404",
+            "symbol": "KIT",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S320",
+            "lab_id": "16-00354",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.430167597765363,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000157404",
+            "symbol": "KIT",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S320",
+            "karyotype": "43-45,x,-y,del(5)(q22q35),del(7)(q22),+8,-9,add(9)(p13),+11,-13,-14,add(16)(q24),-17,-18,del(20)(q11.2q13.2),+2-3mar[cp21]",
+            "otherCytogenetics": "5q31 (EGR1): deletion present  8q22 (RUNX1T1): gain present  11q23 (KMT2A; also known as MLL): gain present ",
+            "consensusAMLfusion": "Other_abn, Other_abn2"
+        }
+    ]
+}

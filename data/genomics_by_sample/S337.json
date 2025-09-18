@@ -1,0 +1,52 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S337",
+            "lab_id": "16-00494",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.714285714285714,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000105143",
+            "symbol": "SLC1A6",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S337",
+            "lab_id": "16-00494",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.423076923076923,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S337",
+            "lab_id": "16-00494",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.148936170212766,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000038382",
+            "symbol": "TRIO",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S337",
+            "lab_id": "16-00494",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.24,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000156787",
+            "symbol": "TBC1D31",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S337",
+            "karyotype": "46,xx,t(1;11)(p32;q23)[20]",
+            "otherCytogenetics": "MLL: 94/100 cells (94%) had the abnormal 1 red/ 1 green/1 yellow signal",
+            "consensusAMLfusion": "KMT2A_re, Other_re"
+        }
+    ]
+}

@@ -1,0 +1,132 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S159",
+            "lab_id": "14-00787",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.166666666666667,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000066735",
+            "symbol": "KIF26A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S159",
+            "lab_id": "14-00787",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.462962962962963,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000168256",
+            "symbol": "NKIRAS2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S159",
+            "lab_id": "14-00787",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.510204081632653,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000168256",
+            "symbol": "NKIRAS2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S159",
+            "lab_id": "14-00787",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.0833333333333333,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000197360",
+            "symbol": "ZNF98",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S159",
+            "lab_id": "14-00787",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.433333333333333,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000245848",
+            "symbol": "CEBPA",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S159",
+            "lab_id": "14-00787",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.452830188679245,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119777",
+            "symbol": "TMEM214",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S159",
+            "lab_id": "14-00787",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.468468468468468,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119777",
+            "symbol": "TMEM214",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S159",
+            "lab_id": "14-00787",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.3125,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000196132",
+            "symbol": "MYT1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S159",
+            "lab_id": "14-00787",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.541666666666667,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000128268",
+            "symbol": "MGAT3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S159",
+            "lab_id": "14-00787",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.5,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000172139",
+            "symbol": "SLC9C1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S159",
+            "lab_id": "14-00787",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.514705882352941,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000172139",
+            "symbol": "SLC9C1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S159",
+            "lab_id": "14-00787",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.15,
+            "variant_classification": "splice_donor_variant",
+            "gene": "ENSG00000125676",
+            "symbol": "THOC2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S159",
+            "karyotype": "46,xy[20]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S577",
+            "lab_id": "19-00433",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.495652173913044,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000102145",
+            "symbol": "GATA1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S577",
+            "lab_id": "19-00433",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.155844155844156,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000197903",
+            "symbol": "HIST1H2BK",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S577",
+            "lab_id": "19-00433",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.46195652173913,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000096968",
+            "symbol": "JAK2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S577",
+            "lab_id": "19-00433",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.459459459459459,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000096968",
+            "symbol": "JAK2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S577",
+            "lab_id": "19-00433",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.373333333333333,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000124535",
+            "symbol": "WRNIP1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S577",
+            "karyotype": null,
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "Not available"
+        }
+    ]
+}

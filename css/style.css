@@ -20,9 +20,9 @@
     display: block;
 }
 
-/* Ensures plot containers have a minimum height to prevent squishing */
+/* ✅ CORRECTED: Increased min-height for more verticality */
 .plot-container {
-    min-height: 450px;
+    min-height: 650px;
 }
 
 /* --- Clinical Data Tab Styles --- */
@@ -36,10 +36,6 @@
     flex-wrap: wrap; /* Allows wrapping on smaller screens */
     gap: 10px; /* Space between items if they wrap */
 }
-
-/*"bg-white p-6 rounded-lg shadow-md text-center"
-
-class="text-2xl font-semibold text-gray-700"*/
 
 /* Styles for the custom dropdown wrapper */
 .custom-dropdown-wrapper {
@@ -67,10 +63,8 @@ class="text-2xl font-semibold text-gray-700"*/
     overflow-x: auto;   /* Adds horizontal scrollbar if content overflows */
     overflow-y: hidden; /* Hides vertical scrollbar if any */
     text-overflow: clip; /* Prevents ellipsis, shows full text with scrolling */
-    /* Optional: Style the scrollbar for better aesthetics */
     scrollbar-width: thin; /* For Firefox */
     scrollbar-color: #ccc #f1f1f1; /* For Firefox */
-
 }
 
 /* Webkit scrollbar styles (for Chrome, Safari) */
@@ -92,8 +86,6 @@ class="text-2xl font-semibold text-gray-700"*/
     background: #aaa;
 }
 
-
-
 .selected-items-display:focus {
     border-color: #007acc;
     outline: none;
@@ -109,7 +101,6 @@ class="text-2xl font-semibold text-gray-700"*/
     color: #888;
 }
 
-/* NEW: Styles for the hidden checkbox list container */
 .checkbox-list-container {
     display: none; /* Hidden by default */
     position: absolute;
@@ -132,7 +123,6 @@ class="text-2xl font-semibold text-gray-700"*/
     flex-direction: column; /* ONLY apply flex-direction when active */
 }
 
-/* Styles for the search input */
 .column-search-input {
     width: calc(100% - 20px); /* Full width minus padding */
     padding: 8px 10px;
@@ -149,14 +139,12 @@ class="text-2xl font-semibold text-gray-700"*/
     box-shadow: 0 0 0 2px rgba(0, 122, 204, 0.25);
 }
 
-/* Wrapper for the checkboxes to allow scrolling */
 .checkboxes-wrapper {
     flex-grow: 1; /* Allows it to take up available space */
     overflow-y: auto; /* Add scrollbar if content overflows */
     padding-right: 5px; /* Prevent scrollbar from overlapping content */
 }
 
-/* Styles for individual checkboxes and labels */
 .column-checkbox-label {
     display: flex;
     align-items: center;
@@ -202,7 +190,6 @@ thead th {
     cursor: help; /* Indicates that the header is interactive */
 }
 
-/* Style the table scrollbar */
 #table-container::-webkit-scrollbar {
     height: 8px;
 }
@@ -226,7 +213,6 @@ thead th {
     scrollbar-color: #888 #f1f1f1; /* For Firefox */
 }
 
-
 tbody tr:nth-child(even) {
     background-color: #f9f9f9;
 }
@@ -235,7 +221,6 @@ tbody tr:hover {
     background-color: #e9e9e9;
 }
 
-/* --- Tooltip Styles --- */
 .tooltip {
     position: absolute;
     background-color: #333;
@@ -248,4 +233,3 @@ tbody tr:hover {
     max-width: 250px;
     z-index: 1000;
 }
-

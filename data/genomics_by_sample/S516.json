@@ -1,0 +1,32 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S516",
+            "lab_id": "18-00082",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.520547945205479,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000110395",
+            "symbol": "CBL",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S516",
+            "lab_id": "18-00082",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.513888888888889,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000110395",
+            "symbol": "CBL",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S516",
+            "karyotype": "46,xy,inv(16)(p13.1q22)[18]/47,sl,+9[2]",
+            "otherCytogenetics": "Positive for a CBFB rearrangement",
+            "consensusAMLfusion": "CBFB-MYH11, Other_abn2"
+        }
+    ]
+}

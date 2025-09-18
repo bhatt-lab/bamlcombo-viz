@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C294",
+            "karyotype": "46,xx,t(9;11)(p22;q23)[15]/47,idem,+8[2]/46,xx[3]",
+            "otherCytogenetics": "MLL: \u00c2\u00a057/100 cells (57%) had the abnormal 1 red/ 1 green/1 yellow signal  pattern, reflecting MLL (11q23) rearrangement, consistent with the 9;11  translocation observed in the metaphase karyotype. | RUNX1T1/RUNX1: \u00c2\u00a06/200 cells (3%) had a 3 red/ 2 green signal pattern,  reflecting an extra RUNX1T1 (8q21.3) signal, consistent with the trisomy 8  clone observed in the metaphase karyotype. | CEP 8: \u00c2\u00a05/200 cells (2.5%) had three signals, reflecting an extra  chromosome 8 centromere signal, consistent with the trisomy 8 clone observed in the metaphase karyotype.",
+            "consensusAMLfusion": "KMT2A_re, Other_abn, Other_abn2"
+        }
+    ]
+}

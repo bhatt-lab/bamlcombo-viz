@@ -1,0 +1,182 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S435",
+            "lab_id": "17-00328",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.459770114942529,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000124608",
+            "symbol": "AARS2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S435",
+            "lab_id": "17-00328",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.459770114942529,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000124608",
+            "symbol": "AARS2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S435",
+            "lab_id": "17-00328",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.439024390243902,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000171456",
+            "symbol": "ASXL1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S435",
+            "lab_id": "17-00328",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.458333333333333,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000245848",
+            "symbol": "CEBPA",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S435",
+            "lab_id": "17-00328",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.478260869565217,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000245848",
+            "symbol": "CEBPA",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S435",
+            "lab_id": "17-00328",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.194444444444444,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000245848",
+            "symbol": "CEBPA",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S435",
+            "lab_id": "17-00328",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.403225806451613,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000100393",
+            "symbol": "EP300",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S435",
+            "lab_id": "17-00328",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.4,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000100393",
+            "symbol": "EP300",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S435",
+            "lab_id": "17-00328",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.443243243243243,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182054",
+            "symbol": "IDH2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S435",
+            "lab_id": "17-00328",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.455555555555556,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182054",
+            "symbol": "IDH2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S435",
+            "lab_id": "17-00328",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.410958904109589,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000132938",
+            "symbol": "MTUS2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S435",
+            "lab_id": "17-00328",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.418918918918919,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000132938",
+            "symbol": "MTUS2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S435",
+            "lab_id": "17-00328",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.465346534653465,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000183977",
+            "symbol": "PP2D1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S435",
+            "lab_id": "17-00328",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.465346534653465,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000183977",
+            "symbol": "PP2D1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S435",
+            "lab_id": "17-00328",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.111111111111111,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000099995",
+            "symbol": "SF3A1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S435",
+            "lab_id": "17-00328",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.412903225806452,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000064692",
+            "symbol": "SNCAIP",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S435",
+            "lab_id": "17-00328",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.415584415584416,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000064692",
+            "symbol": "SNCAIP",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S435",
+            "karyotype": "45,x,-y,del(11)(q12)[20]",
+            "otherCytogenetics": "95/100 cells (95%) had a single signal, consistent with the deleted 11q in the metaphase karyotype. There was no evidence for MLL rearrangement.",
+            "consensusAMLfusion": "Other_abn2"
+        }
+    ]
+}

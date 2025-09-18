@@ -1,0 +1,32 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S407",
+            "lab_id": "17-00077",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.482213438735178,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000157404",
+            "symbol": "KIT",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S407",
+            "lab_id": "17-00077",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.5,
+            "variant_classification": "splice_acceptor_variant",
+            "gene": "ENSG00000164754",
+            "symbol": "RAD21",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S407",
+            "karyotype": "46,xx,inv(16)(p13q22)[18]/46,xx[2]",
+            "otherCytogenetics": "CBFB: \u00c2\u00a079/100 cells (79%) reflecting CBFB rearrangement and the inverted chromosome 16 observed in the metaphase karyotype. ",
+            "consensusAMLfusion": "CBFB-MYH11"
+        }
+    ]
+}

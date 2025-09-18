@@ -1,0 +1,122 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S394",
+            "lab_id": "16-01185",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.09375,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000133056",
+            "symbol": "PIK3C2B",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S394",
+            "lab_id": "16-01185",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.0909090909090909,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000167716",
+            "symbol": "WDR81",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S394",
+            "lab_id": "16-01185",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.55,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000188176",
+            "symbol": "SMTNL2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S394",
+            "lab_id": "16-01185",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.55,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000188176",
+            "symbol": "SMTNL2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S394",
+            "lab_id": "16-01185",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.5,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000118160",
+            "symbol": "SLC8A2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S394",
+            "lab_id": "16-01185",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.363636363636364,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000217236",
+            "symbol": "SP9",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S394",
+            "lab_id": "16-01185",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.888888888888889,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000164403",
+            "symbol": "SHROOM1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S394",
+            "lab_id": "16-01185",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.153846153846154,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000171316",
+            "symbol": "CHD7",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S394",
+            "lab_id": "16-01185",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.166666666666667,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000184374",
+            "symbol": "COLEC10",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S394",
+            "lab_id": "16-01185",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.166666666666667,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000184374",
+            "symbol": "COLEC10",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S394",
+            "lab_id": "16-01185",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.121951219512195,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000183704",
+            "symbol": "SLC9B1P1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S394",
+            "karyotype": "46,xy,add(1)(p11),del(5)(q15q33),del(7)(q22q36),der(11)t(1;11)(p31;p12-14)[20]",
+            "otherCytogenetics": "Loss of 5q31 sequences for 99% of total cells | Loss of 7q31 sequences for 96% of total cells",
+            "consensusAMLfusion": "Other_re, Other_abn, Other_abn2"
+        }
+    ]
+}

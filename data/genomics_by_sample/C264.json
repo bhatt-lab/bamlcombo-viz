@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C264",
+            "karyotype": "46,xx,t(10;16)(q22;q24)[cp12]/46,sl,t(1;4)(q41;q33),t(7;9)(p15;q32)[5]/46,sl,t(x;1)(q23;q44)[2]/46,sl,der(1)t(1;2)(p32;q32)t(1;15)(q23;q24),der(2)t(1;2)(p32;q32),der(15)t(1;15)(q23;q24)[1]",
+            "otherCytogenetics": "Not available",
+            "consensusAMLfusion": "Other_re, Other_abn2"
+        }
+    ]
+}

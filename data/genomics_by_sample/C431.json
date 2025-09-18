@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C431",
+            "karyotype": "46,xy,t(6;9)(p22;q34)[20]",
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "DEK-NUP214"
+        }
+    ]
+}

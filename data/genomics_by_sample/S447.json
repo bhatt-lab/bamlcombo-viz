@@ -1,0 +1,82 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S447",
+            "lab_id": "17-00464",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.513274336283186,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000122025",
+            "symbol": "FLT3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S447",
+            "lab_id": "17-00464",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.504504504504504,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000122025",
+            "symbol": "FLT3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S447",
+            "lab_id": "17-00464",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.521739130434783,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000181163",
+            "symbol": "NPM1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S447",
+            "lab_id": "17-00464",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.233333333333333,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000188162",
+            "symbol": "OTOG",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S447",
+            "lab_id": "17-00464",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.44,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000101972",
+            "symbol": "STAG2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S447",
+            "lab_id": "17-00464",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.492063492063492,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000184937",
+            "symbol": "WT1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S447",
+            "lab_id": "17-00464",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.508196721311475,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000184937",
+            "symbol": "WT1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S447",
+            "karyotype": null,
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "Not available"
+        }
+    ]
+}

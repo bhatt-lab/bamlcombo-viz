@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C172",
+            "karyotype": "46,xx,t(3;3)(q21;q26)[20]",
+            "otherCytogenetics": "Abnormal (RPN1/MECOM fusion)",
+            "consensusAMLfusion": "MECOM_re"
+        }
+    ]
+}

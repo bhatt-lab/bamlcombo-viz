@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "S119",
+            "karyotype": "46~47,xx,t(1;11)(p34;p15),der(8)del(8)(p11.2p23)t(1;8)(q21;q24.3),add(9)(q34),del(9)(q13q22),add(16)(p13.3),+1~2mar[cp11]/47~48,idem,+13[cp2]/47~48,idem,-13,der(21)t(8;21)(q13;p12),+2~3mar[cp6]/46,xx[1](abnormalfemalekaryotypewiththreerelatedclonescontainingmultiplestructuralandnumericalabnormalitiesinnineteenoftwentycellsexamined.anormalfemalechromosomecomplementwasobservedinonecell..ishder(8)(d8z2+,runx1t1+),der(21)(runx1+,runx1t1+)[19])",
+            "otherCytogenetics": "nuc ish(D5S721,D5S23,EGR1)x2[200],(D7Z1,D7S522)x2[200],(D8Z2,D20S108)x2[200], (5'MLL,3'MLL)x2(5'MLL con 3'MLLx2)[199],(RUNX1T1x3,RUNX1x2)[69/200]/(RUNX1T1x2,RUNX1x3)[7/200],(PML,RARA)x2 [200],(5'CBFB,3'CBFB)x2(5'CBFB con 3'CBFBx2)[200]",
+            "consensusAMLfusion": "NUP98_re, RUNX1-RUNX1T1, Other_re, Other_abn2"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C295",
+            "karyotype": "46,xx,add(11)(q23)[1]/47,sl,+21[19]",
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "Other_abn2"
+        }
+    ]
+}

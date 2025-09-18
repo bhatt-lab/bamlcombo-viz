@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C324",
+            "karyotype": "47,xy,+8[12]/47,xy,+15[8]/46,xy[5]",
+            "otherCytogenetics": "Gain of 8q22 and 15q22 sequences",
+            "consensusAMLfusion": "Other_abn, Other_abn2"
+        }
+    ]
+}

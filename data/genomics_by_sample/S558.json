@@ -1,0 +1,42 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S558",
+            "lab_id": "19-00051",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.344827586206897,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000179348",
+            "symbol": "GATA2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S558",
+            "lab_id": "19-00051",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.348837209302326,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000179348",
+            "symbol": "GATA2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S558",
+            "lab_id": "19-00051",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0862944162436548,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000123405",
+            "symbol": "NFE2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S558",
+            "karyotype": "47,xy,+21[2]/46,xy[18]",
+            "otherCytogenetics": "RUNX1 (21q22): 19/200 cells (9.5%) had three signals for RUNX1, consistent with trisomy 21. ",
+            "consensusAMLfusion": "Other_abn2"
+        }
+    ]
+}

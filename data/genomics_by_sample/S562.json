@@ -1,0 +1,52 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S562",
+            "lab_id": "19-00137",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.431818181818182,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S562",
+            "lab_id": "19-00137",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.434640522875817,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S562",
+            "lab_id": "19-00137",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.821782178217822,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000156531",
+            "symbol": "PHF6",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S562",
+            "lab_id": "19-00137",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.424581005586592,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000184937",
+            "symbol": "WT1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S562",
+            "karyotype": "46,xy[20]",
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

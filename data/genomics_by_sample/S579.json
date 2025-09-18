@@ -1,0 +1,62 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S579",
+            "lab_id": "19-00465",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.422535211267606,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S579",
+            "lab_id": "19-00465",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.422535211267606,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S579",
+            "lab_id": "19-00465",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.428571428571429,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000181163",
+            "symbol": "NPM1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S579",
+            "lab_id": "19-00465",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.179389312977099,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S579",
+            "lab_id": "19-00465",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.18007662835249,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S579",
+            "karyotype": "46,xy[20]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

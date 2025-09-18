@@ -1,0 +1,92 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S501",
+            "lab_id": "17-01060",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.3203125,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000171456",
+            "symbol": "ASXL1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S501",
+            "lab_id": "17-01060",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.469135802469136,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S501",
+            "lab_id": "17-01060",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.461538461538462,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S501",
+            "lab_id": "17-01060",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.440677966101695,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000122025",
+            "symbol": "FLT3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S501",
+            "lab_id": "17-01060",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.438202247191011,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000122025",
+            "symbol": "FLT3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S501",
+            "lab_id": "17-01060",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.183206106870229,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000159216",
+            "symbol": "RUNX1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S501",
+            "lab_id": "17-01060",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.464028776978417,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000115524",
+            "symbol": "SF3B1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S501",
+            "lab_id": "17-01060",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.465703971119134,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000115524",
+            "symbol": "SF3B1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S501",
+            "karyotype": "46,xy[20]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

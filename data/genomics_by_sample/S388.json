@@ -1,0 +1,112 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S388",
+            "lab_id": "16-01109",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.103448275862069,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000143126",
+            "symbol": "CELSR2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S388",
+            "lab_id": "16-01109",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.0943396226415094,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000138182",
+            "symbol": "KIF20B",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S388",
+            "lab_id": "16-01109",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.476470588235294,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000179119",
+            "symbol": "SPTY2D1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S388",
+            "lab_id": "16-01109",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.487951807228916,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000179119",
+            "symbol": "SPTY2D1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S388",
+            "lab_id": "16-01109",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.1,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000051825",
+            "symbol": "MPHOSPH9",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S388",
+            "lab_id": "16-01109",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.714285714285714,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000104818",
+            "symbol": "CGB2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S388",
+            "lab_id": "16-01109",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.170212765957447,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000171843",
+            "symbol": "MLLT3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S388",
+            "lab_id": "16-01109",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.507575757575758,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000106804",
+            "symbol": "C5",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S388",
+            "lab_id": "16-01109",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.515151515151515,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000106804",
+            "symbol": "C5",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S388",
+            "lab_id": "16-01109",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.990566037735849,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182220",
+            "symbol": "ATP6AP2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S388",
+            "karyotype": "46,xy,inv(16)(p13.1q22)[20]",
+            "otherCytogenetics": "Positive for CBFB rearrangment for 91% of cells (FISH)",
+            "consensusAMLfusion": "CBFB-MYH11"
+        }
+    ]
+}

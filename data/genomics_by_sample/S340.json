@@ -1,0 +1,182 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S340",
+            "lab_id": "16-00510",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.117647058823529,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000176261",
+            "symbol": "ZBTB8OS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S340",
+            "lab_id": "16-00510",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.363636363636364,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S340",
+            "lab_id": "16-00510",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.363636363636364,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S340",
+            "lab_id": "16-00510",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.105263157894737,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000168509",
+            "symbol": "HFE2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S340",
+            "lab_id": "16-00510",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.21875,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000126777",
+            "symbol": "KTN1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S340",
+            "lab_id": "16-00510",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.341935483870968,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000031823",
+            "symbol": "RANBP3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S340",
+            "lab_id": "16-00510",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.341935483870968,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000031823",
+            "symbol": "RANBP3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S340",
+            "lab_id": "16-00510",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.185185185185185,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000104941",
+            "symbol": "RSPH6A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S340",
+            "lab_id": "16-00510",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.15,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000235034",
+            "symbol": "C19orf81",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S340",
+            "lab_id": "16-00510",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.366834170854271,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000144229",
+            "symbol": "THSD7B",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S340",
+            "lab_id": "16-00510",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.373684210526316,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000144229",
+            "symbol": "THSD7B",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S340",
+            "lab_id": "16-00510",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.361111111111111,
+            "variant_classification": "splice_acceptor_variant",
+            "gene": "ENSG00000149451",
+            "symbol": "ADAM33",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S340",
+            "lab_id": "16-00510",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.369369369369369,
+            "variant_classification": "splice_acceptor_variant",
+            "gene": "ENSG00000149451",
+            "symbol": "ADAM33",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S340",
+            "lab_id": "16-00510",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.0909090909090909,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000099995",
+            "symbol": "SF3A1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S340",
+            "lab_id": "16-00510",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.419047619047619,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000196588",
+            "symbol": "MKL1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S340",
+            "lab_id": "16-00510",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.473684210526316,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000196588",
+            "symbol": "MKL1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S340",
+            "lab_id": "16-00510",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.256198347107438,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000134480",
+            "symbol": "CCNH",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S340",
+            "karyotype": "46,xy,t(3;3)(q21;q26),der(7)del(7)(p11.1)del(7)(q11.1)[13]/45,idem,-der(7)[6]/46,xy[1]",
+            "otherCytogenetics": "D7S522/CEP 7: 65/100 cells (65%) had a signal pattern consistent with the deleted chromosome 7 long arm from the small marker observed in the metaphase karyotype; 9 cells (9%) had a signal pattern consistent with the monosomy 7 sideline observed in the metaphase karyotype.",
+            "consensusAMLfusion": "MECOM_re, Other_abn"
+        }
+    ]
+}

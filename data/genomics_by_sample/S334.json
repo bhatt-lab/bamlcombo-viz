@@ -1,0 +1,42 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S334",
+            "lab_id": "16-00481",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.521739130434783,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S334",
+            "lab_id": "16-00481",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.521739130434783,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S334",
+            "lab_id": "16-00481",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.09375,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000198271",
+            "symbol": "KRTAP4-5",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S334",
+            "karyotype": "46,xx,inv(16)(p13q22)[20]",
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "CBFB-MYH11"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "S506",
+            "karyotype": "46,xy,del(2)(q11.2q21)[3]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Other_abn2"
+        }
+    ]
+}

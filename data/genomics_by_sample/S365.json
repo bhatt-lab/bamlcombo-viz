@@ -1,0 +1,52 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S365",
+            "lab_id": "16-00867",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.417777777777778,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182054",
+            "symbol": "IDH2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S365",
+            "lab_id": "16-00867",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.407725321888412,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182054",
+            "symbol": "IDH2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S365",
+            "lab_id": "16-00867",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.267441860465116,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S365",
+            "lab_id": "16-00867",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.303571428571429,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000181163",
+            "symbol": "NPM1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S365",
+            "karyotype": "46,xx[20]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

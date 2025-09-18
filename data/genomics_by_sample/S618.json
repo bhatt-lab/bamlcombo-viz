@@ -1,0 +1,62 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S618",
+            "lab_id": "19-00428",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.477987421383648,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S618",
+            "lab_id": "19-00428",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.484076433121019,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S618",
+            "lab_id": "19-00428",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.25,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000181163",
+            "symbol": "NPM1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S618",
+            "lab_id": "19-00428",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.474452554744526,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S618",
+            "lab_id": "19-00428",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.475369458128079,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S618",
+            "karyotype": null,
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "Not available"
+        }
+    ]
+}

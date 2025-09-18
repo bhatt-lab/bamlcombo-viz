@@ -1,0 +1,82 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S259",
+            "lab_id": "15-00872",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.105769230769231,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000163207",
+            "symbol": "IVL",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S259",
+            "lab_id": "15-00872",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.188679245283019,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000137770",
+            "symbol": "CTDSPL2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S259",
+            "lab_id": "15-00872",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.207006369426752,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182054",
+            "symbol": "IDH2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S259",
+            "lab_id": "15-00872",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.209003215434084,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182054",
+            "symbol": "IDH2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S259",
+            "lab_id": "15-00872",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.474576271186441,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S259",
+            "lab_id": "15-00872",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.476190476190476,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S259",
+            "lab_id": "15-00872",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.148148148148148,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000181163",
+            "symbol": "NPM1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S259",
+            "karyotype": "46,xx[20]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

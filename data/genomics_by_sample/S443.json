@@ -1,0 +1,72 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S443",
+            "lab_id": "18-00251",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.41991341991342,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000185515",
+            "symbol": "BRCC3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S443",
+            "lab_id": "18-00251",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.421739130434783,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000185515",
+            "symbol": "BRCC3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S443",
+            "lab_id": "18-00251",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.426008968609865,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000122025",
+            "symbol": "FLT3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S443",
+            "lab_id": "18-00251",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.424107142857143,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000122025",
+            "symbol": "FLT3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S443",
+            "lab_id": "18-00251",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.142857142857143,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000083642",
+            "symbol": "PDS5B",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S443",
+            "lab_id": "18-00251",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.478260869565217,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000159216",
+            "symbol": "RUNX1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S443",
+            "karyotype": "46,xxder(22)t(1;22)(q12;p11.2)[1]/46,xx[19]",
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "Other_re"
+        }
+    ]
+}

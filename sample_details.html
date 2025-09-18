@@ -32,9 +32,21 @@
         <main class="mt-6">
             <!-- Mutations Tab Content -->
             <div id="content-mutations" class="tab-content">
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <h3 class="text-2xl font-semibold mb-4 text-gray-700">Mutation Data</h3>
-                    <p>This section is under construction.</p>
+                <div class="bg-white p-6 rounded-lg shadow-md space-y-8">
+                    <!-- Container for the Mutations Table -->
+                    <div>
+                        <h3 id="mutations-table-title" class="text-2xl font-semibold mb-4 text-gray-700">Mutations</h3>
+                        <div id="mutations-table-container" class="overflow-x-auto">
+                            <p class="text-gray-500">Loading mutation data...</p>
+                        </div>
+                    </div>
+                    <!-- Container for the Structural Variants Table -->
+                    <div>
+                        <h3 id="sv-table-title" class="text-2xl font-semibold mb-4 text-gray-700">Structural Variants</h3>
+                        <div id="sv-table-container" class="overflow-x-auto">
+                            <p class="text-gray-500">Loading structural variant data...</p>
+                        </div>
+                    </div>
                 </div>
             </div>
 

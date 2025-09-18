@@ -1,0 +1,32 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S507",
+            "lab_id": "18-00007",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0819672131147541,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000132680",
+            "symbol": "KIAA0907",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S507",
+            "lab_id": "18-00007",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.184615384615385,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000083642",
+            "symbol": "PDS5B",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S507",
+            "karyotype": "46,xy,t(15;17)(q24;q21)[20]",
+            "otherCytogenetics": "PML/RARA (92% of  cells had the dual fusion signal pattern consistent with PML/RARA fusion and t(15;17).)",
+            "consensusAMLfusion": "PML-RARA"
+        }
+    ]
+}

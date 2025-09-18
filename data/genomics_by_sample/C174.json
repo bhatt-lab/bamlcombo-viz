@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C174",
+            "karyotype": "46,xy[20]",
+            "otherCytogenetics": "Not Available",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S324",
+            "lab_id": "16-00410",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.142857142857143,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000132958",
+            "symbol": "TPTE2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S324",
+            "lab_id": "16-00410",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.204301075268817,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000115970",
+            "symbol": "THADA",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S324",
+            "lab_id": "16-00410",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.176056338028169,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000145934",
+            "symbol": "TENM2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S324",
+            "lab_id": "16-00410",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.183823529411765,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000145934",
+            "symbol": "TENM2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S324",
+            "lab_id": "16-00410",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.25,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000181444",
+            "symbol": "ZNF467",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S324",
+            "lab_id": "16-00410",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.254901960784314,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000181444",
+            "symbol": "ZNF467",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S324",
+            "karyotype": "46,xy,t(3;16)(p13;q22),t(13;14)(q32;q24),t(15;17)(q22;q21)[20]",
+            "otherCytogenetics": "PML/RARA: 98/100 cells (98%) had a 1 red/ 1 green/ 2 yellow signal pattern, reflecting PML/RARA fusion and consistent with the 15;17 translocation observed in the metaphase karyotype.",
+            "consensusAMLfusion": "PML-RARA, Other_re"
+        }
+    ]
+}

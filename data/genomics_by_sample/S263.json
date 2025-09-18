@@ -1,0 +1,92 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S263",
+            "lab_id": "15-00892",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.10077519379845,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000179295",
+            "symbol": "PTPN11",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S263",
+            "lab_id": "15-00892",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.103174603174603,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000179295",
+            "symbol": "PTPN11",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S263",
+            "lab_id": "15-00892",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.15,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000122025",
+            "symbol": "FLT3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S263",
+            "lab_id": "15-00892",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.154838709677419,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000122025",
+            "symbol": "FLT3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S263",
+            "lab_id": "15-00892",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.452830188679245,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S263",
+            "lab_id": "15-00892",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.510344827586207,
+            "variant_classification": "splice_acceptor_variant",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S263",
+            "lab_id": "15-00892",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.521428571428571,
+            "variant_classification": "splice_acceptor_variant",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S263",
+            "lab_id": "15-00892",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.2375,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000181163",
+            "symbol": "NPM1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S263",
+            "karyotype": null,
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

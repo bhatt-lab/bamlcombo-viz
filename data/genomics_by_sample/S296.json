@@ -1,0 +1,102 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S296",
+            "lab_id": "16-00094",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.436363636363636,
+            "variant_classification": "splice_donor_variant",
+            "gene": "ENSG00000162552",
+            "symbol": "WNT4",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S296",
+            "lab_id": "16-00094",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.456140350877193,
+            "variant_classification": "splice_donor_variant",
+            "gene": "ENSG00000162552",
+            "symbol": "WNT4",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S296",
+            "lab_id": "16-00094",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.49390243902439,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000184937",
+            "symbol": "WT1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S296",
+            "lab_id": "16-00094",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.443548387096774,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000133703",
+            "symbol": "KRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S296",
+            "lab_id": "16-00094",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.44758064516129,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000133703",
+            "symbol": "KRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S296",
+            "lab_id": "16-00094",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.442857142857143,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000113719",
+            "symbol": "ERGIC1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S296",
+            "lab_id": "16-00094",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.46969696969697,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000113719",
+            "symbol": "ERGIC1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S296",
+            "lab_id": "16-00094",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.54,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000168487",
+            "symbol": "BMP1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S296",
+            "lab_id": "16-00094",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.5625,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000168487",
+            "symbol": "BMP1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S296",
+            "karyotype": "46,xx[20]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S243",
+            "lab_id": "15-00764",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.356846473029046,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000122025",
+            "symbol": "FLT3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S243",
+            "lab_id": "15-00764",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.376146788990826,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000122025",
+            "symbol": "FLT3",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S243",
+            "karyotype": null,
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

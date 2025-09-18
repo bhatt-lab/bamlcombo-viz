@@ -1,0 +1,62 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S556",
+            "lab_id": "19-00029",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.393939393939394,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000181163",
+            "symbol": "NPM1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S556",
+            "lab_id": "19-00029",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.278225806451613,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000179295",
+            "symbol": "PTPN11",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S556",
+            "lab_id": "19-00029",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.276,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000179295",
+            "symbol": "PTPN11",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S556",
+            "lab_id": "19-00029",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.3584229390681,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S556",
+            "lab_id": "19-00029",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.377682403433476,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S556",
+            "karyotype": "46,xy[15]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

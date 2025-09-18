@@ -1,0 +1,122 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S421",
+            "lab_id": "17-00195",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.130952380952381,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000170632",
+            "symbol": "ARMC10",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S421",
+            "lab_id": "17-00195",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.459119496855346,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000171456",
+            "symbol": "ASXL1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S421",
+            "lab_id": "17-00195",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.513513513513513,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000162949",
+            "symbol": "CAPN13",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S421",
+            "lab_id": "17-00195",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.462962962962963,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000196547",
+            "symbol": "MAN2A2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S421",
+            "lab_id": "17-00195",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.490196078431373,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000196547",
+            "symbol": "MAN2A2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S421",
+            "lab_id": "17-00195",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.481865284974093,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000108510",
+            "symbol": "MED13",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S421",
+            "lab_id": "17-00195",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.481865284974093,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000108510",
+            "symbol": "MED13",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S421",
+            "lab_id": "17-00195",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.108433734939759,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000067141",
+            "symbol": "NEO1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S421",
+            "lab_id": "17-00195",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.43298969072165,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000131263",
+            "symbol": "RLIM",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S421",
+            "lab_id": "17-00195",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.341463414634146,
+            "variant_classification": "splice_donor_variant",
+            "gene": "ENSG00000101972",
+            "symbol": "STAG2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S421",
+            "lab_id": "17-00195",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.345679012345679,
+            "variant_classification": "splice_donor_variant",
+            "gene": "ENSG00000101972",
+            "symbol": "STAG2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S421",
+            "karyotype": "47,xx,+8,del(8)(q11.2q22)[20]",
+            "otherCytogenetics": "CEP 8: \u00c2\u00a073/100 cells (73%) had three signals, consistent with the extra chromosome 8 in the metaphase karyotype",
+            "consensusAMLfusion": "Other_abn, Other_abn2"
+        }
+    ]
+}

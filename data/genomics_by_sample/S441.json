@@ -1,0 +1,22 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S441",
+            "lab_id": "17-00441",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.186046511627907,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000083642",
+            "symbol": "PDS5B",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S441",
+            "karyotype": "normal",
+            "otherCytogenetics": "Not available",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

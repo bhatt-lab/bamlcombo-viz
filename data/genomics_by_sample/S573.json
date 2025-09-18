@@ -1,0 +1,32 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S573",
+            "lab_id": "19-00369",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.359223300970874,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000179348",
+            "symbol": "GATA2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S573",
+            "lab_id": "19-00369",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.362745098039216,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000179348",
+            "symbol": "GATA2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S573",
+            "karyotype": "46,xy[20]",
+            "otherCytogenetics": "RUNX1:  17/200 (8.5%) interphase cells had three RUNX1 (21q22) signals. There was no evidence for RUNX1T1/RUNX1 fusion.",
+            "consensusAMLfusion": "Other_abn2"
+        }
+    ]
+}

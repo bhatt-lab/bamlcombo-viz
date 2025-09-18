@@ -1,0 +1,112 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S346",
+            "lab_id": "16-00701",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.285714285714286,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000143622",
+            "symbol": "RIT1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S346",
+            "lab_id": "16-00701",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.285714285714286,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000143622",
+            "symbol": "RIT1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S346",
+            "lab_id": "16-00701",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.590163934426229,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000161547",
+            "symbol": "SRSF2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S346",
+            "lab_id": "16-00701",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.590163934426229,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000161547",
+            "symbol": "SRSF2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S346",
+            "lab_id": "16-00701",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.51219512195122,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000087460",
+            "symbol": "GNAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S346",
+            "lab_id": "16-00701",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.51219512195122,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000087460",
+            "symbol": "GNAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S346",
+            "lab_id": "16-00701",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.327800829875519,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S346",
+            "lab_id": "16-00701",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.414486921529175,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S346",
+            "lab_id": "16-00701",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.424390243902439,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000096968",
+            "symbol": "JAK2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S346",
+            "lab_id": "16-00701",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.42512077294686,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000096968",
+            "symbol": "JAK2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S346",
+            "karyotype": "46,xy[20]",
+            "otherCytogenetics": "The abnormalities normally seen in MDS are not detected. (Cytogenetics)",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S600",
+            "lab_id": "17-00444",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.352941176470588,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000245848",
+            "symbol": "CEBPA",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S600",
+            "lab_id": "17-00444",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.352941176470588,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000245848",
+            "symbol": "CEBPA",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S600",
+            "lab_id": "17-00444",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.333333333333333,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000181163",
+            "symbol": "NPM1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S600",
+            "lab_id": "17-00444",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.4,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000179295",
+            "symbol": "PTPN11",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S600",
+            "lab_id": "17-00444",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.404255319148936,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000179295",
+            "symbol": "PTPN11",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S600",
+            "lab_id": "17-00444",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.424657534246575,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000164754",
+            "symbol": "RAD21",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S600",
+            "lab_id": "17-00444",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.504132231404959,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S600",
+            "karyotype": "46,xx[20]",
+            "otherCytogenetics": "Normal (Clonal aberrations were not identified in metaphase cells examined by conventional cytogenetic techniques* or for any loci examined by FISH methods.)",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

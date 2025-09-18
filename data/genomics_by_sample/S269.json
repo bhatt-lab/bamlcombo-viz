@@ -1,0 +1,42 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S269",
+            "lab_id": "16-00088",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.261904761904762,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000184937",
+            "symbol": "WT1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S269",
+            "lab_id": "16-00088",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.118421052631579,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000132958",
+            "symbol": "TPTE2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S269",
+            "lab_id": "16-00088",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.407079646017699,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000138756",
+            "symbol": "BMP2K",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S269",
+            "karyotype": "46,xx,t(7;12)(q22;p13)[12]/46,xx,t(7;17)(p10;q10),-9,+mar[7]/46,xx[1]",
+            "otherCytogenetics": "This test has detected a translocation between 7 and 12 in 12 cells; a translocation between 7 and 17 with loss of a chromosome 9 and a marker in 7 cells.",
+            "consensusAMLfusion": "Other_re, Other_abn, Other_abn2"
+        }
+    ]
+}

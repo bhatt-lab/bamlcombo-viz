@@ -1,0 +1,82 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S412",
+            "lab_id": "17-00064",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.25,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000161547",
+            "symbol": "SRSF2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S412",
+            "lab_id": "17-00064",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.434782608695652,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000138413",
+            "symbol": "IDH1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S412",
+            "lab_id": "17-00064",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.441176470588235,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000138413",
+            "symbol": "IDH1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S412",
+            "lab_id": "17-00064",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.403846153846154,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000181163",
+            "symbol": "NPM1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S412",
+            "lab_id": "17-00064",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.675675675675676,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000164754",
+            "symbol": "RAD21",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S412",
+            "lab_id": "17-00064",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.675675675675676,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000164754",
+            "symbol": "RAD21",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S412",
+            "lab_id": "17-00064",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.123076923076923,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000041982",
+            "symbol": "TNC",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S412",
+            "karyotype": "46,xy[19]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

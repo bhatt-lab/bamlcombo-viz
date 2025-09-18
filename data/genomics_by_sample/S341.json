@@ -1,0 +1,102 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S341",
+            "lab_id": "16-00519",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.36986301369863,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000198216",
+            "symbol": "CACNA1E",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S341",
+            "lab_id": "16-00519",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.364864864864865,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000198216",
+            "symbol": "CACNA1E",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S341",
+            "lab_id": "16-00519",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.135135135135135,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000156521",
+            "symbol": "TYSND1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S341",
+            "lab_id": "16-00519",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.53125,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000245848",
+            "symbol": "CEBPA",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S341",
+            "lab_id": "16-00519",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.104477611940299,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000205726",
+            "symbol": "ITSN1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S341",
+            "lab_id": "16-00519",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.369791666666667,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000111877",
+            "symbol": "MCM9",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S341",
+            "lab_id": "16-00519",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.373626373626374,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000111877",
+            "symbol": "MCM9",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S341",
+            "lab_id": "16-00519",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.0975609756097561,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000184863",
+            "symbol": "RBM33",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S341",
+            "lab_id": "16-00519",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.109375,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000180828",
+            "symbol": "BHLHE22",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S341",
+            "karyotype": "46,xy[20]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

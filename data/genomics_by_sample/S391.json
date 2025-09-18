@@ -1,0 +1,112 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S391",
+            "lab_id": "17-00436",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.415094339622642,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000104728",
+            "symbol": "ARHGEF10",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S391",
+            "lab_id": "17-00436",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.423076923076923,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000104728",
+            "symbol": "ARHGEF10",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S391",
+            "lab_id": "17-00436",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.363636363636364,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000189079",
+            "symbol": "ARID2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S391",
+            "lab_id": "17-00436",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.736842105263158,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000139880",
+            "symbol": "CDH24",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S391",
+            "lab_id": "17-00436",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.736842105263158,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000139880",
+            "symbol": "CDH24",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S391",
+            "lab_id": "17-00436",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.526315789473684,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S391",
+            "lab_id": "17-00436",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.535714285714286,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S391",
+            "lab_id": "17-00436",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.444444444444444,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000139641",
+            "symbol": "ESYT1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S391",
+            "lab_id": "17-00436",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0967741935483871,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000197110",
+            "symbol": "IFNL3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S391",
+            "lab_id": "17-00436",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.454545454545455,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000181163",
+            "symbol": "NPM1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S391",
+            "karyotype": "46,xx,t(10;16)(q22;q24)[cp12]/46,sl,t(1;4)(q41;q33),t(7;9)(p15;q32)[5]/46,sl,t(x;1)(q23;q44)[2]/46,sl,der(1)t(1;2)(p32;q32)t(1;15)(q23;q24),der(2)t(1;2)(p32;q32),der(15)t(1;15)(q23;q24)[1]",
+            "otherCytogenetics": "Not available",
+            "consensusAMLfusion": "Other_re, Other_abn2"
+        }
+    ]
+}

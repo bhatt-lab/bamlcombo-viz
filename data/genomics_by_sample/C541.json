@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C541",
+            "karyotype": "46,xx,t(8;21)(q22;q22),t(16;17)(q24;q11.2)[17]//46,xy[3]",
+            "otherCytogenetics": "RUNX1T1/RUNX1:  56/100 cells (56%) had  a double fusion signal pattern, consistent with RUNX1T1/RUNX1 fusion and  the 8;21 translocation observed in the metaphase karyotype, and as seen previously. ",
+            "consensusAMLfusion": "RUNX1-RUNX1T1, Other_re"
+        }
+    ]
+}

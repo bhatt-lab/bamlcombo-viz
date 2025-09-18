@@ -1,0 +1,122 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S166",
+            "lab_id": "14-00901",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.5625,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000148843",
+            "symbol": "PDCD11",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S166",
+            "lab_id": "14-00901",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.581081081081081,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000148843",
+            "symbol": "PDCD11",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S166",
+            "lab_id": "14-00901",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.113744075829384,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000153233",
+            "symbol": "PTPRR",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S166",
+            "lab_id": "14-00901",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.112676056338028,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000153233",
+            "symbol": "PTPRR",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S166",
+            "lab_id": "14-00901",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.130081300813008,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000068654",
+            "symbol": "POLR1A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S166",
+            "lab_id": "14-00901",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.131147540983607,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000068654",
+            "symbol": "POLR1A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S166",
+            "lab_id": "14-00901",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.5,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000159216",
+            "symbol": "RUNX1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S166",
+            "lab_id": "14-00901",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.157894736842105,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000184863",
+            "symbol": "RBM33",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S166",
+            "lab_id": "14-00901",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.823529411764706,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000169249",
+            "symbol": "ZRSR2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S166",
+            "lab_id": "14-00901",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.80952380952381,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000183337",
+            "symbol": "BCOR",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S166",
+            "lab_id": "14-00901",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.816666666666667,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000183337",
+            "symbol": "BCOR",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S166",
+            "karyotype": "46,xy,t(1;4)(q21;p14)[20]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Other_re"
+        }
+    ]
+}

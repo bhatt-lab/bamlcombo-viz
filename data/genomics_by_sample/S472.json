@@ -1,0 +1,82 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S472",
+            "lab_id": "17-00748",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0923076923076923,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000143126",
+            "symbol": "CELSR2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S472",
+            "lab_id": "17-00748",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.926966292134832,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S472",
+            "lab_id": "17-00748",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.926136363636364,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S472",
+            "lab_id": "17-00748",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.113207547169811,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000152223",
+            "symbol": "EPG5",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S472",
+            "lab_id": "17-00748",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.880434782608696,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000106462",
+            "symbol": "EZH2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S472",
+            "lab_id": "17-00748",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.584821428571429,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000159216",
+            "symbol": "RUNX1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S472",
+            "lab_id": "17-00748",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.587443946188341,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000159216",
+            "symbol": "RUNX1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S472",
+            "karyotype": "50-55,xx,+x,+6,+8,+10,+12,+13,+14,+21,+22[cp18]/46,xx[2].",
+            "otherCytogenetics": "POSITIVE for RUNX1T1 and RUNX1 copy number gains",
+            "consensusAMLfusion": "Other_abn, Other_abn2"
+        }
+    ]
+}

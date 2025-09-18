@@ -1,0 +1,132 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S306",
+            "lab_id": "16-00217",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.34,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000156398",
+            "symbol": "SFXN2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S306",
+            "lab_id": "16-00217",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.34,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000156398",
+            "symbol": "SFXN2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S306",
+            "lab_id": "16-00217",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.285714285714286,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000136327",
+            "symbol": "NKX2-8",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S306",
+            "lab_id": "16-00217",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.409448818897638,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182054",
+            "symbol": "IDH2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S306",
+            "lab_id": "16-00217",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.411067193675889,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182054",
+            "symbol": "IDH2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S306",
+            "lab_id": "16-00217",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.15,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000005379",
+            "symbol": "BZRAP1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S306",
+            "lab_id": "16-00217",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.5,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000161547",
+            "symbol": "SRSF2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S306",
+            "lab_id": "16-00217",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.396825396825397,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000245848",
+            "symbol": "CEBPA",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S306",
+            "lab_id": "16-00217",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.242424242424242,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000124466",
+            "symbol": "LYPD3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S306",
+            "lab_id": "16-00217",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.352,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S306",
+            "lab_id": "16-00217",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.368421052631579,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S306",
+            "lab_id": "16-00217",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.911764705882353,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000183337",
+            "symbol": "BCOR",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S306",
+            "karyotype": "47,xy,+8[20]",
+            "otherCytogenetics": "(FISH) was performed with a chromosome 8 probe, listed below. 95/100 (95%) interphase cells scored had three signals, consistent with trisomy 8 and the metaphase karyotype. ",
+            "consensusAMLfusion": "Other_abn, Other_abn2"
+        }
+    ]
+}

@@ -1,0 +1,122 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S539",
+            "lab_id": "19-00334",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.447811447811448,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S539",
+            "lab_id": "19-00334",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.452054794520548,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S539",
+            "lab_id": "19-00334",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.435897435897436,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000137857",
+            "symbol": "DUOX1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S539",
+            "lab_id": "19-00334",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.432748538011696,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000137857",
+            "symbol": "DUOX1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S539",
+            "lab_id": "19-00334",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.438775510204082,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182054",
+            "symbol": "IDH2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S539",
+            "lab_id": "19-00334",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.439276485788114,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182054",
+            "symbol": "IDH2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S539",
+            "lab_id": "19-00334",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.295454545454545,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000181163",
+            "symbol": "NPM1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S539",
+            "lab_id": "19-00334",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.448795180722892,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S539",
+            "lab_id": "19-00334",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.453453453453453,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S539",
+            "lab_id": "19-00334",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.469613259668508,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000173769",
+            "symbol": "TOPAZ1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S539",
+            "lab_id": "19-00334",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.477272727272727,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000173769",
+            "symbol": "TOPAZ1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S539",
+            "karyotype": "46,xx,del(14)(q21q31)[20]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Other_abn2"
+        }
+    ]
+}

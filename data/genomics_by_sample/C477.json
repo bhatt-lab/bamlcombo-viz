@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C477",
+            "karyotype": "47,xy,+4[11]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Other_abn2"
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S200",
+            "lab_id": "15-00377",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.0852272727272727,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S200",
+            "lab_id": "15-00377",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.476190476190476,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000245848",
+            "symbol": "CEBPA",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S200",
+            "lab_id": "15-00377",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.525423728813559,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000179348",
+            "symbol": "GATA2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S200",
+            "lab_id": "15-00377",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.53125,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000179348",
+            "symbol": "GATA2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S200",
+            "karyotype": "46,xx[20]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

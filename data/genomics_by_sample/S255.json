@@ -1,0 +1,72 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S255",
+            "lab_id": "15-00837",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.0921985815602837,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S255",
+            "lab_id": "15-00837",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.0928571428571429,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S255",
+            "lab_id": "15-00837",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.459770114942529,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000160201",
+            "symbol": "U2AF1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S255",
+            "lab_id": "15-00837",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.47093023255814,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000160201",
+            "symbol": "U2AF1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S255",
+            "lab_id": "15-00837",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.42962962962963,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000096968",
+            "symbol": "JAK2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S255",
+            "lab_id": "15-00837",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.442748091603053,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000096968",
+            "symbol": "JAK2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S255",
+            "karyotype": "46,xy,inv(16)(p13.1q22)[20]",
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "CBFB-MYH11"
+        }
+    ]
+}

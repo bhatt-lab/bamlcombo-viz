@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C245",
+            "karyotype": "46,xx,inv(16)(p13.1q22)[18]/46,xx[2]",
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "CBFB-MYH11"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S460",
+            "lab_id": "17-00618",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.34468085106383,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S460",
+            "lab_id": "17-00618",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.349137931034483,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S460",
+            "karyotype": "46,xy,t(9;11)(p21;q23)[1]/46,idem,t(5;12)(q33;p13)[19]",
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "KMT2A_re, Other_re, Other_abn"
+        }
+    ]
+}

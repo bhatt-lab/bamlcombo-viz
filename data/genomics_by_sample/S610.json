@@ -1,0 +1,42 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S610",
+            "lab_id": "18-00269",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0900900900900901,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000128829",
+            "symbol": "EIF2AK4",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S610",
+            "lab_id": "18-00269",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.334661354581673,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S610",
+            "lab_id": "18-00269",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.337349397590361,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S610",
+            "karyotype": null,
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "Not available"
+        }
+    ]
+}

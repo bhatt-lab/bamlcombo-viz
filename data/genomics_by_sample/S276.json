@@ -1,0 +1,62 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S276",
+            "lab_id": "15-00979",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.148936170212766,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000157445",
+            "symbol": "CACNA2D3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S276",
+            "lab_id": "15-00979",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.5,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S276",
+            "lab_id": "15-00979",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.505154639175258,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S276",
+            "lab_id": "15-00979",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.152777777777778,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000198589",
+            "symbol": "LRBA",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S276",
+            "lab_id": "15-00979",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.344827586206897,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000181163",
+            "symbol": "NPM1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S276",
+            "karyotype": "46,xx[20]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

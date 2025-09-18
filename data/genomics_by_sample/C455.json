@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C455",
+            "karyotype": "45,xy,-18[10]/46,xy,del(20)(q11.2q13.1)[7]/46,xy[5]",
+            "otherCytogenetics": "Normal (hypereosinophilia probe panel)",
+            "consensusAMLfusion": "Other_abn, Other_abn2"
+        }
+    ]
+}

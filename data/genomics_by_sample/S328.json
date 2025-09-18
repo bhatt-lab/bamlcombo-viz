@@ -1,0 +1,32 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S328",
+            "lab_id": "16-00465",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.475336322869955,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000112576",
+            "symbol": "CCND3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S328",
+            "lab_id": "16-00465",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.475555555555556,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000112576",
+            "symbol": "CCND3",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S328",
+            "karyotype": "47,xy,+8[19]/46,xy[1]",
+            "otherCytogenetics": "RUNX1T1 signal consistent with the trisomy 8 clone ",
+            "consensusAMLfusion": "Other_abn, Other_abn2"
+        }
+    ]
+}

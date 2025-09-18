@@ -1,0 +1,72 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S413",
+            "lab_id": "17-00066",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.509433962264151,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S413",
+            "lab_id": "17-00066",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.490566037735849,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182054",
+            "symbol": "IDH2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S413",
+            "lab_id": "17-00066",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.504424778761062,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000096968",
+            "symbol": "JAK2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S413",
+            "lab_id": "17-00066",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.522727272727273,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000159216",
+            "symbol": "RUNX1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S413",
+            "lab_id": "17-00066",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.323943661971831,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000159216",
+            "symbol": "RUNX1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S413",
+            "lab_id": "17-00066",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.568181818181818,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000161547",
+            "symbol": "SRSF2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S413",
+            "karyotype": "46,xy[19]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

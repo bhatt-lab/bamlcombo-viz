@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C521",
+            "karyotype": "47,xx,+8,i(8)(q10),del(9)(q21.2q22.3),der(10)t(1;10)(q11;q22)[cp12]/47,idem,add(17)(p13)[8]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Other_abn, Other_abn2"
+        }
+    ]
+}

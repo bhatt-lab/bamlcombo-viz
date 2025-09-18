@@ -1,0 +1,112 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S418",
+            "lab_id": "17-00113",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.292817679558011,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000044524",
+            "symbol": "EPHA3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S418",
+            "lab_id": "17-00113",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.297752808988764,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000044524",
+            "symbol": "EPHA3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S418",
+            "lab_id": "17-00113",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.228070175438596,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000089250",
+            "symbol": "NOS1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S418",
+            "lab_id": "17-00113",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.228070175438596,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000089250",
+            "symbol": "NOS1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S418",
+            "lab_id": "17-00113",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.340425531914894,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000135406",
+            "symbol": "PRPH",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S418",
+            "lab_id": "17-00113",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.340425531914894,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000135406",
+            "symbol": "PRPH",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S418",
+            "lab_id": "17-00113",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.106666666666667,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000048471",
+            "symbol": "SNX29",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S418",
+            "lab_id": "17-00113",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.17,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000168778",
+            "symbol": "TCTN2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S418",
+            "lab_id": "17-00113",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.173469387755102,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000168778",
+            "symbol": "TCTN2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S418",
+            "lab_id": "17-00113",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.526315789473684,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000128311",
+            "symbol": "TST",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S418",
+            "karyotype": "45,x,-x,t(8;21)(q22;q22)[20]",
+            "otherCytogenetics": "RUNX1T1(8q21.3)/RUNX1(21q22): \u00c2\u00a0 64% of cells had an atypical 1r/2g/1f  signal pattern, a fusion pattern consistent with t(8;21) as seen on metaphase analysis.  | All twenty metaphase cells examined were abnormal, with monosomy X and  t(8;21).",
+            "consensusAMLfusion": "RUNX1-RUNX1T1"
+        }
+    ]
+}

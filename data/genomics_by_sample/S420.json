@@ -1,0 +1,62 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S420",
+            "lab_id": "17-00177",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.433628318584071,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000111799",
+            "symbol": "COL12A1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S420",
+            "lab_id": "17-00177",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.431192660550459,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000111799",
+            "symbol": "COL12A1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S420",
+            "lab_id": "17-00177",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.466216216216216,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000138413",
+            "symbol": "IDH1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S420",
+            "lab_id": "17-00177",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.571428571428571,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000181163",
+            "symbol": "NPM1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S420",
+            "lab_id": "17-00177",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0884955752212389,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000107651",
+            "symbol": "SEC23IP",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S420",
+            "karyotype": null,
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

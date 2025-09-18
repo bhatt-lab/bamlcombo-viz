@@ -1,0 +1,62 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S382",
+            "lab_id": "16-01049",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.519230769230769,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000161547",
+            "symbol": "SRSF2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S382",
+            "lab_id": "16-01049",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.519230769230769,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000161547",
+            "symbol": "SRSF2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S382",
+            "lab_id": "16-01049",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.158415841584158,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000159216",
+            "symbol": "RUNX1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S382",
+            "lab_id": "16-01049",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.914285714285714,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000101972",
+            "symbol": "STAG2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S382",
+            "lab_id": "16-01049",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.915492957746479,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000101972",
+            "symbol": "STAG2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S382",
+            "karyotype": "46,xy[20]",
+            "otherCytogenetics": "nuc ish(RUNX1T1,RUNX1)x2[200],(ABL1,BCR)x2[200],(5'MLL,3'MLL)x2(5'MLL con 3'MLLx2)[200],(PML,RARA)x2[200],(5'CBFB,3'CBFB)x2(5'CBFB con 3'CBFBx2)[200]",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

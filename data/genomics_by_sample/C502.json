@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C502",
+            "karyotype": "47,xy,del(3)(q21q26.2),+r[2]/47,sl,t(9;22)(q34;q11.2)[18]",
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "BCR-ABL1, Other_abn2"
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S545",
+            "lab_id": "18-00305",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.305084745762712,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000110395",
+            "symbol": "CBL",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S545",
+            "lab_id": "18-00305",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.222222222222222,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000169862",
+            "symbol": "CTNND2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S545",
+            "lab_id": "18-00305",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0930232558139535,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000099917",
+            "symbol": "MED15",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S545",
+            "lab_id": "18-00305",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.129032258064516,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000083642",
+            "symbol": "PDS5B",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S545",
+            "lab_id": "18-00305",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.4768,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000159216",
+            "symbol": "RUNX1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S545",
+            "lab_id": "18-00305",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.469325153374233,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000115524",
+            "symbol": "SF3B1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S545",
+            "lab_id": "18-00305",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.467889908256881,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000115524",
+            "symbol": "SF3B1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S545",
+            "lab_id": "18-00305",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0888888888888889,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000225614",
+            "symbol": "ZNF469",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S545",
+            "karyotype": "46,xy[20]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

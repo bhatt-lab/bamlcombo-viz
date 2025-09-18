@@ -1,0 +1,92 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S332",
+            "lab_id": "16-00883",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.285714285714286,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000138182",
+            "symbol": "KIF20B",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S332",
+            "lab_id": "16-00883",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.235294117647059,
+            "variant_classification": "inframe_insertion",
+            "gene": "ENSG00000151929",
+            "symbol": "BAG3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S332",
+            "lab_id": "16-00883",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.125,
+            "variant_classification": "splice_donor_variant",
+            "gene": "ENSG00000184937",
+            "symbol": "WT1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S332",
+            "lab_id": "16-00883",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.355421686746988,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000173757",
+            "symbol": "STAT5B",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S332",
+            "lab_id": "16-00883",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.365853658536585,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000173757",
+            "symbol": "STAT5B",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S332",
+            "lab_id": "16-00883",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.344,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000138413",
+            "symbol": "IDH1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S332",
+            "lab_id": "16-00883",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.344262295081967,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000138413",
+            "symbol": "IDH1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S332",
+            "lab_id": "16-00883",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.23728813559322,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000181163",
+            "symbol": "NPM1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S332",
+            "karyotype": "46,xy,t(6;19)(p23;q13.1)[11]/46,xy[9]",
+            "otherCytogenetics": "Positive (Cells Scored: 200 Probe(s): Leica DEK (SG) / NUP 214 (SO) t(6;9) DC, DF)",
+            "consensusAMLfusion": "Other_re"
+        }
+    ]
+}

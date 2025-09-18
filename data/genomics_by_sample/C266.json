@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C266",
+            "karyotype": "46,xy[20]",
+            "otherCytogenetics": "MLL: 86% of cells had a split signal pattern consistent with MLL rearrangement.",
+            "consensusAMLfusion": "KMT2A_re"
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S608",
+            "lab_id": "18-00184",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.827067669172932,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000183337",
+            "symbol": "BCOR",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S608",
+            "lab_id": "18-00184",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.491891891891892,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000114423",
+            "symbol": "CBLB",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S608",
+            "lab_id": "18-00184",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.490514905149051,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000114423",
+            "symbol": "CBLB",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S608",
+            "lab_id": "18-00184",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.1015625,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000152223",
+            "symbol": "EPG5",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S608",
+            "lab_id": "18-00184",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.488524590163934,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S608",
+            "lab_id": "18-00184",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.488448844884488,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S608",
+            "lab_id": "18-00184",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.12,
+            "variant_classification": "splice_acceptor_variant",
+            "gene": "ENSG00000083067",
+            "symbol": "TRPM3",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S608",
+            "karyotype": null,
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "Not available"
+        }
+    ]
+}

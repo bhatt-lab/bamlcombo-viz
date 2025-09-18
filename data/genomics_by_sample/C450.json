@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C450",
+            "karyotype": "46,xy[20].isht(5;11)(q35;p15.4)(3'nup98+;5'nup98+)",
+            "otherCytogenetics": "NUP98 (11p15.4): 85% of cells had a split signal pattern, consistent with rearrangement",
+            "consensusAMLfusion": "NUP98_re, Other_abn"
+        }
+    ]
+}

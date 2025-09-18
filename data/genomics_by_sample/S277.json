@@ -1,0 +1,72 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S277",
+            "lab_id": "15-00990",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.2,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000171792",
+            "symbol": "RHNO1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S277",
+            "lab_id": "15-00990",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.146341463414634,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000204533",
+            "symbol": "AC024580.1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S277",
+            "lab_id": "15-00990",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.166666666666667,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000171456",
+            "symbol": "ASXL1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S277",
+            "lab_id": "15-00990",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.2,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000163394",
+            "symbol": "CCKAR",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S277",
+            "lab_id": "15-00990",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.486803519061584,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S277",
+            "lab_id": "15-00990",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.427007299270073,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000157764",
+            "symbol": "BRAF",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S277",
+            "karyotype": "46,xx[20]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

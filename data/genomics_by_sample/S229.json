@@ -1,0 +1,82 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S229",
+            "lab_id": "17-00304",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0921052631578947,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000178568",
+            "symbol": "ERBB4",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S229",
+            "lab_id": "17-00304",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.774193548387097,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000122025",
+            "symbol": "FLT3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S229",
+            "lab_id": "17-00304",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.761904761904762,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000122025",
+            "symbol": "FLT3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S229",
+            "lab_id": "17-00304",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.416666666666667,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000181163",
+            "symbol": "NPM1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S229",
+            "lab_id": "17-00304",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.432203389830508,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S229",
+            "lab_id": "17-00304",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.444444444444444,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S229",
+            "lab_id": "17-00304",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.322784810126582,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S229",
+            "karyotype": "46,xx[20]",
+            "otherCytogenetics": "nuc ish(D4Z1,D10Z1)x2[200],(RUNX1T1,RUNX1)x2[200],(ABL1,BCR)x2[200],(5'MLL,3'MLL)x2(5'MLL con 3'MLLx2)[200],(ETV6,RUNX1)x2[200],(PML,RARA)x2[200],(5'CBFB,3'CBFB)x2(5'CBFB con 3'CBFBx2)[200]",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

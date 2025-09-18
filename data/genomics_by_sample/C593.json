@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C593",
+            "karyotype": "46,xy,del(7)(q22)[16]/47,sl,+del(7)(q22)[2]/46,xy,t(12;22)(p13;q11.2)[3]",
+            "otherCytogenetics": "D7S486/ CEP 7:  146/200 cells (73%) had a 1 red/ 2 green signal pattern, reflecting deleted 7q; 5 cells (2.5%) had a 1 red/ 3 green signal pattern, reflecting two copies of the deleted 7q.   | ETV6:  27/200 cells (13.5%) had the abnormal 1 red/ 1 green/ 1 yellow signal pattern, reflecting ETV6 (12p13) rearrangement and consistent with the 12;22 translocation observed in the metaphase karyotype",
+            "consensusAMLfusion": "Other_re, Other_abn"
+        }
+    ]
+}

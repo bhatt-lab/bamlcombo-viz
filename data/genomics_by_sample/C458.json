@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C458",
+            "karyotype": "45,x,-y,t(8;21)(q22;q22)[20]",
+            "otherCytogenetics": "FISH for t(8;21) [RUNX1T1/RUNX1] showed 91% of cells with the 1r1g2f fusion pattern consistent with t(8;21).",
+            "consensusAMLfusion": "RUNX1-RUNX1T1"
+        }
+    ]
+}

@@ -1,0 +1,122 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S614",
+            "lab_id": "18-00327",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0810810810810811,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000187533",
+            "symbol": "C4orf40",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S614",
+            "lab_id": "18-00327",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.48,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S614",
+            "lab_id": "18-00327",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.483870967741935,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S614",
+            "lab_id": "18-00327",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0918367346938776,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000138413",
+            "symbol": "IDH1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S614",
+            "lab_id": "18-00327",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0932642487046632,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000138413",
+            "symbol": "IDH1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S614",
+            "lab_id": "18-00327",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.304498269896194,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182054",
+            "symbol": "IDH2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S614",
+            "lab_id": "18-00327",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.306620209059233,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182054",
+            "symbol": "IDH2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S614",
+            "lab_id": "18-00327",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.331288343558282,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000157404",
+            "symbol": "KIT",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S614",
+            "lab_id": "18-00327",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.329268292682927,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000157404",
+            "symbol": "KIT",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S614",
+            "lab_id": "18-00327",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.368421052631579,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000181163",
+            "symbol": "NPM1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S614",
+            "lab_id": "18-00327",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0867052023121387,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000107651",
+            "symbol": "SEC23IP",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S614",
+            "karyotype": null,
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "Not available"
+        }
+    ]
+}

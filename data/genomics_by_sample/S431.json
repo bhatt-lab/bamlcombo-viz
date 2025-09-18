@@ -1,0 +1,62 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S431",
+            "lab_id": "17-00300",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.384615384615385,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000122025",
+            "symbol": "FLT3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S431",
+            "lab_id": "17-00300",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.429447852760736,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000138688",
+            "symbol": "KIAA1109",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S431",
+            "lab_id": "17-00300",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.495192307692308,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000196712",
+            "symbol": "NF1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S431",
+            "lab_id": "17-00300",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.55,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000141510",
+            "symbol": "TP53",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S431",
+            "lab_id": "17-00300",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.420382165605096,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000163811",
+            "symbol": "WDR43",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S431",
+            "karyotype": "46,xx,der(1)t(1;1)(p36.3;q21),t(8;16)(p11.2;p13.3),add(15)(q24)[20]",
+            "otherCytogenetics": "In 95/100 cells (95%), three  signals for chromosome 1q25 were observed, and only two signals for 1p36  were observed, consistent with gain of 1q by der(1)t(1;1)",
+            "consensusAMLfusion": "Other_re, Other_abn2"
+        }
+    ]
+}

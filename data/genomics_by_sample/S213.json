@@ -1,0 +1,32 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S213",
+            "lab_id": "15-00556",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.574074074074074,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000110844",
+            "symbol": "PRPF40B",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S213",
+            "lab_id": "15-00556",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.574074074074074,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000110844",
+            "symbol": "PRPF40B",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S213",
+            "karyotype": "46,xy[20]",
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

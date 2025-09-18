@@ -1,0 +1,92 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S474",
+            "lab_id": "17-00761",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0829493087557604,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000141431",
+            "symbol": "ASXL3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S474",
+            "lab_id": "17-00761",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0845070422535211,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000141431",
+            "symbol": "ASXL3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S474",
+            "lab_id": "17-00761",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.282208588957055,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000122025",
+            "symbol": "FLT3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S474",
+            "lab_id": "17-00761",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.277777777777778,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000122025",
+            "symbol": "FLT3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S474",
+            "lab_id": "17-00761",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.096551724137931,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000170606",
+            "symbol": "HSPA4",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S474",
+            "lab_id": "17-00761",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.792207792207792,
+            "variant_classification": "splice_acceptor_variant",
+            "gene": "ENSG00000101972",
+            "symbol": "STAG2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S474",
+            "lab_id": "17-00761",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.792207792207792,
+            "variant_classification": "splice_acceptor_variant",
+            "gene": "ENSG00000101972",
+            "symbol": "STAG2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S474",
+            "lab_id": "17-00761",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.08,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000156925",
+            "symbol": "ZIC3",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S474",
+            "karyotype": "46,xy,t(10;11)(p13;q23)[20]",
+            "otherCytogenetics": "MLL: 88% of cells had a 1g/0r/2f signal pattern, where the lone green signal was small and the green component suggesting a disruption of MLL (11q23) within the green portion of  the probe. \u00c2\u00a0This result is consistent with MLL rearrangement and with the t(10;11) seen on metaphase analysis.",
+            "consensusAMLfusion": "KMT2A_re, Other_re"
+        }
+    ]
+}

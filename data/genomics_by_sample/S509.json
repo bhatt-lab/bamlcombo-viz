@@ -1,0 +1,72 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S509",
+            "lab_id": "18-00029",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.424242424242424,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000181163",
+            "symbol": "NPM1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S509",
+            "lab_id": "18-00029",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.904347826086957,
+            "variant_classification": "splice_acceptor_variant",
+            "gene": "ENSG00000156531",
+            "symbol": "PHF6",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S509",
+            "lab_id": "18-00029",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.904347826086957,
+            "variant_classification": "splice_acceptor_variant",
+            "gene": "ENSG00000156531",
+            "symbol": "PHF6",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S509",
+            "lab_id": "18-00029",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.470790378006873,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S509",
+            "lab_id": "18-00029",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.497017892644135,
+            "variant_classification": "splice_donor_variant",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S509",
+            "lab_id": "18-00029",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.499005964214712,
+            "variant_classification": "splice_donor_variant",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S509",
+            "karyotype": "n/a(onlysixmetaphasecellswerefoundinallavailablematerial,aninsufficientnumbertoestablishthekaryotype.allcellsappearednormalmale.)",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

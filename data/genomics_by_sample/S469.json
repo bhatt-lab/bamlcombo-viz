@@ -1,0 +1,52 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S469",
+            "lab_id": "17-00694",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.1,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000143126",
+            "symbol": "CELSR2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S469",
+            "lab_id": "17-00694",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.79,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000196712",
+            "symbol": "NF1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S469",
+            "lab_id": "17-00694",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.787878787878788,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000196712",
+            "symbol": "NF1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S469",
+            "lab_id": "17-00694",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.875,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000141510",
+            "symbol": "TP53",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S469",
+            "karyotype": "30~35<1n>,xx,+1,+2,+6,+10,+11,+12,+18,+19,+21,+22[cp6]/46xx[20]",
+            "otherCytogenetics": "Negative for 9;22 and MLL",
+            "consensusAMLfusion": "Other_abn2"
+        }
+    ]
+}

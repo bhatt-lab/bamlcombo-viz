@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C253",
+            "karyotype": "46,xy,t(4;12)(q12;p13)[19]/46,xy[1]",
+            "otherCytogenetics": "91/100 (91%)  interphase cells scored were positive for ETV6 rearrangement, as seen previously and consistent with the 4;12 translocation observed in the metaphase karyotype. ",
+            "consensusAMLfusion": "Other_re, Other_abn"
+        }
+    ]
+}

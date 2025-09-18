@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "S371",
+            "karyotype": "45,xy,t(3;17)([21;q11.2),add(4)(q21),add(5)(p15),ins(10;11)(p12;q23q13),der(12;18)(q10;q10)[19]/46,xy[1]",
+            "otherCytogenetics": "11q23 rearrangement involving the  KMT2A (MLL) locus in 184/200 (92.0 percent) cells scored | One cell line showed the following clonal abnormalities in 19/20 (95%) cells: an apparent insertion of material form the long arm of chromosome 11 into the short arm of chromosome 10;  a translocation between chromosomes 3 and 17;  | (first cell line cont.) added material on the long arm of chromosome 4 and on the short arm of chromosome 5; an unbalanced whole arm rearrangement between the long arms of chromosomes 12 and 18. | The remaining cell (1/20; 5%) showed a normal male chromosome complement. ",
+            "consensusAMLfusion": "KMT2A_re, Other_re, Other_abn, Other_abn2"
+        }
+    ]
+}

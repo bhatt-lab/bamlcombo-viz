@@ -1,0 +1,142 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S278",
+            "lab_id": "16-00001",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.142857142857143,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000117713",
+            "symbol": "ARID1A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S278",
+            "lab_id": "16-00001",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.414634146341463,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000183317",
+            "symbol": "EPHA10",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S278",
+            "lab_id": "16-00001",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.136363636363636,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000179397",
+            "symbol": "C1orf101",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S278",
+            "lab_id": "16-00001",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.0833333333333333,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000211937",
+            "symbol": "IGHV2-5",
+            "biotype": "IG_V_gene"
+        },
+        {
+            "Sample_ID": "S278",
+            "lab_id": "16-00001",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.421052631578947,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000095917",
+            "symbol": "TPSD1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S278",
+            "lab_id": "16-00001",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.0975609756097561,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000187624",
+            "symbol": "C17orf97",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S278",
+            "lab_id": "16-00001",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.424242424242424,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000104941",
+            "symbol": "RSPH6A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S278",
+            "lab_id": "16-00001",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.481481481481481,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000104941",
+            "symbol": "RSPH6A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S278",
+            "lab_id": "16-00001",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.1,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000101162",
+            "symbol": "TUBB1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S278",
+            "lab_id": "16-00001",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.091324200913242,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000157404",
+            "symbol": "KIT",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S278",
+            "lab_id": "16-00001",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.140449438202247,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000157404",
+            "symbol": "KIT",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S278",
+            "lab_id": "16-00001",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.15,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000165138",
+            "symbol": "ANKS6",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S278",
+            "lab_id": "16-00001",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.133333333333333,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000101825",
+            "symbol": "MXRA5",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S278",
+            "karyotype": "46,xx,t(16;16)(p13.2;q22)[20]",
+            "otherCytogenetics": "CBFB: 191/200 cells (95.5%) had the abnormal 1 red/ 1 green/1 yellow signal pattern, reflecting CBFB rearrangement, consistent with the 16;16 translocation observed in the metaphase karyotype.",
+            "consensusAMLfusion": "CBFB-MYH11"
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S458",
+            "lab_id": "17-00556",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.430769230769231,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S458",
+            "lab_id": "17-00556",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.430769230769231,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S458",
+            "lab_id": "17-00556",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.159090909090909,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000110713",
+            "symbol": "NUP98",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S458",
+            "lab_id": "17-00556",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.188679245283019,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182670",
+            "symbol": "TTC3",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S458",
+            "karyotype": null,
+            "otherCytogenetics": "Normal/Negative Rearrangement",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

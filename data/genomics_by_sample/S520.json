@@ -1,0 +1,52 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S520",
+            "lab_id": "18-00105",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.296774193548387,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000179295",
+            "symbol": "PTPN11",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S520",
+            "lab_id": "18-00105",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.294871794871795,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000179295",
+            "symbol": "PTPN11",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S520",
+            "lab_id": "18-00105",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.882882882882883,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000141510",
+            "symbol": "TP53",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S520",
+            "lab_id": "18-00105",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.882882882882883,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000141510",
+            "symbol": "TP53",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S520",
+            "karyotype": "46,xy,del(5)(q13q34),add(7)(q11.2),+11,add(12)(p13),-16,add(17)(p11.2)[cp17]/46,idem,add(4)(q35)[4]",
+            "otherCytogenetics": "EGR-1/ D5S23, D5S721:  193/200 cells (96.5%) had a 1 red/ 2 green signal pattern, indicating a deleted 5q, consistent with the metaphase karyotype.  | D7S522/ CEP 7:  191/200 cells (95.5%) had a 1 red/ 2 green signal pattern, indicating deleted 7q, consistent with the metaphase karyotype.  | MLL:  150/200 cells (75%) had three intact signals, consistent with the trisomy 11 in the metaphase karyotype. An additional 18 cells (9%) had four intact MLL signals.  There was no evidence for MLL rearrangement.  | CBFB:  195/200 cells (97.5%) had a single intact signal, consistent with the monosomy 16 in the metaphase karyotype.  There was no evidence for CBFB rearrangement. ",
+            "consensusAMLfusion": "Other_re, Other_abn, Other_abn2"
+        }
+    ]
+}

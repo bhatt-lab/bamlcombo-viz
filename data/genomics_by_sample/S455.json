@@ -1,0 +1,62 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S455",
+            "lab_id": "18-00043",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.099236641221374,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000179270",
+            "symbol": "C2orf71",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S455",
+            "lab_id": "18-00043",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.360248447204969,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000133703",
+            "symbol": "KRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S455",
+            "lab_id": "18-00043",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.35625,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000133703",
+            "symbol": "KRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S455",
+            "lab_id": "18-00043",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.422818791946309,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000160201",
+            "symbol": "U2AF1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S455",
+            "lab_id": "18-00043",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.418918918918919,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000160201",
+            "symbol": "U2AF1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S455",
+            "karyotype": "49,xy,del(4)(q21),add(6)(q27),-17,add(19)(p13.3),+mar1x2,+mar2,+mar3[cp13]/49,xy,add(4)(q21),-6,+8,+mar1x2,+mar4[cp6]/46,xy[1]",
+            "otherCytogenetics": "51% had an abnormal signal pattern, reflecting the trisomy 8 in the metaphase karyotype and previously observed.  There was no evidence for RUNX1T1/RUNX1 fusion.  | 61% had a variant abnormal signal pattern, reflecting MLL rearrangement and previously observed.  | 72% had an abnormal signal pattern, reflecting extra copies of MECOM (3q26.2) and gain of 3q, previously observed.  Metaphase FISH shows the extra signals to be on  two markers.  There was no evidence for MECOM/RPN1 fusion. ",
+            "consensusAMLfusion": "KMT2A_re, Other_abn, Other_abn2"
+        }
+    ]
+}

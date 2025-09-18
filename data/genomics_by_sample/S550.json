@@ -1,0 +1,82 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S550",
+            "lab_id": "18-00408",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.375796178343949,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000171456",
+            "symbol": "ASXL1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S550",
+            "lab_id": "18-00408",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.342995169082126,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000157764",
+            "symbol": "BRAF",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S550",
+            "lab_id": "18-00408",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.342995169082126,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000157764",
+            "symbol": "BRAF",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S550",
+            "lab_id": "18-00408",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.478947368421053,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000122025",
+            "symbol": "FLT3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S550",
+            "lab_id": "18-00408",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.481578947368421,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000122025",
+            "symbol": "FLT3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S550",
+            "lab_id": "18-00408",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.496732026143791,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000159216",
+            "symbol": "RUNX1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S550",
+            "lab_id": "18-00408",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.498349834983498,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000159216",
+            "symbol": "RUNX1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S550",
+            "karyotype": "49,xy,+10,+13,+21[6]/51,idem,+9,+15[14]",
+            "otherCytogenetics": "Chromosome 9:  With all chromosome 9 probes (ABL, ASS and NUP214) ~20% of cells had three signals, consistent with trisomy 9.  | PML (15q24): 17% of cells had three signals, consistent with trisomy 15.  | RUNX1 (21q22):  69% of cells had three signals, consistent with trisomy 21. ",
+            "consensusAMLfusion": "Other_abn2"
+        }
+    ]
+}
