@@ -1,0 +1,1192 @@
+[
+    {
+        "Combination":"AGI combo - Crizotinib",
+        "median_dss":0.148,
+        "n":24,
+        "median_CI":1.2479050279,
+        "fill":33.3333333333
+    },
+    {
+        "Combination":"AGI combo - Dasatinib",
+        "median_dss":0.293,
+        "n":24,
+        "median_CI":1.0210914454,
+        "fill":45.8333333333
+    },
+    {
+        "Combination":"AGI combo - Doramapimod",
+        "median_dss":0.282,
+        "n":25,
+        "median_CI":0.8514851485,
+        "fill":60.0
+    },
+    {
+        "Combination":"AGI combo - Idelalisib",
+        "median_dss":0.32,
+        "n":24,
+        "median_CI":0.9489144594,
+        "fill":54.1666666667
+    },
+    {
+        "Combination":"AGI combo - Quizartinib",
+        "median_dss":0.458,
+        "n":25,
+        "median_CI":1.0511363636,
+        "fill":44.0
+    },
+    {
+        "Combination":"AGI combo - Ruxolitinib",
+        "median_dss":0.136,
+        "n":25,
+        "median_CI":1.3636363636,
+        "fill":32.0
+    },
+    {
+        "Combination":"AGI combo - Sorafenib",
+        "median_dss":0.356,
+        "n":25,
+        "median_CI":0.8191489362,
+        "fill":72.0
+    },
+    {
+        "Combination":"AT 101 - Bortezomib",
+        "median_dss":0.674,
+        "n":103,
+        "median_CI":0.8571428571,
+        "fill":65.0485436893
+    },
+    {
+        "Combination":"AT 101 - Doramapimod",
+        "median_dss":0.396,
+        "n":98,
+        "median_CI":1.1768606563,
+        "fill":37.7551020408
+    },
+    {
+        "Combination":"AT 101 - GW-2580",
+        "median_dss":0.219,
+        "n":98,
+        "median_CI":1.5143181192,
+        "fill":38.7755102041
+    },
+    {
+        "Combination":"AT 101 - Idelalisib",
+        "median_dss":0.427,
+        "n":98,
+        "median_CI":0.7163888889,
+        "fill":67.3469387755
+    },
+    {
+        "Combination":"AT 101 - Olaparib",
+        "median_dss":0.024,
+        "n":102,
+        "median_CI":9.463562753,
+        "fill":10.7843137255
+    },
+    {
+        "Combination":"AT 101 - Quizartinib",
+        "median_dss":0.54,
+        "n":103,
+        "median_CI":0.812749004,
+        "fill":68.932038835
+    },
+    {
+        "Combination":"AT 101 - Ruxolitinib",
+        "median_dss":0.215,
+        "n":100,
+        "median_CI":1.3609237537,
+        "fill":44.0
+    },
+    {
+        "Combination":"AT 101 - Trametinib",
+        "median_dss":0.664,
+        "n":97,
+        "median_CI":1.0,
+        "fill":48.4536082474
+    },
+    {
+        "Combination":"AZD5991 - Bortezomib",
+        "median_dss":0.839,
+        "n":82,
+        "median_CI":0.9940450724,
+        "fill":53.6585365854
+    },
+    {
+        "Combination":"AZD5991 - Doramapimod",
+        "median_dss":0.811,
+        "n":78,
+        "median_CI":0.9617698887,
+        "fill":58.9743589744
+    },
+    {
+        "Combination":"AZD5991 - Dordaviprone",
+        "median_dss":0.726,
+        "n":82,
+        "median_CI":1.0069583306,
+        "fill":42.6829268293
+    },
+    {
+        "Combination":"AZD5991 - GW-2580",
+        "median_dss":0.648,
+        "n":79,
+        "median_CI":1.1637931034,
+        "fill":26.582278481
+    },
+    {
+        "Combination":"AZD5991 - Idelalisib",
+        "median_dss":0.837,
+        "n":78,
+        "median_CI":0.9316059757,
+        "fill":65.3846153846
+    },
+    {
+        "Combination":"AZD5991 - Quizartinib",
+        "median_dss":0.826,
+        "n":80,
+        "median_CI":0.9466180652,
+        "fill":62.5
+    },
+    {
+        "Combination":"AZD5991 - Ruxolitinib",
+        "median_dss":0.788,
+        "n":81,
+        "median_CI":0.9470198675,
+        "fill":66.6666666667
+    },
+    {
+        "Combination":"AZD5991 - Trametinib",
+        "median_dss":0.9,
+        "n":80,
+        "median_CI":0.8975734868,
+        "fill":72.5
+    },
+    {
+        "Combination":"Alisertib - Crizotinib",
+        "median_dss":0.71,
+        "n":264,
+        "median_CI":0.4388586957,
+        "fill":92.0152091255
+    },
+    {
+        "Combination":"Alisertib - Midostaurin",
+        "median_dss":0.172,
+        "n":34,
+        "median_CI":1.8243029546,
+        "fill":23.5294117647
+    },
+    {
+        "Combination":"Alisertib - Ruxolitinib",
+        "median_dss":0.1,
+        "n":34,
+        "median_CI":1.5470588235,
+        "fill":30.303030303
+    },
+    {
+        "Combination":"Artemisinin - Venetoclax",
+        "median_dss":0.421,
+        "n":256,
+        "median_CI":0.9112940311,
+        "fill":66.8
+    },
+    {
+        "Combination":"Axitinib - Bosutinib",
+        "median_dss":0.308,
+        "n":24,
+        "median_CI":0.8490077653,
+        "fill":58.3333333333
+    },
+    {
+        "Combination":"Axitinib - Doramapimod",
+        "median_dss":0.55,
+        "n":31,
+        "median_CI":0.6098901099,
+        "fill":87.0967741935
+    },
+    {
+        "Combination":"Axitinib - GW-2580",
+        "median_dss":0.219,
+        "n":32,
+        "median_CI":0.8920216695,
+        "fill":60.0
+    },
+    {
+        "Combination":"Axitinib - KI20227",
+        "median_dss":0.316,
+        "n":31,
+        "median_CI":1.0328794704,
+        "fill":36.6666666667
+    },
+    {
+        "Combination":"Axitinib - Motesanib",
+        "median_dss":0.362,
+        "n":30,
+        "median_CI":0.8373732352,
+        "fill":66.6666666667
+    },
+    {
+        "Combination":"Azacitidine - Quizartinib",
+        "median_dss":0.37,
+        "n":34,
+        "median_CI":1.3339622642,
+        "fill":27.2727272727
+    },
+    {
+        "Combination":"Azacitidine - Vemurafenib",
+        "median_dss":0.0,
+        "n":34,
+        "median_CI":163.0,
+        "fill":18.5185185185
+    },
+    {
+        "Combination":"Azacitidine - Venetoclax",
+        "median_dss":0.426,
+        "n":171,
+        "median_CI":1.0,
+        "fill":47.9289940828
+    },
+    {
+        "Combination":"Birabresib - Bortezomib",
+        "median_dss":0.728,
+        "n":183,
+        "median_CI":0.9661458333,
+        "fill":57.3770491803
+    },
+    {
+        "Combination":"Birabresib - Doramapimod",
+        "median_dss":0.763,
+        "n":182,
+        "median_CI":0.8100265677,
+        "fill":78.021978022
+    },
+    {
+        "Combination":"Birabresib - Dordaviprone",
+        "median_dss":0.508,
+        "n":80,
+        "median_CI":1.2481080151,
+        "fill":22.5
+    },
+    {
+        "Combination":"Birabresib - GW-2580",
+        "median_dss":0.657,
+        "n":182,
+        "median_CI":0.9551426426,
+        "fill":54.3956043956
+    },
+    {
+        "Combination":"Birabresib - Idelalisib",
+        "median_dss":0.688,
+        "n":185,
+        "median_CI":0.8522727273,
+        "fill":71.8918918919
+    },
+    {
+        "Combination":"Birabresib - Olaparib",
+        "median_dss":0.562,
+        "n":105,
+        "median_CI":1.0203488372,
+        "fill":48.5714285714
+    },
+    {
+        "Combination":"Birabresib - Quizartinib",
+        "median_dss":0.738,
+        "n":178,
+        "median_CI":0.8841445428,
+        "fill":72.4719101124
+    },
+    {
+        "Combination":"Birabresib - Ruxolitinib",
+        "median_dss":0.598,
+        "n":186,
+        "median_CI":0.9527357133,
+        "fill":56.4516129032
+    },
+    {
+        "Combination":"Birabresib - Trametinib",
+        "median_dss":0.794,
+        "n":179,
+        "median_CI":0.8859060403,
+        "fill":70.9497206704
+    },
+    {
+        "Combination":"Birinapant - Bortezomib",
+        "median_dss":0.689,
+        "n":186,
+        "median_CI":0.9565330311,
+        "fill":60.2150537634
+    },
+    {
+        "Combination":"Birinapant - Doramapimod",
+        "median_dss":0.646,
+        "n":185,
+        "median_CI":0.8153846154,
+        "fill":74.5945945946
+    },
+    {
+        "Combination":"Birinapant - Dordaviprone",
+        "median_dss":0.414,
+        "n":81,
+        "median_CI":0.8456375839,
+        "fill":60.4938271605
+    },
+    {
+        "Combination":"Birinapant - GW-2580",
+        "median_dss":0.516,
+        "n":183,
+        "median_CI":0.9148749777,
+        "fill":59.3406593407
+    },
+    {
+        "Combination":"Birinapant - Idelalisib",
+        "median_dss":0.526,
+        "n":185,
+        "median_CI":0.8458646617,
+        "fill":61.6216216216
+    },
+    {
+        "Combination":"Birinapant - Olaparib",
+        "median_dss":0.386,
+        "n":107,
+        "median_CI":1.2898550725,
+        "fill":38.3177570093
+    },
+    {
+        "Combination":"Birinapant - Quizartinib",
+        "median_dss":0.698,
+        "n":184,
+        "median_CI":0.7272093127,
+        "fill":82.0652173913
+    },
+    {
+        "Combination":"Birinapant - Ruxolitinib",
+        "median_dss":0.454,
+        "n":185,
+        "median_CI":0.917963155,
+        "fill":58.6956521739
+    },
+    {
+        "Combination":"Birinapant - Trametinib",
+        "median_dss":0.742,
+        "n":181,
+        "median_CI":0.8830275229,
+        "fill":71.270718232
+    },
+    {
+        "Combination":"Bortezomib - Dasatinib",
+        "median_dss":0.504,
+        "n":25,
+        "median_CI":0.9398907104,
+        "fill":56.0
+    },
+    {
+        "Combination":"Bortezomib - GSK2879552",
+        "median_dss":0.52,
+        "n":106,
+        "median_CI":1.0695067265,
+        "fill":40.9523809524
+    },
+    {
+        "Combination":"Bortezomib - Palbociclib",
+        "median_dss":0.593,
+        "n":182,
+        "median_CI":1.0599153492,
+        "fill":39.5604395604
+    },
+    {
+        "Combination":"Bortezomib - Telaglenastat",
+        "median_dss":0.728,
+        "n":75,
+        "median_CI":1.0524146906,
+        "fill":33.7837837838
+    },
+    {
+        "Combination":"Bortezomib - Trametinib",
+        "median_dss":0.706,
+        "n":25,
+        "median_CI":0.8815403423,
+        "fill":75.0
+    },
+    {
+        "Combination":"Bortezomib - Venetoclax",
+        "median_dss":0.674,
+        "n":179,
+        "median_CI":1.0653846154,
+        "fill":37.4301675978
+    },
+    {
+        "Combination":"Cabozantinib - Ruxolitinib",
+        "median_dss":0.538,
+        "n":263,
+        "median_CI":0.7420265713,
+        "fill":70.6106870229
+    },
+    {
+        "Combination":"Crizotinib - Quizartinib",
+        "median_dss":0.494,
+        "n":25,
+        "median_CI":1.0960912052,
+        "fill":44.0
+    },
+    {
+        "Combination":"Cytarabine - Nutlin-3",
+        "median_dss":0.778,
+        "n":264,
+        "median_CI":0.3717294086,
+        "fill":89.0151515152
+    },
+    {
+        "Combination":"Cytarabine - Venetoclax",
+        "median_dss":0.527,
+        "n":70,
+        "median_CI":0.8217720483,
+        "fill":70.0
+    },
+    {
+        "Combination":"Cytarabine - Vismodegib",
+        "median_dss":0.248,
+        "n":25,
+        "median_CI":0.8918918919,
+        "fill":64.0
+    },
+    {
+        "Combination":"Dasatinib - Doramapimod",
+        "median_dss":0.442,
+        "n":31,
+        "median_CI":0.8618181818,
+        "fill":74.1935483871
+    },
+    {
+        "Combination":"Dasatinib - GW-2580",
+        "median_dss":0.308,
+        "n":33,
+        "median_CI":1.0718390805,
+        "fill":45.4545454545
+    },
+    {
+        "Combination":"Dasatinib - Idelalisib",
+        "median_dss":0.326,
+        "n":32,
+        "median_CI":0.9043922911,
+        "fill":62.5
+    },
+    {
+        "Combination":"Dasatinib - JQ1",
+        "median_dss":0.65,
+        "n":23,
+        "median_CI":0.7818627451,
+        "fill":82.6086956522
+    },
+    {
+        "Combination":"Dasatinib - Midostaurin",
+        "median_dss":0.288,
+        "n":34,
+        "median_CI":1.4351975639,
+        "fill":23.5294117647
+    },
+    {
+        "Combination":"Dasatinib - NF-kB Activation Inhibitor",
+        "median_dss":0.377,
+        "n":32,
+        "median_CI":1.0017066775,
+        "fill":50.0
+    },
+    {
+        "Combination":"Dasatinib - Pazopanib",
+        "median_dss":0.318,
+        "n":34,
+        "median_CI":0.9857914945,
+        "fill":52.9411764706
+    },
+    {
+        "Combination":"Dasatinib - Quizartinib",
+        "median_dss":0.595,
+        "n":24,
+        "median_CI":1.0236829555,
+        "fill":45.8333333333
+    },
+    {
+        "Combination":"Dasatinib - Ruxolitinib",
+        "median_dss":0.26,
+        "n":34,
+        "median_CI":1.2253231492,
+        "fill":35.2941176471
+    },
+    {
+        "Combination":"Dasatinib - Sirolimus",
+        "median_dss":0.574,
+        "n":25,
+        "median_CI":0.7863436123,
+        "fill":80.0
+    },
+    {
+        "Combination":"Dasatinib - Sorafenib",
+        "median_dss":0.243,
+        "n":34,
+        "median_CI":1.1804419556,
+        "fill":26.4705882353
+    },
+    {
+        "Combination":"Dasatinib - Trametinib",
+        "median_dss":0.616,
+        "n":25,
+        "median_CI":0.9913232104,
+        "fill":52.0
+    },
+    {
+        "Combination":"Dasatinib - Vatalanib",
+        "median_dss":0.41,
+        "n":25,
+        "median_CI":1.027027027,
+        "fill":48.0
+    },
+    {
+        "Combination":"Dasatinib - Venetoclax",
+        "median_dss":0.854,
+        "n":343,
+        "median_CI":0.8030973451,
+        "fill":72.3032069971
+    },
+    {
+        "Combination":"Decitabine - Venetoclax",
+        "median_dss":0.37,
+        "n":72,
+        "median_CI":1.1234253551,
+        "fill":27.7777777778
+    },
+    {
+        "Combination":"Doramapimod - GSK2879552",
+        "median_dss":0.313,
+        "n":102,
+        "median_CI":1.2748116443,
+        "fill":28.5714285714
+    },
+    {
+        "Combination":"Doramapimod - GW-2580",
+        "median_dss":0.3615,
+        "n":32,
+        "median_CI":0.8350730689,
+        "fill":67.7419354839
+    },
+    {
+        "Combination":"Doramapimod - Idelalisib",
+        "median_dss":0.504,
+        "n":31,
+        "median_CI":0.7358490566,
+        "fill":80.6451612903
+    },
+    {
+        "Combination":"Doramapimod - JQ1",
+        "median_dss":0.379,
+        "n":240,
+        "median_CI":1.5009960159,
+        "fill":23.75
+    },
+    {
+        "Combination":"Doramapimod - Midostaurin",
+        "median_dss":0.247,
+        "n":34,
+        "median_CI":1.4528592319,
+        "fill":32.3529411765
+    },
+    {
+        "Combination":"Doramapimod - Motesanib",
+        "median_dss":0.38,
+        "n":31,
+        "median_CI":0.7627539741,
+        "fill":63.3333333333
+    },
+    {
+        "Combination":"Doramapimod - NF-kB Activation Inhibitor",
+        "median_dss":0.296,
+        "n":32,
+        "median_CI":1.0714285714,
+        "fill":45.1612903226
+    },
+    {
+        "Combination":"Doramapimod - Palbociclib",
+        "median_dss":0.638,
+        "n":421,
+        "median_CI":0.7908496732,
+        "fill":66.0332541568
+    },
+    {
+        "Combination":"Doramapimod - Panobinostat",
+        "median_dss":0.614,
+        "n":226,
+        "median_CI":1.2171140195,
+        "fill":29.203539823
+    },
+    {
+        "Combination":"Doramapimod - Ruxolitinib",
+        "median_dss":0.312,
+        "n":33,
+        "median_CI":0.9508595242,
+        "fill":59.375
+    },
+    {
+        "Combination":"Doramapimod - Sorafenib",
+        "median_dss":0.344,
+        "n":34,
+        "median_CI":1.0823170732,
+        "fill":45.4545454545
+    },
+    {
+        "Combination":"Doramapimod - Telaglenastat",
+        "median_dss":0.322,
+        "n":77,
+        "median_CI":1.224137931,
+        "fill":30.6666666667
+    },
+    {
+        "Combination":"Doramapimod - Venetoclax",
+        "median_dss":0.678,
+        "n":438,
+        "median_CI":0.8604347826,
+        "fill":63.0136986301
+    },
+    {
+        "Combination":"Dordaviprone - Palbociclib",
+        "median_dss":0.216,
+        "n":81,
+        "median_CI":1.0875,
+        "fill":40.7407407407
+    },
+    {
+        "Combination":"Dordaviprone - Telaglenastat",
+        "median_dss":0.15,
+        "n":80,
+        "median_CI":1.4010869565,
+        "fill":25.0
+    },
+    {
+        "Combination":"Dordaviprone - Venetoclax",
+        "median_dss":0.392,
+        "n":92,
+        "median_CI":0.982090686,
+        "fill":52.1739130435
+    },
+    {
+        "Combination":"Entospletinib - Sorafenib",
+        "median_dss":0.324,
+        "n":261,
+        "median_CI":1.1887544274,
+        "fill":40.7692307692
+    },
+    {
+        "Combination":"Foretinib - NVP-TAE684",
+        "median_dss":0.436,
+        "n":34,
+        "median_CI":1.0728482003,
+        "fill":41.1764705882
+    },
+    {
+        "Combination":"GSK2879552 - GW-2580",
+        "median_dss":0.219,
+        "n":102,
+        "median_CI":1.5270696843,
+        "fill":36.0
+    },
+    {
+        "Combination":"GSK2879552 - Idelalisib",
+        "median_dss":0.239,
+        "n":100,
+        "median_CI":1.1968809186,
+        "fill":44.0
+    },
+    {
+        "Combination":"GSK2879552 - Olaparib",
+        "median_dss":0.0,
+        "n":100,
+        "median_CI":null,
+        "fill":39.1304347826
+    },
+    {
+        "Combination":"GSK2879552 - Quizartinib",
+        "median_dss":0.458,
+        "n":103,
+        "median_CI":0.9110838489,
+        "fill":63.0
+    },
+    {
+        "Combination":"GSK2879552 - Ruxolitinib",
+        "median_dss":0.018,
+        "n":105,
+        "median_CI":6.3942857143,
+        "fill":23.4693877551
+    },
+    {
+        "Combination":"GSK2879552 - Trametinib",
+        "median_dss":0.6,
+        "n":100,
+        "median_CI":1.056372549,
+        "fill":31.3131313131
+    },
+    {
+        "Combination":"GW-2580 - Idelalisib",
+        "median_dss":0.258,
+        "n":31,
+        "median_CI":1.0563380282,
+        "fill":45.1612903226
+    },
+    {
+        "Combination":"GW-2580 - KI20227",
+        "median_dss":0.19,
+        "n":32,
+        "median_CI":1.3823308271,
+        "fill":36.6666666667
+    },
+    {
+        "Combination":"GW-2580 - Midostaurin",
+        "median_dss":0.108,
+        "n":33,
+        "median_CI":1.7407407407,
+        "fill":24.2424242424
+    },
+    {
+        "Combination":"GW-2580 - Motesanib",
+        "median_dss":0.222,
+        "n":29,
+        "median_CI":0.87109375,
+        "fill":52.0
+    },
+    {
+        "Combination":"GW-2580 - Palbociclib",
+        "median_dss":0.242,
+        "n":101,
+        "median_CI":1.3237305398,
+        "fill":38.0
+    },
+    {
+        "Combination":"GW-2580 - Pazopanib",
+        "median_dss":0.166,
+        "n":33,
+        "median_CI":1.1212121212,
+        "fill":35.4838709677
+    },
+    {
+        "Combination":"GW-2580 - Sunitinib",
+        "median_dss":0.094,
+        "n":33,
+        "median_CI":2.0,
+        "fill":25.8064516129
+    },
+    {
+        "Combination":"GW-2580 - Telaglenastat",
+        "median_dss":0.309,
+        "n":80,
+        "median_CI":1.0261611527,
+        "fill":47.5
+    },
+    {
+        "Combination":"GW-2580 - Venetoclax",
+        "median_dss":0.419,
+        "n":174,
+        "median_CI":1.0869565217,
+        "fill":43.9306358382
+    },
+    {
+        "Combination":"Ibrutinib - Quizartinib",
+        "median_dss":0.519,
+        "n":228,
+        "median_CI":1.0202626285,
+        "fill":48.2456140351
+    },
+    {
+        "Combination":"Ibrutinib - Venetoclax",
+        "median_dss":0.577,
+        "n":514,
+        "median_CI":0.8783783784,
+        "fill":67.8362573099
+    },
+    {
+        "Combination":"Idelalisib - JQ1",
+        "median_dss":0.612,
+        "n":261,
+        "median_CI":0.9169054441,
+        "fill":56.7049808429
+    },
+    {
+        "Combination":"Idelalisib - Midostaurin",
+        "median_dss":0.241,
+        "n":32,
+        "median_CI":1.2428861789,
+        "fill":34.375
+    },
+    {
+        "Combination":"Idelalisib - Palbociclib",
+        "median_dss":0.494,
+        "n":415,
+        "median_CI":0.6676470588,
+        "fill":73.0120481928
+    },
+    {
+        "Combination":"Idelalisib - Panobinostat",
+        "median_dss":0.748,
+        "n":225,
+        "median_CI":1.0790123457,
+        "fill":40.0
+    },
+    {
+        "Combination":"Idelalisib - Quizartinib",
+        "median_dss":0.64,
+        "n":269,
+        "median_CI":0.8337236534,
+        "fill":68.029739777
+    },
+    {
+        "Combination":"Idelalisib - Ruxolitinib",
+        "median_dss":0.898,
+        "n":300,
+        "median_CI":0.4588659949,
+        "fill":87.6666666667
+    },
+    {
+        "Combination":"Idelalisib - Telaglenastat",
+        "median_dss":0.236,
+        "n":78,
+        "median_CI":1.2049560147,
+        "fill":41.0256410256
+    },
+    {
+        "Combination":"Idelalisib - Trametinib",
+        "median_dss":0.892,
+        "n":263,
+        "median_CI":0.7866666667,
+        "fill":84.7908745247
+    },
+    {
+        "Combination":"Idelalisib - Venetoclax",
+        "median_dss":0.646,
+        "n":441,
+        "median_CI":0.8088888889,
+        "fill":65.306122449
+    },
+    {
+        "Combination":"JQ1 - Palbociclib",
+        "median_dss":0.75,
+        "n":232,
+        "median_CI":0.7902991453,
+        "fill":71.9827586207
+    },
+    {
+        "Combination":"JQ1 - Panobinostat",
+        "median_dss":0.477,
+        "n":228,
+        "median_CI":1.6620492611,
+        "fill":6.5789473684
+    },
+    {
+        "Combination":"JQ1 - Quizartinib",
+        "median_dss":0.194,
+        "n":235,
+        "median_CI":3.2643678161,
+        "fill":7.6595744681
+    },
+    {
+        "Combination":"JQ1 - Ruxolitinib",
+        "median_dss":0.786,
+        "n":266,
+        "median_CI":0.6769852941,
+        "fill":84.962406015
+    },
+    {
+        "Combination":"JQ1 - Sorafenib",
+        "median_dss":0.724,
+        "n":266,
+        "median_CI":0.7865307754,
+        "fill":73.3082706767
+    },
+    {
+        "Combination":"JQ1 - Trametinib",
+        "median_dss":0.534,
+        "n":234,
+        "median_CI":1.3038961039,
+        "fill":27.3504273504
+    },
+    {
+        "Combination":"JQ1 - Venetoclax",
+        "median_dss":0.813,
+        "n":240,
+        "median_CI":0.8039215686,
+        "fill":70.7112970711
+    },
+    {
+        "Combination":"KI20227 - Motesanib",
+        "median_dss":0.266,
+        "n":32,
+        "median_CI":1.2151898734,
+        "fill":35.4838709677
+    },
+    {
+        "Combination":"Linifanib - Ruxolitinib",
+        "median_dss":0.16,
+        "n":33,
+        "median_CI":1.4885496183,
+        "fill":30.303030303
+    },
+    {
+        "Combination":"Midostaurin - NF-kB Activation Inhibitor",
+        "median_dss":0.249,
+        "n":32,
+        "median_CI":1.4320534832,
+        "fill":20.0
+    },
+    {
+        "Combination":"Midostaurin - NVP-TAE684",
+        "median_dss":0.228,
+        "n":33,
+        "median_CI":1.1124497992,
+        "fill":35.4838709677
+    },
+    {
+        "Combination":"Midostaurin - Pazopanib",
+        "median_dss":0.137,
+        "n":34,
+        "median_CI":1.8946365561,
+        "fill":26.4705882353
+    },
+    {
+        "Combination":"Midostaurin - Ruxolitinib",
+        "median_dss":0.203,
+        "n":34,
+        "median_CI":1.2520325203,
+        "fill":33.3333333333
+    },
+    {
+        "Combination":"Midostaurin - Sorafenib",
+        "median_dss":0.241,
+        "n":34,
+        "median_CI":1.3922413793,
+        "fill":15.1515151515
+    },
+    {
+        "Combination":"Motesanib - Sunitinib",
+        "median_dss":0.27,
+        "n":33,
+        "median_CI":0.8539650538,
+        "fill":56.25
+    },
+    {
+        "Combination":"NF-kB Activation Inhibitor - Ruxolitinib",
+        "median_dss":0.156,
+        "n":33,
+        "median_CI":1.5242718447,
+        "fill":25.8064516129
+    },
+    {
+        "Combination":"NF-kB Activation Inhibitor - Vemurafenib",
+        "median_dss":0.035,
+        "n":33,
+        "median_CI":2.3414634146,
+        "fill":18.5185185185
+    },
+    {
+        "Combination":"NVP-TAE684 - Quizartinib",
+        "median_dss":0.594,
+        "n":34,
+        "median_CI":0.8352779246,
+        "fill":64.7058823529
+    },
+    {
+        "Combination":"Nintedanib - Trametinib",
+        "median_dss":0.714,
+        "n":24,
+        "median_CI":0.8883917573,
+        "fill":70.8333333333
+    },
+    {
+        "Combination":"Olaparib - Palbociclib",
+        "median_dss":0.07,
+        "n":103,
+        "median_CI":1.9718309859,
+        "fill":40.5940594059
+    },
+    {
+        "Combination":"Olaparib - Trametinib",
+        "median_dss":0.608,
+        "n":99,
+        "median_CI":1.0177935943,
+        "fill":49.4949494949
+    },
+    {
+        "Combination":"Olaparib - Venetoclax",
+        "median_dss":0.6,
+        "n":136,
+        "median_CI":1.0,
+        "fill":48.5294117647
+    },
+    {
+        "Combination":"PH-797804 - Venetoclax",
+        "median_dss":0.706,
+        "n":94,
+        "median_CI":0.9232595093,
+        "fill":60.6382978723
+    },
+    {
+        "Combination":"Palbociclib - Panobinostat",
+        "median_dss":0.569,
+        "n":222,
+        "median_CI":1.286254935,
+        "fill":30.6306306306
+    },
+    {
+        "Combination":"Palbociclib - Quizartinib",
+        "median_dss":0.65,
+        "n":424,
+        "median_CI":0.7518991724,
+        "fill":76.8867924528
+    },
+    {
+        "Combination":"Palbociclib - Ruxolitinib",
+        "median_dss":0.805,
+        "n":422,
+        "median_CI":0.3658804549,
+        "fill":78.1990521327
+    },
+    {
+        "Combination":"Palbociclib - Sorafenib",
+        "median_dss":0.443,
+        "n":234,
+        "median_CI":0.6999255466,
+        "fill":70.0854700855
+    },
+    {
+        "Combination":"Palbociclib - Trametinib",
+        "median_dss":0.81,
+        "n":417,
+        "median_CI":0.8296460177,
+        "fill":77.4580335731
+    },
+    {
+        "Combination":"Palbociclib - Venetoclax",
+        "median_dss":0.882,
+        "n":233,
+        "median_CI":0.4519230769,
+        "fill":81.974248927
+    },
+    {
+        "Combination":"Panobinostat - Quizartinib",
+        "median_dss":0.45,
+        "n":225,
+        "median_CI":1.7414448669,
+        "fill":10.6666666667
+    },
+    {
+        "Combination":"Panobinostat - Ruxolitinib",
+        "median_dss":0.838,
+        "n":229,
+        "median_CI":0.9600997506,
+        "fill":62.4454148472
+    },
+    {
+        "Combination":"Panobinostat - Sorafenib",
+        "median_dss":0.524,
+        "n":225,
+        "median_CI":1.4078014184,
+        "fill":20.8888888889
+    },
+    {
+        "Combination":"Panobinostat - Trametinib",
+        "median_dss":0.198,
+        "n":224,
+        "median_CI":3.71571711,
+        "fill":3.125
+    },
+    {
+        "Combination":"Panobinostat - Venetoclax",
+        "median_dss":0.92,
+        "n":227,
+        "median_CI":0.9266055046,
+        "fill":70.0440528634
+    },
+    {
+        "Combination":"Quizartinib - Ruxolitinib",
+        "median_dss":0.632,
+        "n":25,
+        "median_CI":0.9453781513,
+        "fill":64.0
+    },
+    {
+        "Combination":"Quizartinib - Telaglenastat",
+        "median_dss":0.448,
+        "n":79,
+        "median_CI":0.9141630901,
+        "fill":59.4936708861
+    },
+    {
+        "Combination":"Quizartinib - Trametinib",
+        "median_dss":0.602,
+        "n":262,
+        "median_CI":1.043487395,
+        "fill":44.6564885496
+    },
+    {
+        "Combination":"Quizartinib - Venetoclax",
+        "median_dss":0.578,
+        "n":229,
+        "median_CI":1.0165016502,
+        "fill":48.9082969432
+    },
+    {
+        "Combination":"Ruxolitinib - Sunitinib",
+        "median_dss":0.392,
+        "n":25,
+        "median_CI":0.8,
+        "fill":68.0
+    },
+    {
+        "Combination":"Ruxolitinib - Telaglenastat",
+        "median_dss":0.124,
+        "n":79,
+        "median_CI":1.6274509804,
+        "fill":32.4675324675
+    },
+    {
+        "Combination":"Ruxolitinib - Venetoclax",
+        "median_dss":0.714,
+        "n":439,
+        "median_CI":0.7221052632,
+        "fill":72.8929384966
+    },
+    {
+        "Combination":"Sirolimus - Trametinib",
+        "median_dss":0.748,
+        "n":25,
+        "median_CI":0.7947019868,
+        "fill":84.0
+    },
+    {
+        "Combination":"Sorafenib - Venetoclax",
+        "median_dss":0.884,
+        "n":263,
+        "median_CI":0.5680345572,
+        "fill":76.4258555133
+    },
+    {
+        "Combination":"Telaglenastat - Trametinib",
+        "median_dss":0.599,
+        "n":78,
+        "median_CI":0.8805100182,
+        "fill":60.2564102564
+    },
+    {
+        "Combination":"Telaglenastat - Venetoclax",
+        "median_dss":0.366,
+        "n":89,
+        "median_CI":1.0067567568,
+        "fill":48.3146067416
+    },
+    {
+        "Combination":"Trametinib - Venetoclax",
+        "median_dss":0.806,
+        "n":307,
+        "median_CI":0.8929503916,
+        "fill":66.7752442997
+    },
+    {
+        "Combination":"Vandetanib - Vemurafenib",
+        "median_dss":0.592,
+        "n":267,
+        "median_CI":0.308411215,
+        "fill":90.6367041199
+    }
+]
