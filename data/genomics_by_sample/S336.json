@@ -1,0 +1,62 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S336",
+            "lab_id": "16-00886",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.485074626865672,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000179295",
+            "symbol": "PTPN11",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S336",
+            "lab_id": "16-00886",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.488888888888889,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000179295",
+            "symbol": "PTPN11",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S336",
+            "lab_id": "16-00886",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.333333333333333,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000171914",
+            "symbol": "TLN2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S336",
+            "lab_id": "16-00886",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.136363636363636,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000163645",
+            "symbol": "FAM194A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S336",
+            "lab_id": "16-00886",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.403225806451613,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000181163",
+            "symbol": "NPM1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S336",
+            "karyotype": "47,xx,+8,i(8)(q10),del(9)(q21.2q22.3),der(10)t(1;10)(q11;q22)[cp12]/47,idem,add(17)(p13)[8]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Other_abn, Other_abn2"
+        }
+    ]
+}

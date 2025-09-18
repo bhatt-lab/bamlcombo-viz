@@ -1,0 +1,122 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S601",
+            "lab_id": "19-00436",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.11864406779661,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000185515",
+            "symbol": "BRCC3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S601",
+            "lab_id": "19-00436",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.119047619047619,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000185515",
+            "symbol": "BRCC3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S601",
+            "lab_id": "19-00436",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0916666666666667,
+            "variant_classification": "stop_lost",
+            "gene": "ENSG00000168434",
+            "symbol": "COG7",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S601",
+            "lab_id": "19-00436",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.301675977653631,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000122025",
+            "symbol": "FLT3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S601",
+            "lab_id": "19-00436",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.308988764044944,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000122025",
+            "symbol": "FLT3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S601",
+            "lab_id": "19-00436",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.331306990881459,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S601",
+            "lab_id": "19-00436",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.331306990881459,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S601",
+            "lab_id": "19-00436",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0985915492957746,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000110713",
+            "symbol": "NUP98",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S601",
+            "lab_id": "19-00436",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.367816091954023,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000159216",
+            "symbol": "RUNX1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S601",
+            "lab_id": "19-00436",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0826446280991736,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000161547",
+            "symbol": "SRSF2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S601",
+            "lab_id": "19-00436",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0833333333333333,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000161547",
+            "symbol": "SRSF2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S601",
+            "karyotype": "46,xxder(22)t(1;22)(q12;p11.2)[1]/46,xx[19]",
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "Other_re"
+        }
+    ]
+}

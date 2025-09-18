@@ -1,0 +1,32 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S406",
+            "lab_id": "16-01270",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.0869565217391304,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000140557",
+            "symbol": "ST8SIA2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S406",
+            "lab_id": "16-01270",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.470873786407767,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000157404",
+            "symbol": "KIT",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S406",
+            "karyotype": null,
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "Not available"
+        }
+    ]
+}

@@ -1,0 +1,132 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S380",
+            "lab_id": "16-01022",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.3125,
+            "variant_classification": "splice_acceptor_variant",
+            "gene": "ENSG00000142949",
+            "symbol": "PTPRF",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S380",
+            "lab_id": "16-01022",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.237179487179487,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S380",
+            "lab_id": "16-01022",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.241830065359477,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S380",
+            "lab_id": "16-01022",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.447368421052632,
+            "variant_classification": "splice_acceptor_variant",
+            "gene": "ENSG00000083782",
+            "symbol": "EPYC",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S380",
+            "lab_id": "16-01022",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.472222222222222,
+            "variant_classification": "splice_acceptor_variant",
+            "gene": "ENSG00000083782",
+            "symbol": "EPYC",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S380",
+            "lab_id": "16-01022",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.0816326530612245,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000176887",
+            "symbol": "SOX11",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S380",
+            "lab_id": "16-01022",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.458333333333333,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S380",
+            "lab_id": "16-01022",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.316831683168317,
+            "variant_classification": "splice_donor_variant",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S380",
+            "lab_id": "16-01022",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.316831683168317,
+            "variant_classification": "splice_donor_variant",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S380",
+            "lab_id": "16-01022",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.358490566037736,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000181163",
+            "symbol": "NPM1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S380",
+            "lab_id": "16-01022",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.0833333333333333,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000136997",
+            "symbol": "MYC",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S380",
+            "lab_id": "16-01022",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.1,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000160563",
+            "symbol": "MED27",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S380",
+            "karyotype": "46,xx[20]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

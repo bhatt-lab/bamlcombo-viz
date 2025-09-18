@@ -1,0 +1,32 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S417",
+            "lab_id": "17-00111",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.743589743589744,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S417",
+            "lab_id": "17-00111",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.747422680412371,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S417",
+            "karyotype": "46,xx[20]",
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

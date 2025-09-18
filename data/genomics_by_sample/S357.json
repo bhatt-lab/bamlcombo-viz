@@ -1,0 +1,62 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S357",
+            "lab_id": "16-00770",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.351851851851852,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000184937",
+            "symbol": "WT1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S357",
+            "lab_id": "16-00770",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.0980392156862745,
+            "variant_classification": "protein_altering_variant",
+            "gene": "ENSG00000066427",
+            "symbol": "ATXN3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S357",
+            "lab_id": "16-00770",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.441860465116279,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182054",
+            "symbol": "IDH2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S357",
+            "lab_id": "16-00770",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.448,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182054",
+            "symbol": "IDH2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S357",
+            "lab_id": "16-00770",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.354838709677419,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000183337",
+            "symbol": "BCOR",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S357",
+            "karyotype": "46,xx[20]",
+            "otherCytogenetics": "Not Available",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

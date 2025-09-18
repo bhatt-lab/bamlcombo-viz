@@ -1,0 +1,32 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S616",
+            "lab_id": "19-00315",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.392857142857143,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000179348",
+            "symbol": "GATA2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S616",
+            "lab_id": "19-00315",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.185185185185185,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000083642",
+            "symbol": "PDS5B",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S616",
+            "karyotype": null,
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "Not available"
+        }
+    ]
+}

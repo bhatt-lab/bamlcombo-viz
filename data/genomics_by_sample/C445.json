@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C445",
+            "karyotype": null,
+            "otherCytogenetics": "RUNX1 (21q22): 4.5% of cells had three signals, just above cutoff (2%); chromosomal context unknown.",
+            "consensusAMLfusion": "Other_abn2"
+        }
+    ]
+}

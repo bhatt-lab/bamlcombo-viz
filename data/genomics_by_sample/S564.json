@@ -1,0 +1,112 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S564",
+            "lab_id": "19-00156",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.404651162790698,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000144031",
+            "symbol": "ANKRD53",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S564",
+            "lab_id": "19-00156",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.453271028037383,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000124493",
+            "symbol": "GRM4",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S564",
+            "lab_id": "19-00156",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.464454976303318,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000124493",
+            "symbol": "GRM4",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S564",
+            "lab_id": "19-00156",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.21656050955414,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000146247",
+            "symbol": "PHIP",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S564",
+            "lab_id": "19-00156",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.193548387096774,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000105559",
+            "symbol": "PLEKHA4",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S564",
+            "lab_id": "19-00156",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.376543209876543,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000159216",
+            "symbol": "RUNX1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S564",
+            "lab_id": "19-00156",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.433962264150943,
+            "variant_classification": "splice_donor_variant",
+            "gene": "ENSG00000159216",
+            "symbol": "RUNX1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S564",
+            "lab_id": "19-00156",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.435406698564593,
+            "variant_classification": "splice_donor_variant",
+            "gene": "ENSG00000159216",
+            "symbol": "RUNX1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S564",
+            "lab_id": "19-00156",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.412451361867704,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000160201",
+            "symbol": "U2AF1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S564",
+            "lab_id": "19-00156",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.413127413127413,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000160201",
+            "symbol": "U2AF1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S564",
+            "karyotype": "46,xy,del(20)(q11.2)[cp20]",
+            "otherCytogenetics": "CEP 3:  16/100 cells (16%) had three signals, reflecting trisomy 3. ",
+            "consensusAMLfusion": "Other_abn, Other_abn2"
+        }
+    ]
+}

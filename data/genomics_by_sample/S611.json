@@ -1,0 +1,52 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S611",
+            "lab_id": "18-00270",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0949367088607595,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000197785",
+            "symbol": "ATAD3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S611",
+            "lab_id": "18-00270",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.220994475138122,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000133703",
+            "symbol": "KRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S611",
+            "lab_id": "18-00270",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.217877094972067,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000133703",
+            "symbol": "KRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S611",
+            "lab_id": "18-00270",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.428571428571429,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000181163",
+            "symbol": "NPM1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S611",
+            "karyotype": null,
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "Not available"
+        }
+    ]
+}

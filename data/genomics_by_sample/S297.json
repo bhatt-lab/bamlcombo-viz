@@ -1,0 +1,52 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S297",
+            "lab_id": "16-00226",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.448979591836735,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000161547",
+            "symbol": "SRSF2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S297",
+            "lab_id": "16-00226",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.46,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000161547",
+            "symbol": "SRSF2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S297",
+            "lab_id": "16-00226",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.447368421052632,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000159216",
+            "symbol": "RUNX1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S297",
+            "lab_id": "16-00226",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.449197860962567,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000159216",
+            "symbol": "RUNX1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S297",
+            "karyotype": "46,xy[22]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

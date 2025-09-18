@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C498",
+            "karyotype": "46,xx,add(4)(q12),-5,der(6)t(6;17)(p21,p12),der(7)del(7)(p11.1)del(7)(q11.1),+11,add(17)(p12),der(17)t(7;17)(q31;p13)t(6;17)(p22;q25)[2]/47,sl,i(8)(q10),der(5;15)(p10;q10),+22[cp5]/46,sdl1,-i(8)(q10),der(8;22)(q10;q10)x1~2,+mar[cp5]/45~47,sdl2,-der(5;15),der(15)t(8;15)(q13;p13)[cp8]",
+            "otherCytogenetics": "Chromosome 5 probes:  81% of cells were missing a signal for the 5q probes but had two signals for 5p; another 19% of cells were missing a signal for the 5q probes but had 3-4 signals for 5p. | BCR (22q11.2): 81% of cells had 3-4 signals, consistent with gain of 22. | NUP98 (11p15.4), MLL (11q23): ~90% of cells had three signals, consistent with trisomy 11. | CEP8: 35% of cells had 3-4 signals, consistent with gain of chromosome 8.",
+            "consensusAMLfusion": "Other_re, Other_abn, Other_abn2"
+        }
+    ]
+}

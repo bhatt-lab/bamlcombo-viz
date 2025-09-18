@@ -1,0 +1,82 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S477",
+            "lab_id": "17-00779",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.436781609195402,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000178031",
+            "symbol": "ADAMTSL1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S477",
+            "lab_id": "17-00779",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.436781609195402,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000178031",
+            "symbol": "ADAMTSL1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S477",
+            "lab_id": "17-00779",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.285714285714286,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000127152",
+            "symbol": "BCL11B",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S477",
+            "lab_id": "17-00779",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.087719298245614,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000105559",
+            "symbol": "PLEKHA4",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S477",
+            "lab_id": "17-00779",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0933333333333333,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000145860",
+            "symbol": "RNF145",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S477",
+            "lab_id": "17-00779",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.80327868852459,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000141510",
+            "symbol": "TP53",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S477",
+            "lab_id": "17-00779",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.80327868852459,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000141510",
+            "symbol": "TP53",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S477",
+            "karyotype": "47,xy,der(5)t(5;17)(q12;q12),+8,+15,der(15)t(11;15)(q22;q24)dup(11)(q25q22),del(16)(q22q24),-17,der(20;21)(p10;q10),+mar[16]/46,idem,der(10)t(10;11)(q25;q23)t(5;11)(q12;q25),-mar[3]/46,xy[1]",
+            "otherCytogenetics": "EGR1: \u00c2\u00a090% of cells were missing a signal for EGR1 (5q31), consistent with  the der(5) seen on metaphase analysis.  | MLL (11q23): \u00c2\u00a0 97% of cells had two normal intact signals and a many other  intact signals per cells, suggesting amplification.  (On available metaphase  cells, there was clustering of amplified fused signals on two chromosomes:  in the first clone, amplified signals clustered on the der(15) and on the  marker chromosome; in the second clone, amplified signals clustered on the  der(15) and on the der(10).) | CBFB (16q22): \u00c2\u00a0 94% of cells were missing a signal for CBFB, consistent  with del(16q) as seen on metaphase. | RUNX1/RUNX1T1+CEP8: 92% of cells had three signals for chromosome 8 probes (CEP8 and RUNX1T1) and only one signal for RUNX1 (21q22), consistent with trisomy 8. Results with the RUNX1 probe on chromosome 21 suggest that the interpretation of the chrom results as der(20;21) may be more complicated.",
+            "consensusAMLfusion": "KMT2A_re, Other_re, Other_abn, Other_abn2"
+        }
+    ]
+}

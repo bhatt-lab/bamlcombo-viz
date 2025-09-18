@@ -1,0 +1,92 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S246",
+            "lab_id": "15-00777",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.38860103626943,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000133703",
+            "symbol": "KRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S246",
+            "lab_id": "15-00777",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.39572192513369,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000133703",
+            "symbol": "KRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S246",
+            "lab_id": "15-00777",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.542168674698795,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000161547",
+            "symbol": "SRSF2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S246",
+            "lab_id": "15-00777",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.55,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000161547",
+            "symbol": "SRSF2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S246",
+            "lab_id": "15-00777",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.404255319148936,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000138413",
+            "symbol": "IDH1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S246",
+            "lab_id": "15-00777",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.441860465116279,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000138413",
+            "symbol": "IDH1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S246",
+            "lab_id": "15-00777",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.6,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000171456",
+            "symbol": "ASXL1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S246",
+            "lab_id": "15-00777",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.704545454545455,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000101972",
+            "symbol": "STAG2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S246",
+            "karyotype": "46,xy[20]",
+            "otherCytogenetics": "normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

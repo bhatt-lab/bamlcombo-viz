@@ -1,0 +1,62 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S546",
+            "lab_id": "19-00332",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.339622641509434,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000110395",
+            "symbol": "CBL",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S546",
+            "lab_id": "19-00332",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0987654320987654,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000132680",
+            "symbol": "KIAA0907",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S546",
+            "lab_id": "19-00332",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.473444613050076,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000159216",
+            "symbol": "RUNX1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S546",
+            "lab_id": "19-00332",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.522292993630573,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000115524",
+            "symbol": "SF3B1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S546",
+            "lab_id": "19-00332",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.519108280254777,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000115524",
+            "symbol": "SF3B1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S546",
+            "karyotype": "46,xy[20]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

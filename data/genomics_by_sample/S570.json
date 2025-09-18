@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "S570",
+            "karyotype": "46,xy,t(3;12)(q29;p13),ins(12;?)(p13;?)[20]",
+            "otherCytogenetics": "ETV6 is disrupted by the insertion of unidentified material within the locus.  Any fusion partners with the ETV6 rearrangements were not identified in this study. ",
+            "consensusAMLfusion": "Other_re, Other_abn"
+        }
+    ]
+}

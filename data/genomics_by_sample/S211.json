@@ -1,0 +1,82 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S211",
+            "lab_id": "15-00534",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.157894736842105,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000120949",
+            "symbol": "TNFRSF8",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S211",
+            "lab_id": "15-00534",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.5,
+            "variant_classification": "splice_acceptor_variant",
+            "gene": "ENSG00000185896",
+            "symbol": "LAMP1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S211",
+            "lab_id": "15-00534",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.372881355932203,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000167850",
+            "symbol": "CD300C",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S211",
+            "lab_id": "15-00534",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.4,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000167850",
+            "symbol": "CD300C",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S211",
+            "lab_id": "15-00534",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.452380952380952,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000245848",
+            "symbol": "CEBPA",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S211",
+            "lab_id": "15-00534",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.166666666666667,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S211",
+            "lab_id": "15-00534",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.450980392156863,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000138413",
+            "symbol": "IDH1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S211",
+            "karyotype": "47,xy,+21[3]/46,xy[9]",
+            "otherCytogenetics": "9.5% gain 21q22",
+            "consensusAMLfusion": "Other_abn, Other_abn2"
+        }
+    ]
+}

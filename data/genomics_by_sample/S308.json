@@ -1,0 +1,132 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S308",
+            "lab_id": "16-00249",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.521739130434783,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000163395",
+            "symbol": "IGFN1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S308",
+            "lab_id": "16-00249",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.230769230769231,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000148482",
+            "symbol": "SLC39A12",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S308",
+            "lab_id": "16-00249",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.474226804123711,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182054",
+            "symbol": "IDH2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S308",
+            "lab_id": "16-00249",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.274509803921569,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000161547",
+            "symbol": "SRSF2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S308",
+            "lab_id": "16-00249",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.0833333333333333,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000179218",
+            "symbol": "CALR",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S308",
+            "lab_id": "16-00249",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.0837696335078534,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000179218",
+            "symbol": "CALR",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S308",
+            "lab_id": "16-00249",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.371428571428571,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S308",
+            "lab_id": "16-00249",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.0952380952380952,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000100401",
+            "symbol": "RANGAP1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S308",
+            "lab_id": "16-00249",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.0833333333333333,
+            "variant_classification": "splice_donor_variant",
+            "gene": "ENSG00000118007",
+            "symbol": "STAG1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S308",
+            "lab_id": "16-00249",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.0851063829787234,
+            "variant_classification": "splice_donor_variant",
+            "gene": "ENSG00000118007",
+            "symbol": "STAG1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S308",
+            "lab_id": "16-00249",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.172413793103448,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000136944",
+            "symbol": "LMX1B",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S308",
+            "lab_id": "16-00249",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.179487179487179,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000136944",
+            "symbol": "LMX1B",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S308",
+            "karyotype": "46,xy[20]",
+            "otherCytogenetics": "Not Available",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

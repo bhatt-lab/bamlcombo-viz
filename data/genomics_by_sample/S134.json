@@ -1,0 +1,52 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S134",
+            "lab_id": "14-00464",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.323529411764706,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000143314",
+            "symbol": "MRPL24",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S134",
+            "lab_id": "14-00464",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.34375,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000143314",
+            "symbol": "MRPL24",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S134",
+            "lab_id": "14-00464",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.111111111111111,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000019995",
+            "symbol": "ZRANB1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S134",
+            "lab_id": "14-00464",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.176470588235294,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000078814",
+            "symbol": "MYH7B",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S134",
+            "karyotype": "46,xx,t(9;11)(p22;q23)[22]",
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "KMT2A_re"
+        }
+    ]
+}

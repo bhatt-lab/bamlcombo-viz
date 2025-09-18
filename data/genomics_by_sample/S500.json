@@ -1,0 +1,142 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S500",
+            "lab_id": "17-01054",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0851063829787234,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000179348",
+            "symbol": "GATA2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S500",
+            "lab_id": "17-01054",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0851063829787234,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000179348",
+            "symbol": "GATA2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S500",
+            "lab_id": "17-01054",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0902255639097744,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000095002",
+            "symbol": "MSH2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S500",
+            "lab_id": "17-01054",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.49,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000006788",
+            "symbol": "MYH13",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S500",
+            "lab_id": "17-01054",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.49,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000006788",
+            "symbol": "MYH13",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S500",
+            "lab_id": "17-01054",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.285714285714286,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000181163",
+            "symbol": "NPM1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S500",
+            "lab_id": "17-01054",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.422222222222222,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000161547",
+            "symbol": "SRSF2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S500",
+            "lab_id": "17-01054",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.452380952380952,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000161547",
+            "symbol": "SRSF2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S500",
+            "lab_id": "17-01054",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.504854368932039,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S500",
+            "lab_id": "17-01054",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.504854368932039,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S500",
+            "lab_id": "17-01054",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.392045454545455,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S500",
+            "lab_id": "17-01054",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.365853658536585,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000124535",
+            "symbol": "WRNIP1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S500",
+            "lab_id": "17-01054",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.471910112359551,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000065029",
+            "symbol": "ZNF76",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S500",
+            "karyotype": "46,xy[20]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

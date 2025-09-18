@@ -1,0 +1,52 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S456",
+            "lab_id": "17-00514",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.680851063829787,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000183337",
+            "symbol": "BCOR",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S456",
+            "lab_id": "17-00514",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0812182741116751,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000187624",
+            "symbol": "C17orf97",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S456",
+            "lab_id": "17-00514",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.36,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000168418",
+            "symbol": "KCNG4",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S456",
+            "lab_id": "17-00514",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.36986301369863,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000168418",
+            "symbol": "KCNG4",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S456",
+            "karyotype": "46,xy,t(9;11)(p22;q23),inv(9)(p11q12)",
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "KMT2A_re, Other_abn2"
+        }
+    ]
+}

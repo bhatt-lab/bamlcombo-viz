@@ -1,0 +1,102 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S390",
+            "lab_id": "17-00215",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.44636678200692,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000104728",
+            "symbol": "ARHGEF10",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S390",
+            "lab_id": "17-00215",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.444055944055944,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000104728",
+            "symbol": "ARHGEF10",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S390",
+            "lab_id": "17-00215",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.470338983050847,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000189079",
+            "symbol": "ARID2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S390",
+            "lab_id": "17-00215",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.318181818181818,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000139880",
+            "symbol": "CDH24",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S390",
+            "lab_id": "17-00215",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.325581395348837,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000139880",
+            "symbol": "CDH24",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S390",
+            "lab_id": "17-00215",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.414772727272727,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S390",
+            "lab_id": "17-00215",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.420454545454545,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S390",
+            "lab_id": "17-00215",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.412162162162162,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000139641",
+            "symbol": "ESYT1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S390",
+            "lab_id": "17-00215",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.363636363636364,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000181163",
+            "symbol": "NPM1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S390",
+            "karyotype": "46,xx,t(10;16)(q22;q24)[10]/46,x,t(x;1)(q23;q44),t(10;16)(q22;q24)[3]/46,x,t(x;13)(p21;q14),t(3;22)(q13.2;p11.1),t(5;6)(q31;q24),add(9)(q13),t(10;16)(q22;q24)[2]/46,sl,der(1)t(1;2)(p32;q32)t(1;15)(q23;q24),der(2)t(1;2)(p32;q32),der(15)t(1;15)(q23;q24)[2]/46,sl,der(1)t(1;2)(p13;q11.2),-2,(der(3)t(3;5)(q12;p15),del(6)(q13q23),+22[2]/46,xx[1])",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Other_re, Other_abn, Other_abn2"
+        }
+    ]
+}

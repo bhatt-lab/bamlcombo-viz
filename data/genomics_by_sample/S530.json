@@ -1,0 +1,42 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S530",
+            "lab_id": "18-00205",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0810810810810811,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000110395",
+            "symbol": "CBL",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S530",
+            "lab_id": "18-00205",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.472361809045226,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000115524",
+            "symbol": "SF3B1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S530",
+            "lab_id": "18-00205",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.474747474747475,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000115524",
+            "symbol": "SF3B1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S530",
+            "karyotype": "inv(3)(q21q26.2)",
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "MECOM_re"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C484",
+            "karyotype": "45,xx,inv(3)(q21q26),del(5)(q31q34),-7[20]",
+            "otherCytogenetics": "AML panel confirmed the chromosome results, with all cells showing inv(3) [GATA2/MECOM fusion, 1r1g2f], 5q deletion [loss of EGR1 and 5q33] and monosomy 7.",
+            "consensusAMLfusion": "MECOM_re, Other_abn"
+        }
+    ]
+}

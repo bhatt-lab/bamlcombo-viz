@@ -1,0 +1,42 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S483",
+            "lab_id": "17-00849",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.480952380952381,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000138413",
+            "symbol": "IDH1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S483",
+            "lab_id": "17-00849",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.485576923076923,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000138413",
+            "symbol": "IDH1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S483",
+            "lab_id": "17-00849",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.260869565217391,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000181163",
+            "symbol": "NPM1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S483",
+            "karyotype": "notavailable",
+            "otherCytogenetics": "PML/RARA: Negative",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

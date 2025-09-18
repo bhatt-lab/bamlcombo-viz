@@ -1,0 +1,92 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S235",
+            "lab_id": "15-00701",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.633217993079585,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000122025",
+            "symbol": "FLT3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S235",
+            "lab_id": "15-00701",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.63768115942029,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000122025",
+            "symbol": "FLT3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S235",
+            "lab_id": "15-00701",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.498257839721254,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182054",
+            "symbol": "IDH2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S235",
+            "lab_id": "15-00701",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.493333333333333,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182054",
+            "symbol": "IDH2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S235",
+            "lab_id": "15-00701",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.268041237113402,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S235",
+            "lab_id": "15-00701",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.441558441558442,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S235",
+            "lab_id": "15-00701",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.455882352941176,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S235",
+            "lab_id": "15-00701",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.392857142857143,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000112576",
+            "symbol": "CCND3",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S235",
+            "karyotype": "48,xx,+11,+13[19]",
+            "otherCytogenetics": "Not available",
+            "consensusAMLfusion": "Other_abn2"
+        }
+    ]
+}

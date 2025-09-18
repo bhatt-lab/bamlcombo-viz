@@ -1,0 +1,72 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S161",
+            "lab_id": "14-00800",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.346153846153846,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000110395",
+            "symbol": "CBL",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S161",
+            "lab_id": "14-00800",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.371428571428571,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000110395",
+            "symbol": "CBL",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S161",
+            "lab_id": "14-00800",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.468085106382979,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000115524",
+            "symbol": "SF3B1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S161",
+            "lab_id": "14-00800",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.5,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000115524",
+            "symbol": "SF3B1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S161",
+            "lab_id": "14-00800",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.397849462365591,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S161",
+            "lab_id": "14-00800",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.513274336283186,
+            "variant_classification": "splice_donor_variant",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S161",
+            "karyotype": "46,xy[20]",
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

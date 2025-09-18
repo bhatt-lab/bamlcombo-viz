@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C451",
+            "karyotype": "46,xx,del(20)(q11.2q13.1)[20]",
+            "otherCytogenetics": "Performed with X and Y chromosome probes, as listed below.  97% of cells were XX, recipient, patient cells.  3% of cells were XY male donor.",
+            "consensusAMLfusion": "Other_abn"
+        }
+    ]
+}

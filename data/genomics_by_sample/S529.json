@@ -1,0 +1,32 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S529",
+            "lab_id": "18-00204",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.324324324324324,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000133703",
+            "symbol": "KRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S529",
+            "lab_id": "18-00204",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.324324324324324,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000133703",
+            "symbol": "KRAS",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S529",
+            "karyotype": "46,xy,inv(16)(p13q22)[20]",
+            "otherCytogenetics": "CBFB/MYH11:  165/200 cells (82.5%) had the abnormal 1 red/ 1 green/ 2 yellow signal pattern, reflecting CBFB/MYH11 fusion and consistent with the inverted chromosome 16 observed in the metaphase karyotype. ",
+            "consensusAMLfusion": "CBFB-MYH11"
+        }
+    ]
+}

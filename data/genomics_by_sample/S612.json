@@ -1,0 +1,72 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S612",
+            "lab_id": "18-00278",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.321428571428571,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S612",
+            "lab_id": "18-00278",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.321428571428571,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S612",
+            "lab_id": "18-00278",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.407185628742515,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182054",
+            "symbol": "IDH2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S612",
+            "lab_id": "18-00278",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.40785498489426,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182054",
+            "symbol": "IDH2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S612",
+            "lab_id": "18-00278",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.430555555555556,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000161547",
+            "symbol": "SRSF2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S612",
+            "lab_id": "18-00278",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.436619718309859,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000161547",
+            "symbol": "SRSF2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S612",
+            "karyotype": null,
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "Not available"
+        }
+    ]
+}

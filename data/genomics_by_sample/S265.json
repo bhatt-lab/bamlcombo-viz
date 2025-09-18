@@ -1,0 +1,72 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S265",
+            "lab_id": "15-00909",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.462121212121212,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000214891",
+            "symbol": "TRIM64C",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S265",
+            "lab_id": "15-00909",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.375,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000005339",
+            "symbol": "CREBBP",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S265",
+            "lab_id": "15-00909",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.427884615384615,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000115524",
+            "symbol": "SF3B1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S265",
+            "lab_id": "15-00909",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.434146341463415,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000115524",
+            "symbol": "SF3B1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S265",
+            "lab_id": "15-00909",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.467948717948718,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000159216",
+            "symbol": "RUNX1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S265",
+            "lab_id": "15-00909",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.555555555555556,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000057657",
+            "symbol": "PRDM1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S265",
+            "karyotype": "46,xx[20]",
+            "otherCytogenetics": "This test has not detected clonal abnormalities in the cells analyzed. Subtle structural changes cannot be ruled out due to the limitations of resolution. Small precentage of tumor cells with chromosome abnormalities may not be detected due to the cells examined. (Cytogenetics)",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C315",
+            "karyotype": "46,xy,inv(16)(p13;q22)[20]",
+            "otherCytogenetics": "CBFB: \u00c2\u00a0 39% of cells had a 1r/1g/1f split signal pattern consistent with CBFB disruption and inv916), as seen on metaphase analysis. ",
+            "consensusAMLfusion": "CBFB-MYH11"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S150",
+            "lab_id": "14-00644",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.33920704845815,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000185811",
+            "symbol": "IKZF1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S150",
+            "karyotype": "47,xy,der(7)t(1;7)(q21;q36),+14[4]/46,xy[16]",
+            "otherCytogenetics": "nuc ish(D5S2064,D5S630,EGR1)x2[200],(D7Z1,D7S522)x2[199],(D8Z2, D20S108)x2[200],(RUNX1T1,RUNX1)x2[200],(ABL1,BCR)x2[200],(5'MLL,3'MLL)x2(5'MLL con 3'MLLx2)[200],(PML,RARA)x2 [198],(5'CBFB,3'CBFB)x2(5'CBFB con 3'CBFBx2)[200]",
+            "consensusAMLfusion": "Other_re, Other_abn2"
+        }
+    ]
+}

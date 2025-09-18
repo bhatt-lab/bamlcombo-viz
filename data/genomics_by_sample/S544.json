@@ -1,0 +1,42 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S544",
+            "lab_id": "18-00298",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.412213740458015,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S544",
+            "lab_id": "18-00298",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.412213740458015,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S544",
+            "lab_id": "18-00298",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.545454545454545,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000181163",
+            "symbol": "NPM1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S544",
+            "karyotype": "46,xx[20]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

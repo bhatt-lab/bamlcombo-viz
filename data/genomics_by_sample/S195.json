@@ -1,0 +1,42 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S195",
+            "lab_id": "15-00309",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.349397590361446,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000181163",
+            "symbol": "NPM1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S195",
+            "lab_id": "15-00309",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.469945355191257,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000168298",
+            "symbol": "HIST1H1E",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S195",
+            "lab_id": "15-00309",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.469945355191257,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000168298",
+            "symbol": "HIST1H1E",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S195",
+            "karyotype": "46,xy[6]",
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

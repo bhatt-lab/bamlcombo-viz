@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C95",
+            "karyotype": "46,xy,t(7;17)(q22;q21)[3]/46,xy,t(2;4)(q33;q25),del(9)(q2?1;q3?2),add(17)(q21)[cp3]/46,xy,t(1;2)(q31;p25),inv(9)(q3?1q34)[2]/46,xy,t(13;14)(q14;q32)[cp2]/46,xy,add(3)(p24)[1]/46,xy[3]",
+            "otherCytogenetics": "Not available",
+            "consensusAMLfusion": "RARA_re, Other_abn, Other_abn2"
+        }
+    ]
+}

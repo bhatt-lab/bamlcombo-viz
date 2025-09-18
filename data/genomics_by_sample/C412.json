@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C412",
+            "karyotype": "47~50,xy,+8[cp10]/46,xy,del(20)(q11.2)[5]/46,xy[5]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Other_abn"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C248",
+            "karyotype": "47,xx,+8[19]/46,xx[1]",
+            "otherCytogenetics": "RUNX1T1 (8q21.3): \u00c2\u00a0 93% of cells had three signals for RUNX1T1 (8q21.3)  consistent with trisomy 8 as seen on metaphase analysis.",
+            "consensusAMLfusion": "Other_abn, Other_abn2"
+        }
+    ]
+}

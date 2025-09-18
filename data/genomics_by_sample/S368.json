@@ -1,0 +1,52 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S368",
+            "lab_id": "18-00048",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.315492957746479,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000221961",
+            "symbol": "PRR21",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S368",
+            "lab_id": "18-00048",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.41025641025641,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000141510",
+            "symbol": "TP53",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S368",
+            "lab_id": "18-00048",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.478494623655914,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000141510",
+            "symbol": "TP53",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S368",
+            "lab_id": "18-00048",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.475409836065574,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000141510",
+            "symbol": "TP53",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S368",
+            "karyotype": "40~42,x,-y,dic(5;12)(q13;p11.2),del(7)(q22q36),add(9)(q31),add(13)(q22),ins(?;14)(?;q11.2),-15,add(15)(p11.2),del(16)(q11.1),-17,-18,add(19)(q13.4),-20,der(21)t(3;21)(q22.3;q13),+mar[cp12]/40~41,sl,add(2)(q31)[cp7]/46,xy[1]",
+            "otherCytogenetics": "84.5% of cells were missing a signal for EGR1, consistent with 5q deletion, and as seen previously. ",
+            "consensusAMLfusion": "Other_re, Other_abn, Other_abn2"
+        }
+    ]
+}

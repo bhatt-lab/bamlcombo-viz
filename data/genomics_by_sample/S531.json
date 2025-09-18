@@ -1,0 +1,32 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S531",
+            "lab_id": "18-00206",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.287671232876712,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000103449",
+            "symbol": "SALL1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S531",
+            "lab_id": "18-00206",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.323076923076923,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000164651",
+            "symbol": "SP8",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S531",
+            "karyotype": null,
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "Not available"
+        }
+    ]
+}

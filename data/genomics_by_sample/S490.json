@@ -1,0 +1,82 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S490",
+            "lab_id": "17-00901",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.482233502538071,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000104728",
+            "symbol": "ARHGEF10",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S490",
+            "lab_id": "17-00901",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.489690721649485,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000104728",
+            "symbol": "ARHGEF10",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S490",
+            "lab_id": "17-00901",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.587786259541985,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000085185",
+            "symbol": "BCORL1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S490",
+            "lab_id": "17-00901",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0816326530612245,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000013619",
+            "symbol": "MAMLD1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S490",
+            "lab_id": "17-00901",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0816326530612245,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000013619",
+            "symbol": "MAMLD1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S490",
+            "lab_id": "17-00901",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.260162601626016,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S490",
+            "lab_id": "17-00901",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.257142857142857,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S490",
+            "karyotype": "46,xy,der(10)t(10;11)(p13;q23),der(11)t(10;11)(p13;q23)inv(11)(q13q23)[20]",
+            "otherCytogenetics": "MLL:  60% of cells had a split signal pattern consistent with MLL rearrangement. On available metaphase cells, there was a distal signal on chromosome 10p and the proximal signal was close to the chromosome 11 centromere, consistent with t(10;11) and inv(11), as seen on chromosome analysis.",
+            "consensusAMLfusion": "KMT2A_re, Other_re"
+        }
+    ]
+}

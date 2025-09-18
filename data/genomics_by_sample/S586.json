@@ -1,0 +1,92 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S586",
+            "lab_id": "16-00139",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.234875444839858,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000184937",
+            "symbol": "WT1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S586",
+            "lab_id": "16-00139",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.5,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000185640",
+            "symbol": "KRT79",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S586",
+            "lab_id": "16-00139",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.277173913043478,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182054",
+            "symbol": "IDH2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S586",
+            "lab_id": "16-00139",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.27319587628866,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182054",
+            "symbol": "IDH2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S586",
+            "lab_id": "16-00139",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.222222222222222,
+            "variant_classification": "inframe_insertion",
+            "gene": "ENSG00000161547",
+            "symbol": "SRSF2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S586",
+            "lab_id": "16-00139",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.177777777777778,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000181163",
+            "symbol": "NPM1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S586",
+            "lab_id": "16-00139",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.309090909090909,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000096968",
+            "symbol": "JAK2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S586",
+            "lab_id": "16-00139",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.315315315315315,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000096968",
+            "symbol": "JAK2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S586",
+            "karyotype": null,
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "Not available"
+        }
+    ]
+}

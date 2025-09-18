@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C446",
+            "karyotype": "46,xy,t(11;10;2)(q23;p11.2;p11.2),t(8;13)(q24;q22)[9]/45,idem,der(8)t(8;13)(q24;q22),der(12)t(12;13)(p12;q22)t(8;13)(q24;q22),-13[10]/46,xy[1]",
+            "otherCytogenetics": "MLL (11q23): 93% of cells had a 1r2f signal pattern, consistent with rearrangement.  Visualization on available metaphase cells showed one normal fusion signal on the normal chromosome 11, one normal fusion signal on chromosome 10p, and a red (proximal) signal on the der(11) that had 2p material on  | ETV6 (12p13): 38.5% of cells were missing a signal, consistent with deletion due to t(12;13). | MYC (8q24):  Two abnormal, banded metaphase cells were hybridized with the MYC probe.  In one cell, the distal MYC signal was on the der(13); in the other cell, the distal MYC signal was on the der(12).  These results are most consistent with stepwise process where the der(13) of the initial t(8;13) | BCR (22q11.2): 5.5% of cells had an extra signal - chromosomal context unknown. | RUNX1T1 (8q21.3): 11% of cells had an extra signal - chromosomal context unknown",
+            "consensusAMLfusion": "KMT2A_re, Other_re, Other_abn"
+        }
+    ]
+}

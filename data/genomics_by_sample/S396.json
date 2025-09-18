@@ -1,0 +1,112 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S396",
+            "lab_id": "16-01201",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.08,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000139218",
+            "symbol": "SCAF11",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S396",
+            "lab_id": "16-01201",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.507936507936508,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000161547",
+            "symbol": "SRSF2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S396",
+            "lab_id": "16-01201",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.507936507936508,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000161547",
+            "symbol": "SRSF2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S396",
+            "lab_id": "16-01201",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.409090909090909,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S396",
+            "lab_id": "16-01201",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.431818181818182,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S396",
+            "lab_id": "16-01201",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.459627329192547,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000138413",
+            "symbol": "IDH1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S396",
+            "lab_id": "16-01201",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.462962962962963,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000138413",
+            "symbol": "IDH1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S396",
+            "lab_id": "16-01201",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.410112359550562,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000159216",
+            "symbol": "RUNX1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S396",
+            "lab_id": "16-01201",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.414772727272727,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000159216",
+            "symbol": "RUNX1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S396",
+            "lab_id": "16-01201",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.882352941176471,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000183337",
+            "symbol": "BCOR",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S396",
+            "karyotype": "46,xy,t(4;12)(q12;p13)[10]/46,xy[10]",
+            "otherCytogenetics": "42/100 (42%) interphase cells scored were positive for  ETV6 rearrangement. \u00c2\u00a0Metaphase FISH showed part of the ETV6 signal (red) on  the long arm of chromosome 4. \u00c2\u00a0Based on the breakpoint, ETV6/CHIC2 fusion  is predicted, consistent with AML",
+            "consensusAMLfusion": "Other_re, Other_abn"
+        }
+    ]
+}

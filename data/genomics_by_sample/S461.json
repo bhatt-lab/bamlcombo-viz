@@ -1,0 +1,92 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S461",
+            "lab_id": "17-00634",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.505376344086022,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S461",
+            "lab_id": "17-00634",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.121951219512195,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000135144",
+            "symbol": "DTX1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S461",
+            "lab_id": "17-00634",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.113636363636364,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000178568",
+            "symbol": "ERBB4",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S461",
+            "lab_id": "17-00634",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.130434782608696,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000180921",
+            "symbol": "FAM83H",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S461",
+            "lab_id": "17-00634",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.543859649122807,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000142661",
+            "symbol": "MYOM3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S461",
+            "lab_id": "17-00634",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0869565217391304,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000134369",
+            "symbol": "NAV1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S461",
+            "lab_id": "17-00634",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.508849557522124,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S461",
+            "lab_id": "17-00634",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.112676056338028,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000074755",
+            "symbol": "ZZEF1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S461",
+            "karyotype": null,
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

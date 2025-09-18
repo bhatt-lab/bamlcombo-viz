@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C164",
+            "karyotype": "47,xy,+8[cp14]/47,sl,der(21)t(1;21)(q11;p11.1)[2]/46~47,sl,der(22)t(1;22)(q11;p11.2)[cp2]/46,xy[1]",
+            "otherCytogenetics": "Eighteen of twenty-one cells examined were trisomy 8, previously observed.Two of these cells also had an extra 1q attached to a chromosome 21 short arm, and two other cells had an extra 1q attached to a chromosome 22 short arm. These are new clonal changes. One cell appeared normal male. | Two cells had non-clonal abnormalities. 50/100 (50%) interphase cells scored had a signal pattern reflecting trisomy 8.",
+            "consensusAMLfusion": "Other_re, Other_abn"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C22",
+            "karyotype": "47,xy,+21c[20]",
+            "otherCytogenetics": "c/w karyotype",
+            "consensusAMLfusion": "Other_abn, Other_abn2"
+        }
+    ]
+}

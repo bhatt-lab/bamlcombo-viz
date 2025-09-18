@@ -1,0 +1,142 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S489",
+            "lab_id": "17-00896",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.333333333333333,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000171456",
+            "symbol": "ASXL1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S489",
+            "lab_id": "17-00896",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0833333333333333,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000110395",
+            "symbol": "CBL",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S489",
+            "lab_id": "17-00896",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.356164383561644,
+            "variant_classification": "splice_donor_variant",
+            "gene": "ENSG00000106462",
+            "symbol": "EZH2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S489",
+            "lab_id": "17-00896",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0967741935483871,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000111783",
+            "symbol": "RFX4",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S489",
+            "lab_id": "17-00896",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.411764705882353,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000159216",
+            "symbol": "RUNX1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S489",
+            "lab_id": "17-00896",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.533333333333333,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000159216",
+            "symbol": "RUNX1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S489",
+            "lab_id": "17-00896",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.406060606060606,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000187033",
+            "symbol": "SAMD7",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S489",
+            "lab_id": "17-00896",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.403726708074534,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000187033",
+            "symbol": "SAMD7",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S489",
+            "lab_id": "17-00896",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.404255319148936,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000161547",
+            "symbol": "SRSF2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S489",
+            "lab_id": "17-00896",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.382978723404255,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000161547",
+            "symbol": "SRSF2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S489",
+            "lab_id": "17-00896",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.08,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000101972",
+            "symbol": "STAG2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S489",
+            "lab_id": "17-00896",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.385245901639344,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S489",
+            "lab_id": "17-00896",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.125,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000043355",
+            "symbol": "ZIC2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S489",
+            "karyotype": "47,xy,+13[20]/47,xy,+8[1]",
+            "otherCytogenetics": "Low level gain of chromosome 8 sequences (trisomy). Loss of 21q22 sequences (monosomy)",
+            "consensusAMLfusion": "Other_abn, Other_abn2"
+        }
+    ]
+}

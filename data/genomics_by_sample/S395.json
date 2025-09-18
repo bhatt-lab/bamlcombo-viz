@@ -1,0 +1,82 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S395",
+            "lab_id": "16-01191",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.450819672131148,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182054",
+            "symbol": "IDH2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S395",
+            "lab_id": "16-01191",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.451219512195122,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182054",
+            "symbol": "IDH2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S395",
+            "lab_id": "16-01191",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.526881720430108,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S395",
+            "lab_id": "16-01191",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.40625,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182463",
+            "symbol": "TSHZ2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S395",
+            "lab_id": "16-01191",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.40625,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182463",
+            "symbol": "TSHZ2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S395",
+            "lab_id": "16-01191",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.485714285714286,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000072501",
+            "symbol": "SMC1A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S395",
+            "lab_id": "16-01191",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.485714285714286,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000072501",
+            "symbol": "SMC1A",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S395",
+            "karyotype": "45,xx,-7[20]",
+            "otherCytogenetics": "7cen (D7Z1), 7q31 (D7S486): monosomy present ",
+            "consensusAMLfusion": "Other_abn"
+        }
+    ]
+}

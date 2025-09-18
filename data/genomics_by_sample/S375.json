@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "S375",
+            "karyotype": "notperformed",
+            "otherCytogenetics": "Not available",
+            "consensusAMLfusion": "Not available"
+        }
+    ]
+}

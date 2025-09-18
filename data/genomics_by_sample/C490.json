@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C490",
+            "karyotype": "46,xx,inv(11)(p15q22)[20]",
+            "otherCytogenetics": "76% of cells show a split signal pattern for NUP98 (11p15.4)",
+            "consensusAMLfusion": "NUP98_re, Other_abn2"
+        }
+    ]
+}

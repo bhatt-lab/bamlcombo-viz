@@ -1,0 +1,132 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S236",
+            "lab_id": "15-00702",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.294117647058824,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S236",
+            "lab_id": "15-00702",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.294117647058824,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S236",
+            "lab_id": "15-00702",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.157894736842105,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000162849",
+            "symbol": "KIF26B",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S236",
+            "lab_id": "15-00702",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.411764705882353,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000165609",
+            "symbol": "NUDT5",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S236",
+            "lab_id": "15-00702",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.420289855072464,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000165609",
+            "symbol": "NUDT5",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S236",
+            "lab_id": "15-00702",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.0933333333333333,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000117899",
+            "symbol": "MESDC2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S236",
+            "lab_id": "15-00702",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.4125,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000154310",
+            "symbol": "TNIK",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S236",
+            "lab_id": "15-00702",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.417721518987342,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000154310",
+            "symbol": "TNIK",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S236",
+            "lab_id": "15-00702",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.416666666666667,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000124608",
+            "symbol": "AARS2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S236",
+            "lab_id": "15-00702",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.428571428571429,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000124608",
+            "symbol": "AARS2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S236",
+            "lab_id": "15-00702",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.157894736842105,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000104375",
+            "symbol": "STK3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S236",
+            "lab_id": "15-00702",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.310344827586207,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000205108",
+            "symbol": "FAM205A",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S236",
+            "karyotype": "46,xx,inv(16)(p13.3q22)[21]",
+            "otherCytogenetics": "CBFB: \u00c2\u00a083/100 cells (83%) had the abnormal 1 red/ 1 green/1 yellow signal  pattern, reflecting CBFB rearrangement and consistent with the inverted  chromosome 16 in the metaphase karyotype. (c/w karyotype (inv 16))",
+            "consensusAMLfusion": "CBFB-MYH11"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C23",
+            "karyotype": "46,xy[20](normalmalekaryotype)",
+            "otherCytogenetics": "nuc ish(D5S2064,D5S630,EGR1)x2[200],(D7Z1,D7S522)x2[200],(D8Z2,D20S108)x2[200],(5'MLL,3'MLL)x2(5'MLL con 3'MLLx2)[200]",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

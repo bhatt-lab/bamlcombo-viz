@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C35",
+            "karyotype": "46,xx,t(2;9)(q31;p21)[17]/46,x,t(x;9)(q22;p21)[3]",
+            "otherCytogenetics": "Not available",
+            "consensusAMLfusion": "Other_re"
+        }
+    ]
+}

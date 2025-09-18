@@ -1,0 +1,62 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S493",
+            "lab_id": "17-00926",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.483870967741935,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000179348",
+            "symbol": "GATA2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S493",
+            "lab_id": "17-00926",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.489130434782609,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000179348",
+            "symbol": "GATA2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S493",
+            "lab_id": "17-00926",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.448717948717949,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000100968",
+            "symbol": "NFATC4",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S493",
+            "lab_id": "17-00926",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.451612903225806,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000100968",
+            "symbol": "NFATC4",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S493",
+            "lab_id": "17-00926",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.384615384615385,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000181163",
+            "symbol": "NPM1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S493",
+            "karyotype": "46,xx",
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

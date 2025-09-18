@@ -1,0 +1,192 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S232",
+            "lab_id": "15-00688",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.214285714285714,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000148498",
+            "symbol": "PARD3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S232",
+            "lab_id": "15-00688",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.380952380952381,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000211968",
+            "symbol": "IGHV1-58",
+            "biotype": "IG_V_gene"
+        },
+        {
+            "Sample_ID": "S232",
+            "lab_id": "15-00688",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.380952380952381,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000211968",
+            "symbol": "IGHV1-58",
+            "biotype": "IG_V_gene"
+        },
+        {
+            "Sample_ID": "S232",
+            "lab_id": "15-00688",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.521739130434783,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000141510",
+            "symbol": "TP53",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S232",
+            "lab_id": "15-00688",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.533333333333333,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000141510",
+            "symbol": "TP53",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S232",
+            "lab_id": "15-00688",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.210526315789474,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000105639",
+            "symbol": "JAK3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S232",
+            "lab_id": "15-00688",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.305263157894737,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000160352",
+            "symbol": "ZNF714",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S232",
+            "lab_id": "15-00688",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.461538461538462,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000181894",
+            "symbol": "ZNF329",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S232",
+            "lab_id": "15-00688",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.461538461538462,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000181894",
+            "symbol": "ZNF329",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S232",
+            "lab_id": "15-00688",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.303030303030303,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000171094",
+            "symbol": "ALK",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S232",
+            "lab_id": "15-00688",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.318181818181818,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000171094",
+            "symbol": "ALK",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S232",
+            "lab_id": "15-00688",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.615384615384615,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000160201",
+            "symbol": "U2AF1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S232",
+            "lab_id": "15-00688",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.615384615384615,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000160201",
+            "symbol": "U2AF1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S232",
+            "lab_id": "15-00688",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.279220779220779,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000185686",
+            "symbol": "PRAME",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S232",
+            "lab_id": "15-00688",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.279220779220779,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000185686",
+            "symbol": "PRAME",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S232",
+            "lab_id": "15-00688",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.292682926829268,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182447",
+            "symbol": "OTOL1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S232",
+            "lab_id": "15-00688",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.296296296296296,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182447",
+            "symbol": "OTOL1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S232",
+            "lab_id": "15-00688",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.25,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000172461",
+            "symbol": "FUT9",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S232",
+            "karyotype": "45~46,xx,add(1)(q42),del(5)(q31q35),del(6)(q13),del(9)(q13q34),del(17)(p13),i(21)(q10)[cp12]/46~47,idem,+mar[cp6]/46,xx[2]",
+            "otherCytogenetics": "EGR1 (5q31): 73% of cells were missing a signal for EGR1 (5q31), consistent with the deletion seen on metaphase analysis.  TP53 (17p13.1): 71% of cells were missing a signal for TP53 (17p13.1), consistent with the deletion seen on metaphase analysis.  RUNX1 (21q22): 77% of cells had three signals fo",
+            "consensusAMLfusion": "Other_abn, Other_abn2"
+        }
+    ]
+}

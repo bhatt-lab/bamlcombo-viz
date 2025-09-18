@@ -28,7 +28,9 @@ document.addEventListener('DOMContentLoaded', function() {
             dataLoaded: false
         },
         'tab-mutations': {
-            dataLoaded: true // No data to load
+            path: `data/genomics_by_sample/${sampleId}.json`,
+            initFunction: initializeMutationsTab,
+            dataLoaded: false
         }
     };
 
@@ -124,6 +126,81 @@ document.addEventListener('DOMContentLoaded', function() {
         const samplesTable = createTransposedSamplesTable(allPatientSamples, samplesColumns);
         samplesContainer.innerHTML = '';
         samplesContainer.appendChild(samplesTable);
+    }
+
+    function initializeMutationsTab(data) {
+        const mutations = data.mutations;
+        const structuralVariants = data.structural_variants;
+
+        // --- Build Mutations Table ---
+        const mutContainer = document.getElementById('mutations-table-container');
+        const mutTitle = document.getElementById('mutations-table-title');
+        if (mutations && mutations.length > 0) {
+            const mutHeaders = ['lab_id', 'capture_type', 't_vaf', 'variant_classification', 'gene', 'symbol', 'biotype'];
+            const mutTable = createStandardTable(mutations, mutHeaders);
+            mutContainer.innerHTML = '';
+            mutContainer.appendChild(mutTable);
+            // Set dynamic title
+            const uniqueSymbols = new Set(mutations.map(m => m.symbol)).size;
+            mutTitle.textContent = `Mutations`;
+        } else {
+            mutContainer.innerHTML = '<p class="text-gray-600">No mutation data available for this sample.</p>';
+        }
+
+        // --- Build Structural Variants Table ---
+        const svContainer = document.getElementById('sv-table-container');
+        const svTitle = document.getElementById('sv-table-title');
+        if (structuralVariants && structuralVariants.length > 0) {
+            const svHeaders = ['Sample_ID', 'karyotype', 'otherCytogenetics', 'consensusAMLfusion'];
+            const svTable = createStandardTable(structuralVariants, svHeaders);
+            svContainer.innerHTML = '';
+            svContainer.appendChild(svTable);
+            // Set dynamic title
+            const validSVs = structuralVariants.filter(sv => sv.consensusAMLfusion !== 'Not detected' && sv.consensusAMLfusion !== 'Not available' && sv.consensusAMLfusion !== 'None');
+            if (validSVs.length > 0) {
+                svTitle.textContent = `Structural Variants`;
+            } else {
+                svTitle.textContent = 'Structural Variants';
+            }
+        } else {
+            svContainer.innerHTML = '<p class="text-gray-600">No structural variant data available for this sample.</p>';
+        }
+    }
+
+    // --- A generic helper to build a standard data table ---
+    function createStandardTable(dataRows, headers) {
+        const table = document.createElement('table');
+        table.className = 'w-full text-sm border-collapse';
+        const thead = document.createElement('thead');
+        const tbody = document.createElement('tbody');
+
+        // Header
+        const headerRow = document.createElement('tr');
+        headerRow.className = 'bg-gray-100';
+        headers.forEach(headerText => {
+            const th = document.createElement('th');
+            th.className = 'text-left p-2 border font-semibold';
+            th.textContent = headerText;
+            headerRow.appendChild(th);
+        });
+        thead.appendChild(headerRow);
+
+        // Body
+        dataRows.forEach(row => {
+            const tr = document.createElement('tr');
+            tr.className = 'border-b hover:bg-gray-50';
+            headers.forEach(header => {
+                const td = document.createElement('td');
+                td.className = 'p-2 border';
+                td.textContent = row[header] !== null && row[header] !== undefined ? row[header] : 'N/A';
+                tr.appendChild(td);
+            });
+            tbody.appendChild(tr);
+        });
+
+        table.appendChild(thead);
+        table.appendChild(tbody);
+        return table;
     }
 
     // --- HELPER FUNCTIONS FOR TABLES ---

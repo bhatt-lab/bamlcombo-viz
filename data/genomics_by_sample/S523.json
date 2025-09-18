@@ -1,0 +1,112 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S523",
+            "lab_id": "18-00131",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.435406698564593,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000171456",
+            "symbol": "ASXL1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S523",
+            "lab_id": "18-00131",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.4375,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000245848",
+            "symbol": "CEBPA",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S523",
+            "lab_id": "18-00131",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.416666666666667,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000245848",
+            "symbol": "CEBPA",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S523",
+            "lab_id": "18-00131",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0964912280701754,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000198271",
+            "symbol": "KRTAP4-5",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S523",
+            "lab_id": "18-00131",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.475,
+            "variant_classification": "splice_donor_variant",
+            "gene": "ENSG00000159216",
+            "symbol": "RUNX1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S523",
+            "lab_id": "18-00131",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.481012658227848,
+            "variant_classification": "splice_donor_variant",
+            "gene": "ENSG00000159216",
+            "symbol": "RUNX1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S523",
+            "lab_id": "18-00131",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.473684210526316,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000161547",
+            "symbol": "SRSF2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S523",
+            "lab_id": "18-00131",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.473684210526316,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000161547",
+            "symbol": "SRSF2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S523",
+            "lab_id": "18-00131",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.488888888888889,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S523",
+            "lab_id": "18-00131",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.483394833948339,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S523",
+            "karyotype": "46,xy[19]\u00c2\u00a0",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

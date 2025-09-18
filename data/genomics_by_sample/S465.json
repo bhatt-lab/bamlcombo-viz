@@ -1,0 +1,82 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S465",
+            "lab_id": "17-00676",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.490909090909091,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000185811",
+            "symbol": "IKZF1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S465",
+            "lab_id": "17-00676",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.5,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000185811",
+            "symbol": "IKZF1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S465",
+            "lab_id": "17-00676",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.4921875,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000133703",
+            "symbol": "KRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S465",
+            "lab_id": "17-00676",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.496,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000133703",
+            "symbol": "KRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S465",
+            "lab_id": "17-00676",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.666666666666667,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000159216",
+            "symbol": "RUNX1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S465",
+            "lab_id": "17-00676",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.434343434343434,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000115524",
+            "symbol": "SF3B1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S465",
+            "lab_id": "17-00676",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.434343434343434,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000115524",
+            "symbol": "SF3B1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S465",
+            "karyotype": "49,xy,dup(1)(p22.1p32.1),inv(3)(q21.3q26.2),+8,+12,+21[20]",
+            "otherCytogenetics": "POSITIVE for RUNX1T1 and RUNX1 copy number gains",
+            "consensusAMLfusion": "MECOM_re, Other_abn, Other_abn2"
+        }
+    ]
+}

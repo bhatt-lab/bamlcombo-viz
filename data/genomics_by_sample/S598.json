@@ -1,0 +1,42 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S598",
+            "lab_id": "16-01192",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.112781954887218,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000107485",
+            "symbol": "GATA3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S598",
+            "lab_id": "16-01192",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.166666666666667,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000169126",
+            "symbol": "ARMC4",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S598",
+            "lab_id": "16-01192",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.156862745098039,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S598",
+            "karyotype": "46,xx[20]|46,xx[20]",
+            "otherCytogenetics": "Not available",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

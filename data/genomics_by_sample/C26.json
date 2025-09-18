@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C26",
+            "karyotype": "48,xy,+8,+9[20]",
+            "otherCytogenetics": "nuc ish(D8Z2x3,D20S108x2)[170/200]",
+            "consensusAMLfusion": "Other_abn, Other_abn2"
+        }
+    ]
+}

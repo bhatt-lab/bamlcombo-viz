@@ -1,0 +1,62 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S401",
+            "lab_id": "16-01227",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.450331125827815,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S401",
+            "lab_id": "16-01227",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.461279461279461,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S401",
+            "lab_id": "16-01227",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.445945945945946,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000184937",
+            "symbol": "WT1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S401",
+            "lab_id": "16-01227",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.14,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000184937",
+            "symbol": "WT1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S401",
+            "lab_id": "16-01227",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.236363636363636,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000181163",
+            "symbol": "NPM1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S401",
+            "karyotype": null,
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "Not available"
+        }
+    ]
+}

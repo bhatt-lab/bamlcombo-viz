@@ -1,0 +1,52 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S519",
+            "lab_id": "18-00101",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.512048192771084,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S519",
+            "lab_id": "18-00101",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.518072289156627,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S519",
+            "lab_id": "18-00101",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.450657894736842,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S519",
+            "lab_id": "18-00101",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.452145214521452,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S519",
+            "karyotype": "46,xx[20",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

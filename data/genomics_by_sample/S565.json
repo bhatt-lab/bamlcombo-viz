@@ -1,0 +1,72 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S565",
+            "lab_id": "19-00179",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.395759717314488,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000157764",
+            "symbol": "BRAF",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S565",
+            "lab_id": "19-00179",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.393617021276596,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000157764",
+            "symbol": "BRAF",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S565",
+            "lab_id": "19-00179",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0810810810810811,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000133739",
+            "symbol": "LRRCC1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S565",
+            "lab_id": "19-00179",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.524475524475524,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S565",
+            "lab_id": "19-00179",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.458333333333333,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S565",
+            "lab_id": "19-00179",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.945205479452055,
+            "variant_classification": "splice_acceptor_variant",
+            "gene": "ENSG00000169249",
+            "symbol": "ZRSR2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S565",
+            "karyotype": "48,xy,+7,+mar[4]/46,xy[16]",
+            "otherCytogenetics": "Chromosome 7: 44% of cells had three signals for both chromosome 7 probes, consistent with trisomy 7",
+            "consensusAMLfusion": "Other_abn, Other_abn2"
+        }
+    ]
+}

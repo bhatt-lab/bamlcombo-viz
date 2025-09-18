@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C459",
+            "karyotype": "46,xy,t(11;17)(q23;q25)[20]",
+            "otherCytogenetics": "MLL:  78/100 cells (78%) had the abnormal 1 red/ 1 green/ 1 yellow signal pattern, reflecting MLL rearrangement and consistent with the 11;17 translocation observed in the metaphase karyotype.",
+            "consensusAMLfusion": "KMT2A_re"
+        }
+    ]
+}

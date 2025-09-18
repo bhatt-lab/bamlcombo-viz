@@ -1,0 +1,52 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S180",
+            "lab_id": "15-00159",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.188235294117647,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000171456",
+            "symbol": "ASXL1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S180",
+            "lab_id": "15-00159",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.621621621621622,
+            "variant_classification": "splice_donor_variant",
+            "gene": "ENSG00000142149",
+            "symbol": "HUNK",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S180",
+            "lab_id": "15-00159",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.621621621621622,
+            "variant_classification": "splice_donor_variant",
+            "gene": "ENSG00000142149",
+            "symbol": "HUNK",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S180",
+            "lab_id": "15-00159",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.459459459459459,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S180",
+            "karyotype": "46,xy[20]",
+            "otherCytogenetics": "nuc ish(D5S2064,D5S630,EGR1)x2[200],(D7Z1,D7S522)x2[199],(D8Z2,D20S108)x2[200],(RUNX1T1,RUNX1)x2 [200],(5'MLL,3'MLL)x2(5'MLL con 3'MLLx2)[200],(PML,RARA)x2[200],(5'CBFB,3'CBFB)x2(5'CBFB con 3'CBFBx2)[200]",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

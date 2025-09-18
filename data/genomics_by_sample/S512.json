@@ -1,0 +1,112 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S512",
+            "lab_id": "18-00055",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.509316770186335,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S512",
+            "lab_id": "18-00055",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.213836477987421,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000196712",
+            "symbol": "NF1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S512",
+            "lab_id": "18-00055",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.105960264900662,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S512",
+            "lab_id": "18-00055",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.106312292358804,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S512",
+            "lab_id": "18-00055",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.288220551378446,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000126883",
+            "symbol": "NUP214",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S512",
+            "lab_id": "18-00055",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.420765027322404,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000160201",
+            "symbol": "U2AF1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S512",
+            "lab_id": "18-00055",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.420765027322404,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000160201",
+            "symbol": "U2AF1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S512",
+            "lab_id": "18-00055",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.26219512195122,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000184937",
+            "symbol": "WT1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S512",
+            "lab_id": "18-00055",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.233480176211454,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000184937",
+            "symbol": "WT1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S512",
+            "lab_id": "18-00055",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.237668161434978,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000184937",
+            "symbol": "WT1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S512",
+            "karyotype": "48,xy,+11,+13[17]/46,xy[3]",
+            "otherCytogenetics": "MLL (11q23):  161/200 cells (80.5%) had three intact signals for MLL, consistent with the trisomy 11 seen on metaphase analysis. ",
+            "consensusAMLfusion": "Other_abn2"
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S295",
+            "lab_id": "16-00077",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.328042328042328,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000133703",
+            "symbol": "KRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S295",
+            "lab_id": "16-00077",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.485074626865672,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000138413",
+            "symbol": "IDH1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S295",
+            "lab_id": "16-00077",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.49618320610687,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000138413",
+            "symbol": "IDH1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S295",
+            "karyotype": "45,xy,-7[2]/45,xy,t(6;8)(q21;q21.2),-7,del(10)(q24q26),t(12;15)(p13;q15)[19]",
+            "otherCytogenetics": "nuc ish(D5S2064,D5S630,EGR1)x2 [200],(D7Z1x2,D7S522x1)[1/200]/(D7Z1,D7S522)x1[185/200],(D8Z2,D20S108)x2[200],(RUNX1T1,RUNX1)x2[200], (5'MLL,3'MLL)x2(5'MLL con 3'MLLx2)[200],(PML,RARA)x2[200],(5'CBFB,3'CBFB)x2(5'CBFB con 3'CBFBx2)[200]",
+            "consensusAMLfusion": "Other_re, Other_abn, Other_abn2"
+        }
+    ]
+}

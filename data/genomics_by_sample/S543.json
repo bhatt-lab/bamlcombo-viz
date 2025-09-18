@@ -1,0 +1,152 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S543",
+            "lab_id": "18-00290",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.45398773006135,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000157766",
+            "symbol": "ACAN",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S543",
+            "lab_id": "18-00290",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.457317073170732,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000157766",
+            "symbol": "ACAN",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S543",
+            "lab_id": "18-00290",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.266666666666667,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000171456",
+            "symbol": "ASXL1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S543",
+            "lab_id": "18-00290",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.201438848920863,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000171456",
+            "symbol": "ASXL1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S543",
+            "lab_id": "18-00290",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.135135135135135,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000187533",
+            "symbol": "C4orf40",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S543",
+            "lab_id": "18-00290",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0858208955223881,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000005339",
+            "symbol": "CREBBP",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S543",
+            "lab_id": "18-00290",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.082089552238806,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000071242",
+            "symbol": "RPS6KA2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S543",
+            "lab_id": "18-00290",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.172839506172839,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000164037",
+            "symbol": "SLC9B1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S543",
+            "lab_id": "18-00290",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.172839506172839,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000164037",
+            "symbol": "SLC9B1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S543",
+            "lab_id": "18-00290",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.4375,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000184937",
+            "symbol": "WT1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S543",
+            "lab_id": "18-00290",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.112565445026178,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000179059",
+            "symbol": "ZFP42",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S543",
+            "lab_id": "18-00290",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.110526315789474,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000179059",
+            "symbol": "ZFP42",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S543",
+            "lab_id": "18-00290",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.437956204379562,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000043355",
+            "symbol": "ZIC2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S543",
+            "lab_id": "18-00290",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.440298507462687,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000043355",
+            "symbol": "ZIC2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S543",
+            "karyotype": "46,xy,del(5)(q13q33),t(10;11)(p13;q21)[15]/46,xy[5]",
+            "otherCytogenetics": "93% of cells were missing a signal for both 5q probes (EGR1, 5q31; and 5q33) but had two signals for 5p, consistent with 5q deletion. ",
+            "consensusAMLfusion": "Other_re, Other_abn"
+        }
+    ]
+}

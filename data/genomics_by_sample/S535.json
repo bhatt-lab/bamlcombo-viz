@@ -1,0 +1,72 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S535",
+            "lab_id": "18-00226",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0844155844155844,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000152223",
+            "symbol": "EPG5",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S535",
+            "lab_id": "18-00226",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0836120401337793,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000110400",
+            "symbol": "PVRL1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S535",
+            "lab_id": "18-00226",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.4453125,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S535",
+            "lab_id": "18-00226",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.445098039215686,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S535",
+            "lab_id": "18-00226",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.459770114942529,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000160201",
+            "symbol": "U2AF1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S535",
+            "lab_id": "18-00226",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.457142857142857,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000160201",
+            "symbol": "U2AF1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S535",
+            "karyotype": "46,xy[20]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

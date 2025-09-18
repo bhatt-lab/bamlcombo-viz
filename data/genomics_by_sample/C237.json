@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C237",
+            "karyotype": "46,xx,del(9)(q13q22)[5]/46,sl,del(11)(q13q23)[14]/46,sdl,t(2;4;7)(q33;q21;p15),add(8)(p11.2)[2]",
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "Other_re, Other_abn2"
+        }
+    ]
+}

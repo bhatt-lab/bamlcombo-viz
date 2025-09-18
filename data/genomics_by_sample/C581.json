@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C581",
+            "karyotype": "47,xy,+21[2]/46,xy[18]",
+            "otherCytogenetics": "RUNX1 (21q22): 19/200 cells (9.5%) had three signals for RUNX1, consistent with trisomy 21. ",
+            "consensusAMLfusion": "Other_abn2"
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S444",
+            "lab_id": "17-00446",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0862068965517241,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000177432",
+            "symbol": "NAP1L5",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S444",
+            "lab_id": "17-00446",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.255924170616114,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000115524",
+            "symbol": "SF3B1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S444",
+            "lab_id": "17-00446",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.253588516746411,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000115524",
+            "symbol": "SF3B1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S444",
+            "karyotype": "45-46,x,-y,t(3;3)(q21;q26.2),del(4)(q12),-5,del(6)(q21),del(9)(q22),del(11)(p11.2),ins(15;5)(q12;p15.2p15.2),add(16)(q22),-17,-20,-21,-22,+mar1-5[cp18]/46,xy[2]",
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "MECOM_re, Other_abn, Other_abn2"
+        }
+    ]
+}

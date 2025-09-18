@@ -1,0 +1,62 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S315",
+            "lab_id": "16-00303",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.285714285714286,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000122025",
+            "symbol": "FLT3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S315",
+            "lab_id": "16-00303",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.714285714285714,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000167920",
+            "symbol": "TMEM99",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S315",
+            "lab_id": "16-00303",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.272727272727273,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000214518",
+            "symbol": "KRTAP2-2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S315",
+            "lab_id": "16-00303",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.380952380952381,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S315",
+            "lab_id": "16-00303",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.3,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000181163",
+            "symbol": "NPM1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S315",
+            "karyotype": "46,xx[19]",
+            "otherCytogenetics": "Normal (FISH)",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

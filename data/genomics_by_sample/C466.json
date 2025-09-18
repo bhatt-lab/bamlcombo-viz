@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C466",
+            "karyotype": null,
+            "otherCytogenetics": "Chromosome 7: 94% of cells were missing a signal for both probes, consistent with monosomy 7. | GATA2/MECOM: 92% of cells had a 1r1g2f fusion signal pattern consistent with GATA2/MECOM fusion.",
+            "consensusAMLfusion": "MECOM_re, Other_abn"
+        }
+    ]
+}

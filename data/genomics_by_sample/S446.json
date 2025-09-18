@@ -1,0 +1,62 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S446",
+            "lab_id": "17-00463",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.444444444444444,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000139990",
+            "symbol": "DCAF5",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S446",
+            "lab_id": "17-00463",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.45,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000139990",
+            "symbol": "DCAF5",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S446",
+            "lab_id": "17-00463",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.436619718309859,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000085511",
+            "symbol": "MAP3K4",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S446",
+            "lab_id": "17-00463",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.428571428571429,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000085511",
+            "symbol": "MAP3K4",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S446",
+            "lab_id": "17-00463",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.528301886792453,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000184985",
+            "symbol": "SORCS2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S446",
+            "karyotype": "normal",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

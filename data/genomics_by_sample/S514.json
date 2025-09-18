@@ -1,0 +1,112 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S514",
+            "lab_id": "18-00073",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.513513513513513,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000066032",
+            "symbol": "CTNNA2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S514",
+            "lab_id": "18-00073",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.516483516483517,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000066032",
+            "symbol": "CTNNA2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S514",
+            "lab_id": "18-00073",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.336363636363636,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000122025",
+            "symbol": "FLT3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S514",
+            "lab_id": "18-00073",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.336363636363636,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000122025",
+            "symbol": "FLT3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S514",
+            "lab_id": "18-00073",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.562874251497006,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000179348",
+            "symbol": "GATA2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S514",
+            "lab_id": "18-00073",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.567073170731707,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000179348",
+            "symbol": "GATA2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S514",
+            "lab_id": "18-00073",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0930232558139535,
+            "variant_classification": "splice_acceptor_variant",
+            "gene": "ENSG00000162599",
+            "symbol": "NFIA",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S514",
+            "lab_id": "18-00073",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.423880597014925,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S514",
+            "lab_id": "18-00073",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.42089552238806,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S514",
+            "lab_id": "18-00073",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.472463768115942,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S514",
+            "karyotype": "46,xx[20]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

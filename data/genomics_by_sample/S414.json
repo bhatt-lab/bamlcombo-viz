@@ -1,0 +1,92 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S414",
+            "lab_id": "17-00072",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.328267477203647,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S414",
+            "lab_id": "17-00072",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.331288343558282,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S414",
+            "lab_id": "17-00072",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.352941176470588,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000134910",
+            "symbol": "STT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S414",
+            "lab_id": "17-00072",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.515151515151515,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000161547",
+            "symbol": "SRSF2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S414",
+            "lab_id": "17-00072",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.12280701754386,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000115919",
+            "symbol": "KYNU",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S414",
+            "lab_id": "17-00072",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.428571428571429,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000171456",
+            "symbol": "ASXL1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S414",
+            "lab_id": "17-00072",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.411764705882353,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000257923",
+            "symbol": "CUX1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S414",
+            "lab_id": "17-00072",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.731707317073171,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000101972",
+            "symbol": "STAG2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S414",
+            "karyotype": "46,xy[20]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

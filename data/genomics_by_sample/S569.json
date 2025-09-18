@@ -1,0 +1,32 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S569",
+            "lab_id": "19-00261",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.173295454545455,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S569",
+            "lab_id": "19-00261",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.175287356321839,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S569",
+            "karyotype": "46,xy,inv(16)(p13.1q22)[20]",
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "CBFB-MYH11"
+        }
+    ]
+}

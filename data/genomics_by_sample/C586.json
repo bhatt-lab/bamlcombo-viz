@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C586",
+            "karyotype": "46,xx[20]",
+            "otherCytogenetics": "NUP98:  77/100 cells (77%) had the abnormal signal pattern reflecting NUP98 rearrangement",
+            "consensusAMLfusion": "NUP98_re"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C517",
+            "karyotype": "46,xy,del(7)(q32),add(13)(p11.2)[15]",
+            "otherCytogenetics": "This test has detected 7q deletion and an abnormal chromosome 13 in all 15 metaphase cells analyzed. 7q deletion is the most cp,,om abnormality in MDS and other types of myeloid malignancies.",
+            "consensusAMLfusion": "Other_abn, Other_abn2"
+        }
+    ]
+}

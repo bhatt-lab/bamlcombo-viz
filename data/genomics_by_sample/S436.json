@@ -1,0 +1,32 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S436",
+            "lab_id": "17-00337",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.355555555555556,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000196712",
+            "symbol": "NF1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S436",
+            "lab_id": "17-00337",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.757575757575758,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000141510",
+            "symbol": "TP53",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S436",
+            "karyotype": "nucish(runx1t1x3,runx1x1)[56/100]nucish(pmlx2,rarax1)[62/100]nucish(5'rara,3'rara)x1(5'raracon3'rarax1)[56/100]nucish(5'cbfb,3'cbfb)x2(5'cbfbcon3'cbfbx2)[100]nucish(5'mll,3'mll)x3-6(5'mllcon3'mllx3-6)[82/100]nucish(dek,nup214)x2[100]nucish(abl1x2,bcrx3)[17/200]",
+            "otherCytogenetics": "The translocations commonly seen in AML are not detected. 3 copies of RUNX1T1 gene at 8q22 are detected in 56% of cells. Loss of RUNX1 and RARA genes at 21q22 and 17q21 are detected in about 58% of cells Gain of MLL gene at 11q23 are detected in 82% of cells.",
+            "consensusAMLfusion": "Other_abn, Other_abn2"
+        }
+    ]
+}

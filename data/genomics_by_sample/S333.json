@@ -1,0 +1,52 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S333",
+            "lab_id": "16-00479",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.9375,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000119535",
+            "symbol": "CSF3R",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S333",
+            "lab_id": "16-00479",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.941176470588235,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000119535",
+            "symbol": "CSF3R",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S333",
+            "lab_id": "16-00479",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.519230769230769,
+            "variant_classification": "splice_acceptor_variant",
+            "gene": "ENSG00000110395",
+            "symbol": "CBL",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S333",
+            "lab_id": "16-00479",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.528301886792453,
+            "variant_classification": "splice_acceptor_variant",
+            "gene": "ENSG00000110395",
+            "symbol": "CBL",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S333",
+            "karyotype": "46,xx,der(7)t(3;7)(q26;q21)[9]/46,xx[11]",
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "MECOM_re, Other_re"
+        }
+    ]
+}

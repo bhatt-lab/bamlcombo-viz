@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C439",
+            "karyotype": "47,xx,+8[18]/46,xx[2]",
+            "otherCytogenetics": "RUNX1T1:  163/200 cells (81.5%) had three RUNX1T1 (8q21.3) signals, reflecting the trisomy 8 observed in the metaphase karyotype. There was no evidence for RUNX1T1/RUNX1 fusion. ",
+            "consensusAMLfusion": "Other_abn, Other_abn2"
+        }
+    ]
+}

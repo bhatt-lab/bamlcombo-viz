@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C471",
+            "karyotype": "46,xx,t(15;17)(q24;q21)[19]/46,xx[1]",
+            "otherCytogenetics": "PML/RARA t(15;17) dual fusion probe set: Of 100 interphase cells scored, 88 (88%) had the abnormal 1 red/ 1 green/ 2 yellow fusion signal pattern reflecting PML/RARA fusion and consistent with the 15;17 translocation ",
+            "consensusAMLfusion": "PML-RARA"
+        }
+    ]
+}

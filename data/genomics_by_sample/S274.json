@@ -1,0 +1,52 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S274",
+            "lab_id": "15-00975",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.108433734939759,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000198700",
+            "symbol": "IPO9",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S274",
+            "lab_id": "15-00975",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.445544554455446,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000139083",
+            "symbol": "ETV6",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S274",
+            "lab_id": "15-00975",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.292134831460674,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000160201",
+            "symbol": "U2AF1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S274",
+            "lab_id": "15-00975",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.292134831460674,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000160201",
+            "symbol": "U2AF1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S274",
+            "karyotype": "46,xx,del(5)(q22q35)[20]",
+            "otherCytogenetics": "Positive for 5q deletion in 91% of cells. (Cytogenetics)",
+            "consensusAMLfusion": "Other_abn"
+        }
+    ]
+}

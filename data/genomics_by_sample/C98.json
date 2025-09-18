@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C98",
+            "karyotype": "46,xx[20]",
+            "otherCytogenetics": "\"showed multiple RUNX1 signals as well as a 3rd RUNX1 signal at 7p consistent with t(7;21)(p22;q22).\"",
+            "consensusAMLfusion": "Other_abn2"
+        }
+    ]
+}

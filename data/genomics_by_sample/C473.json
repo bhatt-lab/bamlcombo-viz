@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C473",
+            "karyotype": "45,x,-y,del(7)(p13p15),del(12)(p12p13),i(17)(q10)[17]/45,sl,del(9)(q13q22)[3]",
+            "otherCytogenetics": "No evidence for deleted 11q.",
+            "consensusAMLfusion": "Other_abn, Other_abn2"
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S364",
+            "lab_id": "16-00836",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.127118644067797,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000123836",
+            "symbol": "PFKFB2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S364",
+            "lab_id": "16-00836",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.131147540983607,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000123836",
+            "symbol": "PFKFB2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S364",
+            "lab_id": "16-00836",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.2,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000126461",
+            "symbol": "SCAF1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S364",
+            "lab_id": "16-00836",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.396551724137931,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S364",
+            "lab_id": "16-00836",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.0852713178294574,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000163002",
+            "symbol": "NUP35",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S364",
+            "lab_id": "16-00836",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.238095238095238,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000198589",
+            "symbol": "LRBA",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S364",
+            "lab_id": "16-00836",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.23728813559322,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000181163",
+            "symbol": "NPM1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S364",
+            "karyotype": "46,xy[20]",
+            "otherCytogenetics": "normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

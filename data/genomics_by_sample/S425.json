@@ -1,0 +1,32 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S425",
+            "lab_id": "17-00252",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.308139534883721,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S425",
+            "lab_id": "17-00252",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.309941520467836,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S425",
+            "karyotype": "46,xx,der(1)t(1;9)(p36.1;q22),t(5;17)(p13;q21),der(5;9)(p10;p10),+8[12]/47,sl,+20[7]64~69<3n>,xxx,+1,der(1)t(1;9)(p36.1;q22)x2,+5,t(5;17)(p13;q21)x2,+6,-9,-11,+21[cp3]",
+            "otherCytogenetics": "EGR-1/ D5S23, D5S721: 175/200 cells had a 1 red/\u00c2\u00a02 green signal  pattern, indicating a deleted 5q. Five cells had a 2 red/ 4 green signal pattern consistent with the  two normal chromosomes 5 and the two derivative chromosomes (5;9),  resulting in loss of 5q, present in the near-triploid clone. | RUNX1T1/ RUNX1: 155/200 cells had a 3 chromosome 8 signals,  consistent with the trisomy 8 observed in the metaphase karyotype. \u00c2\u00a0Four cells had 4 chromosome 21 signals (in addition to trisomy 8),  consistent with the tetrasomy 21 observed in the near-triploid clone. No evid for RUNX1T1/RUNX1 fusion. | ETV6/ RUNX1: \u00c2\u00a0 5/200 cells (2.5%) had a 4 red/ 3 green signal pattern,  consistent with the near-triploid clone with trisomy 8 and tetrasomy 21.  There was no evidence for ETV6/ RUNX1 fusion. ",
+            "consensusAMLfusion": "RARA_re, Other_re, Other_abn, Other_abn2"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C372",
+            "karyotype": "46,xy,t(1;3)(p36;q21)[2]/46,sl,-1,+der(1)t(1;3)(p36;q21)[15]/46,sl,add(3)(q12)[2]/46,sl,-1,+t(1;3)(p36;q21),-3[1]",
+            "otherCytogenetics": "MECOM/RPN1: \u00c2\u00a0171/200 cells (85.5%) had a 2 red/ 3 green signal pattern,  reflecting an extra RPN1 (3q21.3) signal, consistent with RPN1 disruption  due to the 1;3 translocation observed in the metaphase karyotype. \u00c2\u00a0There  was no evidence for MECOM/RPN1 fusion. ",
+            "consensusAMLfusion": "Other_re, Other_abn2"
+        }
+    ]
+}

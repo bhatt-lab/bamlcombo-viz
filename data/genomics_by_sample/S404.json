@@ -1,0 +1,162 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S404",
+            "lab_id": "16-01262",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.4,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000116183",
+            "symbol": "PAPPA2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S404",
+            "lab_id": "16-01262",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.421052631578947,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000116183",
+            "symbol": "PAPPA2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S404",
+            "lab_id": "16-01262",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.548387096774194,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213417",
+            "symbol": "KRTAP2-4",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S404",
+            "lab_id": "16-01262",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.423076923076923,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000132872",
+            "symbol": "SYT4",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S404",
+            "lab_id": "16-01262",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.430939226519337,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000132872",
+            "symbol": "SYT4",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S404",
+            "lab_id": "16-01262",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.509316770186335,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000070371",
+            "symbol": "CLTCL1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S404",
+            "lab_id": "16-01262",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.515527950310559,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000070371",
+            "symbol": "CLTCL1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S404",
+            "lab_id": "16-01262",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.41304347826087,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000161204",
+            "symbol": "ABCF3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S404",
+            "lab_id": "16-01262",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.428571428571429,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000161204",
+            "symbol": "ABCF3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S404",
+            "lab_id": "16-01262",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.458333333333333,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000065833",
+            "symbol": "ME1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S404",
+            "lab_id": "16-01262",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.485714285714286,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000065833",
+            "symbol": "ME1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S404",
+            "lab_id": "16-01262",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.46875,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000002726",
+            "symbol": "AOC1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S404",
+            "lab_id": "16-01262",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.476190476190476,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000002726",
+            "symbol": "AOC1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S404",
+            "lab_id": "16-01262",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.444933920704846,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000183837",
+            "symbol": "PNMA3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S404",
+            "lab_id": "16-01262",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.44,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000183837",
+            "symbol": "PNMA3",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S404",
+            "karyotype": "46,xx,t(15;17)(q22;q21)[20]",
+            "otherCytogenetics": "86/100 cells (86%) had the 1r/1g/2f dual fusion signal pattern consistent  with PML/RARA fusion and with t(15;17) as seen on metaphase analysis. ",
+            "consensusAMLfusion": "PML-RARA"
+        }
+    ]
+}

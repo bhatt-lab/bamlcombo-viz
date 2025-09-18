@@ -1,0 +1,72 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S146",
+            "lab_id": "15-00974",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.444444444444444,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S146",
+            "lab_id": "15-00974",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.455696202531646,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S146",
+            "lab_id": "15-00974",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.456521739130435,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000115524",
+            "symbol": "SF3B1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S146",
+            "lab_id": "15-00974",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.456521739130435,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000115524",
+            "symbol": "SF3B1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S146",
+            "lab_id": "15-00974",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.476190476190476,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000179348",
+            "symbol": "GATA2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S146",
+            "lab_id": "15-00974",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.49,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000179348",
+            "symbol": "GATA2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S146",
+            "karyotype": "46,xx,inv(3)(q21q26)[5]",
+            "otherCytogenetics": "FISH) was performed with a MECOM/RPN1 probe set. 125/200 (62.5%) interphase cells scored had a 1 red/ 1 green/ 2 yellow double fusion signal pattern reflecting MECOM/RPN1 fusion and the paracentric inversion of the long arm of a chromosome 3 observed in the metaphase karyotype.  FISH was also perfor",
+            "consensusAMLfusion": "MECOM_re"
+        }
+    ]
+}

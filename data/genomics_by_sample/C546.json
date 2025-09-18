@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C546",
+            "karyotype": "45,xy,-7[20]",
+            "otherCytogenetics": "D7S486/ CEP 7: \u00c2\u00a097/100 cells (97%) had a 1 red/ 1 green signal pattern,  indicating monosomy 7, consistent with the metaphase karyotype. ",
+            "consensusAMLfusion": "Other_abn"
+        }
+    ]
+}

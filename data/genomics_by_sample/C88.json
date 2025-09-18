@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C88",
+            "karyotype": "47,xx,+11[5]/48,idem,+19[15](abnormalfemale(host)karyotypewithtworelatedclonescontainingtrisomyofchromosome11ineverycellexamined.thesecondabnormalclonecontainstrisomyofchromosome19,asanadditionalaberration.)|47,xx,+11[5]/48,idem,+19[15]",
+            "otherCytogenetics": "nuc ish(DXZ1x2)[181]//(DXZ1,DYZ3)x1[19] nuc ish(RUNX1T1,RUNX1)x2[199],(5'MLL,3'MLL)x3(5'MLL con 3'MLLx3)[176/200],(PML,RARA)x2[196], (5'CBFB,3'CBFB)x2(5'CBFB con 3'CBFBx2)[199] | nuc ish(DXZ1x2)[181]//(DXZ1,DYZ3)x1[19] nuc ish(RUNX1T1,RUNX1)x2[199],(5'MLL,3'MLL)x3(5'MLL con 3'MLLx3)[176/200],(PML,RARA)x2[196], (5'CBFB,3'CBFB)x2(5'CBFB con 3'CBFBx2}[199]",
+            "consensusAMLfusion": "Other_abn, Other_abn2"
+        }
+    ]
+}

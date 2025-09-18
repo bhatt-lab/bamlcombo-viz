@@ -1,0 +1,202 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S498",
+            "lab_id": "17-01038",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.475806451612903,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000183337",
+            "symbol": "BCOR",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S498",
+            "lab_id": "17-01038",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.2,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000157445",
+            "symbol": "CACNA2D3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S498",
+            "lab_id": "17-01038",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.663461538461538,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S498",
+            "lab_id": "17-01038",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.149253731343284,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000108021",
+            "symbol": "FAM208B",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S498",
+            "lab_id": "17-01038",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.515384615384615,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000138413",
+            "symbol": "IDH1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S498",
+            "lab_id": "17-01038",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.515625,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000138413",
+            "symbol": "IDH1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S498",
+            "lab_id": "17-01038",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.45,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000163395",
+            "symbol": "IGFN1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S498",
+            "lab_id": "17-01038",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.456043956043956,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000163395",
+            "symbol": "IGFN1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S498",
+            "lab_id": "17-01038",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.574585635359116,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000008083",
+            "symbol": "JARID2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S498",
+            "lab_id": "17-01038",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.458100558659218,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000003096",
+            "symbol": "KLHL13",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S498",
+            "lab_id": "17-01038",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.451977401129944,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000003096",
+            "symbol": "KLHL13",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S498",
+            "lab_id": "17-01038",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0869565217391304,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000021645",
+            "symbol": "NRXN3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S498",
+            "lab_id": "17-01038",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.10752688172043,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000173193",
+            "symbol": "PARP14",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S498",
+            "lab_id": "17-01038",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.391666666666667,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000156531",
+            "symbol": "PHF6",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S498",
+            "lab_id": "17-01038",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.4,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000156531",
+            "symbol": "PHF6",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S498",
+            "lab_id": "17-01038",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.435555555555556,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000154415",
+            "symbol": "PPP1R3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S498",
+            "lab_id": "17-01038",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.440528634361233,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000154415",
+            "symbol": "PPP1R3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S498",
+            "lab_id": "17-01038",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.481481481481481,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000092200",
+            "symbol": "RPGRIP1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S498",
+            "lab_id": "17-01038",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.486631016042781,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000092200",
+            "symbol": "RPGRIP1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S498",
+            "karyotype": "51~52,xx,+2,+6,add(7)(q31),+8,+9,+10,+15[cp14]/50~52,idem,del(19)(q11.2)[cp5]/46,xx[1]",
+            "otherCytogenetics": "BCR/ABL/ASS: 72/100 cells had a variant abnormal fusion reflecting a single BCR/ABL fusion. The Philadelphia rearrangement was not visible in the metaphase karyotype  and is, thus, likely a cryptic rearrangement involving at least three chromosomes.    (Twenty-one cells (21%) had three signals for ASS and ABL with  no fusion signal.) | RUNX1T1: \u00c2\u00a089/100 cells (89%) had three signals, consistent with the trisomy  8 in the metaphase karyotype. \u00c2\u00a0There was no evidence for RUNX1T1/RUNX1  fusion. \u00c2\u00a0In addition, 80% of cells had three chromosome 8 centromere  signals, also consistent with trisomy 8. | DEK/NUP21: \u00c2\u00a096/100 cells (96%) had three signals for both probes,  consistent with trisomies 6 and 9 in the metaphase karyotype. \u00c2\u00a0There was no evidence for DEK/NUP21 fusion | PML: \u00c2\u00a041/100 cells (41%) had three signals, consistent with the trisomy 15  in the metaphase karyotype. \u00c2\u00a0Fifty-two cells (52%) had four PML signals \u00e2\u20ac\u201c  the chromosomal context of the fourth signal was not apparent in the  metaphase karyotype. \u00c2\u00a0There was no evidence for PML/RARA fusion. ",
+            "consensusAMLfusion": "BCR-ABL1, Other_abn, Other_abn2"
+        }
+    ]
+}

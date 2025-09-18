@@ -1,0 +1,92 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S515",
+            "lab_id": "18-00077",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.412878787878788,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000183337",
+            "symbol": "BCOR",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S515",
+            "lab_id": "18-00077",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.10801393728223,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000196712",
+            "symbol": "NF1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S515",
+            "lab_id": "18-00077",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.108391608391608,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000196712",
+            "symbol": "NF1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S515",
+            "lab_id": "18-00077",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.205761316872428,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000196712",
+            "symbol": "NF1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S515",
+            "lab_id": "18-00077",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.497757847533632,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000159216",
+            "symbol": "RUNX1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S515",
+            "lab_id": "18-00077",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.495495495495495,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000159216",
+            "symbol": "RUNX1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S515",
+            "lab_id": "18-00077",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.488721804511278,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000115524",
+            "symbol": "SF3B1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S515",
+            "lab_id": "18-00077",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.488636363636364,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000115524",
+            "symbol": "SF3B1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S515",
+            "karyotype": "46,xx,i(14)(q10)[8]/46,xx[12]",
+            "otherCytogenetics": "IGH (14q32) breakapart probe set, as listed  below. \u00c2\u00a04/200 interphase cells had three intact signals, but one abnormal  metaphase was found, which had an IGH signal on either end of the  i(14)(q10). ",
+            "consensusAMLfusion": "Other_abn2"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C440",
+            "karyotype": "44,xx,-3,del(5)(q13q35),der(7)add(7)(p12)add(7)(q32),-12,-15,del(17)(p12p13),del(20)(q11.2q13.3),+mar[6]/43,sl,-8,-9,+15[10]/44~46,sdl1,+4,+mar[cp2]/46,xx[2]",
+            "otherCytogenetics": "GATA2 (3q21):  88/200 cells (44%) had a single signal, reflecting the monosomy 3 observed in the metaphase karyotype.  However, one MECOM (3q26.2) signal was present on the marker. There was no evidence for GATA2/MECOM fusion. | EGR-1/ 5q33/ 5p15:  58/100 cells (58%) had a 1 red/ 2 green/ 2 aqua signal pattern, indicating a deleted 5q31, consistent with the deleted 5q in the metaphase karyotype.  One distal 5q33 signal was present on the derivative chromosome 7q.  | RUNX1T1 (8q21.3):  84/200 cells (42%) had a single signal, reflecting the monosomy 8 observed in the two sidelines.  There was no evidence for RUNX1T1/RUNX1 fusion. | ABL1/ASS (9q34):  75/200 cells (37.5%) had a single signal for both probes, reflecting the monosomy 9 observed in the two sidelines.  There was no evidence for BCR/ABL fusion. | NUP214 (9q34):  92/200 cells (46%) had a single signal, reflecting the monosomy 9 observed in the two sidelines.  There was no evidence for DEK/NUP214 fusion. | PML (15q24):  67/200 cells (33.5%) had three signals, reflecting the extra 15q24 material attached to the derivative chromosome 7q.  There was no evidence for PML/RARA fusion.",
+            "consensusAMLfusion": "Other_abn, Other_abn2"
+        }
+    ]
+}

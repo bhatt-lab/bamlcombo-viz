@@ -1,0 +1,32 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S201",
+            "lab_id": "16-01097",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.371428571428571,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000245848",
+            "symbol": "CEBPA",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S201",
+            "lab_id": "16-01097",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.390243902439024,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000179348",
+            "symbol": "GATA2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S201",
+            "karyotype": "47,xx,+10[19]/46,xx[1]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Other_abn2"
+        }
+    ]
+}

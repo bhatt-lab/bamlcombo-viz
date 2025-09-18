@@ -1,0 +1,72 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S440",
+            "lab_id": "17-00438",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.144578313253012,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000179270",
+            "symbol": "C2orf71",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S440",
+            "lab_id": "17-00438",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.390625,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000122025",
+            "symbol": "FLT3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S440",
+            "lab_id": "17-00438",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.390625,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000122025",
+            "symbol": "FLT3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S440",
+            "lab_id": "17-00438",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.854838709677419,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000101972",
+            "symbol": "STAG2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S440",
+            "lab_id": "17-00438",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.852459016393443,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000101972",
+            "symbol": "STAG2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S440",
+            "lab_id": "17-00438",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.522522522522523,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000178691",
+            "symbol": "SUZ12",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S440",
+            "karyotype": "46,xy[20]",
+            "otherCytogenetics": "MLL: 86% of cells had a split signal pattern consistent with MLL rearrangement.",
+            "consensusAMLfusion": "KMT2A_re"
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S362",
+            "lab_id": "16-00834",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.515463917525773,
+            "variant_classification": "inframe_insertion",
+            "gene": "ENSG00000245848",
+            "symbol": "CEBPA",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S362",
+            "lab_id": "16-00834",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.105633802816901,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000131013",
+            "symbol": "PPIL4",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S362",
+            "lab_id": "16-00834",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.316804407713499,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000180011",
+            "symbol": "ZADH2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S362",
+            "lab_id": "16-00834",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.318559556786704,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000180011",
+            "symbol": "ZADH2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S362",
+            "karyotype": "46,xy[20]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

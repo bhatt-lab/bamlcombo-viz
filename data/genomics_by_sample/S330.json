@@ -1,0 +1,32 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S330",
+            "lab_id": "16-00538",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.68,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000205744",
+            "symbol": "DENND1C",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S330",
+            "lab_id": "16-00538",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.454545454545455,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000178919",
+            "symbol": "FOXE1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S330",
+            "karyotype": "46,xy,t(8;21)(q22;q22)[20]",
+            "otherCytogenetics": "RUNX1/RUNX1T1 fusion positive in 6.5% of cells",
+            "consensusAMLfusion": "RUNX1-RUNX1T1"
+        }
+    ]
+}

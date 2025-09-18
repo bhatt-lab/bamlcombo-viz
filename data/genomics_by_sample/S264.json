@@ -1,0 +1,32 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S264",
+            "lab_id": "15-00903",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.4125,
+            "variant_classification": "splice_donor_variant",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S264",
+            "lab_id": "15-00903",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.4125,
+            "variant_classification": "splice_donor_variant",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S264",
+            "karyotype": "45,x,-y[20]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Other_abn2"
+        }
+    ]
+}

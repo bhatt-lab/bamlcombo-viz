@@ -1,0 +1,52 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S254",
+            "lab_id": "15-00813",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.407894736842105,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S254",
+            "lab_id": "15-00813",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.424028268551237,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S254",
+            "lab_id": "15-00813",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.413793103448276,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S254",
+            "lab_id": "15-00813",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.456521739130435,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S254",
+            "karyotype": "46,xx[20]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S153",
+            "lab_id": "14-00712",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.442508710801394,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S153",
+            "lab_id": "14-00712",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.634328358208955,
+            "variant_classification": "inframe_insertion",
+            "gene": "ENSG00000161547",
+            "symbol": "SRSF2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S153",
+            "lab_id": "14-00712",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.457943925233645,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000152217",
+            "symbol": "SETBP1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S153",
+            "lab_id": "14-00712",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.0833333333333333,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000197841",
+            "symbol": "ZNF181",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S153",
+            "lab_id": "14-00712",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.285714285714286,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000163811",
+            "symbol": "WDR43",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S153",
+            "lab_id": "14-00712",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.230769230769231,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000173905",
+            "symbol": "GOLIM4",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S153",
+            "lab_id": "14-00712",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.2,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000145868",
+            "symbol": "FBXO38",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S153",
+            "lab_id": "14-00712",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.15,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000156313",
+            "symbol": "RPGR",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S153",
+            "karyotype": "46,xy,i(17)(q10)[20]",
+            "otherCytogenetics": "TP53/CEP17: 85% of cells were missing a signal for TP53, consistent with deletion due to the i(17) seen on metaphase analysis.  PML/RARA: 69% of cells had three signals for RARA (17q21), consistent with three copies of 17q due to the i(17) seen on metaphase analysis.",
+            "consensusAMLfusion": "Other_abn"
+        }
+    ]
+}

@@ -1,0 +1,112 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S588",
+            "lab_id": "16-01127",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.509433962264151,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S588",
+            "lab_id": "16-01127",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.519230769230769,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S588",
+            "lab_id": "16-01127",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.3,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000027869",
+            "symbol": "SH2D2A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S588",
+            "lab_id": "16-01127",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.21875,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000135778",
+            "symbol": "NTPCR",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S588",
+            "lab_id": "16-01127",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.5,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S588",
+            "lab_id": "16-01127",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.394736842105263,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000138413",
+            "symbol": "IDH1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S588",
+            "lab_id": "16-01127",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.398692810457516,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000138413",
+            "symbol": "IDH1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S588",
+            "lab_id": "16-01127",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.1,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000171456",
+            "symbol": "ASXL1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S588",
+            "lab_id": "16-01127",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.157894736842105,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000114805",
+            "symbol": "PLCH1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S588",
+            "lab_id": "16-01127",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.338709677419355,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000181163",
+            "symbol": "NPM1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S588",
+            "karyotype": "46,xy,t(4;8)(q21;p23)[2]/46,xy[18]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Other_re"
+        }
+    ]
+}

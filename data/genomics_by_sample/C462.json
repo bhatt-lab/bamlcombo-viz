@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C462",
+            "karyotype": "45,x,-y,del(12)(p12p13),i(17)(q10)[20]",
+            "otherCytogenetics": "No evidence for deleted 11q.",
+            "consensusAMLfusion": "Other_abn"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C456",
+            "karyotype": "47,xy,+19[4]/46,xy[16]",
+            "otherCytogenetics": "Chromosome 7: 15/200 cells (7.5%) were missing a signal for both probes, consistent with very low-level monosomy 7.  ",
+            "consensusAMLfusion": "Other_abn, Other_abn2"
+        }
+    ]
+}

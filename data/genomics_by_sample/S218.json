@@ -1,0 +1,82 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S218",
+            "lab_id": "15-00578",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.199004975124378,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S218",
+            "lab_id": "15-00578",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.2,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S218",
+            "lab_id": "15-00578",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.087378640776699,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000122025",
+            "symbol": "FLT3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S218",
+            "lab_id": "15-00578",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.209677419354839,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000122025",
+            "symbol": "FLT3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S218",
+            "lab_id": "15-00578",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.178082191780822,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000122025",
+            "symbol": "FLT3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S218",
+            "lab_id": "15-00578",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.197802197802198,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000171456",
+            "symbol": "ASXL1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S218",
+            "lab_id": "15-00578",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.185567010309278,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000171456",
+            "symbol": "ASXL1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S218",
+            "karyotype": "46,xx,t(1;11)(p36.1;q23),add(9)(p22)[13]/46,sl,del(2)(p21p23),del(20)(q11.2-13.1)[4]/46,sl,add(12)(p11.2)[2]",
+            "otherCytogenetics": "MLL: 85%  The t(1;11) with these breakpoints in not common, but has been associated with monoblastic leukemia",
+            "consensusAMLfusion": "KMT2A_re, Other_abn, Other_abn2"
+        }
+    ]
+}

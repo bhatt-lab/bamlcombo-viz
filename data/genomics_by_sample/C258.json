@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C258",
+            "karyotype": "47,xy,+8[18]/46,xy[2]",
+            "otherCytogenetics": "CEP8 and RUNX1T1 (8q21.3): ~90% of cells had an extra signal for chromosome 8 probes, consistent with trisomy 8, as seen on metaphase analysis.",
+            "consensusAMLfusion": "Other_abn, Other_abn2"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C262",
+            "karyotype": "46,xx[20]",
+            "otherCytogenetics": "An apparently NORMAL KARYOTYPE was observed in all 20 mitotic cells analyzed. Specifically, there was no significant numerical chromosomal abnormality and no clonal structural aberration of any chromosome detectable within the limits of resolution. ",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

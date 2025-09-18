@@ -1,0 +1,112 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S426",
+            "lab_id": "17-00262",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.142857142857143,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000187533",
+            "symbol": "C4orf40",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S426",
+            "lab_id": "17-00262",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.1,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000143126",
+            "symbol": "CELSR2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S426",
+            "lab_id": "17-00262",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.225806451612903,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000021826",
+            "symbol": "CPS1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S426",
+            "lab_id": "17-00262",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.403314917127072,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182054",
+            "symbol": "IDH2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S426",
+            "lab_id": "17-00262",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.406779661016949,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182054",
+            "symbol": "IDH2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S426",
+            "lab_id": "17-00262",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.272727272727273,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000181163",
+            "symbol": "NPM1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S426",
+            "lab_id": "17-00262",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.433333333333333,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000117707",
+            "symbol": "PROX1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S426",
+            "lab_id": "17-00262",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.426966292134831,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000117707",
+            "symbol": "PROX1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S426",
+            "lab_id": "17-00262",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0967741935483871,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000164651",
+            "symbol": "SP8",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S426",
+            "lab_id": "17-00262",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0919540229885057,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000115464",
+            "symbol": "USP34",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S426",
+            "karyotype": "46,xx[20]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

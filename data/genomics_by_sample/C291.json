@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C291",
+            "karyotype": "t(9;11)(p22;q23)",
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "KMT2A_re"
+        }
+    ]
+}

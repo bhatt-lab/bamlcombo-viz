@@ -1,0 +1,22 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S464",
+            "lab_id": "17-00678",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0862068965517241,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000141480",
+            "symbol": "ARRB2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S464",
+            "karyotype": "47,xx,del(11)(q23),+21[20]",
+            "otherCytogenetics": "MLL: \u00c2\u00a097/100 cells (97%) had a 0 red/ 1 green/ 1 yellow signal pattern,  partially deleting the MLL region of 11q23 and consistent with the deleted 11q in the metaphase karyotype. | RUNX1T1/RUNX1: \u00c2\u00a095/100 cells (95%) had a 2 red/ 3 green signal pattern, consistent with the trisomy 21 in the metaphase karyotype. There was no evidence for RUNX1T1/RUNX1fusion.",
+            "consensusAMLfusion": "KMT2A_re, Other_abn2"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S524",
+            "lab_id": "18-00135",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.36551724137931,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000171456",
+            "symbol": "ASXL1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S524",
+            "lab_id": "18-00135",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.440613026819923,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S524",
+            "lab_id": "18-00135",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.44015444015444,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S524",
+            "lab_id": "18-00135",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.504615384615385,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S524",
+            "lab_id": "18-00135",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.5,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S524",
+            "karyotype": "47,xy,+6[4]/49,sl,+6,+22[2]/49,sl,+4,+8,i(8)(q10)x2[5]/47,xy,+r[2]/46,xy[7]",
+            "otherCytogenetics": "Gain of 8q22, 8 centromere and 16q22 sequences",
+            "consensusAMLfusion": "Other_abn, Other_abn2"
+        }
+    ]
+}

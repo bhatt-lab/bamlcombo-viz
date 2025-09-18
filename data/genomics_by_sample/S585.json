@@ -1,0 +1,72 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S585",
+            "lab_id": "15-00043",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.390243902439024,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S585",
+            "lab_id": "15-00043",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.227272727272727,
+            "variant_classification": "splice_donor_variant",
+            "gene": "ENSG00000184937",
+            "symbol": "WT1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S585",
+            "lab_id": "15-00043",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.247524752475248,
+            "variant_classification": "splice_donor_variant",
+            "gene": "ENSG00000184937",
+            "symbol": "WT1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S585",
+            "lab_id": "15-00043",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.46,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000115524",
+            "symbol": "SF3B1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S585",
+            "lab_id": "15-00043",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.494736842105263,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000115524",
+            "symbol": "SF3B1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S585",
+            "lab_id": "15-00043",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.189473684210526,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000169184",
+            "symbol": "MN1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S585",
+            "karyotype": "46,xx,add(3)(q21)[12]/52,sl,+6,+8,+10,+13,+20,+21[8]",
+            "otherCytogenetics": "Positive for an EVI1 rearrangement (Percent:      42.5 Total Cells:  200 Cutoffs:       <  0.9%) | ABNORMAL - Low level gain of chromosome 8 and 20q12 sequences, trisomy (2.5 Total Cells:  200 Cutoffs:       <  0.3%)",
+            "consensusAMLfusion": "Other_abn, Other_abn2"
+        }
+    ]
+}

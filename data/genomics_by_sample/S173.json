@@ -1,0 +1,92 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S173",
+            "lab_id": "15-00874",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.2,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000020577",
+            "symbol": "SAMD4A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S173",
+            "lab_id": "15-00874",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.148514851485149,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000006788",
+            "symbol": "MYH13",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S173",
+            "lab_id": "15-00874",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.154639175257732,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000006788",
+            "symbol": "MYH13",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S173",
+            "lab_id": "15-00874",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.0843373493975904,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000205246",
+            "symbol": "RPSAP58",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S173",
+            "lab_id": "15-00874",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.142857142857143,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000163820",
+            "symbol": "FYCO1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S173",
+            "lab_id": "15-00874",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.118279569892473,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000111961",
+            "symbol": "SASH1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S173",
+            "lab_id": "15-00874",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.0961538461538462,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000196367",
+            "symbol": "TRRAP",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S173",
+            "lab_id": "15-00874",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.0961538461538462,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000196367",
+            "symbol": "TRRAP",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S173",
+            "karyotype": "47,xy,+4[2]/46,xy[18]",
+            "otherCytogenetics": "Two of twenty metaphase cells examined were abnormal, with trisomy 4, as seen previously.",
+            "consensusAMLfusion": "Other_abn, Other_abn2"
+        }
+    ]
+}

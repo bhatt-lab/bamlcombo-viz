@@ -1,0 +1,32 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S155",
+            "lab_id": "14-00739",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.294117647058824,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000171914",
+            "symbol": "TLN2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S155",
+            "lab_id": "14-00739",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.272727272727273,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119041",
+            "symbol": "GTF3C3",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S155",
+            "karyotype": "46,xy,t(6;11)(q27;q23)[20]",
+            "otherCytogenetics": "MLL: 80% of cells had a split signal pattern consistent with the disruption of MLL due to the t(6;11).",
+            "consensusAMLfusion": "KMT2A_re"
+        }
+    ]
+}

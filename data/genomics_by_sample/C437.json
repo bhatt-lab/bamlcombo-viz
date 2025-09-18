@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C437",
+            "karyotype": null,
+            "otherCytogenetics": "CBFB/MYH11: 93/100 cells (93%) had the abnormal 1 red/ 1 green/ 2 yellow signal pattern, reflecting CBFB/MYH11 fusion. ",
+            "consensusAMLfusion": "CBFB-MYH11"
+        }
+    ]
+}

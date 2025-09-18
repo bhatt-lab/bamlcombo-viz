@@ -1,0 +1,82 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S135",
+            "lab_id": "14-00477",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.166666666666667,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000133226",
+            "symbol": "SRRM1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S135",
+            "lab_id": "14-00477",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.376923076923077,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000184937",
+            "symbol": "WT1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S135",
+            "lab_id": "14-00477",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.505102040816326,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000061987",
+            "symbol": "MON2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S135",
+            "lab_id": "14-00477",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.50253807106599,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000061987",
+            "symbol": "MON2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S135",
+            "lab_id": "14-00477",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.636363636363636,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000118898",
+            "symbol": "PPL",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S135",
+            "lab_id": "14-00477",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.1875,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000178928",
+            "symbol": "TPRX1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S135",
+            "lab_id": "14-00477",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.2,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000138080",
+            "symbol": "EMILIN1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S135",
+            "karyotype": "46,xy,t(11;19)(q23;p13.1)[20]",
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "KMT2A_re"
+        }
+    ]
+}

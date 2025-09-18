@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C425",
+            "karyotype": "46,xx,t(1;1)(p22;q21),del(7)(q22),del(16)(q22)[20]",
+            "otherCytogenetics": "D7S486 (7q31):  97% of cells were missing a signal, consistent with 7q deletion | CBFB (16q22):  92.5% of cells were missing a signal, consistent with 16q deletion",
+            "consensusAMLfusion": "Other_re, Other_abn, Other_abn2"
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S430",
+            "lab_id": "17-00287",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.95,
+            "variant_classification": "splice_acceptor_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S430",
+            "lab_id": "17-00287",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.487179487179487,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000214814",
+            "symbol": "FER1L6",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S430",
+            "lab_id": "17-00287",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.487179487179487,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000214814",
+            "symbol": "FER1L6",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S430",
+            "lab_id": "17-00287",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.472081218274112,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182054",
+            "symbol": "IDH2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S430",
+            "lab_id": "17-00287",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.469387755102041,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182054",
+            "symbol": "IDH2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S430",
+            "lab_id": "17-00287",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.117647058823529,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000165966",
+            "symbol": "PDZRN4",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S430",
+            "lab_id": "17-00287",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.452631578947368,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000155846",
+            "symbol": "PPARGC1B",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S430",
+            "karyotype": "46,xx[20]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

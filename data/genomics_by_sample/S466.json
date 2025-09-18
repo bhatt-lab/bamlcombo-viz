@@ -1,0 +1,82 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S466",
+            "lab_id": "17-00685",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.321100917431193,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000157764",
+            "symbol": "BRAF",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S466",
+            "lab_id": "17-00685",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.314814814814815,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000157764",
+            "symbol": "BRAF",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S466",
+            "lab_id": "17-00685",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.488888888888889,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000144191",
+            "symbol": "CNGA3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S466",
+            "lab_id": "17-00685",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.492307692307692,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000144191",
+            "symbol": "CNGA3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S466",
+            "lab_id": "17-00685",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.263157894736842,
+            "variant_classification": "splice_donor_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S466",
+            "lab_id": "17-00685",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.258620689655172,
+            "variant_classification": "splice_donor_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S466",
+            "lab_id": "17-00685",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.238095238095238,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000061938",
+            "symbol": "TNK2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S466",
+            "karyotype": "46,xx,t(9;11)(p22;q23)[15]/47,idem,+8[2]/46,xx[3]",
+            "otherCytogenetics": "MLL: \u00c2\u00a057/100 cells (57%) had the abnormal 1 red/ 1 green/1 yellow signal  pattern, reflecting MLL (11q23) rearrangement, consistent with the 9;11  translocation observed in the metaphase karyotype. | RUNX1T1/RUNX1: \u00c2\u00a06/200 cells (3%) had a 3 red/ 2 green signal pattern,  reflecting an extra RUNX1T1 (8q21.3) signal, consistent with the trisomy 8  clone observed in the metaphase karyotype. | CEP 8: \u00c2\u00a05/200 cells (2.5%) had three signals, reflecting an extra  chromosome 8 centromere signal, consistent with the trisomy 8 clone observed in the metaphase karyotype.",
+            "consensusAMLfusion": "KMT2A_re, Other_abn, Other_abn2"
+        }
+    ]
+}

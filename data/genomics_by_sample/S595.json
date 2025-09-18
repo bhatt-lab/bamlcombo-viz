@@ -1,0 +1,32 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S595",
+            "lab_id": "16-00702",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.448979591836735,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000124575",
+            "symbol": "HIST1H1D",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S595",
+            "lab_id": "16-00702",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.458333333333333,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000124575",
+            "symbol": "HIST1H1D",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S595",
+            "karyotype": null,
+            "otherCytogenetics": "Translocation between the long arm of chromosome 3 and short arm of chromosome 12.",
+            "consensusAMLfusion": "MECOM_re"
+        }
+    ]
+}

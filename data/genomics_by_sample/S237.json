@@ -1,0 +1,132 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S237",
+            "lab_id": "15-00734",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.507692307692308,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000162620",
+            "symbol": "LRRIQ3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S237",
+            "lab_id": "15-00734",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.515625,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000162620",
+            "symbol": "LRRIQ3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S237",
+            "lab_id": "15-00734",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.15,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000166682",
+            "symbol": "TMPRSS5",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S237",
+            "lab_id": "15-00734",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.538461538461538,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000122025",
+            "symbol": "FLT3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S237",
+            "lab_id": "15-00734",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.285714285714286,
+            "variant_classification": "splice_acceptor_variant",
+            "gene": "ENSG00000125247",
+            "symbol": "TMTC4",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S237",
+            "lab_id": "15-00734",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.5,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000123636",
+            "symbol": "BAZ2B",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S237",
+            "lab_id": "15-00734",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.5,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000123636",
+            "symbol": "BAZ2B",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S237",
+            "lab_id": "15-00734",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.166666666666667,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000101407",
+            "symbol": "TTI1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S237",
+            "lab_id": "15-00734",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.102857142857143,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000160746",
+            "symbol": "ANO10",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S237",
+            "lab_id": "15-00734",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.214285714285714,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000174564",
+            "symbol": "IL20RB",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S237",
+            "lab_id": "15-00734",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.357142857142857,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000181163",
+            "symbol": "NPM1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S237",
+            "lab_id": "15-00734",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.43579766536965,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000072501",
+            "symbol": "SMC1A",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S237",
+            "karyotype": "46,xx[20]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

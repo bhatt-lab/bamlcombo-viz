@@ -1,0 +1,72 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S547",
+            "lab_id": "18-00320",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.515151515151515,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000245848",
+            "symbol": "CEBPA",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S547",
+            "lab_id": "18-00320",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.449612403100775,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000179348",
+            "symbol": "GATA2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S547",
+            "lab_id": "18-00320",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.448818897637795,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000179348",
+            "symbol": "GATA2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S547",
+            "lab_id": "18-00320",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0849673202614379,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000123405",
+            "symbol": "NFE2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S547",
+            "lab_id": "18-00320",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.334883720930233,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000137275",
+            "symbol": "RIPK1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S547",
+            "lab_id": "18-00320",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.338028169014085,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000137275",
+            "symbol": "RIPK1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S547",
+            "karyotype": "47,xy,del(9)(q13q22),+10[3]/46,xy[17]",
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "Other_abn2"
+        }
+    ]
+}

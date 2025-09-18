@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C512",
+            "karyotype": "46,xx,inv(3)(q21q26)[5]",
+            "otherCytogenetics": "FISH) was performed with a MECOM/RPN1 probe set. 125/200 (62.5%) interphase cells scored had a 1 red/ 1 green/ 2 yellow double fusion signal pattern reflecting MECOM/RPN1 fusion and the paracentric inversion of the long arm of a chromosome 3 observed in the metaphase karyotype.  FISH was also perfor",
+            "consensusAMLfusion": "MECOM_re"
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S360",
+            "lab_id": "16-00818",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.174603174603175,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000130758",
+            "symbol": "MAP3K10",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S360",
+            "lab_id": "16-00818",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.66497461928934,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000159216",
+            "symbol": "RUNX1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S360",
+            "lab_id": "16-00818",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.666666666666667,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000159216",
+            "symbol": "RUNX1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S360",
+            "karyotype": "47,xx,+x,inv(3)(q21q26.2),-7,+22[2]/48,sl,+21[18]",
+            "otherCytogenetics": "evidence of monosomy 7 in 191/200 (95.5 percent) cells scored",
+            "consensusAMLfusion": "MECOM_re, Other_abn, Other_abn2"
+        }
+    ]
+}

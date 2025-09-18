@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C61",
+            "karyotype": "50,xx,+8,+10,+12,+21[20]",
+            "otherCytogenetics": "- Gain of chromosome 8 in 55% of cells - Gain of 8q22 (ETO) sequence in 77.8% of cells; 21q22 (AML1) gain in 12% and loss in 77.8% cells",
+            "consensusAMLfusion": "Other_abn, Other_abn2"
+        }
+    ]
+}

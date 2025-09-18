@@ -1,0 +1,72 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S571",
+            "lab_id": "19-00313",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.222222222222222,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000183087",
+            "symbol": "GAS6",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S571",
+            "lab_id": "19-00313",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.450413223140496,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000138413",
+            "symbol": "IDH1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S571",
+            "lab_id": "19-00313",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.451882845188285,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000138413",
+            "symbol": "IDH1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S571",
+            "lab_id": "19-00313",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.302325581395349,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000181163",
+            "symbol": "NPM1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S571",
+            "lab_id": "19-00313",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.422018348623853,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000183873",
+            "symbol": "SCN5A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S571",
+            "lab_id": "19-00313",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.429906542056075,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000183873",
+            "symbol": "SCN5A",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S571",
+            "karyotype": null,
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

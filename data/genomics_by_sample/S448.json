@@ -1,0 +1,132 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S448",
+            "lab_id": "17-00467",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.373711340206186,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000187908",
+            "symbol": "DMBT1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S448",
+            "lab_id": "17-00467",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.333333333333333,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000124493",
+            "symbol": "GRM4",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S448",
+            "lab_id": "17-00467",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.333333333333333,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000124493",
+            "symbol": "GRM4",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S448",
+            "lab_id": "17-00467",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.333333333333333,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000133703",
+            "symbol": "KRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S448",
+            "lab_id": "17-00467",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.33695652173913,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000133703",
+            "symbol": "KRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S448",
+            "lab_id": "17-00467",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.327868852459016,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000176771",
+            "symbol": "NCKAP5",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S448",
+            "lab_id": "17-00467",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.331521739130435,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000176771",
+            "symbol": "NCKAP5",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S448",
+            "lab_id": "17-00467",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.382978723404255,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000118898",
+            "symbol": "PPL",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S448",
+            "lab_id": "17-00467",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.382978723404255,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000118898",
+            "symbol": "PPL",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S448",
+            "lab_id": "17-00467",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0824742268041237,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000025796",
+            "symbol": "SEC63",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S448",
+            "lab_id": "17-00467",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.75,
+            "variant_classification": "splice_donor_variant",
+            "gene": "ENSG00000141510",
+            "symbol": "TP53",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S448",
+            "lab_id": "17-00467",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.75,
+            "variant_classification": "splice_donor_variant",
+            "gene": "ENSG00000141510",
+            "symbol": "TP53",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S448",
+            "karyotype": "43,xy,dic(5;12)(q11.2;p13),der(7)t(7;13)(q11.2;q12),i(8)(q10),+9,dup(11)(q23q23),-13,-15,-16,der(17)t(15;17)(q22;q23),-21,+mar[20]/46,xy[5]",
+            "otherCytogenetics": "RUNX1T1/RUNX1: \u00c2\u00a086/100 cells (86%) reflecting the isochromosome 8q and the monosomy 21. \u00c2\u00a0No evidence for RUNX1T1/RUNX1fusion | EGR-1/ D5S23, D5S721: \u00c2\u00a089/100 cells (89%) consistent with missing 5q in the dicentric 5;12 | PML/RARA: \u00c2\u00a0Signal patterns were within normal limits with no evidence for  PML/RARA fusion. \u00c2\u00a0One metaphase cell shows the PML (15q22) signal on the derivative 17, consistent with the metaphase karyotype | BCR/ABL/ASS: \u00c2\u00a072/100 cells (72%) consistent the trisomy 9 in the metaphase karyotype. \u00c2\u00a0No evidence  for BCR/ABL fusion.  | D7S486/ CEP 7: \u00c2\u00a079/100 cells (79%) consistent with missing 7q in the derivative 7 | DEK/NUP: \u00c2\u00a079/100 cells (79%) reflecting the trisomy 9 in the metaphase karyotype. \u00c2\u00a0No evidence for  DEK/NUP fusion. | MLL: \u00c2\u00a061/100 cells (61%) had three intact MLL signals. One metaphase cell  shows two signals on the duplicated 11q. \u00c2\u00a0There was no evidence for MLL rearrangement.",
+            "consensusAMLfusion": "Other_re, Other_abn, Other_abn2"
+        }
+    ]
+}

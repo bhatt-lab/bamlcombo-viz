@@ -1,0 +1,112 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S422",
+            "lab_id": "17-00210",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.719242902208202,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000179218",
+            "symbol": "CALR",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S422",
+            "lab_id": "17-00210",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.167597765363128,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000196712",
+            "symbol": "NF1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S422",
+            "lab_id": "17-00210",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.163841807909605,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000196712",
+            "symbol": "NF1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S422",
+            "lab_id": "17-00210",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.258426966292135,
+            "variant_classification": "splice_donor_variant",
+            "gene": "ENSG00000159216",
+            "symbol": "RUNX1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S422",
+            "lab_id": "17-00210",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.261363636363636,
+            "variant_classification": "splice_donor_variant",
+            "gene": "ENSG00000159216",
+            "symbol": "RUNX1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S422",
+            "lab_id": "17-00210",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.438709677419355,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000115524",
+            "symbol": "SF3B1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S422",
+            "lab_id": "17-00210",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.437908496732026,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000115524",
+            "symbol": "SF3B1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S422",
+            "lab_id": "17-00210",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.134831460674157,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000094975",
+            "symbol": "SUCO",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S422",
+            "lab_id": "17-00210",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.893617021276596,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000141510",
+            "symbol": "TP53",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S422",
+            "lab_id": "17-00210",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.91304347826087,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000141510",
+            "symbol": "TP53",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S422",
+            "karyotype": "45,xy,del(5)(q13q33),-7,add(8)(q24.3),add(9)(q34),add(10)(q23),del(17)(p13),add(18)(q23)[3]/47-49,sl,+2-4mar[cp12]/44,sl,-2,add(3)(p21),t(6;11)(p22;q14),-add(8)(q24.3),add(8)(p22),-9,add(9)(q33),-10,-13,add(21)(q21),+2mar[8]",
+            "otherCytogenetics": "TP53 (17p13.1):  83% of cells were missing a signal for TP53, consistent with the 17p deletion seen on metaphase analysis.  | RUNX1 (21q22):  15.5% of cells were missing a signal for RUNX1. \u00c2\u00a0No  evidence for RUNX1/RUNX1T1 fusion.  | MECOM (3q26.2): \u00c2\u00a033% of cells had six (6) signals for MECOM. On available  metaphases, the extra MECOM signals hybridized to the small marker  chromosomes. \u00c2\u00a0No evidence for MECOM/RPN1 fusion. ",
+            "consensusAMLfusion": "Other_re, Other_abn, Other_abn2"
+        }
+    ]
+}

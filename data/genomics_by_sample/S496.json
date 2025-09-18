@@ -1,0 +1,72 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S496",
+            "lab_id": "17-01023",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.45067264573991,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000171316",
+            "symbol": "CHD7",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S496",
+            "lab_id": "17-01023",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.452914798206278,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000171316",
+            "symbol": "CHD7",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S496",
+            "lab_id": "17-01023",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.333333333333333,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S496",
+            "lab_id": "17-01023",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.328813559322034,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S496",
+            "lab_id": "17-01023",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.387755102040816,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000168778",
+            "symbol": "TCTN2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S496",
+            "lab_id": "17-01023",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.397959183673469,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000168778",
+            "symbol": "TCTN2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S496",
+            "karyotype": "46,xy,inv(16)(p13;q22)[20]",
+            "otherCytogenetics": "CBFB: \u00c2\u00a0 39% of cells had a 1r/1g/1f split signal pattern consistent with CBFB disruption and inv916), as seen on metaphase analysis. ",
+            "consensusAMLfusion": "CBFB-MYH11"
+        }
+    ]
+}

@@ -1,0 +1,102 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S475",
+            "lab_id": "17-00770",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.585365853658537,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000110395",
+            "symbol": "CBL",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S475",
+            "lab_id": "17-00770",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.585365853658537,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000110395",
+            "symbol": "CBL",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S475",
+            "lab_id": "17-00770",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.171717171717172,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000122025",
+            "symbol": "FLT3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S475",
+            "lab_id": "17-00770",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.171717171717172,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000122025",
+            "symbol": "FLT3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S475",
+            "lab_id": "17-00770",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.432098765432099,
+            "variant_classification": "splice_acceptor_variant",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S475",
+            "lab_id": "17-00770",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.424242424242424,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000187045",
+            "symbol": "TMPRSS6",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S475",
+            "lab_id": "17-00770",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.4375,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000187045",
+            "symbol": "TMPRSS6",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S475",
+            "lab_id": "17-00770",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.466666666666667,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000160201",
+            "symbol": "U2AF1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S475",
+            "lab_id": "17-00770",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.466666666666667,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000160201",
+            "symbol": "U2AF1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S475",
+            "karyotype": "47,xx,+8[4]/47,sl,add(10)(q22)[10]/89~94,sdlx2[cp3]/55,sl,+x,+6,+8,+8,+9,+13,+21,+22[2]/46,xx[1]",
+            "otherCytogenetics": "MLL (KMT2A) rearrangement in 94% of 200 cells | gain of 8q22 sequence in 94% of 200 cells",
+            "consensusAMLfusion": "KMT2A_re, Other_abn, Other_abn2"
+        }
+    ]
+}

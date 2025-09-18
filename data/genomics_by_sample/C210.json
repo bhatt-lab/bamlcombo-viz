@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C210",
+            "karyotype": "46,xx,del(1)(p22),der(15)t(15;?)(q15;?),-17,+mar[19]/46,xx[1]",
+            "otherCytogenetics": "Loss of RARA gene at 17q21 is detected in 69% of cells Gain of MLL gene at 11q23 is detected in 8% of cells.",
+            "consensusAMLfusion": "Other_re, Other_abn, Other_abn2"
+        }
+    ]
+}

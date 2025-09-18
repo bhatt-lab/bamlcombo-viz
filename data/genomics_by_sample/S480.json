@@ -1,0 +1,122 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S480",
+            "lab_id": "17-00838",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.385714285714286,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000171456",
+            "symbol": "ASXL1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S480",
+            "lab_id": "17-00838",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.510460251046025,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000119535",
+            "symbol": "CSF3R",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S480",
+            "lab_id": "17-00838",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.51271186440678,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000119535",
+            "symbol": "CSF3R",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S480",
+            "lab_id": "17-00838",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0864197530864197,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000133703",
+            "symbol": "KRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S480",
+            "lab_id": "17-00838",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0867768595041322,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000133703",
+            "symbol": "KRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S480",
+            "lab_id": "17-00838",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0859375,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S480",
+            "lab_id": "17-00838",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0852713178294574,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S480",
+            "lab_id": "17-00838",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.358695652173913,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000161547",
+            "symbol": "SRSF2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S480",
+            "lab_id": "17-00838",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.352272727272727,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000161547",
+            "symbol": "SRSF2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S480",
+            "lab_id": "17-00838",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.386138613861386,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000101972",
+            "symbol": "STAG2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S480",
+            "lab_id": "17-00838",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.38423645320197,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000101972",
+            "symbol": "STAG2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S480",
+            "karyotype": "46,xx[20]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

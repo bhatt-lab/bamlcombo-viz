@@ -1,0 +1,32 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S467",
+            "lab_id": "17-00687",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.456692913385827,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S467",
+            "lab_id": "17-00687",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.456692913385827,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S467",
+            "karyotype": "46,xy,t(8;21)(q22;q22)[8]46,sl,del(9)(q13q22)[4]/47,sdl,+21[2]/47,sl,+21[4]/46,xy[2]",
+            "otherCytogenetics": "This analysis showed evidence of t(8;21)(q22;q22) (RUNX1T1-RUNX1 translocation) in 196/200 (98.0 percent) cells scored. Of these cells, 20/200 (10.0 percent) showed the translocation accompanied by an additional copy of the RUNX1 locus. ",
+            "consensusAMLfusion": "RUNX1-RUNX1T1, Other_abn2"
+        }
+    ]
+}

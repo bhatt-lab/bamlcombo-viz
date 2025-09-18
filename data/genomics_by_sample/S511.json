@@ -1,0 +1,62 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S511",
+            "lab_id": "18-00053",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0888888888888889,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000185950",
+            "symbol": "IRS2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S511",
+            "lab_id": "18-00053",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.460526315789474,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000132382",
+            "symbol": "MYBBP1A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S511",
+            "lab_id": "18-00053",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.614525139664804,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000196712",
+            "symbol": "NF1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S511",
+            "lab_id": "18-00053",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.866197183098592,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000141510",
+            "symbol": "TP53",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S511",
+            "lab_id": "18-00053",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.865248226950355,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000141510",
+            "symbol": "TP53",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S511",
+            "karyotype": "44,xy,-3,-5,dic(10;12)(q26;p13),add(11)(p15),-17,+mar[20]",
+            "otherCytogenetics": "ETV6 (12p13): 93.5% of cells were missing a signal for ETV6, consistent with 12p deletion resulting from dic(10;12).  | CEP17: 98.5% of cells were missing a signal for CEP17, consistent with monosomy 17.  | PML/RARA: 189/200 cells (94.5%) were missing a signal for RARA (17q21.2).",
+            "consensusAMLfusion": "Other_re, Other_abn, Other_abn2"
+        }
+    ]
+}

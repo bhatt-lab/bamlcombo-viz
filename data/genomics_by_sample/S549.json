@@ -1,0 +1,72 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S549",
+            "lab_id": "18-00390",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.164383561643836,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000170632",
+            "symbol": "ARMC10",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S549",
+            "lab_id": "18-00390",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.474820143884892,
+            "variant_classification": "splice_donor_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S549",
+            "lab_id": "18-00390",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.496551724137931,
+            "variant_classification": "splice_donor_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S549",
+            "lab_id": "18-00390",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.361386138613861,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000138413",
+            "symbol": "IDH1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S549",
+            "lab_id": "18-00390",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.351758793969849,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000138413",
+            "symbol": "IDH1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S549",
+            "lab_id": "18-00390",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.475555555555556,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000101972",
+            "symbol": "STAG2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S549",
+            "karyotype": "46,x,-x,add(5)(q23),del(7)(q22),add(11)(p13),add(21)(q22),+mar1[9]/47,sl,add(3)(q28),+5,-add(5)(q23),+mar2[3]/46,xx[1]",
+            "otherCytogenetics": "D7S486/ CEP 7:  93/100 cells (90%) had a 1 red/ 2 green signal pattern, consistent with the deleted 7q observed in the metaphase karyotype.  | RUNX1T1/RUNX1:  10/200 cells (5%) had a 2 red/ 3 green signal pattern, suggesting low level presence of an extra copy of RUNX1 (21q22).  There was no evidence for RUNX1T1/RUNX1 fusion.  | EGR-1/ D5S23, D5S721: While this probe set showed a normal numeric signal pattern in interphase cells, metaphase FISH showed an EGR-1 (5q) signal on the add(11p) and a 5q33 signal on the add(21q).  (The G-banded chromosomes were not of adequate band length/morphology to establish specific breakpoints.  Therefore, it is possible that some or all of the apparently missing 5q material is actually accounted for on other chromosomes.  This probe set will not be useful for monitoring the abnormal 5q.)",
+            "consensusAMLfusion": "Other_abn, Other_abn2"
+        }
+    ]
+}

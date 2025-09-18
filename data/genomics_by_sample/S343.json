@@ -1,0 +1,252 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S343",
+            "lab_id": "16-00525",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.243055555555556,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000185104",
+            "symbol": "FAF1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S343",
+            "lab_id": "16-00525",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.251798561151079,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000185104",
+            "symbol": "FAF1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S343",
+            "lab_id": "16-00525",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.857142857142857,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000163472",
+            "symbol": "TMEM79",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S343",
+            "lab_id": "16-00525",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.307692307692308,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000261594",
+            "symbol": "TPBGL",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S343",
+            "lab_id": "16-00525",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.315789473684211,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000261594",
+            "symbol": "TPBGL",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S343",
+            "lab_id": "16-00525",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.0816326530612245,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000139445",
+            "symbol": "FOXN4",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S343",
+            "lab_id": "16-00525",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.104347826086957,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000179295",
+            "symbol": "PTPN11",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S343",
+            "lab_id": "16-00525",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.0909090909090909,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000131951",
+            "symbol": "LRRC9",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S343",
+            "lab_id": "16-00525",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.0918367346938776,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000131951",
+            "symbol": "LRRC9",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S343",
+            "lab_id": "16-00525",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.424870466321244,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000101577",
+            "symbol": "LPIN2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S343",
+            "lab_id": "16-00525",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.433155080213904,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000101577",
+            "symbol": "LPIN2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S343",
+            "lab_id": "16-00525",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.394886363636364,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000101577",
+            "symbol": "LPIN2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S343",
+            "lab_id": "16-00525",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.397142857142857,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000101577",
+            "symbol": "LPIN2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S343",
+            "lab_id": "16-00525",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.56,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119041",
+            "symbol": "GTF3C3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S343",
+            "lab_id": "16-00525",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.5625,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119041",
+            "symbol": "GTF3C3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S343",
+            "lab_id": "16-00525",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.282608695652174,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000163681",
+            "symbol": "SLMAP",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S343",
+            "lab_id": "16-00525",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.284090909090909,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000163681",
+            "symbol": "SLMAP",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S343",
+            "lab_id": "16-00525",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.463414634146341,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000145309",
+            "symbol": "CABS1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S343",
+            "lab_id": "16-00525",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.464,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000145309",
+            "symbol": "CABS1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S343",
+            "lab_id": "16-00525",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.106666666666667,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000181381",
+            "symbol": "DDX60L",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S343",
+            "lab_id": "16-00525",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.0869565217391304,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000120738",
+            "symbol": "EGR1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S343",
+            "lab_id": "16-00525",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.307692307692308,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000077080",
+            "symbol": "ACTL6B",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S343",
+            "lab_id": "16-00525",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.32,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000077080",
+            "symbol": "ACTL6B",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S343",
+            "lab_id": "16-00525",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.142857142857143,
+            "variant_classification": "splice_acceptor_variant",
+            "gene": "ENSG00000101972",
+            "symbol": "STAG2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S343",
+            "karyotype": "46,xx,r(2)(p23q31),der(4)t(4;16)(q21;q12-13)del(16)(q22q22),der(16)t(4;16)(q21;q12-13),add(18)(p11.2),del(20)(q13.2)[16]/46,xx[4]",
+            "otherCytogenetics": "CBFB: 88% of cells were missing a signal for CBFB, consistent withdeletion associated with the unbalanced t(4;16) seen on chromosome analysis. No evidence for disruption. This probe will be useful in following this abnormal clone.",
+            "consensusAMLfusion": "Other_re, Other_abn, Other_abn2"
+        }
+    ]
+}

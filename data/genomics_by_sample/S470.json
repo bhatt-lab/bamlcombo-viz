@@ -1,0 +1,52 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S470",
+            "lab_id": "17-00741",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.354430379746835,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S470",
+            "lab_id": "17-00741",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.358974358974359,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S470",
+            "lab_id": "17-00741",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.163265306122449,
+            "variant_classification": "splice_acceptor_variant",
+            "gene": "ENSG00000083067",
+            "symbol": "TRPM3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S470",
+            "lab_id": "17-00741",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.2,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000156925",
+            "symbol": "ZIC3",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S470",
+            "karyotype": "46,xy,inv(16)(p13.1q22)[20]",
+            "otherCytogenetics": "Evidence of a CBFB [inv(16)] gene rearrangement in 98% of the cells.",
+            "consensusAMLfusion": "CBFB-MYH11"
+        }
+    ]
+}

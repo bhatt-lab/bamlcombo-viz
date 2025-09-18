@@ -1,0 +1,52 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S184",
+            "lab_id": "15-00829",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.45,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000141510",
+            "symbol": "TP53",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S184",
+            "lab_id": "15-00829",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.451219512195122,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000141510",
+            "symbol": "TP53",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S184",
+            "lab_id": "15-00829",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.423076923076923,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000138413",
+            "symbol": "IDH1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S184",
+            "lab_id": "15-00829",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.429906542056075,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000138413",
+            "symbol": "IDH1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S184",
+            "karyotype": "47,xx,+11[5]/48,idem,+19[15]",
+            "otherCytogenetics": "nuc ish(DXZ1x2)[181]//(DXZ1,DYZ3)x1[19] nuc ish(RUNX1T1,RUNX1)x2[199],(5'MLL,3'MLL)x3(5'MLL con 3'MLLx3)[176/200],(PML,RARA)x2[196], (5'CBFB,3'CBFB)x2(5'CBFB con 3'CBFBx2}[199]",
+            "consensusAMLfusion": "Other_abn, Other_abn2"
+        }
+    ]
+}

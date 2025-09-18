@@ -1,0 +1,62 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S397",
+            "lab_id": "16-01216",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.0806451612903226,
+            "variant_classification": "inframe_deletion",
+            "gene": "ENSG00000121297",
+            "symbol": "TSHZ3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S397",
+            "lab_id": "16-01216",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.431818181818182,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S397",
+            "lab_id": "16-01216",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.431818181818182,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S397",
+            "lab_id": "16-01216",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.642857142857143,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000183337",
+            "symbol": "BCOR",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S397",
+            "lab_id": "16-01216",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.646341463414634,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000183337",
+            "symbol": "BCOR",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S397",
+            "karyotype": "46,xy[11]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

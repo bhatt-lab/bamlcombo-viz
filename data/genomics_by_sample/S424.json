@@ -1,0 +1,42 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S424",
+            "lab_id": "17-00248",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.125,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000236446",
+            "symbol": "CT47B1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S424",
+            "lab_id": "17-00248",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0847457627118644,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000132680",
+            "symbol": "KIAA0907",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S424",
+            "lab_id": "17-00248",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.0851063829787234,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182670",
+            "symbol": "TTC3",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S424",
+            "karyotype": "46,xx[20]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

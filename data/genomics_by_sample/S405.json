@@ -1,0 +1,112 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S405",
+            "lab_id": "16-01267",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.342857142857143,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000184937",
+            "symbol": "WT1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S405",
+            "lab_id": "16-01267",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.344339622641509,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000184937",
+            "symbol": "WT1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S405",
+            "lab_id": "16-01267",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.177777777777778,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000111615",
+            "symbol": "KRR1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S405",
+            "lab_id": "16-01267",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.584745762711864,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000196712",
+            "symbol": "NF1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S405",
+            "lab_id": "16-01267",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.586206896551724,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000196712",
+            "symbol": "NF1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S405",
+            "lab_id": "16-01267",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.5,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S405",
+            "lab_id": "16-01267",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.5,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S405",
+            "lab_id": "16-01267",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.405940594059406,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000131044",
+            "symbol": "TTLL9",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S405",
+            "lab_id": "16-01267",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.341463414634146,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000181163",
+            "symbol": "NPM1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S405",
+            "lab_id": "16-01267",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.384615384615385,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000257923",
+            "symbol": "CUX1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S405",
+            "karyotype": "46,xx[20]",
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

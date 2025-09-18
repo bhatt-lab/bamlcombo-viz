@@ -1,0 +1,52 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S214",
+            "lab_id": "15-00563",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.101010101010101,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000122025",
+            "symbol": "FLT3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S214",
+            "lab_id": "15-00563",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.0952380952380952,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000122025",
+            "symbol": "FLT3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S214",
+            "lab_id": "15-00563",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.260869565217391,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000101972",
+            "symbol": "STAG2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S214",
+            "lab_id": "15-00563",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.263888888888889,
+            "variant_classification": "stop_gained",
+            "gene": "ENSG00000101972",
+            "symbol": "STAG2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S214",
+            "karyotype": "46,xx,t(6;11)(q27;q23)[19]/46,xx[1]",
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "KMT2A_re"
+        }
+    ]
+}

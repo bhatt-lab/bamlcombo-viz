@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C499",
+            "karyotype": "46,xx,inv(3)(q21q26)[7]/46,sl,t(3;15)(q27;q15)[2]/45,sdl1,dic(7;17)(q11.1;p13.1),del(16)(q22)[5]/46,sdl2,-dic(7;17),+2mar[7]/45,sl,add(x)(p22.1),-6,-7,+mar[2]/46,xx[2]",
+            "otherCytogenetics": "GATA2/MECOM:  67/100 cells (67%) had a 1 red/ 1 green/ 2 yellow signal pattern reflecting GATA2/MECOM fusion and consistent with the inverted 3q observed in the metaphase karyotype.  Metaphase FISH confirmed the inversion | CBFB:  82/200 cells (41%) had a single CBFB (16q22) signal, consistent with the deleted 16q in the metaphase karyotype. | D7S486/ CEP 7:  61/100 cells (61%) had a 1 red/ 2 green signal pattern, consistent with deleted 7q and the isodicentric 7;17 observed in the metaphase karyotype | A small proportion of cells had single signals for EGFR1/5q33 (9%) and MLL (11q23 - 12.5%), as well as three signals for RUNX1 (21q22 - 10.5%).  The chromosomal context of these signal patterns were not apparent in the metaphase karyotype.  There was no evidence for rearrangements.",
+            "consensusAMLfusion": "MECOM_re, Other_re, Other_abn, Other_abn2"
+        }
+    ]
+}

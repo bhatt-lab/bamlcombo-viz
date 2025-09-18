@@ -1,0 +1,32 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S335",
+            "lab_id": "16-00765",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.1625,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000179295",
+            "symbol": "PTPN11",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S335",
+            "lab_id": "16-00765",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.1625,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000179295",
+            "symbol": "PTPN11",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S335",
+            "karyotype": "47,xx,+8,i(8)(q10),del(9)(q21.2q22.3),der(10)t(1;10)(q11;q22)[cp12]/47,idem,add(17)(p13)[8]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Other_abn, Other_abn2"
+        }
+    ]
+}

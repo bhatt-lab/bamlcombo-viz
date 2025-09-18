@@ -1,0 +1,102 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S587",
+            "lab_id": "16-00358",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.465789473684211,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182054",
+            "symbol": "IDH2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S587",
+            "lab_id": "16-00358",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.470899470899471,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000182054",
+            "symbol": "IDH2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S587",
+            "lab_id": "16-00358",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.412935323383085,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000096968",
+            "symbol": "JAK2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S587",
+            "lab_id": "16-00358",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.41,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000096968",
+            "symbol": "JAK2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S587",
+            "lab_id": "16-00358",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.521739130434783,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000185640",
+            "symbol": "KRT79",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S587",
+            "lab_id": "16-00358",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.528301886792453,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000185640",
+            "symbol": "KRT79",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S587",
+            "lab_id": "16-00358",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.210526315789474,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000181163",
+            "symbol": "NPM1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S587",
+            "lab_id": "16-00358",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.278350515463918,
+            "variant_classification": "inframe_insertion",
+            "gene": "ENSG00000161547",
+            "symbol": "SRSF2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S587",
+            "lab_id": "16-00358",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.295275590551181,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000184937",
+            "symbol": "WT1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S587",
+            "karyotype": "46,xx[20]",
+            "otherCytogenetics": "This test has not detected clonal abnormalities in the cells analyzed. Subtle structural changes cannot be ruled out due to the limitations of resolution. Small percentage of tumor cells with chromosome abnormalities may not be detected due to the limited number of cells examined. (Cytogenetics)",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

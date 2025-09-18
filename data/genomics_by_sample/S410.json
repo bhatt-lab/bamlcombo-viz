@@ -1,0 +1,62 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S410",
+            "lab_id": "17-00025",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.405405405405405,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S410",
+            "lab_id": "17-00025",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.425,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000119772",
+            "symbol": "DNMT3A",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S410",
+            "lab_id": "17-00025",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.204545454545455,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000181163",
+            "symbol": "NPM1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S410",
+            "lab_id": "17-00025",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.580645161290323,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000136997",
+            "symbol": "MYC",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S410",
+            "lab_id": "17-00025",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.580645161290323,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000136997",
+            "symbol": "MYC",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S410",
+            "karyotype": "46,xx[20]",
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

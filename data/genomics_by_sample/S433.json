@@ -1,0 +1,32 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S433",
+            "lab_id": "17-00322",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.68,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000196712",
+            "symbol": "NF1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S433",
+            "lab_id": "17-00322",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.115384615384615,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000144285",
+            "symbol": "SCN1A",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S433",
+            "karyotype": "46,xy,inv(16)(p13.1q22.1)[16]/46,idem,del(7)(q32)[4]",
+            "otherCytogenetics": "POSITIVE for CBFB gene locus rearrangement (separated by chromosome 16 inversion)",
+            "consensusAMLfusion": "CBFB-MYH11, Other_abn"
+        }
+    ]
+}

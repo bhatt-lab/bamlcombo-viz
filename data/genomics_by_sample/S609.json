@@ -1,0 +1,42 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S609",
+            "lab_id": "18-00238",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.845238095238095,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S609",
+            "lab_id": "18-00238",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.431137724550898,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000160201",
+            "symbol": "U2AF1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S609",
+            "lab_id": "18-00238",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.425149700598802,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000160201",
+            "symbol": "U2AF1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S609",
+            "karyotype": null,
+            "otherCytogenetics": null,
+            "consensusAMLfusion": "Not available"
+        }
+    ]
+}

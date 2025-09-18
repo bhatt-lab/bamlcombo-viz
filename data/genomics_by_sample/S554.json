@@ -1,0 +1,72 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S554",
+            "lab_id": "19-00019",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.546712802768166,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000104728",
+            "symbol": "ARHGEF10",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S554",
+            "lab_id": "19-00019",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.562277580071174,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000104728",
+            "symbol": "ARHGEF10",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S554",
+            "lab_id": "19-00019",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.355555555555556,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000245848",
+            "symbol": "CEBPA",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S554",
+            "lab_id": "19-00019",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.225806451612903,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000106462",
+            "symbol": "EZH2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S554",
+            "lab_id": "19-00019",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.385416666666667,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S554",
+            "lab_id": "19-00019",
+            "capture_type": "Nimblegen Custom Capture",
+            "t_vaf": 0.383275261324042,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S554",
+            "karyotype": "46,xy,t(2;12)(p13;q13)[20]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Other_re, Other_abn"
+        }
+    ]
+}

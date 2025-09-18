@@ -1,0 +1,62 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S361",
+            "lab_id": "16-00815",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.463768115942029,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S361",
+            "lab_id": "16-00815",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.401869158878505,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000168280",
+            "symbol": "KIF5C",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S361",
+            "lab_id": "16-00815",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.415094339622642,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000168280",
+            "symbol": "KIF5C",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S361",
+            "lab_id": "16-00815",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.469230769230769,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000168769",
+            "symbol": "TET2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S361",
+            "lab_id": "16-00815",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.222222222222222,
+            "variant_classification": "splice_acceptor_variant",
+            "gene": "ENSG00000101972",
+            "symbol": "STAG2",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S361",
+            "karyotype": "46,xx[20]",
+            "otherCytogenetics": "Normal",
+            "consensusAMLfusion": "Not detected"
+        }
+    ]
+}

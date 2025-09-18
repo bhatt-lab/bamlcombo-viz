@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C522",
+            "karyotype": "46,xx,t(11;19)(q23;p13.1)[16]/46,sl,add(1)(p34)[2]/46,xx[2]",
+            "otherCytogenetics": "MLL Rearrangment",
+            "consensusAMLfusion": "KMT2A_re"
+        }
+    ]
+}

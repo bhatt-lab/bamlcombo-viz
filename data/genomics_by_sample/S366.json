@@ -1,0 +1,32 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S366",
+            "lab_id": "16-01017",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.548387096774194,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S366",
+            "lab_id": "16-01017",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.548387096774194,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000213281",
+            "symbol": "NRAS",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S366",
+            "karyotype": "46,xy,-3,del(5)(q31q35),der(7)t(7;?)(p11.2;?),+der(11)(q23),-12,+mar[20]",
+            "otherCytogenetics": "Not Available",
+            "consensusAMLfusion": "Other_abn, Other_abn2"
+        }
+    ]
+}

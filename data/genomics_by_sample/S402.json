@@ -1,0 +1,42 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S402",
+            "lab_id": "16-01237",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.804878048780488,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000186847",
+            "symbol": "KRT14",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S402",
+            "lab_id": "16-01237",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.804878048780488,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000186847",
+            "symbol": "KRT14",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S402",
+            "lab_id": "16-01237",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.325581395348837,
+            "variant_classification": "frameshift_variant",
+            "gene": "ENSG00000171456",
+            "symbol": "ASXL1",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S402",
+            "karyotype": "46,xx,del(1)(p22),der(15)t(15;?)(q15;?),-17,+mar[19]/46,xx[1]",
+            "otherCytogenetics": "Loss of RARA gene at 17q21 is detected in 69% of cells Gain of MLL gene at 11q23 is detected in 8% of cells.",
+            "consensusAMLfusion": "Other_re, Other_abn, Other_abn2"
+        }
+    ]
+}

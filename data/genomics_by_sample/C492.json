@@ -1,0 +1,11 @@
+{
+    "mutations": [],
+    "structural_variants": [
+        {
+            "Sample_ID": "C492",
+            "karyotype": "46,xx,inv(16)(p13q22)[16]/47,idem,+15[4]",
+            "otherCytogenetics": "CBFB/MYH11: 67% of cells had an atypical single fusion pattern, 1r1g1f, still consistent with inv(16) | PML (15q24): 13/200 cells (6.5%) had an extra signal, most likely reflecting the trisomy 15 seen on metaphase analysis",
+            "consensusAMLfusion": "CBFB-MYH11, Other_abn2"
+        }
+    ]
+}

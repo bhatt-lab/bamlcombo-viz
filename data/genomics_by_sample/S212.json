@@ -1,0 +1,102 @@
+{
+    "mutations": [
+        {
+            "Sample_ID": "S212",
+            "lab_id": "15-00539",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.333333333333333,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000117154",
+            "symbol": "IGSF21",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S212",
+            "lab_id": "15-00539",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.318181818181818,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000117411",
+            "symbol": "B4GALT2",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S212",
+            "lab_id": "15-00539",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.312925170068027,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000122025",
+            "symbol": "FLT3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S212",
+            "lab_id": "15-00539",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.549295774647887,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000115524",
+            "symbol": "SF3B1",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S212",
+            "lab_id": "15-00539",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.0819672131147541,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000105866",
+            "symbol": "SP4",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S212",
+            "lab_id": "15-00539",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.0806451612903226,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000189056",
+            "symbol": "RELN",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S212",
+            "lab_id": "15-00539",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.0903614457831325,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000189056",
+            "symbol": "RELN",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S212",
+            "lab_id": "15-00539",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.0810810810810811,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000011677",
+            "symbol": "GABRA3",
+            "biotype": "protein_coding"
+        },
+        {
+            "Sample_ID": "S212",
+            "lab_id": "15-00539",
+            "capture_type": "NexteraV1.2",
+            "t_vaf": 0.09375,
+            "variant_classification": "missense_variant",
+            "gene": "ENSG00000011677",
+            "symbol": "GABRA3",
+            "biotype": "protein_coding"
+        }
+    ],
+    "structural_variants": [
+        {
+            "Sample_ID": "S212",
+            "karyotype": "46,xx,+1,der(1;21)(q10;q10)[6]/46,xx[14]",
+            "otherCytogenetics": "nuc ish(5'MLL,3'MLL)x2(5'MLL con 3'MLLx2)[200]",
+            "consensusAMLfusion": "Other_re, Other_abn2"
+        }
+    ]
+}
