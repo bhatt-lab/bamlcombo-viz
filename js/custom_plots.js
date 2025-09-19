@@ -1,4 +1,4 @@
-// js/custom_plots.js - Refactored for Box Plots and Multi-Select Y-Axis
+// js/custom_plots.js - Refactored to remove individual points from Box Plots
 
 function initCustomPlots(appData) {
     const { clinical, mutation, dss, proteomics } = appData;
@@ -8,7 +8,9 @@ function initCustomPlots(appData) {
         return;
     }
 
-    const xSelect = d3.select("#x-axis-select");
+    // --- DOM Element Selections ---
+    const xFileSelect = d3.select("#x-axis-file-select");
+    const xColumnSelect = d3.select("#x-axis-column-select");
     const yFileSelect = d3.select("#y-axis-file-select");
     const yColumnContainer = d3.select("#y-axis-column-select-container");
 
@@ -31,16 +33,25 @@ function initCustomPlots(appData) {
         return { ...clinicalRow, ...mutationRow, ...dssRow, ...proteomicsRow };
     });
 
-    // --- Populate X-Axis Dropdown ---
-    const clinicalCols = clinical.columns.filter(col => isNaN(clinicalDataSubset[0][col]));
-    const mutationCols = mutation.columns.filter(col => col !== 'Sample_ID');
-    xSelect.selectAll("option")
-           .data(['', ...clinicalCols, ...mutationCols])
-           .enter()
-           .append("option")
-           .text(d => d);
-
-    // --- Handle Y-Axis File Selection ---
+    // --- Populate X-Axis ---
+    xFileSelect.on("change", function() {
+        const selectedFile = d3.select(this).property("value");
+        let columns = [];
+        if (selectedFile === 'clinical') {
+            columns = clinical.columns.filter(col => isNaN(clinicalDataSubset[0][col]));
+        } else if (selectedFile === 'mutation') {
+            columns = mutation.columns.filter(col => col !== 'Sample_ID');
+        }
+        xColumnSelect.selectAll("option").remove();
+        xColumnSelect.selectAll("option")
+            .data(['', ...columns])
+            .enter()
+            .append("option")
+            .text(d => d);
+        updatePlot();
+    });
+    
+    // --- Populate Y-Axis ---
     yFileSelect.on("change", function() {
         const selectedFile = d3.select(this).property("value");
         let columns = [];
@@ -50,19 +61,18 @@ function initCustomPlots(appData) {
             columns = proteomics.map(d => d.Gene);
         }
         populateYColumnSelector(columns);
+        updatePlot();
     });
     
-    // --- Create Custom Multi-Select Dropdown ---
     function populateYColumnSelector(columns) {
-        yColumnContainer.html(""); // Clear previous dropdown
-
+        yColumnContainer.html(""); 
         const dropdown = yColumnContainer.append("div").attr("class", "relative");
         const button = dropdown.append("button")
             .attr("class", "w-full bg-white border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm")
             .text("Select Columns...");
         
         const list = dropdown.append("div")
-            .attr("class", "absolute z-10 mt-1 w-full bg-white shadow-lg max-h-60 rounded-md py-1 text-base ring-1 ring-black ring-opacity-5 overflow-auto focus:outline-none sm:text-sm hidden")
+            .attr("class", "absolute z-10 mt-1 w-full bg-white shadow-lg max-h-60 rounded-md py-1 text-base ring-1 ring-black ring-opacity-5 overflow-auto focus:outline-none sm:text-sm")
             .style("display", "none");
 
         button.on("click", () => {
@@ -86,7 +96,7 @@ function initCustomPlots(appData) {
 
     // --- Main Update and Plotting Logic ---
     const updatePlot = () => {
-        const selectedX = xSelect.property("value");
+        const selectedX = xColumnSelect.property("value");
         const selectedY = [];
         yColumnContainer.selectAll("input[type=checkbox]:checked").each(function() {
             selectedY.push(d3.select(this).property("value"));
@@ -99,8 +109,8 @@ function initCustomPlots(appData) {
         createBoxPlot(mergedData, selectedX, selectedY);
     };
 
-    xSelect.on("change", updatePlot);
-    createBoxPlot([], null, []); // Initial empty plot
+    xColumnSelect.on("change", updatePlot);
+    createBoxPlot([], null, []);
 }
 
 function createBoxPlot(data, xVar, yVars) {
@@ -108,7 +118,7 @@ function createBoxPlot(data, xVar, yVars) {
     plotDiv.innerHTML = '';
 
     if (!xVar || yVars.length === 0) {
-        plotDiv.innerHTML = `<p class="text-gray-500 text-center p-4">Please select variables for both X and Y axes.</p>`;
+        plotDiv.innerHTML = `<p class="text-gray-500 text-center p-4">Please select a column for both X and Y axes.</p>`;
         return;
     }
 
@@ -118,17 +128,17 @@ function createBoxPlot(data, xVar, yVars) {
             y: data.map(d => d[yVar]),
             name: yVar,
             type: 'box',
-            boxpoints: 'all', // Show individual data points
-            jitter: 0.3,
-            pointpos: -1.8
+            // FIX: Set boxpoints to false to hide the individual data points.
+            boxpoints: false 
         };
     });
 
     const layout = {
         title: `Distribution of ${yVars.join(', ')} by ${xVar}`,
-        xaxis: { title: xVar },
+        xaxis: { title: xVar, automargin: true },
         yaxis: { title: 'Value', zeroline: false },
-        boxmode: 'group' // Group boxes for different y-vars side-by-side
+        boxmode: 'group',
+        showlegend: yVars.length > 1
     };
 
     Plotly.newPlot('custom-plot', plotTraces, layout, { responsive: true });
