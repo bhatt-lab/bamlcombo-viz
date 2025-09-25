@@ -1,29 +1,36 @@
-// js/main.js - Corrected to load JSON files for the Drug Response tab
+// js/main.js - Updated to load all new data files for custom plotting
 
 document.addEventListener('DOMContentLoaded', function() {
     // --- Central Data Loading ---
     const summaryContainer = document.getElementById('content-summary');
     summaryContainer.innerHTML = `<p class="text-center text-gray-500 p-8">Loading all datasets, please wait...</p>`;
 
-    // Define all data file paths, now using .json for the drug data
-    const dataPaths = [
-        d3.csv("data/S2.Clinical summary.csv"),
-        d3.csv("data/S3.Mutation.csv"),
-        d3.csv("data/S10&11.DSS.csv"),
-        d3.csv("data/S12.GlobalProteomics.csv"),
-        d3.json("data/summary/baml_ida_predictions.json"), // CORRECTED PATH AND METHOD
-        d3.json("data/summary/HSA_summary.json")           // CORRECTED PATH AND METHOD
-    ];
+    // --- UPDATED: Load all new data files ---
+    const dataPaths = {
+        clinical: d3.csv("data/S2_Clinical summary.csv"),
+        mutation: d3.csv("data/S3_Mutation.csv"),
+        surfaceAntigen: d3.csv("data/S4_Surface antigen.csv"),
+        amlFusion: d3.csv("data/S5_Consensus AML fusion.csv"),
+        rnaSeq: d3.csv("data/S6_RNA sequencing _VST_.csv"),
+        dssMono: d3.csv("data/S10_DSS-Monotherapy.csv"),
+        dssCombo: d3.csv("data/S11_DSS-Combination.csv"),
+        proteomics: d3.csv("data/S12_GlobalProteomics.csv"),
+        comboDss: d3.json("data/summary/baml_ida_predictions.json"),
+        hsaSynergy: d3.json("data/summary/HSA_summary.json")
+    };
 
-    Promise.all(dataPaths).then(function(data) {
-        // Assign all loaded data to a structured object
+    Promise.all(Object.values(dataPaths)).then(function(results) {
         const appData = {
-            clinical: data[0],
-            mutation: data[1],
-            dss: data[2],
-            proteomics: data[3],
-            comboDss: data[4],   // This is now from baml_ida_predictions.json
-            hsaSynergy: data[5]  // This is now from HSA_summary.json
+            clinical: results[0],
+            mutation: results[1],
+            surfaceAntigen: results[2],
+            amlFusion: results[3],
+            rnaSeq: results[4],
+            dssMono: results[5],
+            dssCombo: results[6],
+            proteomics: results[7],
+            comboDss: results[8],
+            hsaSynergy: results[9]
         };
 
         // --- Initialize Dashboard Components ---
@@ -40,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         createSummaryPlots(appData.clinical);
         initializeClinicalTab(appData.clinical);
-        initCustomPlots(appData); 
+        initCustomPlots(appData);
         initializeTabs(appData);
 
     }).catch(function(error) {
@@ -52,7 +59,8 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// --- Tab Initialization Logic (Unchanged) ---
+
+// --- Tab Initialization and Switching Logic ---
 function initializeTabs(appData) {
     let drugTabInitialized = false;
     const tabs = document.querySelectorAll('.tab');
@@ -79,7 +87,8 @@ function initializeTabs(appData) {
     });
 }
 
-// --- Summary Plots Function (Unchanged) ---
+
+// --- Summary Plots Function ---
 function createSummaryPlots(clinicalData) {
     const getValueCounts = (data, column) => {
         const counts = {};
@@ -106,7 +115,7 @@ function createSummaryPlots(clinicalData) {
         type: 'pie', hole: 0.3
     }], { title: 'Patient Vital Status' }, {responsive: true});
 
-    const ages = clinicalData.map(row => row.ageAtDiagnosis).filter(age => age !== null && !isNaN(age));
+    const ages = clinicalData.map(row => parseFloat(row.ageAtDiagnosis)).filter(age => !isNaN(age));
     Plotly.newPlot('age-plot', [{
         x: ages,
         type: 'histogram', nbinsx: 20

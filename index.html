@@ -64,21 +64,21 @@
             <div id="tooltip" class="tooltip" style="opacity:0;"></div>
 
             <div id="content-drug" class="tab-content">
-                <div class="bg-white p-6 rounded-lg shadow-md space-y-8">
-                   <div>
-                       <h3 class="text-2xl font-semibold mb-4 text-gray-700">Drug Combination Synergy Overview</h3>
-                       <div id="hsa-bubble-plot-container" class="flex justify-center">
-                           <img src="img/hsa_synergy_bubble_plot.svg" alt="HSA Synergy Bubble Plot" class="max-w-full h-auto">
-                       </div>
-                   </div>
-                   <div>
-                       <h3 class="text-2xl font-semibold mb-4 text-gray-700">Top Drugs by Predicted Combination DSS</h3>
-                       <div id="drug-swarm-plot-container" class="flex justify-center">
-                           <img src="img/combo_dss_swarm_plot.svg" alt="Combination DSS Swarm Plot" class="max-w-full h-auto">
-                       </div>
-                   </div>
-               </div>
-           </div>
+                 <div class="bg-white p-6 rounded-lg shadow-md space-y-8">
+                    <div>
+                        <h3 class="text-2xl font-semibold mb-4 text-gray-700">Interactive Drug Combination Synergy Overview</h3>
+                        <div id="hsa-bubble-plot-container">
+                            <p class="text-gray-500">Loading interactive plot...</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-semibold mb-4 text-gray-700">Top Drugs by Predicted Combination DSS</h3>
+                        <div id="drug-swarm-plot-container" class="flex justify-center">
+                            <img src="img/combo_dss_swarm_plot.svg" alt="Combination DSS Swarm Plot" class="max-w-full h-auto">
+                        </div>
+                    </div>
+                </div>
+            </div>
             
             <div id="content-custom" class="tab-content">
                 <div class="bg-white p-6 rounded-lg shadow-md">
@@ -91,11 +91,13 @@
                                     <option value="" selected disabled>Select File...</option>
                                     <option value="clinical">Clinical</option>
                                     <option value="mutation">Mutation</option>
+                                    <option value="surfaceAntigen">Surface Antigen</option>
+                                    <option value="amlFusion">AML Fusion</option>
                                 </select>
                             </div>
                             <div>
-                                <label for="x-axis-column-select" class="block text-sm font-medium text-gray-700">X-Axis Column:</label>
-                                <select id="x-axis-column-select" class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"></select>
+                                <label for="x-axis-column-select-container" class="block text-sm font-medium text-gray-700">X-Axis Column:</label>
+                                <div id="x-axis-column-select-container" class="mt-1"></div>
                             </div>
                         </div>
                         
@@ -104,8 +106,10 @@
                                 <label for="y-axis-file-select" class="block text-sm font-medium text-gray-700">Y-Axis File:</label>
                                 <select id="y-axis-file-select" class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md">
                                     <option value="" selected disabled>Select File...</option>
-                                    <option value="dss">DSS</option>
+                                    <option value="dssMono">DSS-Monotherapy</option>
+                                    <option value="dssCombo">DSS-Combination</option>
                                     <option value="proteomics">Proteomics</option>
+                                    <option value="rnaSeq">RNA Sequencing</option>
                                 </select>
                             </div>
                             <div>
@@ -121,10 +125,10 @@
         </main>
     </div>
 
-    <script src="js/clinical.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/drug_response_plots.js"></script>
-    <script src="js/custom_plots.js"></script>
+    <script src="js/clinical.js?v=3"></script>
+    <script src="js/main.js?v=3"></script>
+    <script src="js/drug_response_plots.js?v=3"></script>
+    <script src="js/custom_plots.js?v=3"></script>
 
 </body>
 </html>
