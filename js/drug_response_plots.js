@@ -1,4 +1,4 @@
-// js/drug_response_plots.js - Final version with a continuous colorscale
+// js/drug_response_plots.js - Final version with gradient (0-1) and fixed color (>1)
 
 /**
  * Initializes the drug response tab, creating the interactive synergy plot.
@@ -16,7 +16,8 @@ function initializeDrugResponseTab(hsaData, comboDssData) {
 }
 
 /**
- * Creates the interactive HSA Synergy bubble plot with the final color logic.
+ * Creates the interactive HSA Synergy bubble plot with a gradient for values 0-1
+ * and a fixed color for values > 1, while preserving hover information.
  */
 function createHsaBubblePlot(data, containerId) {
     const container = document.getElementById(containerId);
@@ -36,47 +37,59 @@ function createHsaBubblePlot(data, containerId) {
             throw new Error("No valid data for the bubble plot after cleaning.");
         }
 
-        const effectiveData = plotData.filter(d => d.synergy >= 0);
+        // --- CHANGE: Separate data into THREE groups for plotting ---
+        const synergisticData = plotData.filter(d => d.synergy >= 0 && d.synergy <= 1);
+        const antagonisticData = plotData.filter(d => d.synergy > 1);
         const ineffectiveData = plotData.filter(d => d.synergy < 0);
 
-        const maxSynergy = Math.max(...effectiveData.map(d => d.synergy), 1);
-
-        // --- Trace for effective combinations (synergy >= 0) ---
-        const effectiveTrace = {
-            x: effectiveData.map(d => d.drug1),
-            y: effectiveData.map(d => d.drug2),
-            text: effectiveData.map(d => `Combination Index: ${d.synergy.toFixed(2)}`),
-            name: 'Effective',
+        // --- Trace 1: Gradient for Synergistic values (0 to 1) ---
+        const synergisticTrace = {
+            x: synergisticData.map(d => d.drug1),
+            y: synergisticData.map(d => d.drug2),
+            text: synergisticData.map(d => `Combination Index: ${d.synergy.toFixed(2)}`),
+            name: 'Synergistic (0-1)',
             mode: 'markers',
             marker: {
                 size: 15,
-                color: effectiveData.map(d => d.synergy),
-                // --- CHANGE 1: Use a continuous sequential colorscale ---
-                colorscale: 'Viridis',
-                reversescale: true, // Reverse so low values are brighter
+                color: synergisticData.map(d => d.synergy),
+                colorscale: 'YlGnBu', // A nice Yellow-Green-Blue gradient
+                reversescale: true,   // Reversing makes lower (better) values brighter
                 cmin: 0,
-                cmax: maxSynergy,
+                cmax: 1,
                 showscale: true,
                 colorbar: {
                     title: 'Combination Index',
-                    // --- CHANGE 2: Update tick labels for the new scale ---
-                    tickvals: [0, 1, maxSynergy],
-                    ticktext: ['Low (0)', 'Medium (1)', `High (${maxSynergy.toFixed(1)})`]
+                    tickvals: [0, 1],
+                    ticktext: ['Low (0)', 'Medium (1)']
                 }
             },
             type: 'scatter'
         };
 
-        // --- Trace for ineffective combinations (synergy < 0) ---
+        // --- Trace 2: Fixed color for Antagonistic values (> 1) ---
+        const antagonisticTrace = {
+            x: antagonisticData.map(d => d.drug1),
+            y: antagonisticData.map(d => d.drug2),
+            text: antagonisticData.map(d => `Combination Index: ${d.synergy.toFixed(2)}`),
+            name: 'High (>1)', // This will appear in the legend
+            mode: 'markers',
+            marker: {
+                size: 15,
+                color: 'purple', // A single, fixed color for all points in this trace
+            },
+            type: 'scatter'
+        };
+
+        // --- Trace 3: Fixed color for Ineffective values (< 0) ---
         const ineffectiveTrace = {
             x: ineffectiveData.map(d => d.drug1),
             y: ineffectiveData.map(d => d.drug2),
             text: ineffectiveData.map(d => `Combination Index: ${d.synergy.toFixed(2)} (Not Effective)`),
-            name: 'Not Effective',
+            name: 'Not Effective (<0)',
             mode: 'markers',
             marker: {
                 size: 15,
-                color: 'tomato',
+                color: 'grey',
                 symbol: 'x'
             },
             type: 'scatter'
@@ -88,11 +101,11 @@ function createHsaBubblePlot(data, containerId) {
             xaxis: { title: 'Drug 1', automargin: true, tickangle: -45 },
             yaxis: { title: 'Drug 2', automargin: true },
             hovermode: 'closest',
-            showlegend: false,
+            showlegend: true, // Use a legend to identify the fixed-color groups
             margin: { l: 120, r: 150, b: 120, t: 80 }
         };
 
-        Plotly.newPlot(containerId, [effectiveTrace, ineffectiveTrace], layout, {responsive: true});
+        Plotly.newPlot(containerId, [synergisticTrace, antagonisticTrace, ineffectiveTrace], layout, {responsive: true});
 
     } catch (error) {
         console.error("Failed to create HSA Bubble Plot:", error);
