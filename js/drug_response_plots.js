@@ -1,4 +1,4 @@
-// js/drug_response_plots.js - Final version with gradient (0-1) and fixed color (>1)
+// js/drug_response_plots.js - Final version with new colorscale and non-overlapping legend
 
 /**
  * Initializes the drug response tab, creating the interactive synergy plot.
@@ -20,15 +20,16 @@ function initializeDrugResponseTab(hsaData, comboDssData) {
  * and a fixed color for values > 1, while preserving hover information.
  */
 function createHsaBubblePlot(data, containerId) {
-    const container = document.getElementById(containerId);
-    container.innerHTML = ''; // Clear loading message
+    const plotDiv = document.getElementById(containerId);
+    plotDiv.innerHTML = ''; // Clear loading message
 
     try {
         const plotData = data
             .filter(d => d.Combination && d.median_CI != null && d.Combination.includes(' - '))
             .map(d => ({
-                drug1: d.Combination.split(' - ')[0].trim(),
-                drug2: d.Combination.split(' - ')[1].trim(),
+                // Ensure consistent ordering for the symmetric plot
+                drug1: d.Combination.split(' - ').map(name => name.trim()).sort()[0],
+                drug2: d.Combination.split(' - ').map(name => name.trim()).sort()[1],
                 synergy: parseFloat(d.median_CI)
             }))
             .filter(d => !isNaN(d.synergy));
@@ -37,78 +38,121 @@ function createHsaBubblePlot(data, containerId) {
             throw new Error("No valid data for the bubble plot after cleaning.");
         }
 
-        // --- CHANGE: Separate data into THREE groups for plotting ---
-        const synergisticData = plotData.filter(d => d.synergy >= 0 && d.synergy <= 1);
-        const antagonisticData = plotData.filter(d => d.synergy > 1);
-        const ineffectiveData = plotData.filter(d => d.synergy < 0);
+        // Dynamically get unique, sorted drug names for axes
+        const allDrugs = [...new Set(plotData.flatMap(d => [d.drug1, d.drug2]))].sort();
 
-        // --- Trace 1: Gradient for Synergistic values (0 to 1) ---
+        // Helper to process data for each trace in a single loop
+        const processTraceData = (filterFn) => {
+            const trace = { x: [], y: [], text: [], synergy: [], size: [] };
+            plotData.filter(filterFn).forEach(d => {
+                trace.x.push(d.drug1);
+                trace.y.push(d.drug2);
+                trace.text.push(`Combination: ${d.drug1} - ${d.drug2}<br>Synergy (CI): ${d.synergy.toFixed(2)}`);
+                trace.synergy.push(d.synergy);
+                // Scale marker size: higher synergy (lower CI) = larger marker
+                trace.size.push(d.synergy <= 1 ? 25 * (1 - d.synergy) + 5 : 15);
+            });
+            return trace;
+        };
+
+        const synergisticData = processTraceData(d => d.synergy >= 0 && d.synergy <= 1);
+        const antagonisticData = processTraceData(d => d.synergy > 1);
+        const ineffectiveData = processTraceData(d => d.synergy < 0);
+
         const synergisticTrace = {
-            x: synergisticData.map(d => d.drug1),
-            y: synergisticData.map(d => d.drug2),
-            text: synergisticData.map(d => `Combination Index: ${d.synergy.toFixed(2)}`),
-            name: 'Synergistic (0-1)',
+            ...synergisticData,
+            hoverinfo: 'text',
             mode: 'markers',
             marker: {
-                size: 15,
-                color: synergisticData.map(d => d.synergy),
-                colorscale: 'YlGnBu', // A nice Yellow-Green-Blue gradient
-                reversescale: true,   // Reversing makes lower (better) values brighter
+                size: synergisticData.size,
+                color: synergisticData.synergy,
+                // == START MODIFICATION: Changed colorscale ==
+                colorscale: [[0, '#fde725'], [1, '#440154']], // High-contrast Viridis (Yellow-to-Dark Purple)
+                // == END MODIFICATION ==
                 cmin: 0,
                 cmax: 1,
                 showscale: true,
                 colorbar: {
                     title: 'Combination Index',
                     tickvals: [0, 1],
-                    ticktext: ['Low (0)', 'Medium (1)']
+                    ticktext: ['High Synergy (0)', 'Low Synergy (1)']
                 }
             },
-            type: 'scatter'
+            type: 'scatter',
+            name: 'Synergistic (0-1)',
+            showlegend: false 
         };
 
-        // --- Trace 2: Fixed color for Antagonistic values (> 1) ---
         const antagonisticTrace = {
-            x: antagonisticData.map(d => d.drug1),
-            y: antagonisticData.map(d => d.drug2),
-            text: antagonisticData.map(d => `Combination Index: ${d.synergy.toFixed(2)}`),
-            name: 'High (>1)', // This will appear in the legend
+            ...antagonisticData,
+            hoverinfo: 'text',
+            name: 'Antagonistic (>1)',
             mode: 'markers',
             marker: {
-                size: 15,
-                color: 'purple', // A single, fixed color for all points in this trace
+                size: antagonisticData.size,
+                color: '#d62728', // Use a brighter red for better contrast
             },
             type: 'scatter'
         };
 
-        // --- Trace 3: Fixed color for Ineffective values (< 0) ---
         const ineffectiveTrace = {
-            x: ineffectiveData.map(d => d.drug1),
-            y: ineffectiveData.map(d => d.drug2),
-            text: ineffectiveData.map(d => `Combination Index: ${d.synergy.toFixed(2)} (Not Effective)`),
+            ...ineffectiveData,
+            hoverinfo: 'text',
             name: 'Not Effective (<0)',
             mode: 'markers',
             marker: {
-                size: 15,
-                color: 'grey',
+                size: ineffectiveData.size,
+                color: '#7f7f7f', // Darker gray
                 symbol: 'x'
             },
             type: 'scatter'
         };
 
-        const layout = {
+        const plotLayout = {
             title: 'Drug Combination Synergy Overview',
+            font: {
+                family: 'Inter, sans-serif',
+                size: 12,
+                color: '#34495e'
+            },
+            titlefont: {
+                size: 16,
+                color: '#2c3e50'
+            },
+            paper_bgcolor: '#fff',
+            plot_bgcolor: '#fff',
+            margin: { l: 120, r: 150, b: 150, t: 80 }, // Increased bottom margin for legend
             height: 800,
-            xaxis: { title: 'Drug 1', automargin: true, tickangle: -45 },
-            yaxis: { title: 'Drug 2', automargin: true },
+            xaxis: { 
+                title: 'Drug 1', 
+                automargin: true, 
+                tickangle: -45,
+                categoryorder: 'array',
+                categoryarray: allDrugs
+            },
+            yaxis: { 
+                title: 'Drug 2', 
+                automargin: true,
+                categoryorder: 'array',
+                categoryarray: allDrugs
+            },
             hovermode: 'closest',
-            showlegend: true, // Use a legend to identify the fixed-color groups
-            margin: { l: 120, r: 150, b: 120, t: 80 }
+            // == START MODIFICATION: Moved legend to be horizontal and below plot ==
+            showlegend: true,
+            legend: {
+                orientation: "h", // Horizontal legend
+                yanchor: "bottom",
+                y: -0.4,          // Position below the X-axis labels
+                xanchor: "center",
+                x: 0.5            // Center the legend
+            }
+            // == END MODIFICATION ==
         };
 
-        Plotly.newPlot(containerId, [synergisticTrace, antagonisticTrace, ineffectiveTrace], layout, {responsive: true});
+        Plotly.react(plotDiv, [synergisticTrace, antagonisticTrace, ineffectiveTrace], plotLayout, {responsive: true});
 
     } catch (error) {
         console.error("Failed to create HSA Bubble Plot:", error);
-        container.innerHTML = `<p class="text-red-500 text-center p-4">Could not draw the bubble plot. Please check the console and data files.</p>`;
+        plotDiv.innerHTML = `<p class="text-red-500 text-center p-4">Could not draw the bubble plot. Please check the console and data files.</p>`;
     }
 }

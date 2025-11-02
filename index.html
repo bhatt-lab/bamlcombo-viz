@@ -3,21 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clinical Data Dashboard</title>
+    <title>BAML-COMBO Data Visualization</title>
     <base href="./"> 
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script> 
     <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/beautified.css">
 </head>
-<body class="bg-gray-50 font-sans">
+<body class="font-sans">
+
+    <header class="header">
+        <h1>BAML-COMBO Data Visualization</h1>
+        <p>An interactive portal for exploring clinical and genomics data</p>
+        <button id="theme-toggler" class="theme-toggler">Toggle Theme</button>
+    </header>
 
     <div class="container mx-auto p-4 md:p-8">
-        <header class="text-center mb-8">
-            <h1 class="text-3xl md:text-4xl font-bold text-gray-800">Comprehensive Biological Data Dashboard</h1>
-            <p class="text-gray-600 mt-2">An interactive portal for clinical data exploration</p>
-        </header>
-
         <div class="border-b border-gray-200">
             <nav class="flex -mb-px space-x-4" aria-label="Tabs">
                 <div id="tab-summary" class="tab active">Summary</div>
@@ -82,13 +87,13 @@
                             <div>
                                 <label for="x-axis-file-select" class="block text-sm font-medium text-gray-700">X-Axis File:</label>
                                 <select id="x-axis-file-select" class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md">
-                                    <option value="" selected disabled>Select File...</option>
+                                    <option value="">Select File...</option>
                                     <option value="clinical">Clinical</option>
                                     <option value="mutation">Mutation</option>
                                     <option value="surfaceAntigen">Surface Antigen</option>
                                     <option value="amlFusion">AML Fusion</option>
                                 </select>
-                            </div>
+                                </div>
                             <div>
                                 <label for="x-axis-column-select-container" class="block text-sm font-medium text-gray-700">X-Axis Column:</label>
                                 <div id="x-axis-column-select-container" class="mt-1"></div>
@@ -99,13 +104,13 @@
                             <div>
                                 <label for="y-axis-file-select" class="block text-sm font-medium text-gray-700">Y-Axis File:</label>
                                 <select id="y-axis-file-select" class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md">
-                                    <option value="" selected disabled>Select File...</option>
+                                    <option value="">Select File...</option>
                                     <option value="dssMono">DSS-Monotherapy</option>
                                     <option value="dssCombo">DSS-Combination</option>
                                     <option value="proteomics">Proteomics</option>
                                     <option value="rnaSeq">RNA Sequencing</option>
                                 </select>
-                            </div>
+                                </div>
                             <div>
                                 <label class="block text-sm font-medium text-gray-700">Y-Axis Columns:</label>
                                 <div id="y-axis-column-select-container" class="mt-1 relative">
@@ -119,10 +124,14 @@
         </main>
     </div>
 
+    <footer class="footer">
+        <p>&copy; 2025 BAML-COMBO Project. All Rights Reserved.</p>
+        <p>Data Source: [Your Data Source Here]</p>
+    </footer>
+
     <script src="js/clinical.js?v=3"></script>
-    <script src="js/main.js?v=3"></script>
     <script src="js/drug_response_plots.js?v=3"></script>
     <script src="js/custom_plots.js?v=3"></script>
-
+    <script src="js/main.js?v=3"></script>
 </body>
 </html>

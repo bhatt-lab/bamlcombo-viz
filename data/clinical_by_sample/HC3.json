@@ -1,4 +1,4 @@
 {
     "patient_data": {"Sample_ID":"HC3","patientId":5091,"labId":"19-00048","gender":null,"ageAtDiagnosis":null,"dxAtSpecimenAcquisition":null,"specificDxAtAcquisition":null,"AML_subtype":null,"responseToInductionTx":null,"typeInductionTx":null,"mostRecentTreatmentRegimen":null,"currentTreatmentType":null,"currentStage":null,"vitalStatus":null,"overallSurvival":null,"causeOfDeath":null},
-    "related_samples": [{"Sample_ID":"HC3","ELN2022":null,"AMLFusion":null,"Status":"Healthy","specimenType":"Bone Marrow Aspirate","percentBlastsBM":null,"percentBlastsPB":null,"percentBasophilsPB":null,"percentEosinophilsPB":null,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":null,"percentMonocytesPB":null,"percentNeutrophilsPB":null}]
+    "related_samples": [{"Sample_ID":"HC3","ELN2022":null,"AMLFusion":null,"Status":"Healthy","specimenType":"Bone Marrow Aspirate","timeOfSampleCollectionRelativeToInclusion":null,"percentBlastsBM":null,"percentBlastsPB":null,"percentBasophilsPB":null,"percentEosinophilsPB":null,"percentImmatureGranulocytesPB":null,"percentLymphocytesPB":null,"percentMonocytesPB":null,"percentNeutrophilsPB":null}]
 }

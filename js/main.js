@@ -5,33 +5,27 @@ document.addEventListener('DOMContentLoaded', function() {
     const summaryContainer = document.getElementById('content-summary');
     summaryContainer.innerHTML = `<p class="text-center text-gray-500 p-8">Loading all datasets, please wait...</p>`;
 
-    // --- UPDATED: Load all new data files ---
+    // js/main.js - Corrected paths with spaces removed
+
     const dataPaths = {
-        clinical: d3.csv("data/S2_Clinical summary.csv"),
+        clinical: d3.csv("data/suppTablesCsv/supptables_s2.clinical_summary.csv"),
         mutation: d3.csv("data/S3_Mutation.csv"),
-        surfaceAntigen: d3.csv("data/S4_Surface antigen.csv"),
-        amlFusion: d3.csv("data/S5_Consensus AML fusion.csv"),
-        rnaSeq: d3.csv("data/S6_RNA sequencing _VST_.csv"),
+        surfaceAntigen: d3.csv("data/S4_Surface_antigen.csv"),       // <-- CHANGED
+        amlFusion: d3.csv("data/S5_Consensus_AML_fusion.csv"),      // <-- CHANGED
+        rnaSeq: d3.csv("data/S6_RNA_sequencing_VST.csv"),         // <-- CHANGED
         dssMono: d3.csv("data/S10_DSS-Monotherapy.csv"),
         dssCombo: d3.csv("data/S11_DSS-Combination.csv"),
         proteomics: d3.csv("data/S12_GlobalProteomics.csv"),
         comboDss: d3.json("data/summary/baml_ida_predictions.json"),
-        hsaSynergy: d3.json("data/summary/HSA_summary.json")
+        hsaSynergy: d3.json("data/summary/HSA_summary.json"),
     };
 
-    Promise.all(Object.values(dataPaths)).then(function(results) {
-        const appData = {
-            clinical: results[0],
-            mutation: results[1],
-            surfaceAntigen: results[2],
-            amlFusion: results[3],
-            rnaSeq: results[4],
-            dssMono: results[5],
-            dssCombo: results[6],
-            proteomics: results[7],
-            comboDss: results[8],
-            hsaSynergy: results[9]
-        };
+    Promise.all(Object.entries(dataPaths).map(([key, promise]) => promise.then(data => ({key, data}))))
+        .then(function(results) {
+            const appData = results.reduce((acc, {key, data}) => {
+                acc[key] = data;
+                return acc;
+            }, {});
 
         // --- Initialize Dashboard Components ---
         summaryContainer.innerHTML = `
@@ -45,10 +39,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>
             </div>`;
         
+        // Initialize tab behavior first to ensure content is correctly shown/hidden
+        initializeTabs(appData);
         createSummaryPlots(appData.clinical);
         initializeClinicalTab(appData.clinical);
         initCustomPlots(appData);
-        initializeTabs(appData);
 
     }).catch(function(error) {
         console.error("Fatal Error: Could not load required dashboard data.", error);
@@ -65,6 +60,15 @@ function initializeTabs(appData) {
     let drugTabInitialized = false;
     const tabs = document.querySelectorAll('.tab');
     const tabContents = document.querySelectorAll('.tab-content');
+
+    // On initial load, ensure only the 'Summary' tab and its content are active.
+    tabs.forEach(t => t.classList.remove('active'));
+    tabContents.forEach(c => c.classList.remove('active'));
+
+    const initialTab = document.getElementById('tab-summary');
+    const initialContent = document.getElementById('content-summary');
+    initialTab.classList.add('active');
+    initialContent.classList.add('active');
 
     tabs.forEach(tab => {
         tab.addEventListener('click', () => {
@@ -90,6 +94,23 @@ function initializeTabs(appData) {
 
 // --- Summary Plots Function ---
 function createSummaryPlots(clinicalData) {
+    const plotLayout = {
+        height: 400,
+        autosize: false,
+        font: {
+            family: 'Inter, sans-serif',
+            size: 12,
+            color: '#34495e'
+        },
+        titlefont: {
+            size: 16,
+            color: '#2c3e50'
+        },
+        paper_bgcolor: '#fff',
+        plot_bgcolor: '#fff',
+        margin: { t: 50, b: 50, l: 50, r: 50 },
+    };
+
     const getValueCounts = (data, column) => {
         const counts = {};
         for (const row of data) {
@@ -105,33 +126,43 @@ function createSummaryPlots(clinicalData) {
     Plotly.newPlot('gender-plot', [{
         values: Object.values(genderCounts),
         labels: Object.keys(genderCounts),
-        type: 'pie', hole: 0.3
-    }], { title: 'Gender Distribution' }, {responsive: true});
+        type: 'pie', 
+        hole: 0.4,
+        marker: { colors: ['#2c3e50', '#e74c3c', '#ecf0f1', '#3498db', '#9b59b6'] }
+    }], { ...plotLayout, title: 'Gender Distribution' }, {responsive: true});
 
     const vitalCounts = getValueCounts(clinicalData, 'vitalStatus');
     Plotly.newPlot('vital-plot', [{
         values: Object.values(vitalCounts),
         labels: Object.keys(vitalCounts),
-        type: 'pie', hole: 0.3
-    }], { title: 'Patient Vital Status' }, {responsive: true});
+        type: 'pie', 
+        hole: 0.4,
+        marker: { colors: ['#2c3e50', '#e74c3c', '#ecf0f1', '#3498db', '#9b59b6'] }
+    }], { ...plotLayout, title: 'Patient Vital Status' }, {responsive: true});
 
     const ages = clinicalData.map(row => parseFloat(row.ageAtDiagnosis)).filter(age => !isNaN(age));
     Plotly.newPlot('age-plot', [{
         x: ages,
-        type: 'histogram', nbinsx: 20
+        type: 'histogram', 
+        nbinsx: 20,
+        marker: { color: '#2c3e50' }
     }], {
+        ...plotLayout,
         title: 'Distribution of Age at Diagnosis',
         xaxis: { title: 'Age' }, yaxis: { title: 'Count' }
     }, {responsive: true});
 
-    const fabCounts = getValueCounts(clinicalData, 'FAB_subtype');
+    const fabCounts = getValueCounts(clinicalData, 'AML_subtype');
     const sortedFab = Object.entries(fabCounts).sort(([,a],[,b]) => a-b);
     Plotly.newPlot('fab-plot', [{
         y: sortedFab.map(item => item[0]),
         x: sortedFab.map(item => item[1]),
-        type: 'bar', orientation: 'h'
+        type: 'bar', 
+        orientation: 'h',
+        marker: { color: '#2c3e50' }
     }], {
-        title: 'FAB Subtype Distribution',
+        ...plotLayout,
+        title: 'AML Subtype Distribution',
         xaxis: { title: 'Count' }, yaxis: { title: 'Subtype' }
     }, {responsive: true});
 }

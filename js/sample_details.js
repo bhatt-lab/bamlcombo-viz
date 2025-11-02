@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
             dataLoaded: false
         },
         'tab-mutations': {
-            path: `data/unified_genomics_by_sample/${sampleId}.json`,
+            path: `data/genomics_by_sample/${sampleId}.json`,
             initFunction: initializeMutationsTab,
             dataLoaded: false
         },

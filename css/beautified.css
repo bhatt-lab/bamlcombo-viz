@@ -1,0 +1,109 @@
+
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #34495e;
+    --accent-color: #e74c3c;
+    --background-color: #ecf0f1;
+    --text-color: #34495e;
+    --light-text-color: #ecf0f1;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.header {
+    background-color: var(--primary-color);
+    color: var(--light-text-color);
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.header p {
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    color: var(--light-text-color);
+    padding: 1.5rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.tab {
+    border-bottom-color: transparent;
+    color: var(--text-color);
+}
+
+.tab.active {
+    border-bottom-color: var(--accent-color);
+    color: var(--accent-color);
+    font-weight: 700;
+}
+
+.plot-container {
+    border: 1px solid #bdc3c7;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+.theme-toggler {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background-color: var(--secondary-color);
+    color: var(--light-text-color);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dark-theme {
+    --primary-color: #ecf0f1;
+    --secondary-color: #bdc3c7;
+    --accent-color: #e74c3c;
+    --background-color: #2c3e50;
+    --text-color: #ecf0f1;
+    --light-text-color: #2c3e50;
+}
+
+.dark-theme .plot-container {
+    background-color: #34495e;
+    border-color: #7f8c8d;
+}
+
+.dark-theme .bg-white {
+    background-color: #34495e;
+}
+
+.dark-theme .text-gray-700 {
+    color: #ecf0f1;
+}
+
+.dark-theme .text-gray-800 {
+    color: #ecf0f1;
+}
+
+.dark-theme .text-gray-600 {
+    color: #bdc3c7;
+}
+
+.dark-theme .border-gray-200 {
+    border-color: #7f8c8d;
+}
