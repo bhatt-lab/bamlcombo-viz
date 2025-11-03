@@ -17,7 +17,7 @@
 <body class="font-sans">
 
     <header class="header">
-        <h1>BAML-COMBO Data Visualization</h1>
+        <h1>Beat AML Drug Combo Dashboard</h1>
         <p>An interactive portal for exploring clinical and genomics data</p>
         <button id="theme-toggler" class="theme-toggler">Toggle Theme</button>
     </header>
@@ -29,6 +29,7 @@
                 <div id="tab-clinical" class="tab">Clinical Data</div>
                 <div id="tab-drug" class="tab">Drug Response</div>
                 <div id="tab-custom" class="tab">Custom Plots</div>
+                <div id="tab-documentation" class="tab">Documentation</div>
             </nav>
         </div>
 
@@ -121,6 +122,15 @@
                     <div id="custom-plot" class="border rounded-lg p-2 min-h-[400px]"></div>
                 </div>
             </div>
+
+        <div id="content-documentation" class="tab-content">
+            <div class="bg-white p-6 rounded-lg shadow-md space-y-8">
+                <div>
+                    <h3 class="text-2xl font-semibold mb-4 text-gray-700">Documentation</h3>
+                </div>
+            </div>
+        </div>
+
         </main>
     </div>
 
@@ -129,6 +139,7 @@
         <p>Data Source: [Your Data Source Here]</p>
     </footer>
 
+    <script src="js/documentation.js?v=3"></script>
     <script src="js/clinical.js?v=3"></script>
     <script src="js/drug_response_plots.js?v=3"></script>
     <script src="js/custom_plots.js?v=3"></script>

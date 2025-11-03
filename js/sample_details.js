@@ -25,9 +25,9 @@ document.addEventListener('DOMContentLoaded', function() {
             initFunction: initializeMutationsTab,
             dataLoaded: false
         },
-        'tab-drug': {
+        'tab-sampledrug': {
             path: `data/unified_dss_by_sample/${sampleId}.json`,
-            initFunction: initializeDrugResponseTab,
+            initFunction: initializeSampleDrugResponseTab,
             dataLoaded: false
         }
     };
@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     // --- LOGIC FOR DRUG RESPONSE TAB ---
-    function initializeDrugResponseTab(unifiedData) {
+    function initializeSampleDrugResponseTab(unifiedData) {
         const colorConfig = COLOR_CONFIG;
 
         const comboData = unifiedData.filter(row => row.Combination.includes('-'));
@@ -121,7 +121,9 @@ document.addEventListener('DOMContentLoaded', function() {
             plotContainer.innerHTML = `<p class="text-gray-600 text-center">No data available for this view.</p>`;
             return;
         }
-
+        
+        plotContainer.innerHTML = '';
+        
         data.sort((a, b) => b.DSS - a.DSS);
 
         const plotData = { x: [], y: [], hovertext: [], marker: { color: [] } };
@@ -141,15 +143,20 @@ document.addEventListener('DOMContentLoaded', function() {
         plotData.marker.color.reverse();
         plotData.hovertext.reverse();
 
+        const barHeight = 25; // Height in pixels for each bar
+        const baseHeight = 150; // Extra space for title, axes, and margins
+        const plotHeight = Math.max(400, data.length * barHeight + baseHeight); // Ensure a minimum height of 400px
+
         const layout = {
             title: title,
+            height: plotHeight, // <-- ADDED: Set the calculated height
             xaxis: { title: 'DSS (Drug Sensitivity Score)' },
-            yaxis: { type: 'category' },
+            yaxis: { type: 'category', automargin: true }, // automargin helps fit long labels
             margin: { l: 250 }
         };
 
         Plotly.newPlot(plotContainer, [{ ...plotData, type: 'bar', orientation: 'h', hoverinfo: 'text' }], layout, { responsive: true });
-        Plotly.Plots.resize(plotContainer);
+        
     }
 
     // --- LOGIC FOR CLINICAL DATA TAB ---

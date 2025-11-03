@@ -261,8 +261,38 @@ function initializeClinicalTab(data) {
         }
     }
 
+    function showTooltip(event) {
+    const tooltipEl = document.getElementById('tooltip');
+    if (!tooltipEl) return;
+
+    const span = event.target;
+    const headerText = span.textContent;
+    const desc = columnInfo[headerText] ?? columnInfo[headerText.toLowerCase()] ?? 'No description available';
+
+    tooltipEl.innerHTML = desc;
+    tooltipEl.style.display = 'block'; // Make it visible to get its dimensions
+
+    const spanRect = span.getBoundingClientRect();
+    
+    // Position tooltip to the right of the text, vertically centered
+    const top = spanRect.top + (spanRect.height / 2) - (tooltipEl.offsetHeight / 2);
+    const left = spanRect.right + 8; // 8px gap
+
+    tooltipEl.style.left = `${left + window.scrollX}px`;
+    tooltipEl.style.top = `${top + window.scrollY}px`;
+    tooltipEl.style.opacity = '1';
+    }
+
+    function hideTooltip() {
+        const tooltipEl = document.getElementById('tooltip');
+        if (tooltipEl) {
+            tooltipEl.style.display = 'none';
+            tooltipEl.style.opacity = '0';
+        }
+    }
+
     function renderTable() {
-        tableContainer.innerHTML = ''; 
+        tableContainer.innerHTML = '';
         if (allData.length === 0 || selectedColumns.length === 0) {
             tableContainer.innerHTML = `<p>No data to display or no columns selected.</p>`;
             return;
@@ -274,13 +304,20 @@ function initializeClinicalTab(data) {
 
         selectedColumns.forEach(headerText => {
             const th = document.createElement('th');
-            th.textContent = headerText;
-            th.addEventListener('mouseover', (event) => { /* ... tooltip logic ... */ });
-            th.addEventListener('mouseout', () => { /* ... tooltip logic ... */ });
-            th.addEventListener('mousemove', (event) => { /* ... tooltip logic ... */ });
+            
+            // Create a span to wrap the text. This is our hover target.
+            const span = document.createElement('span');
+            span.className = 'header-label';
+            span.textContent = headerText;
+            
+            // Attach the new JS event listeners
+            span.addEventListener('mouseover', showTooltip);
+            span.addEventListener('mouseout', hideTooltip);
+            
+            th.appendChild(span);
             headerRow.appendChild(th);
         });
-        thead.appendChild(headerRow);
+    thead.appendChild(headerRow);
 
         allData.forEach(row => {
             const tr = document.createElement('tr');
