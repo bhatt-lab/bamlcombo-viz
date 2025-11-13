@@ -3,16 +3,16 @@
 /**
  * Initializes the drug response tab, creating the interactive synergy plot.
  */
-function initializeDrugResponseTab(hsaData, comboDssData) {
+function initializeDrugResponseTab(combinationIndexData, comboDssData) {
     const bubbleContainerId = 'hsa-bubble-plot-container';
 
-    if (!Array.isArray(hsaData) || hsaData.length === 0) {
-        console.error("Drug Response Error: HSA data is not a valid array or is empty.");
-        document.getElementById(bubbleContainerId).innerHTML = `<p class="text-red-500 text-center p-4">Error: HSA data could not be loaded or is empty.</p>`;
+    if (!Array.isArray(combinationIndexData) || combinationIndexData.length === 0) {
+        console.error("Drug Response Error: Combination Index data is not a valid array or is empty.");
+        document.getElementById(bubbleContainerId).innerHTML = `<p class="text-red-500 text-center p-4">Error: Combination Index data could not be loaded or is empty.</p>`;
         return;
     }
 
-    createHsaBubblePlot(hsaData, bubbleContainerId);
+    createHsaBubblePlot(combinationIndexData, bubbleContainerId);
 }
 
 /**
@@ -25,131 +25,168 @@ function createHsaBubblePlot(data, containerId) {
 
     try {
         const plotData = data
-            .filter(d => d.Combination && d.median_CI != null && d.Combination.includes(' - '))
+            .filter(d => d.Drug1 && d.Drug2 && d.median_CI != null && d.median_CI !== "Inf" && d.Median_dss != null)
             .map(d => ({
-                // Ensure consistent ordering for the symmetric plot
-                drug1: d.Combination.split(' - ').map(name => name.trim()).sort()[0],
-                drug2: d.Combination.split(' - ').map(name => name.trim()).sort()[1],
-                synergy: parseFloat(d.median_CI)
+                drug1: d.Drug1,
+                drug2: d.Drug2,
+                synergy: parseFloat(d.median_CI),
+                median_dss: parseFloat(d.Median_dss),
+                class1: d.Class1,
+                class2: d.Class2,
+                percentSample: d.percentSample,
+                n: d.n
             }))
-            .filter(d => !isNaN(d.synergy));
+            .filter(d => !isNaN(d.synergy) && !isNaN(d.median_dss));
 
         if (plotData.length === 0) {
             throw new Error("No valid data for the bubble plot after cleaning.");
         }
 
-        // Dynamically get unique, sorted drug names for axes
-        const allDrugs = [...new Set(plotData.flatMap(d => [d.drug1, d.drug2]))].sort();
+        const allDrugs = [...new Set(data.flatMap(d => [d.Drug1, d.Drug2]).filter(d => d))].sort();
 
-        // Helper to process data for each trace in a single loop
-        const processTraceData = (filterFn) => {
-            const trace = { x: [], y: [], text: [], synergy: [], size: [] };
-            plotData.filter(filterFn).forEach(d => {
-                trace.x.push(d.drug1);
-                trace.y.push(d.drug2);
-                trace.text.push(`Combination: ${d.drug1} - ${d.drug2}<br>Synergy (CI): ${d.synergy.toFixed(2)}`);
-                trace.synergy.push(d.synergy);
-                // Scale marker size: higher synergy (lower CI) = larger marker
-                trace.size.push(d.synergy <= 1 ? 25 * (1 - d.synergy) + 5 : 15);
-            });
-            return trace;
-        };
+        // Use a size multiplier that scales better
+        // Base size calculation: ensure minimum visible size and proper scaling
+        const baseSize = 5; // Minimum size for smallest value
+        const sizeMultiplier = 20; // Multiplier for size scaling (reduced from 40)
+        const calculateSize = (dss) => baseSize + (dss * sizeMultiplier);
 
-        const synergisticData = processTraceData(d => d.synergy >= 0 && d.synergy <= 1);
-        const antagonisticData = processTraceData(d => d.synergy > 1);
-        const ineffectiveData = processTraceData(d => d.synergy < 0);
-
-        const synergisticTrace = {
-            ...synergisticData,
-            hoverinfo: 'text',
+        // Main data trace
+        const trace = {
+            x: plotData.map(d => d.drug1),
+            y: plotData.map(d => d.drug2),
+            text: plotData.map(d => `Combination: ${d.class1} - ${d.class2}<br>Median CI: ${d.synergy.toFixed(2)}<br>Median DSS: ${d.median_dss.toFixed(2)}<br>percentSample: ${d.percentSample}<br>n: ${d.n}`),
             mode: 'markers',
             marker: {
-                size: synergisticData.size,
-                color: synergisticData.synergy,
-                // == START MODIFICATION: Changed colorscale ==
-                colorscale: [[0, '#fde725'], [1, '#440154']], // High-contrast Viridis (Yellow-to-Dark Purple)
-                // == END MODIFICATION ==
-                cmin: 0,
-                cmax: 1,
+                color: plotData.map(d => d.synergy),
+                size: plotData.map(d => calculateSize(d.median_dss)),
+                sizemode: 'diameter',
+                sizeref: 1, // Reference size for scaling
+                sizemin: baseSize,
                 showscale: true,
+                colorscale: 'Viridis',
+                cmin: 0,
+                cmax: 3,
                 colorbar: {
-                    title: 'Combination Index',
-                    tickvals: [0, 1],
-                    ticktext: ['High Synergy (0)', 'Low Synergy (1)']
-                }
+                    title: {
+                        text: 'Median Combination Index (HSA)',
+                        font: {
+                            size: 10
+                        },
+                        side: 'right'
+                    },
+                    thickness: 10, 
+                    len: 0.5,
+                    x: 1.08,
+                    xanchor: 'left',
+                    y: 0.5,
+                    yanchor: 'middle'
+                },
             },
             type: 'scatter',
-            name: 'Synergistic (0-1)',
-            showlegend: false 
-        };
-
-        const antagonisticTrace = {
-            ...antagonisticData,
             hoverinfo: 'text',
-            name: 'Antagonistic (>1)',
-            mode: 'markers',
-            marker: {
-                size: antagonisticData.size,
-                color: '#d62728', // Use a brighter red for better contrast
-            },
-            type: 'scatter'
+            name: 'Combinations',
+            showlegend: false
         };
 
-        const ineffectiveTrace = {
-            ...ineffectiveData,
-            hoverinfo: 'text',
-            name: 'Not Effective (<0)',
-            mode: 'markers',
-            marker: {
-                size: ineffectiveData.size,
-                color: '#7f7f7f', // Darker gray
-                symbol: 'x'
-            },
-            type: 'scatter'
-        };
-
+        // Create legend traces for Median DSS sizes - show actual marker sizes without toggle
+        const legendDssValues = [1.0, 0.5, 0.1];
+        
+        // Create legend traces positioned off the main plot to show actual marker sizes
+        // Use the exact same sizing parameters as the main trace to ensure legend matches plot
+        const legendTraces = legendDssValues.map((dssValue) => {
+            // Position at the last drug - they'll overlap but that's fine for legend purposes
+            const positioningDrug = allDrugs[allDrugs.length - 1];
+            const markerSize = calculateSize(dssValue);
+            return {
+                x: [positioningDrug],
+                y: [positioningDrug],
+                mode: 'markers',
+                marker: {
+                    size: [markerSize],
+                    sizemode: 'diameter', // Must match main trace
+                    sizeref: 1, // Must match main trace
+                    sizemin: baseSize, // Must match main trace
+                    color: 'rgba(100, 100, 100, 0.6)',
+                    line: {
+                        color: 'rgba(80, 80, 80, 0.8)',
+                        width: 1.5
+                    }
+                },
+                type: 'scatter',
+                name: `Median DSS = ${dssValue}`,
+                showlegend: true,
+                legendgroup: 'dss_size',
+                hoverinfo: 'skip',
+                visible: 'legendonly' // Only show in legend, not on plot, to display actual marker sizes
+            };
+        });
+        
         const plotLayout = {
-            title: 'Drug Combination Synergy Overview',
+            title: 'Drug Combinations Overview',
             font: {
                 family: 'Inter, sans-serif',
                 size: 12,
                 color: '#34495e'
             },
             titlefont: {
-                size: 16,
+                size: 18,
                 color: '#2c3e50'
             },
             paper_bgcolor: '#fff',
             plot_bgcolor: '#fff',
-            margin: { l: 120, r: 150, b: 150, t: 80 }, // Increased bottom margin for legend
-            height: 800,
+            margin: { l: 100, r: 200, b: 100, t: 60 },
+            height: 800, // Increase vertical size
             xaxis: { 
-                title: 'Drug 1', 
+                title: 'Drugs', 
                 automargin: true, 
                 tickangle: -45,
                 categoryorder: 'array',
-                categoryarray: allDrugs
+                categoryarray: allDrugs,
+                showgrid: true
             },
             yaxis: { 
-                title: 'Drug 2', 
+                title: 'Drugs', 
                 automargin: true,
                 categoryorder: 'array',
-                categoryarray: allDrugs
+                categoryarray: allDrugs,
+                showgrid: true,
+                gridwidth: 1,
+                gridcolor: 'rgba(128, 128, 128, 0.2)',
+                showticklabels: true,
+                // For categorical axes, ensure all categories show gridlines
+                tickmode: 'array',
+                tickvals: allDrugs,
+                ticktext: allDrugs
             },
             hovermode: 'closest',
-            // == START MODIFICATION: Moved legend to be horizontal and below plot ==
-            showlegend: true,
             legend: {
-                orientation: "h", // Horizontal legend
-                yanchor: "bottom",
-                y: -0.4,          // Position below the X-axis labels
-                xanchor: "center",
-                x: 0.5            // Center the legend
+                x: 1.02,
+                y: 0.15,
+                xanchor: 'left',
+                yanchor: 'top',
+                bgcolor: 'rgba(255, 255, 255, 0.95)',
+                bordercolor: 'rgba(0, 0, 0, 0.3)',
+                borderwidth: 1,
+                font: {
+                    size: 11,
+                    family: 'Inter, sans-serif'
+                },
+                title: {
+                    text: 'Median DSS',
+                    font: {
+                        size: 12,
+                        family: 'Inter, sans-serif'
+                    }
+                },
+                itemclick: false, // Disable toggle effect
+                itemdoubleclick: false // Disable double-click toggle
             }
-            // == END MODIFICATION ==
         };
 
-        Plotly.react(plotDiv, [synergisticTrace, antagonisticTrace, ineffectiveTrace], plotLayout, {responsive: true});
+        // Combine main trace with legend traces
+        const allTraces = [trace, ...legendTraces];
+
+        Plotly.react(plotDiv, allTraces, plotLayout, { responsive: true });
 
     } catch (error) {
         console.error("Failed to create HSA Bubble Plot:", error);

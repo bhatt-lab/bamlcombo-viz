@@ -1,109 +1,160 @@
 
 :root {
-    --primary-color: #2c3e50;
-    --secondary-color: #34495e;
-    --accent-color: #e74c3c;
-    --background-color: #ecf0f1;
-    --text-color: #34495e;
-    --light-text-color: #ecf0f1;
+    --primary-color: #1a283e; 
+    --secondary-color: #2c3e50;
+    --accent-color: #4e8cff; 
+    --background-color: #f0f2f5;
+    --text-color: #333;
+    --light-text-color: #fff;
+    --border-color: #dee2e6;
+    --shadow-color: rgba(0, 0, 0, 0.1);
 }
 
 body {
     font-family: 'Inter', sans-serif;
     background-color: var(--background-color);
     color: var(--text-color);
+    line-height: 1.6;
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1400px; 
 }
 
 .header {
-    background-color: var(--primary-color);
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     color: var(--light-text-color);
-    padding: 2rem;
+    padding: clamp(1rem, 2vw, 1.5rem) clamp(1rem, 3vw, 2rem);
     text-align: center;
-    position: relative;
+    border-bottom: 3px solid var(--accent-color);
 }
 
 .header h1 {
-    font-size: 2.5rem;
+    font-size: clamp(1.5rem, 3.5vw, 2.25rem);
     font-weight: 700;
+    letter-spacing: -1px;
+    margin: 0.25rem 0;
 }
 
 .header p {
-    font-size: 1.2rem;
-    opacity: 0.8;
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    opacity: 0.9;
+    margin-top: 0.25rem;
 }
 
 .footer {
     background-color: var(--primary-color);
     color: var(--light-text-color);
-    padding: 1.5rem;
+    padding: 2rem;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 .tab {
-    border-bottom-color: transparent;
-    color: var(--text-color);
+    padding: clamp(0.5rem, 1.2vw, 0.625rem) clamp(0.875rem, 2vw, 1.125rem);
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    color: var(--secondary-color);
+    font-weight: 500;
+    font-size: clamp(0.875rem, 1.3vw, 0.9375rem);
+    transition: all 0.3s ease;
+    margin-right: 0.5rem;
+}
+
+.tab:hover {
+    color: var(--accent-color);
 }
 
 .tab.active {
     border-bottom-color: var(--accent-color);
+    border-bottom-width: 2px;
     color: var(--accent-color);
     font-weight: 700;
 }
 
-.plot-container {
-    border: 1px solid #bdc3c7;
-    border-radius: 8px;
-    padding: 1rem;
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.plot-container, .bg-white {
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 1.5rem;
     background-color: #fff;
+    box-shadow: 0 4px 12px var(--shadow-color);
+    transition: box-shadow 0.3s ease;
+}
+
+/* Ensure plot containers scale properly */
+#plots-container .plot-container {
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#plots-container .plot-container > div {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.plot-container:hover, .bg-white:hover {
+    box-shadow: 0 8px 24px var(--shadow-color);
 }
 
 .theme-toggler {
     position: absolute;
-    top: 1rem;
-    right: 1rem;
-    background-color: var(--secondary-color);
+    top: 1.5rem;
+    right: 1.5rem;
+    background-color: var(--accent-color);
     color: var(--light-text-color);
     border: none;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
+    padding: 0.75rem 1.25rem;
+    border-radius: 8px;
     cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
 }
 
+.theme-toggler:hover {
+    background-color: #3a7ae0;
+}
+
+/* Dark Theme */
 .dark-theme {
-    --primary-color: #ecf0f1;
-    --secondary-color: #bdc3c7;
-    --accent-color: #e74c3c;
-    --background-color: #2c3e50;
-    --text-color: #ecf0f1;
-    --light-text-color: #2c3e50;
+    --primary-color: #121212;
+    --secondary-color: #1e1e1e;
+    --accent-color: #4e8cff;
+    --background-color: #18191a;
+    --text-color: #e4e6eb;
+    --light-text-color: #18191a;
+    --border-color: #3a3b3c;
+    --shadow-color: rgba(0, 0, 0, 0.4);
 }
 
-.dark-theme .plot-container {
-    background-color: #34495e;
-    border-color: #7f8c8d;
+.dark-theme .plot-container, .dark-theme .bg-white {
+    background-color: var(--secondary-color);
+    border-color: var(--border-color);
 }
 
-.dark-theme .bg-white {
-    background-color: #34495e;
-}
-
-.dark-theme .text-gray-700 {
-    color: #ecf0f1;
-}
-
-.dark-theme .text-gray-800 {
-    color: #ecf0f1;
-}
-
-.dark-theme .text-gray-600 {
-    color: #bdc3c7;
+.dark-theme .text-gray-700, .dark-theme .text-gray-800, .dark-theme .text-gray-600 {
+    color: var(--text-color);
 }
 
 .dark-theme .border-gray-200 {
-    border-color: #7f8c8d;
+    border-color: var(--border-color);
+}
+
+.dark-theme .tab {
+    color: var(--text-color);
+}
+
+.dark-theme .tab.active {
+    color: var(--accent-color);
+    border-bottom-color: var(--accent-color);
 }

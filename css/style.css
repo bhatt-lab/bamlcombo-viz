@@ -1,33 +1,31 @@
-.tab-content {
-    display: none;
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
 }
 
-.tab-content.active {
-    display: block;
+.container {
+    padding: 0 1rem;
 }
 
 /* --- Clinical Data Tab Styles --- */
 
-/* Styles for the header containing the title and dropdown */
 .clinical-data-header {
     display: flex;
-    justify-content: space-between; /* Pushes content to ends (title left, dropdown right) */
-    align-items: center; /* Vertically aligns items */
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 1rem;
-    flex-wrap: wrap; /* Allows wrapping on smaller screens */
-    gap: 10px; /* Space between items if they wrap */
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
-/* Styles for the custom dropdown wrapper */
 .custom-dropdown-wrapper {
-    position: relative; /* Important for positioning the checkbox list */
+    position: relative;
     display: flex;
     align-items: center;
     gap: 10px;
-    z-index: 10; /* Ensure dropdown appears above other content */
+    z-index: 10;
 }
 
-/* Styles for the visible part of the dropdown (the "button") */
 .selected-items-display {
     border: 1px solid #ccc;
     padding: 8px 12px;
@@ -40,15 +38,14 @@
     box-shadow: 0 1px 2px rgba(0,0,0,0.05);
     font-size: 0.9em;
     color: #333;
-    white-space: nowrap; /* Prevent text wrapping */
-    overflow-x: auto;   /* Adds horizontal scrollbar if content overflows */
-    overflow-y: hidden; /* Hides vertical scrollbar if any */
-    text-overflow: clip; /* Prevents ellipsis, shows full text with scrolling */
-    scrollbar-width: thin; /* For Firefox */
-    scrollbar-color: #ccc #f1f1f1; /* For Firefox */
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    text-overflow: clip;
+    scrollbar-width: thin;
+    scrollbar-color: #ccc #f1f1f1;
 }
 
-/* Webkit scrollbar styles (for Chrome, Safari) */
 .selected-items-display::-webkit-scrollbar {
     height: 6px;
 }
@@ -67,15 +64,10 @@
     background: #aaa;
 }
 
-.selected-items-display:focus {
-    border-color: #007acc;
+.selected-items-display:focus, .selected-items-display.active {
+    border-color: var(--accent-color);
     outline: none;
-    box-shadow: 0 0 0 2px rgba(0, 122, 204, 0.25);
-}
-
-.selected-items-display.active {
-    border-color: #007acc;
-    box-shadow: 0 0 0 2px rgba(0, 122, 204, 0.25);
+    box-shadow: 0 0 0 2px rgba(78, 140, 255, 0.25);
 }
 
 .selected-items-display .placeholder-text {
@@ -83,47 +75,47 @@
 }
 
 .checkbox-list-container {
-    display: none; /* Hidden by default */
+    display: none;
     position: absolute;
-    top: 100%; /* Position below the display area */
+    top: 100%;
     left: 0;
     right: 0;
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    max-height: 300px; /* Increased height to accommodate search bar and more items */
-    overflow: hidden; /* Hide scrollbar for the main container */
+    max-height: 300px;
+    overflow: hidden;
     padding: 10px;
     margin-top: 5px;
     z-index: 100;
 }
 
 .checkbox-list-container.active {
-    display: flex; /* Show when active */
-    flex-direction: column; /* ONLY apply flex-direction when active */
+    display: flex;
+    flex-direction: column;
 }
 
 .column-search-input {
-    width: calc(100% - 20px); /* Full width minus padding */
+    width: calc(100% - 20px);
     padding: 8px 10px;
-    margin-bottom: 10px; /* Space below search bar */
+    margin-bottom: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
     font-size: 0.9em;
-    box-sizing: border-box; /* Include padding in width */
+    box-sizing: border-box;
 }
 
 .column-search-input:focus {
-    border-color: #007acc;
+    border-color: var(--accent-color);
     outline: none;
-    box-shadow: 0 0 0 2px rgba(0, 122, 204, 0.25);
+    box-shadow: 0 0 0 2px rgba(78, 140, 255, 0.25);
 }
 
 .checkboxes-wrapper {
-    flex-grow: 1; /* Allows it to take up available space */
-    overflow-y: auto; /* Add scrollbar if content overflows */
-    padding-right: 5px; /* Prevent scrollbar from overlapping content */
+    flex-grow: 1;
+    overflow-y: auto;
+    padding-right: 5px;
 }
 
 .column-checkbox-label {
@@ -134,7 +126,7 @@
     font-size: 0.9em;
 }
 
-.checkbox-list-label:hover {
+.column-checkbox-label:hover {
     background-color: #f0f0f0;
 }
 
@@ -145,9 +137,9 @@
 
 #table-container {
     width: 100%;
-    overflow-x: auto; /* Allows horizontal scrolling for many columns */
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    overflow-x: auto;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
 }
 
 table {
@@ -157,90 +149,38 @@ table {
 }
 
 th, td {
-    padding: 10px 12px;
+    padding: 12px 15px;
     text-align: left;
-    border-bottom: 1px solid #ddd;
-    white-space: nowrap; /* Prevents text wrapping */
+    border-bottom: 1px solid var(--border-color);
+    white-space: nowrap;
 }
 
 thead th {
-    background-color: #f2f2f2;
+    background-color: #f8f9fa;
     font-weight: 600;
     position: sticky;
     top: 0;
-    cursor: default;
-}
-
-#table-container::-webkit-scrollbar {
-    height: 8px;
-}
-
-#table-container::-webkit-scrollbar-track {
-    background: #f1f1f1;
-    border-radius: 10px;
-}
-
-#table-container::-webkit-scrollbar-thumb {
-    background: #888;
-    border-radius: 10px;
-}
-
-#table-container::-webkit-scrollbar-thumb:hover {
-    background: #555;
-}
-
-#table-container {
-    scrollbar-width: thin; /* For Firefox */
-    scrollbar-color: #888 #f1f1f1; /* For Firefox */
 }
 
 tbody tr:nth-child(even) {
-    background-color: #f9f9f9;
+    background-color: #f8f9fa;
 }
 
 tbody tr:hover {
-    background-color: #e9e9e9;
+    background-color: #e9ecef;
 }
 
-.has-tooltip { position: relative; cursor: default; }
-.has-tooltip::after{
-  content: attr(data-tip);
+.tooltip {
   position: absolute;
-  left: 100%;
-  top: 0;
-  transform: translate(16px, 0);
-  white-space: pre-wrap;
-  max-width: 600px;
-  width: 600px;
-  background:#fff;
-  border:1px solid #e5e7eb;
-  box-shadow:0 4px 10px rgba(0,0,0,0.08);
-  padding:8px;
-  border-radius:6px;
-  z-index:999;
-  display:none;
-}
-.has-tooltip:hover::after{ display:block; }
-
-.header-label {
-  display: inline-block; /* Ensures it doesn't stretch to full column width */
-}
-
-#tooltip {
-  position: absolute; /* Crucial for positioning with JS */
-  display: none;      /* Hidden by default */
   opacity: 0;
   transition: opacity 0.2s;
-  
-  /* Visual styling */
-  max-width: 600px; /* Double width as requested */
+  max-width: 600px;
   background: #fff;
-  border: 1px solid #e5e7eb;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  border: 1px solid var(--border-color);
+  box-shadow: 0 4px 10px var(--shadow-color);
   padding: 8px 12px;
   border-radius: 6px;
   white-space: pre-wrap;
-  
-  z-index: 9999; /* Ensures it appears on top of all other content */
-  pointer-events: none; /* Prevents the tooltip from blocking mouse events */
+  z-index: 9999;
+  pointer-events: none;
 }

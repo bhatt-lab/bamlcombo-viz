@@ -73,8 +73,17 @@
                 <div class="bg-white p-6 rounded-lg shadow-md space-y-8">
                    <div>
                        <h3 class="text-2xl font-semibold mb-4 text-gray-700">Drug Combination Synergy Overview</h3>
-                       <div id="hsa-bubble-plot-container">
+                       <div id="hsa-bubble-plot-container" style="min-height: 800px;">
                            <p class="text-gray-500">Loading interactive plot...</p>
+                       </div>
+                       <div class="mt-4 p-4 bg-gray-50 rounded-lg text-sm text-gray-700">
+                           <h4 class="font-semibold mb-2">Combination Index (CI) Interpretation</h4>
+                           <p><b>CI (HSA) = DSS(Best monotherapy) / DSS(Combination)</b></p>
+                           <ul class="list-disc list-inside mt-2">
+                               <li><b>CI &gt; 1:</b> Combination is not better than its monotherapy (Antagonistic)</li>
+                               <li><b>CI = 1:</b> Combination is as effective as its best constituent monotherapy (Additive)</li>
+                               <li><b>CI &lt; 1:</b> Combination is more effective than its monotherapy (Synergistic)</li>
+                           </ul>
                        </div>
                    </div>
                </div>

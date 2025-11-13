@@ -141,23 +141,61 @@ function initCustomPlots(appData) {
         const xData = dataMap[selectedXFile];
         const yData = dataMap[selectedYFile];
 
+        // Validate data exists
+        if (!xData || !yData) {
+            plotContainer.html(`<p class="text-red-500 text-center p-4">Error: Selected data files are not available or empty.</p>`);
+            return;
+        }
+
         // --- ROBUST MERGING LOGIC ---
+        // Helper function to normalize Sample_ID (handle different formats)
+        const normalizeSampleId = (id) => {
+            if (!id) return null;
+            // Convert to string and trim whitespace
+            const normalized = String(id).trim();
+            return normalized || null;
+        };
+
         // 1. Get all unique Sample_IDs from the selected X and Y datasets.
-        const xSampleIds = xData ? xData.map(d => d.Sample_ID) : [];
-        const ySampleIds = yData ? yData.map(d => d.Sample_ID) : [];
+        const xSampleIds = xData && xData.length > 0 
+            ? xData.map(d => normalizeSampleId(d.Sample_ID)).filter(id => id !== null)
+            : [];
+        const ySampleIds = yData && yData.length > 0
+            ? yData.map(d => normalizeSampleId(d.Sample_ID)).filter(id => id !== null)
+            : [];
         const allSampleIds = [...new Set([...xSampleIds, ...ySampleIds])];
+
+        if (allSampleIds.length === 0) {
+            plotContainer.html(`<p class="text-red-500 text-center p-4">Error: No valid Sample_IDs found in the selected datasets.</p>`);
+            return;
+        }
 
         // 2. Build the merged dataset from this comprehensive list of IDs.
         const plotData = allSampleIds.map(sampleId => {
-            // Find the corresponding row in each dataset.
-            const cRow = clinical.find(c => c.Sample_ID === sampleId) || {};
-            const xRow = xData.find(x => x.Sample_ID === sampleId) || {};
-            const yRow = yData.find(y => y.Sample_ID === sampleId) || {};
+            // Find the corresponding row in each dataset using normalized IDs
+            const cRow = clinical ? clinical.find(c => normalizeSampleId(c.Sample_ID) === sampleId) : null;
+            const xRow = xData.find(x => normalizeSampleId(x.Sample_ID) === sampleId);
+            const yRow = yData.find(y => normalizeSampleId(y.Sample_ID) === sampleId);
             
             // Merge them, ensuring the primary Sample_ID is correct.
-            return { Sample_ID: sampleId, ...cRow, ...xRow, ...yRow };
+            return { 
+                Sample_ID: sampleId, 
+                ...(cRow || {}), 
+                ...(xRow || {}), 
+                ...(yRow || {}) 
+            };
+        }).filter(row => {
+            // Filter out rows that don't have data from both X and Y datasets
+            const hasXData = xSampleIds.includes(row.Sample_ID);
+            const hasYData = ySampleIds.includes(row.Sample_ID);
+            return hasXData && hasYData;
         });
         // --- END OF MERGING LOGIC ---
+
+        if (plotData.length === 0) {
+            plotContainer.html(`<p class="text-yellow-600 text-center p-4">No overlapping samples found between the selected X and Y datasets.</p>`);
+            return;
+        }
 
         selectedXCols.forEach((xCol, i) => {
             const plotDivId = `custom-plot-${i}`;
@@ -213,6 +251,7 @@ function createDistributionPlot(data, xVar, yVars, plotDivId) {
 
         if (points.length === 0) return null; // If no valid points, this trace will be skipped.
 
+        // Return box plot trace - will be grouped side-by-side using boxmode in layout
         return {
             x: points.map(p => p.x),
             y: points.map(p => p.y),
@@ -224,7 +263,7 @@ function createDistributionPlot(data, xVar, yVars, plotDivId) {
             jitter: 0.3,
             pointpos: 0,
             marker: { color: colors(i), size: 3, opacity: 0.5 },
-            line: { color: colors(i) }
+            line: { color: colors(i), width: 2 }
         };
     }).filter(t => t !== null); // Remove traces that had no valid data
 
@@ -263,6 +302,7 @@ function createDistributionPlot(data, xVar, yVars, plotDivId) {
     const plotLayout = {
         ...professionalTheme,
         title: { ...professionalTheme.title, text: `Distribution of ${yVars.join(', ')} by ${xVar}` },
+        boxmode: 'group', // Group box plots side by side when multiple Y variables are selected
         xaxis: { 
             ...professionalTheme.xaxis, 
             title: xVar, 
