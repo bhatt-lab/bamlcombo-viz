@@ -2,7 +2,7 @@
 :root {
     --primary-color: #1a283e; 
     --secondary-color: #2c3e50;
-    --accent-color: #4e8cff; 
+    --accent-color: #647acb; 
     --background-color: #f0f2f5;
     --text-color: #333;
     --light-text-color: #fff;
@@ -96,11 +96,27 @@ body {
     align-items: center;
     justify-content: center;
     overflow: hidden;
-}
-
-#plots-container .plot-container > div {
     width: 100% !important;
     height: 100% !important;
+}
+
+#plots-container2 .plot-container {
+    min-height: 500px;
+    max-height: 600px;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+#hsa-bubble-plot-container {
+    width: 100%;
+    height: 70vh;
+    min-height: 500px;
+    overflow: hidden;
+    box-sizing: border-box;
+    box-shadow: 0 4px 12px var(--shadow-color);
 }
 
 .plot-container:hover, .bg-white:hover {

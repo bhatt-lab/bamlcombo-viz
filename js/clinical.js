@@ -4,6 +4,10 @@
 // It is no longer async and does not load its own data.
 function initializeClinicalTab(data) {
     // --- CONFIGURATION ---
+    function sortSelectedColumns() {
+        selectedColumns = allHeaders.filter(h => selectedColumns.includes(h));
+    }
+
     
     const defaultColumns = [
         'Sample_ID', 
@@ -26,16 +30,16 @@ function initializeClinicalTab(data) {
         'currentStage', 
         'vitalStatus', 
         'overallSurvival', 
-        'causeOfDeath', 
-        'percentBlastsBM', 
-        'percentBlastsPB', 
-        'percentBasophilsPB', 
-        'percentEosinophilsPB', 
-        'percentImmatureGranulocytesPB', 
-        'percentLymphocytesPB', 
-        'percentMonocytesPB', 
-        'percentNeutrophilsPB',
-        'timeOfSampleCollectionRelativeToInclusion'
+        'causeOfDeath'
+        // 'percentBlastsBM', 
+        // 'percentBlastsPB', 
+        // 'percentBasophilsPB', 
+        // 'percentEosinophilsPB', 
+        // 'percentImmatureGranulocytesPB', 
+        // 'percentLymphocytesPB', 
+        // 'percentMonocytesPB', 
+        // 'percentNeutrophilsPB',
+        // 'timeOfSampleCollectionRelativeToInclusion'
     ];
 
     const columnInfo = {
@@ -154,6 +158,7 @@ function initializeClinicalTab(data) {
         
         // This line now uses your new, longer list of default columns.
         selectedColumns = defaultColumns.filter(col => allHeaders.includes(col));
+        sortSelectedColumns();
 
         if (selectedColumns.length === 0 && allHeaders.length > 0) {
             // Fallback if none of the default columns are found in the CSV
@@ -168,13 +173,33 @@ function initializeClinicalTab(data) {
         updateSelectedItemsDisplay(); 
         renderTable();
 
-        selectedColumnsDisplay.addEventListener('click', toggleDropdown);
-        searchInput.addEventListener('input', filterCheckboxes);
+        if (selectedColumnsDisplay && selectedColumnsDisplay.dataset.bound !== "1") {
+            selectedColumnsDisplay.dataset.bound = "1";
+            selectedColumnsDisplay.addEventListener('click', toggleDropdown);
+            searchInput.addEventListener('input', filterCheckboxes);
+        }
+
 
     } catch (error) {
         console.error('Error initializing clinical tab with data:', error);
         tableContainer.innerHTML = `<p style="color: red;">Failed to process the provided data.</p>`;
     }
+
+    // Bind tooltip handlers once on a stable parent (works across re-renders)
+    if (tableContainer && tableContainer.dataset.tooltipBound !== "1") {
+        tableContainer.addEventListener('mouseover', (e) => {
+            const span = e.target.closest('.header-label');
+            if (span) showTooltip({ target: span });
+        });
+
+        tableContainer.addEventListener('mouseout', (e) => {
+            const span = e.target.closest('.header-label');
+            if (span) hideTooltip();
+        });
+
+        tableContainer.dataset.tooltipBound = "1";
+    }
+
 
     // --- All other functions remain the same ---
 
@@ -190,13 +215,18 @@ function initializeClinicalTab(data) {
             
             checkbox.addEventListener('change', (event) => {
                 if (event.target.checked) {
+                    if (!selectedColumns.includes(header)) {
                     selectedColumns.push(header);
+                    }
                 } else {
                     selectedColumns = selectedColumns.filter(col => col !== header);
                 }
-                updateSelectedItemsDisplay(); 
-                renderTable(); 
+
+                sortSelectedColumns();     // ⭐ enforce column order
+                updateSelectedItemsDisplay();
+                renderTable();
             });
+
 
             label.appendChild(checkbox);
             label.appendChild(document.createTextNode(header));
@@ -262,25 +292,29 @@ function initializeClinicalTab(data) {
     }
 
     function showTooltip(event) {
-    const tooltipEl = document.getElementById('tooltip');
-    if (!tooltipEl) return;
+        const tooltipEl = document.getElementById('tooltip');
+        if (!tooltipEl) return;
 
-    const span = event.target;
-    const headerText = span.textContent;
-    const desc = columnInfo[headerText] ?? columnInfo[headerText.toLowerCase()] ?? 'No description available';
+        const span = event.target;
+        const headerText = span.textContent;
+        const desc = columnInfo[headerText] ?? columnInfo[headerText.toLowerCase()] ?? 'No description available';
 
-    tooltipEl.innerHTML = desc;
-    tooltipEl.style.display = 'block'; // Make it visible to get its dimensions
+        tooltipEl.innerHTML = desc;
+        tooltipEl.style.display = 'block'; // Make it visible to get its dimensions
 
-    const spanRect = span.getBoundingClientRect();
-    
-    // Position tooltip to the right of the text, vertically centered
-    const top = spanRect.top + (spanRect.height / 2) - (tooltipEl.offsetHeight / 2);
-    const left = spanRect.right + 8; // 8px gap
+        const spanRect = span.getBoundingClientRect();
+        
+        // Position tooltip to the right of the text, vertically centered
+        // const top = spanRect.top + (spanRect.height / 2) - (tooltipEl.offsetHeight / 2);
+        // const left = spanRect.right + 8; // 8px gap
 
-    tooltipEl.style.left = `${left + window.scrollX}px`;
-    tooltipEl.style.top = `${top + window.scrollY}px`;
-    tooltipEl.style.opacity = '1';
+        let left = spanRect.left + (spanRect.width / 2) - (tooltipEl.offsetWidth / 2);
+        let top = spanRect.top - tooltipEl.offsetHeight - 8;
+        left = Math.max(8, Math.min(left, window.innerWidth - tooltipEl.offsetWidth - 8));
+
+        tooltipEl.style.left = `${left + window.scrollX}px`;
+        tooltipEl.style.top = `${top + window.scrollY}px`;
+        tooltipEl.style.opacity = '1';
     }
 
     function hideTooltip() {
@@ -309,15 +343,12 @@ function initializeClinicalTab(data) {
             const span = document.createElement('span');
             span.className = 'header-label';
             span.textContent = headerText;
-            
-            // Attach the new JS event listeners
-            span.addEventListener('mouseover', showTooltip);
-            span.addEventListener('mouseout', hideTooltip);
-            
+                        
             th.appendChild(span);
             headerRow.appendChild(th);
         });
-    thead.appendChild(headerRow);
+
+        thead.appendChild(headerRow);
 
         allData.forEach(row => {
             const tr = document.createElement('tr');
@@ -333,6 +364,11 @@ function initializeClinicalTab(data) {
                     link.textContent = cellValue;
                     link.classList.add('text-blue-600', 'hover:underline'); // Tailwind classes for link styling
                     
+                    link.addEventListener('click', () => {
+                        sessionStorage.setItem('return_hash', location.hash || '#clinical');
+                        sessionStorage.setItem('return_scrollY', String(window.scrollY));
+                    });
+
                     td.appendChild(link);
                 } else {
                     // For all other columns, just display the text as before.
@@ -348,4 +384,19 @@ function initializeClinicalTab(data) {
         table.appendChild(tbody);
         tableContainer.appendChild(table);
     }
+
+    // ✅ restore scroll position when coming back from sample_details
+    const returnHash = sessionStorage.getItem('return_hash');
+    const returnScrollY = sessionStorage.getItem('return_scrollY');
+
+    if (returnHash) location.hash = returnHash;
+
+    if (returnScrollY) {
+    requestAnimationFrame(() => {
+        window.scrollTo({ top: Number(returnScrollY), behavior: 'instant' });
+        sessionStorage.removeItem('return_hash');
+        sessionStorage.removeItem('return_scrollY');
+    });
+    }
+
 }
