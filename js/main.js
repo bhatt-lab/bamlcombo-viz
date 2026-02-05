@@ -1,10 +1,6 @@
 // js/main.js - Updated to load all new data files for custom plotting
 
 document.addEventListener('DOMContentLoaded', function() {
-    // --- Central Data Loading ---
-    const summaryContainer = document.getElementById('content-summary');
-    summaryContainer.innerHTML = `<p class="text-center text-gray-500 p-8">Loading all datasets, please wait...</p>`;
-
     // js/main.js - Corrected paths with spaces removed
 
     const dataPaths = {
@@ -27,23 +23,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 return acc;
             }, {});
 
-        // --- Initialize Dashboard Components ---
-        summaryContainer.innerHTML = `
-            <div class="bg-white p-6 rounded-lg shadow-md">
-                <h3 class="text-2xl font-semibold text-center mb-6 text-gray-700">Dataset Summary</h3>
-                <div id="plots-container" class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div id="gender-plot" class="plot-container border rounded-lg p-2"></div>
-                    <div id="vital-plot" class="plot-container border rounded-lg p-2"></div>
-                    <div id="age-plot" class="plot-container border rounded-lg p-2"></div>
-                    <div id="fab-plot" class="plot-container border rounded-lg p-2"></div>
-                </div>
-            </div>`;
-        
+       
         // Initialize tab behavior first to ensure content is correctly shown/hidden
         initializeTabs(appData);
-        createSummaryPlots(appData.clinical);
-        initializeClinicalTab(appData.clinical);
-        initCustomPlots(appData);
 
     }).catch(function(error) {
         console.error("Fatal Error: Could not load required dashboard data.", error);
@@ -57,39 +39,126 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // --- Tab Initialization and Switching Logic ---
 function initializeTabs(appData) {
-    let drugTabInitialized = false;
     const tabs = document.querySelectorAll('.tab');
     const tabContents = document.querySelectorAll('.tab-content');
 
-    // On initial load, ensure only the 'Summary' tab and its content are active.
-    tabs.forEach(t => t.classList.remove('active'));
-    tabContents.forEach(c => c.classList.remove('active'));
+    // Track which tabs have been initialized
+    const tabInitialized = {
+        summary: false,
+        clinical: false,
+        drug: false,
+        custom: false
+        // add more keys if you have more tabs
+    };
 
-    const initialTab = document.getElementById('tab-summary');
-    const initialContent = document.getElementById('content-summary');
-    initialTab.classList.add('active');
-    initialContent.classList.add('active');
+    function initTabIfNeeded(key) {
+        if (tabInitialized[key]) return;
 
+        if (key === 'summary') {
+            // --- Initialize Dashboard Components --- Build summary DOM 
+            const summaryContainer = document.getElementById('content-summary');
+            summaryContainer.innerHTML = `<p class="text-center text-gray-500 p-8">Loading all datasets, please wait...</p>`;
+
+            summaryContainer.innerHTML = `
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-semibold text-center mb-6 text-gray-700">Dataset Summary</h3>
+                    <div id="plots-container" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div id="gender-plot" class="plot-container border rounded-lg p-2"></div>
+                        <div id="vital-plot" class="plot-container border rounded-lg p-2"></div>
+                        <div id="age-plot" class="plot-container border rounded-lg p-2"></div>
+                        <div id="fab-plot" class="plot-container border rounded-lg p-2"></div>
+                    </div>
+                </div>`;
+
+            createSummaryPlots(appData.clinical);
+            tabInitialized.summary = true;
+            return;
+        }
+
+        if (key === 'clinical') {
+            initializeClinicalTab(appData.clinical);
+            tabInitialized.clinical = true;
+            return;
+        }
+
+        if (key === 'drug') {
+            if (typeof initializeDrugResponseTab === 'function') {
+                initializeDrugResponseTab(appData.hsaSynergy, appData.comboDss);
+                tabInitialized.drug = true;
+            } else {
+                console.error("initializeDrugResponseTab function not found.");
+            }
+            return;
+        }
+
+        if (key === 'custom') {
+            initCustomPlots(appData);
+            tabInitialized.custom = true;
+            return;
+        }
+    }
+
+    function activateTab(key) {
+        // key like "summary", "drug", ...
+        tabs.forEach(t => t.classList.remove('active'));
+        tabContents.forEach(c => c.classList.remove('active'));
+
+        const targetTab = document.getElementById(`tab-${key}`);
+        const targetContent = document.getElementById(`content-${key}`);
+
+        if (!targetTab || !targetContent) {
+            key = 'summary';
+        }
+
+        const activeTab = document.getElementById(`tab-${key}`);
+        const activeContent = document.getElementById(`content-${key}`);
+        activeTab?.classList.add('active');
+        activeContent?.classList.add('active');
+
+        // Init the tab the first time it becomes visible
+        initTabIfNeeded(key);
+    }
+
+    function currentKeyFromHash() {
+        return window.location.hash.replace('#', '') || 'summary';
+    }
+
+    // Initial activation
+    activateTab(currentKeyFromHash());
+
+    // Click behavior
     tabs.forEach(tab => {
         tab.addEventListener('click', () => {
-            tabs.forEach(t => t.classList.remove('active'));
-            tabContents.forEach(c => c.classList.remove('active'));
+        const key = tab.id.slice('tab-'.length);
+        window.location.hash = key;     // enables back/forward
+        activateTab(key);               // immediate UI
+        });
+    });
 
-            tab.classList.add('active');
-            const contentId = 'content-' + tab.id.split('-')[1];
-            document.getElementById(contentId).classList.add('active');
+    // Back/forward behavior
+    window.addEventListener('hashchange', () => {
+        activateTab(currentKeyFromHash());
+    });
 
-            if (tab.id === 'tab-drug' && !drugTabInitialized) {
-                if (typeof initializeDrugResponseTab === 'function') {
-                    initializeDrugResponseTab(appData.hsaSynergy, appData.comboDss);
-                    drugTabInitialized = true;
-                } else {
-                    console.error("initializeDrugResponseTab function not found.");
-                }
-            }
+    // Back to Top Button
+    const backToTopBtn = document.getElementById('back-to-top');
+
+    window.addEventListener('scroll', () => {
+        if (window.pageYOffset > 300) {
+            backToTopBtn.classList.add('show');
+        } else {
+            backToTopBtn.classList.remove('show');
+        }
+    });
+
+    backToTopBtn.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
         });
     });
 }
+
 
 
 // --- Summary Plots Function ---
@@ -97,7 +166,7 @@ function createSummaryPlots(clinicalData) {
     // Premium color palettes with gradients
     const premiumColors = {
         // Gender - Soft, modern palette
-        gender: ['#667eea', '#764ba2', '#f093fb', '#4facfe', '#00f2fe', '#a8edea', '#fed6e3'],
+        gender: ['#f093fb', '#667eea', '#764ba2', '#4facfe', '#00f2fe', '#a8edea', '#fed6e3'],
         // Vital Status - Meaningful colors (green=alive, red=deceased, etc.)
         vital: ['#00b894', '#e17055', '#fdcb6e', '#6c5ce7', '#74b9ff', '#a29bfe'],
         // Gradient scales for continuous data
@@ -219,7 +288,7 @@ function createSummaryPlots(clinicalData) {
     // Map vital status to meaningful colors
     const vitalColorMap = {
         'Alive': '#00b894',
-        'Deceased': '#e17055',
+        'Dead': '#e17055',
         'Unknown': '#fdcb6e',
         'Lost to Follow-up': '#6c5ce7'
     };

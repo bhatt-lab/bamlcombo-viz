@@ -5,27 +5,34 @@ document.addEventListener('DOMContentLoaded', function() {
     const header = document.getElementById('details-header');
     const backButton = document.getElementById('back-to-dashboard-btn');
 
-    backButton.addEventListener('click', () => { window.history.back(); });
+    backButton.addEventListener('click', () => {
+        const hash = sessionStorage.getItem('return_hash') || '#clinical';
+        window.location.href = `index.html${hash}`;
+    });
 
     if (!sampleId) {
         header.textContent = 'Error: No Sample ID provided';
         return;
     }
     
+    header.style.color = "#fff";
     header.textContent = `Details for Sample: ${sampleId}`;
 
     const tabConfig = {
         'tab-clinical': {
+            key: 'clinical', 
             path: `data/clinical_by_sample/${sampleId}.json`,
             initFunction: initializeClinicalDataTab,
             dataLoaded: false
         },
         'tab-mutations': {
+            key: 'mutations', 
             path: `data/genomics_by_sample/${sampleId}.json`,
             initFunction: initializeMutationsTab,
             dataLoaded: false
         },
         'tab-sampledrug': {
+            key: 'sampledrug',
             path: `data/unified_dss_by_sample/${sampleId}.json`,
             initFunction: initializeSampleDrugResponseTab,
             dataLoaded: false
@@ -35,20 +42,54 @@ document.addEventListener('DOMContentLoaded', function() {
     const tabs = document.querySelectorAll('.tab');
     const tabContents = document.querySelectorAll('.tab-content');
 
+    // Reverse lookup: hashKey -> tabId
+    const keyToTabId = Object.fromEntries(
+        Object.entries(tabConfig).map(([tabId, cfg]) => [cfg.key, tabId])
+    );
+
+    function activateTab(key) {
+        // fallback
+        if (!keyToTabId[key]) key = 'clinical';
+        const tabId = keyToTabId[key];
+        const tab = document.getElementById(tabId);
+        if (!tab) return;
+
+        // your existing show/hide logic
+        tabs.forEach(t => t.classList.remove('active'));
+        tabContents.forEach(c => c.classList.remove('active'));
+
+        tab.classList.add('active');
+        document.getElementById(`content-${key}`)?.classList.add('active');
+
+        // lazy load
+        const config = tabConfig[tabId];
+        if (config && !config.dataLoaded && config.path) {
+            loadDataForTab(config);
+        }
+    }
+
+    function currentKeyFromHash() {
+        return (window.location.hash || '').replace('#', '') || 'clinical';
+    }
+
+    // Click updates the hash (enables deep links + back/forward)
     tabs.forEach(tab => {
         tab.addEventListener('click', () => {
-            tabs.forEach(t => t.classList.remove('active'));
-            tabContents.forEach(c => c.classList.remove('active'));
-            tab.classList.add('active');
-            const contentId = 'content-' + tab.id.split('-')[1];
-            document.getElementById(contentId).classList.add('active');
-            
-            const config = tabConfig[tab.id];
-            if (config && !config.dataLoaded && config.path) {
-                loadDataForTab(config);
-            }
+        const config = tabConfig[tab.id];
+        if (!config) return;
+
+        window.location.hash = config.key; // This will also trigger hashchange
+        activateTab(config.key); // Optional: activate immediately (nice UX)
         });
     });
+
+    // Back/forward support
+    window.addEventListener('hashchange', () => {
+        activateTab(currentKeyFromHash());
+    });
+
+    // Initial load: use hash if present, else default
+    activateTab(currentKeyFromHash());
 
     function loadDataForTab(config) {
         fetch(config.path)
@@ -61,8 +102,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 config.dataLoaded = true;
             }).catch(err => {
                 console.error("Error loading tab data:", err);
-                const tabId = config.initFunction.name.replace('initialize', '').replace('Tab', '').toLowerCase();
-                const container = document.querySelector(`#content-${tabId} > div > div`);
+                const container = document.querySelector(`#content-${config.key}`);
                 if(container) container.innerHTML = `<p class="text-red-500 text-center">${err.message}</p>`;
             });
     }
@@ -79,7 +119,7 @@ document.addEventListener('DOMContentLoaded', function() {
             containerId: 'unified-dss-plot-container',
             title: `All Therapies Sensitivity for Sample ${sampleId}`,
             colorConfig: colorConfig 
-        });
+        }, 'v');
 
         createWaterfallPlot({
             data: comboData,
@@ -100,20 +140,83 @@ document.addEventListener('DOMContentLoaded', function() {
     function initializeClinicalDataTab(data) {
         const patientContainer = document.getElementById('patient-table-container');
         const samplesContainer = document.getElementById('samples-table-container');
+
         const patientData = data.patient_data;
-        const allPatientSamples = data.related_samples;
         const patientColumns = Object.keys(patientData);
+        createKeyValueTable(patientData, patientColumns); //patient container
+
+        const allPatientSamples = data.related_samples;
         const samplesColumns = allPatientSamples.length > 0 ? Object.keys(allPatientSamples[0]) : [];
-        const patientTable = createKeyValueTable(patientData, patientColumns);
-        patientContainer.innerHTML = '';
-        patientContainer.appendChild(patientTable);
-        const samplesTable = createTransposedSamplesTable(allPatientSamples, samplesColumns);
-        samplesContainer.innerHTML = '';
-        samplesContainer.appendChild(samplesTable);
+        createTransposedSamplesTable(allPatientSamples, samplesColumns); //samples container
+
+        // --- HELPER FUNCTIONS FOR TABLES ---
+        function createKeyValueTable(dataRow, headers) {
+            patientContainer.innerHTML = '';
+            const table = document.createElement('table');
+            const tbody = document.createElement('tbody');
+            headers.forEach(header => {
+                const tr = document.createElement('tr');
+                const th = document.createElement('th');
+                th.className = 'text-left p-2 font-semibold w-1/4 key-cell';
+                th.textContent = header;
+                const td = document.createElement('td');
+                td.className = 'text-left p-2';
+                td.textContent = dataRow[header] !== null && dataRow[header] !== undefined ? dataRow[header] : 'N/A';
+                tr.appendChild(th);
+                tr.appendChild(td);
+                tbody.appendChild(tr);
+            });
+
+            table.appendChild(tbody);
+            patientContainer.appendChild(table);
+        }
+
+        function createTransposedSamplesTable(dataRows, headers) {
+            samplesContainer.innerHTML = '';
+            const table = document.createElement('table');
+            const thead = document.createElement('thead');
+            const tbody = document.createElement('tbody');
+
+            // Header row
+            const headerRow = document.createElement('tr');
+            const th = document.createElement('th');
+            th.className = 'text-left p-2 font-semibold w-1/4';
+            th.textContent = 'Attribute';
+            headerRow.appendChild(th);
+
+            dataRows.forEach(sample => {
+                const th = document.createElement('th');
+                th.className = 'text-left p-2 font-semibold';
+                th.textContent = sample.Sample_ID;
+                headerRow.appendChild(th);
+            });
+            thead.appendChild(headerRow);
+
+            // Body rows
+            headers.forEach(attribute => {
+                const tr = document.createElement('tr');
+                const tdLabel = document.createElement('td');
+                tdLabel.className = 'p-2 font-semibold key-cell';
+                tdLabel.textContent = attribute;
+                tr.appendChild(tdLabel);
+
+                dataRows.forEach(sample => {
+                    const td = document.createElement('td');
+                    td.className = 'p-2';
+                    td.textContent = sample[attribute] ?? 'N/A';
+                    tr.appendChild(td);
+                });
+                tbody.appendChild(tr);
+            });
+
+            table.appendChild(thead);
+            table.appendChild(tbody);
+            samplesContainer.appendChild(table);
+        }
+
     }
 
-    // --- REUSABLE HELPER FUNCTIONS ---
-    function createWaterfallPlot(options) {
+    function createWaterfallPlot(options, orientation = 'h') {
         const { data, containerId, title, colorConfig } = options;
         const plotContainer = document.getElementById(containerId);
 
@@ -121,63 +224,89 @@ document.addEventListener('DOMContentLoaded', function() {
             plotContainer.innerHTML = `<p class="text-gray-600 text-center">No data available for this view.</p>`;
             return;
         }
-        
+
         plotContainer.innerHTML = '';
-        
-        data.sort((a, b) => b.DSS - a.DSS);
+
+        // Don't mutate original data (optional but recommended)
+        const sorted = [...data].sort((a, b) => b.DSS - a.DSS);
 
         const plotData = { x: [], y: [], hovertext: [], marker: { color: [] } };
-        data.forEach(row => {
+
+        sorted.forEach(row => {
             const drugName = row.Combination;
-            plotData.x.push(row.DSS);
-            plotData.y.push(drugName);
+            const dss = Number(row.DSS);
+
             const normalizedName = String(drugName).toLowerCase().replace(/\s/g, '');
             const drugClass = colorConfig.compoundToClass[normalizedName];
             const barColor = colorConfig.classColors[drugClass] || '#cccccc';
+
+            // 👇 Assign x/y depending on orientation
+            if (orientation === 'h') {
+                plotData.x.push(dss);
+                plotData.y.push(drugName);
+            } else {
+                plotData.x.push(drugName);
+                plotData.y.push(dss);
+            }
+
             plotData.marker.color.push(barColor);
-            plotData.hovertext.push(`<b>Therapy:</b> ${drugName}<br><b>DSS:</b> ${row.DSS.toFixed(3)}<br><b>Class:</b> ${drugClass || 'N/A'}`);
+            plotData.hovertext.push(
+                `<b>Therapy:</b> ${drugName}<br><b>DSS:</b> ${dss.toFixed(3)}<br><b>Class:</b> ${drugClass || 'N/A'}`
+            );
         });
 
-        plotData.x.reverse();
-        plotData.y.reverse();
-        plotData.marker.color.reverse();
-        plotData.hovertext.reverse();
+        // Reverse so best is at top (for horizontal) or left (for vertical)
+        if (orientation === 'h') {
+            plotData.x.reverse();
+            plotData.y.reverse();
+            plotData.marker.color.reverse();
+            plotData.hovertext.reverse();
+        }
 
-        const barHeight = 25; // Height in pixels for each bar
-        const baseHeight = 150; // Extra space for title, axes, and margins
-        const plotHeight = Math.max(400, data.length * barHeight + baseHeight); // Ensure a minimum height of 400px
+        // Axis configs depend on orientation
+        const xaxis =
+            orientation === 'h'
+            ? { title: { text: 'DSS (Drug Sensitivity Score)', standoff: 5 }, range: [0, 50], automargin: true, side: 'top' }
+            : { type: 'category', automargin: true, tickangle: -45 };
+
+        const yaxis =
+            orientation === 'h'
+            ? { type: 'category', automargin: true }
+            : { title: { text: 'DSS (Drug Sensitivity Score)', standoff: 5 }, range: [0, 50], automargin: true, side: 'top' };
+
+        // Height logic: horizontal needs more height with many bars
+        const height =
+            orientation === 'h'
+            ? Math.max(420, sorted.length * 22 + 180) // barHeight = 22; baseHeight = 180;
+            : 520;
 
         const layout = {
-            title: title,
-            height: plotHeight, // <-- ADDED: Set the calculated height
-            xaxis: { title: 'DSS (Drug Sensitivity Score)' },
-            yaxis: { type: 'category', automargin: true }, // automargin helps fit long labels
-            margin: { l: 250 }
+            autosize: true,
+            font: { family: 'Inter, sans-serif', size: 11, color: '#2c3e50' },
+            title: { text: title },
+            xaxis,
+            yaxis,
+            margin: orientation === 'h'
+            ? { t: 100, b: 40, l: 220, r: 40 }   // more left space for long drug labels
+            : { t: 60, b: 140, l: 60, r: 40 },  // more bottom space for rotated labels
+            height
         };
 
-        Plotly.newPlot(plotContainer, [{ ...plotData, type: 'bar', orientation: 'h', hoverinfo: 'text' }], layout, { responsive: true });
-        
+        Plotly.newPlot(
+            plotContainer,
+            [{
+            ...plotData,
+            type: 'bar',
+            orientation,
+            hoverinfo: 'text',
+            width: orientation === 'h' ? 0.7 : 0.6,
+            textfont: { size: 12, color: '#2c3e50', family: 'Inter, sans-serif' }
+            }],
+            layout,
+            { responsive: true, displayModeBar: false }
+        );
     }
 
-    // --- LOGIC FOR CLINICAL DATA TAB ---
-    function initializeClinicalDataTab(data) {
-        const patientContainer = document.getElementById('patient-table-container');
-        const samplesContainer = document.getElementById('samples-table-container');
-
-        const patientData = data.patient_data;
-        const allPatientSamples = data.related_samples;
-
-        const patientColumns = Object.keys(patientData);
-        const samplesColumns = allPatientSamples.length > 0 ? Object.keys(allPatientSamples[0]) : [];
-
-        const patientTable = createKeyValueTable(patientData, patientColumns);
-        patientContainer.innerHTML = '';
-        patientContainer.appendChild(patientTable);
-
-        const samplesTable = createTransposedSamplesTable(allPatientSamples, samplesColumns);
-        samplesContainer.innerHTML = '';
-        samplesContainer.appendChild(samplesTable);
-    }
 
     function initializeMutationsTab(data) {
         const mutations = data.mutations;
@@ -221,16 +350,14 @@ document.addEventListener('DOMContentLoaded', function() {
     // --- A generic helper to build a standard data table ---
     function createStandardTable(dataRows, headers) {
         const table = document.createElement('table');
-        table.className = 'w-full text-sm border-collapse';
         const thead = document.createElement('thead');
         const tbody = document.createElement('tbody');
 
         // Header
         const headerRow = document.createElement('tr');
-        headerRow.className = 'bg-gray-100';
         headers.forEach(headerText => {
             const th = document.createElement('th');
-            th.className = 'text-left p-2 border font-semibold';
+            th.className = 'p-2';
             th.textContent = headerText;
             headerRow.appendChild(th);
         });
@@ -239,10 +366,10 @@ document.addEventListener('DOMContentLoaded', function() {
         // Body
         dataRows.forEach(row => {
             const tr = document.createElement('tr');
-            tr.className = 'border-b hover:bg-gray-50';
+            //tr.className = 'border-b hover:bg-gray-50';
             headers.forEach(header => {
                 const td = document.createElement('td');
-                td.className = 'p-2 border';
+                td.className = 'p-2 text-left';
                 td.textContent = row[header] !== null && row[header] !== undefined ? row[header] : 'N/A';
                 tr.appendChild(td);
             });
@@ -254,69 +381,9 @@ document.addEventListener('DOMContentLoaded', function() {
         return table;
     }
 
-    // --- HELPER FUNCTIONS FOR TABLES ---
-    function createKeyValueTable(dataRow, headers) {
-        const table = document.createElement('table');
-        table.className = 'w-full text-sm';
-        const tbody = document.createElement('tbody');
-        headers.forEach(header => {
-            const tr = document.createElement('tr');
-            tr.className = 'border-b';
-            const th = document.createElement('th');
-            th.className = 'text-left p-2 bg-gray-50 font-semibold w-1/3';
-            th.textContent = header;
-            const td = document.createElement('td');
-            td.className = 'text-left p-2';
-            td.textContent = dataRow[header] !== null && dataRow[header] !== undefined ? dataRow[header] : 'N/A';
-            tr.appendChild(th);
-            tr.appendChild(td);
-            tbody.appendChild(tr);
-        });
-        table.appendChild(tbody);
-        return table;
-    }
-
-    function createTransposedSamplesTable(dataRows, headers) {
-        const table = document.createElement('table');
-        table.className = 'w-full text-sm';
-        const thead = document.createElement('thead');
-        const tbody = document.createElement('tbody');
-        const headerRow = document.createElement('tr');
-        headerRow.className = 'border-b bg-gray-100';
-        let th = document.createElement('th');
-        th.className = 'text-left p-2 font-semibold';
-        th.textContent = 'Attribute';
-        headerRow.appendChild(th);
-        dataRows.forEach(sample => {
-            th = document.createElement('th');
-            th.className = 'text-left p-2 font-semibold';
-            th.textContent = sample.Sample_ID;
-            headerRow.appendChild(th);
-        });
-        thead.appendChild(headerRow);
-        headers.forEach(attribute => {
-            const tr = document.createElement('tr');
-            tr.className = 'border-b';
-            let td = document.createElement('td');
-            td.className = 'p-2 font-semibold bg-gray-50';
-            td.textContent = attribute;
-            tr.appendChild(td);
-            dataRows.forEach(sample => {
-                td = document.createElement('td');
-                td.className = 'p-2';
-                td.textContent = sample[attribute] !== null && sample[attribute] !== undefined ? sample[attribute] : 'N/A';
-                tr.appendChild(td);
-            });
-            tbody.appendChild(tr);
-        });
-        table.appendChild(thead);
-        table.appendChild(tbody);
-        return table;
-    }
-
     // Auto-load the default active tab
-    const activeTab = document.querySelector('.tab.active');
-    if (activeTab) {
-        activeTab.click();
-    }
+    // const activeTab = document.querySelector('.tab.active');
+    // if (activeTab) {
+    //     activeTab.click();
+    // }
 });
