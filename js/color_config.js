@@ -1,3 +1,56 @@
+//js/color_config.js
+
+const FIXED_COLORS = {
+    mutated: '#B2182B', 
+    wildtype: '#2166AC', 
+    wt: '#2166AC',
+    na: '#A6A6A6',
+    // eln2022
+    adverse: '#E41A1C',
+    intermediate: '#FFA500',
+    favorable:  '#2E8B57',
+    noninitial: '#E6E6FA',
+    unknown: '#A6A6A6',
+    // AML fusions specific colors  
+    bcrabl1: "#F8766D",
+    cbfbmyh11: "#CD9600",
+    deknup214: "#7CAE00",
+    kmt2are: "#00BA38", 
+    mecomre: "#00C08B" ,
+    nup98re: "#00BFC4",
+    pmlrara: "#00A9FF",
+    rarare: "#C77CFF",
+    runx1runx1t1: "#FF61CC",
+    other: "#FFD92F",
+    // fab subtypes
+    m0: "#FF4040",
+    m1: "#CAFF70",
+    m0m1: "#00BFFF",
+    m2: "#008B8B",
+    m3: "#F0E68C",
+    m4: "#4169E1",
+    m4eo: "#79CDCD",
+    m5: "#8B008B",
+    m6: "#EE30A7",
+    m6a: "#B22222",
+    m7: "#E9967A",
+    nos: "#A6A6A6",
+    //diagnosis
+    diagnosis: "#9370DB",
+    relapse: "#B22222",
+    residual: "#FF8C00",
+    remission: "#FFD700",
+    postchemotherapy: "#FFD700",
+    //"r/r": "#FFC0CB",
+    unknown: "#A9A9A9",
+    healthy: "#2E8B57",
+    //gender
+    female: '#f093fb', 
+    male: '#667eea',
+    alive: '#00b894',
+    dead: '#e17055'
+};
+
 const COLOR_CONFIG = {
     "compoundToClass": {
         "agicombo": "Other",

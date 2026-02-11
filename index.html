@@ -36,15 +36,6 @@
 
         <main class="mt-6">
             <div id="content-summary" class="tab-content">
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <h3 class="text-2xl font-semibold text-center mb-6 text-gray-700">Dataset Summary</h3>
-                    <div id="plots-container" class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        <div id="gender-plot" class="plot-container border rounded-lg p-2"></div>
-                        <div id="vital-plot" class="plot-container border rounded-lg p-2"></div>
-                        <div id="age-plot" class="plot-container border rounded-lg p-2"></div>
-                        <div id="fab-plot" class="plot-container border rounded-lg p-2"></div>
-                    </div>
-                </div>
             </div>
 
             <div id="content-clinical" class="tab-content">
@@ -106,8 +97,12 @@
                                     <option value="mutation">Mutation</option>
                                     <option value="surfaceAntigen">Surface Antigen</option>
                                     <option value="amlFusion">AML Fusion</option>
+                                    <option value="dssMono">DSS-Monotherapy</option>
+                                    <option value="dssCombo">DSS-Combination</option>
+                                    <option value="proteomics">Proteomics</option>
+                                    <option value="rnaSeq">RNA Sequencing</option>
                                 </select>
-                                </div>
+                            </div>
                             <div>
                                 <label for="x-axis-column-select-container" class="block text-sm font-medium text-gray-700">X-Axis Column:</label>
                                 <div id="x-axis-column-select-container" class="mt-1"></div>
@@ -119,19 +114,53 @@
                                 <label for="y-axis-file-select" class="block text-sm font-medium text-gray-700">Y-Axis File:</label>
                                 <select id="y-axis-file-select" class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md">
                                     <option value="">Select File...</option>
+                                    <option value="clinical">Clinical</option>
+                                    <option value="mutation">Mutation</option>
+                                    <option value="surfaceAntigen">Surface Antigen</option>
+                                    <option value="amlFusion">AML Fusion</option>
                                     <option value="dssMono">DSS-Monotherapy</option>
                                     <option value="dssCombo">DSS-Combination</option>
                                     <option value="proteomics">Proteomics</option>
                                     <option value="rnaSeq">RNA Sequencing</option>
                                 </select>
-                                </div>
+                            </div>
                             <div>
                                 <label class="block text-sm font-medium text-gray-700">Y-Axis Columns:</label>
-                                <div id="y-axis-column-select-container" class="mt-1 relative">
-                                    </div>
+                                <div id="y-axis-column-select-container" class="mt-1 relative"> </div>
                             </div>
                         </div>
                     </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div>
+                                <label for="color-file-select" class="block text-sm font-medium text-gray-700">Color Group File (Optional):</label>
+                                <select id="color-file-select" class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md">
+                                    <option value="">Select File...</option>
+                                    <option value="clinical">Clinical</option>
+                                    <option value="mutation">Mutation</option>
+                                    <option value="surfaceAntigen">Surface Antigen</option>
+                                    <option value="amlFusion">AML Fusion</option>
+                                    <option value="dssMono">DSS-Monotherapy</option>
+                                    <option value="dssCombo">DSS-Combination</option>
+                                    <option value="proteomics">Proteomics</option>
+                                    <option value="rnaSeq">RNA Sequencing</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <label for="color-column-select-container" class="block text-sm font-medium text-gray-700">Color Group Column (Optional):</label>
+                                <div id="color-column-select-container" class="mt-1"></div>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col">
+                            <div class="flex justify-end mt-4">
+                                <button id="custom-plot-reset" type="button" class="px-4 py-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300">Reset Plot Controls</button>
+                            </div>
+                        </div>
+                    </div>
+
                     <div id="custom-plot" class="border rounded-lg p-2 min-h-[400px]"></div>
                 </div>
             </div>
@@ -153,9 +182,11 @@
     </footer>
 
     <script src="js/documentation.js?v=3"></script>
-    <script src="js/clinical.js?v=3"></script>
-    <script src="js/drug_response_plots.js?v=3"></script>
-    <script src="js/custom_plots.js?v=3"></script>
-    <script src="js/main.js?v=3"></script>
+    <script src="js/color_config.js?v=2"></script>
+    <script src="js/ui_helpers.js?v=1"></script>
+    <script src="js/clinical.js?v=4"></script>
+    <script src="js/drug_response_plots.js?v=4"></script>
+    <script src="js/custom_plots.js?v=5"></script>
+    <script src="js/main.js?v=4"></script>
 </body>
 </html>

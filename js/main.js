@@ -39,9 +39,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // --- Tab Initialization and Switching Logic ---
 function initializeTabs(appData) {
-    const tabs = document.querySelectorAll('.tab');
-    const tabContents = document.querySelectorAll('.tab-content');
-
     // Track which tabs have been initialized
     const tabInitialized = {
         summary: false,
@@ -98,48 +95,17 @@ function initializeTabs(appData) {
         }
     }
 
-    function activateTab(key) {
-        // key like "summary", "drug", ...
-        tabs.forEach(t => t.classList.remove('active'));
-        tabContents.forEach(c => c.classList.remove('active'));
-
-        const targetTab = document.getElementById(`tab-${key}`);
-        const targetContent = document.getElementById(`content-${key}`);
-
-        if (!targetTab || !targetContent) {
-            key = 'summary';
-        }
-
-        const activeTab = document.getElementById(`tab-${key}`);
-        const activeContent = document.getElementById(`content-${key}`);
-        activeTab?.classList.add('active');
-        activeContent?.classList.add('active');
-
-        // Init the tab the first time it becomes visible
-        initTabIfNeeded(key);
-    }
-
-    function currentKeyFromHash() {
-        return window.location.hash.replace('#', '') || 'summary';
-    }
-
-    // Initial activation
-    activateTab(currentKeyFromHash());
-
-    // Click behavior
-    tabs.forEach(tab => {
-        tab.addEventListener('click', () => {
-        const key = tab.id.slice('tab-'.length);
-        window.location.hash = key;     // enables back/forward
-        activateTab(key);               // immediate UI
-        });
+    const tabManager = window.DashboardUI?.createTabManager({
+        defaultTab: 'summary',
+        onActivate: initTabIfNeeded
     });
 
-    // Back/forward behavior
-    window.addEventListener('hashchange', () => {
-        activateTab(currentKeyFromHash());
-    });
-
+    if (tabManager) {
+        tabManager.activate(tabManager.current());
+    } else {
+        initTabIfNeeded('summary');
+    }
+    
     // Back to Top Button
     const backToTopBtn = document.getElementById('back-to-top');
 

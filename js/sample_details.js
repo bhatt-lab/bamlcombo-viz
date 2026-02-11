@@ -39,57 +39,33 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     };
 
-    const tabs = document.querySelectorAll('.tab');
-    const tabContents = document.querySelectorAll('.tab-content');
-
     // Reverse lookup: hashKey -> tabId
     const keyToTabId = Object.fromEntries(
         Object.entries(tabConfig).map(([tabId, cfg]) => [cfg.key, tabId])
     );
 
-    function activateTab(key) {
-        // fallback
-        if (!keyToTabId[key]) key = 'clinical';
+    function handleTabActivation(key) {
         const tabId = keyToTabId[key];
-        const tab = document.getElementById(tabId);
-        if (!tab) return;
+        if (!tabId) return;
 
-        // your existing show/hide logic
-        tabs.forEach(t => t.classList.remove('active'));
-        tabContents.forEach(c => c.classList.remove('active'));
-
-        tab.classList.add('active');
-        document.getElementById(`content-${key}`)?.classList.add('active');
-
-        // lazy load
         const config = tabConfig[tabId];
         if (config && !config.dataLoaded && config.path) {
             loadDataForTab(config);
         }
     }
 
-    function currentKeyFromHash() {
-        return (window.location.hash || '').replace('#', '') || 'clinical';
+    const tabManager = window.DashboardUI?.createTabManager({
+        defaultTab: 'clinical',
+        onActivate: handleTabActivation
+    });
+
+    if (tabManager) {
+        tabManager.activate(tabManager.current());
+    } else {
+        document.getElementById('tab-clinical')?.classList.add('active');
+        document.getElementById('content-clinical')?.classList.add('active');
+        handleTabActivation('clinical');
     }
-
-    // Click updates the hash (enables deep links + back/forward)
-    tabs.forEach(tab => {
-        tab.addEventListener('click', () => {
-        const config = tabConfig[tab.id];
-        if (!config) return;
-
-        window.location.hash = config.key; // This will also trigger hashchange
-        activateTab(config.key); // Optional: activate immediately (nice UX)
-        });
-    });
-
-    // Back/forward support
-    window.addEventListener('hashchange', () => {
-        activateTab(currentKeyFromHash());
-    });
-
-    // Initial load: use hash if present, else default
-    activateTab(currentKeyFromHash());
 
     function loadDataForTab(config) {
         fetch(config.path)
