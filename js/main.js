@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // js/main.js - Corrected paths with spaces removed
 
     const dataPaths = {
-        clinical: d3.csv("data/suppTablesCsv/supptables_s2.clinical_summary.csv"),
+        clinical: d3.csv("data/S2_Clinical_summary.csv"),
         mutation: d3.csv("data/S3_Mutation.csv"),
         surfaceAntigen: d3.csv("data/S4_Surface_antigen.csv"),       // <-- CHANGED
         amlFusion: d3.csv("data/S5_Consensus_AML_fusion.csv"),      // <-- CHANGED
