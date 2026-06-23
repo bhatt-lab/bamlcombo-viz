@@ -1,4 +1,4 @@
-# (WORK IN PROGRESS) bamlcombo-viz
+# bamlcombo-viz
 Comprehensive Biological Data Dashboard
 This is an interactive, web-based dashboard for exploring clinical biological datasets, inspired by cBioPortal. It is built with HTML, Tailwind CSS, and Plotly.js.
 
