@@ -18,9 +18,8 @@
 
     <header class="header">
         <h1>Beat AML Drug Combo Dashboard</h1>
-        <p>An interactive portal for exploring clinical and genomics data</p>
+        <p>An interactive portal for exploring pharmacological, clinical and molecular data</p>
         <!-- <p>This site is under active development. Content is preliminary and subject to change.</p> -->
-        <!-- <button id="theme-toggler" class="theme-toggler">Toggle Theme</button> -->
     </header>
 
     <div class="container mx-auto p-4 md:p-8">
@@ -164,21 +163,166 @@
                     <div id="custom-plot" class="border rounded-lg p-2 min-h-[400px]"></div>
                 </div>
             </div>
+        
+            <div id="content-documentation" class="tab-content max-w-6xl mx-auto">
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-200 space-y-10">
 
-        <div id="content-documentation" class="tab-content">
-            <div class="bg-white p-6 rounded-lg shadow-md space-y-8">
-                <div>
-                    <h3 class="text-2xl font-semibold mb-4 text-gray-700">Documentation</h3>
+                    <div class="border-b border-gray-200 pb-4">
+                        <h3 class="text-3xl font-bold text-gray-800">
+                            Dataset Documentation
+                        </h3>
+                    </div>
+
+                    <section>
+                        <h4 class="text-xl font-semibold text-gray-800 mb-3">Overview</h4>
+                        <p class="text-gray-700 leading-relaxed">
+                            This dashboard provides access to the Beat AML drug combination dataset,
+                            integrating high-throughput ex vivo drug response data with clinical and molecular metadata.
+                            The goal is to enable exploration of treatment response patterns and
+                            biomarker associations in acute myeloid leukemia (AML).
+                        </p>
+                    </section>
+
+                    <section>
+                        <h4 class="text-xl font-semibold text-gray-800 mb-3">How to Use This Portal</h4>
+                        <div class="grid md:grid-cols-2 gap-4">
+
+                            <div class="border rounded-lg p-4">
+                                <h5 class="font-semibold text-gray-800 mb-1">
+                                    Summary
+                                </h5>
+                                <p class="text-gray-600 text-sm">
+                                    Overview of cohort characteristics.
+                                </p>
+                            </div>
+
+                            <div class="border rounded-lg p-4">
+                                <h5 class="font-semibold text-gray-800 mb-1">
+                                    Clinical Data
+                                </h5>
+                                <p class="text-gray-600 text-sm">
+                                    Interactive exploration of sample-level clinical and molecular metadata.
+                                </p>
+                            </div>
+
+                            <div class="border rounded-lg p-4">
+                                <h5 class="font-semibold text-gray-800 mb-1">
+                                    Drug Response
+                                </h5>
+                                <p class="text-gray-600 text-sm">
+                                    Visualization of monotherapy and combination sensitivity profiles.
+                                </p>
+                            </div>
+
+                            <div class="border rounded-lg p-4">
+                                <h5 class="font-semibold text-gray-800 mb-1">
+                                    Custom Plots
+                                </h5>
+                                <p class="text-gray-600 text-sm">
+                                    User-defined analyses integrating drug response, mutations,
+                                    transcriptomics, proteomics, and clinical variables.
+                                </p>
+                            </div>
+
+                        </div>
+                    </section>
+
+                    <section>
+                        <h4 class="text-xl font-semibold text-gray-800 mb-3">Study Design</h4>
+                        <ul class="list-disc list-outside ml-5 space-y-3 text-gray-700 leading-relaxed">
+                            <li><strong>Cohort:</strong> 596 AML samples from 474 patients in the Beat AML study.</li>
+                            <li><strong>Dataset:</strong> Ex vivo drug sensitivity screening.</li>
+                            <li><strong>Assay:</strong> Freshly isolated MNCs from primary patient bone marrow, peripheral blood, 
+                                or leukapheresis specimens were seeded into prepared drug plates at 1E4 cells per well.
+                                Inhibitors (single agents or equimolar combinations of two single agents) were evaluated 
+                                in a concentration series ranging from 0.0137 μM to 10 μM (except for dasatinib and sunitinib; 
+                                0.00137 μM to 1 μM). Cell viability was assessed after 3 days using an MTS reagent (CellTiter96; Promega).</li>
+                            <li><strong>Drug Sensitivity Score (DSS):</strong> Calculated using DSS2 as described in 
+                                <a href="https://pubmed.ncbi.nlm.nih.gov/24898935/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">Yadav et al., 2014</a>. 
+                                The calculated DSS values were standardized to a range of 0 to 1, with values closer to 1 indicating a stronger sensitivity to the drug. Replicates for each sample are averaged.</li>    
+                            <li><strong>Metadata:</strong> Clinical, mutation, RNA-seq, proteomics.</li>
+                            <li><strong>Data Sources:</strong> 
+                                Patient sample clinical summary, RNA-sequencing data, WES/targeted sequencing mutations calls and raw inhibitor values from the Beat AML cohort 
+                                are downloaded from the publicly accessible interactive user interface, <a href="http://www.vizome.org/additional_figures_Beat_AML.html" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">Vizome</a> and their <a href="https://biodev.github.io/Beat_AML2/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">Github page</a>.  
+                                Processed Beat AML global proteomics data are accessed via the Synapse repository from the <a href="https://www.synapse.org/Synapse:syn24171150" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">Pacific Northwest National Laboratory - Proteogenomic Translational Research Center</a>.  
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h4 class="text-xl font-semibold text-gray-800 mb-3">Data Files</h4>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-gray-700">
+                            <div class="bg-gray-50 p-3 rounded border border-gray-100"><strong>Clinical:</strong> Patient demographics and clinical annotations</div>
+                            <div class="bg-gray-50 p-3 rounded border border-gray-100"><strong>Mutation:</strong> Gene mutation status from targeted and whole-exome sequencing (Converted to 0/1)</div>
+                            <div class="bg-gray-50 p-3 rounded border border-gray-100"><strong>RNA Sequencing:</strong> Gene expression (VST normalized counts)</div>
+                            <div class="bg-gray-50 p-3 rounded border border-gray-100"><strong>Proteomics:</strong> Protein abundance measurements (log₂-transformed and zero-centered)</div>
+                            <div class="bg-gray-50 p-3 rounded border border-gray-100"><strong>DSS-Monotherapy:</strong> Drug sensitivity scores for single agents</div>
+                            <div class="bg-gray-50 p-3 rounded border border-gray-100"><strong>DSS-Combination:</strong> Drug sensitivity scores for combination therapies</div>
+                        </div>
+                    </section>
+
+                    <section class="bg-gray-50 p-3 md:p-8 rounded-lg border border-gray-100 space-y-4 mt-2">
+                        <!-- Citation Part -->
+                        <div>
+                            <h4 class="text-xl font-semibold text-gray-800 mb-2">Citation</h4>
+                            <p class="text-gray-600 text-sm mb-4">If you use this dataset, please cite:</p>
+                            
+                            <div class="bg-white p-4 rounded border border-gray-200 shadow-sm">
+                                <!-- Title made distinct -->
+                                <p class="text-gray-900 font-semibold text-md mb-2">
+                                    Integrating drug combination landscapes with multiomics for acute myeloid leukemia
+                                </p>
+                                <!-- Authors -->
+                                <p class="text-gray-700 text-sm leading-relaxed">
+                                    <strong><em>Xiao Xian Lin</em></strong>, Christopher A. Eide, Stephen E. Kurtz, Elyse A. Olesinski, Shradha Garnaik, 
+                                    <strong><em>Vedant Sandhu</em></strong>, Nicola Long, <strong><em>Rucha Ravi Kulkarni</em></strong>, Noor Rashidha Binte Meera Sahib, 
+                                    Melissa Ooi, Edward K. Chow, Jeffrey W. Tyner, Sanjukta Das, Shruti Bhatt
+                                </p>
+                            </div>
+                        </div>
+
+                        <hr class="border-gray-200">
+                        <!-- Contact Part -->
+                        <div>
+                            <h4 class="text-xl font-semibold text-gray-800 mb-2">Contact</h4>
+                            <p class="text-gray-700 text-sm mb-3">
+                                For questions or data access inquiries, please reach out to:
+                            </p>
+                            <div class="flex items-center space-x-2 text-gray-800 font-medium">
+                                <svg class="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                                <a href="mailto:shruti.bhatt@emory.edu" class="text-sm hover:text-blue-600 hover:underline transition-colors">shruti.bhatt@emory.edu</a>
+                            </div>
+                        </div>
+
+                    </section>
+
                 </div>
             </div>
-        </div>
 
         </main>
     </div>
 
     <footer class="footer">
-        <p>&copy; 2025 BAML-COMBO Project. All Rights Reserved.</p>
-        <p><a href="https://github.com/bhatt-lab/bamlcombo-viz">GitHub</a></p>
+        <div class="max-w-6xl mx-auto px-4 sm:px-8 flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
+            
+            <!-- Copyright -->
+            <p class="text-sm">
+                &copy; 2026 Beat AML Drug Combo. All Rights Reserved.
+            </p>
+
+            <!-- GitHub Link with Icon -->
+            <a href="https://github.com/bhatt-lab/bamlcombo-viz" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            class="hover:text-gray-500 flex items-center space-x-2 transition-colors duration-200 text-sm font-medium">
+                
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd" />
+                </svg>
+                <span>View on GitHub</span>
+            </a>
+
+        </div>
     </footer>
 
     <script src="js/documentation.js?v=3"></script>
