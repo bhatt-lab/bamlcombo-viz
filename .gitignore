@@ -198,3 +198,4 @@ cython_debug/
 data/perDataset/
 data/perSample/
 data/designTablesCsv/
+other/
