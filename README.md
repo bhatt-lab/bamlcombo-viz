@@ -11,17 +11,6 @@ This is an interactive, web-based dashboard for exploring clinical biological da
 
 - Responsive Design: Works on various screen sizes.
 
-## 📁 Repository Structure
-```
-.
-├── data/
-│   └── clinical_summary.csv
-├── css/
-│   └── style.css
-├── js/
-│   └── main.js
-└── index.html
-```
 
 ## 🛠️ Setup and Local Development
 
