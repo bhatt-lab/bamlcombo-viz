@@ -133,7 +133,115 @@ function initializeClinicalTab(data) {
         'MCV': 'Mean corpuscular volume (fL)',
         'surfaceAntigensImmunohistochemicalStains': 'Positive surface antigens, as determined by clinical flow'
     };
-    
+
+    // Plain-English display labels for the raw column names. The underlying
+    // column name (used for data lookup, selection and tooltips) is unchanged;
+    // only what the user sees is reworded. Unknown columns fall back to an
+    // auto-prettified version of the raw name.
+    const columnLabels = {
+        'sampleid': 'Sample ID',
+        'Sample_ID': 'Sample ID',
+        'patientId': 'Patient ID',
+        'labId': 'Lab ID',
+        'dbgap_subject_id': 'dbGaP Subject ID',
+        'dbgap_dnaseq_sample': 'dbGaP DNA-seq Sample',
+        'dbgap_rnaseq_sample': 'dbGaP RNA-seq Sample',
+        'Data available': 'Data Available',
+        'gender': 'Gender',
+        'ageAtDiagnosis': 'Age at Diagnosis',
+        'priorMalignancyNonMyeloid': 'Prior Non-Myeloid Malignancy',
+        'priorMalignancyType': 'Prior Malignancy Type',
+        'cumulativeChemo': 'Received Chemotherapy',
+        'priorMalignancyRadiationTx': 'Prior Malignancy Radiation Therapy',
+        'priorMDS': 'Prior MDS',
+        'priorMDSMoreThanTwoMths': 'Prior MDS >2 Months Before AML',
+        'priorMDSMPN': 'Prior MDS/MPN',
+        'priorMDSMPNMoreThanTwoMths': 'Prior MDS/MPN >2 Months Before AML',
+        'priorMPN': 'Prior MPN',
+        'priorMPNMoreThanTwoMths': 'Prior MPN >2 Months Before AML',
+        'dxAtSpecimenAcquisition': 'Diagnosis at Specimen Acquisition',
+        'specificDxAtAcquisition': 'Specific Diagnosis at Acquisition',
+        'secondarySpecificDxAtAcquisition': 'Secondary Specific Diagnosis at Acquisition',
+        'dxAtInclusion': 'Diagnosis at Inclusion',
+        'specificDxAtInclusion': 'Specific Diagnosis at Inclusion',
+        'fabBlastMorphology': 'FAB Blast Morphology',
+        'fabBlastMorphology_old': 'FAB Blast Morphology (legacy)',
+        'AML_subtype': 'AML Subtype',
+        'ELN2022': 'ELN 2022 Risk',
+        'AMLFusion': 'AML Fusion',
+        'karyotype': 'Karyotype',
+        'otherCytogenetics': 'Other Cytogenetics',
+        'mutationsSummary': 'Mutations Summary',
+        'FLT3_ITDCall': 'FLT3-ITD Call',
+        'NPM1Call': 'NPM1 Call',
+        'CEBPA_Biallelic': 'CEBPA Biallelic',
+        'ageAtSpecimenAcquisition': 'Age at Specimen Acquisition',
+        'timeOfSampleCollectionRelativeToInclusion': 'Time of Sample Collection Relative to Inclusion (days)',
+        'replicate': 'Replicate',
+        'diseaseStageAtSpecimenCollection': 'Disease Stage at Specimen Collection',
+        'Status': 'Status',
+        'specimenGroups': 'Specimen Groups',
+        'specimenType': 'Specimen Type',
+        'priorTreatmentTypeCount': 'Prior Treatment Type Count',
+        'priorTreatmentTypes': 'Prior Treatment Types',
+        'priorTreatmentRegimenCount': 'Prior Treatment Regimen Count',
+        'priorTreatmentStageCount': 'Prior Treatment Stage Count',
+        'priorTreatmentStages': 'Prior Treatment Stages',
+        'responseToInductionTx': 'Response to Induction Therapy',
+        'typeInductionTx': 'Induction Therapy Type',
+        'responseDurationToInductionTx': 'Response Duration to Induction Therapy (days)',
+        'cumulativeTreatmentRegimens': 'Cumulative Treatment Regimens',
+        'mostRecentTreatmentRegimen': 'Most Recent Treatment Regimen',
+        'currentTreatmentType': 'Current Treatment Type',
+        'currentStage': 'Current Stage',
+        'currentTreatmentDuration': 'Current Treatment Duration (days)',
+        'vitalStatus': 'Vital Status',
+        'overallSurvival': 'Overall Survival (days)',
+        'causeOfDeath': 'Cause of Death',
+        'percentBlastsBM': '% Blasts (Bone Marrow)',
+        'percentBlastsPB': '% Blasts (Peripheral Blood)',
+        'percentAbnormalPlasmaBM': '% Abnormal Plasma Cells (Bone Marrow)',
+        'percentBandsPB': '% Bands (Peripheral Blood)',
+        'percentBasophilsPB': '% Basophils (Peripheral Blood)',
+        'percentEosinophilsPB': '% Eosinophils (Peripheral Blood)',
+        'percentImmatureGranulocytesPB': '% Immature Granulocytes (Peripheral Blood)',
+        'percentLymphocytesPB': '% Lymphocytes (Peripheral Blood)',
+        'percentMetamyelocytesPB': '% Metamyelocytes (Peripheral Blood)',
+        'percentMonocytesPB': '% Monocytes (Peripheral Blood)',
+        'percentMyelocytesPB': '% Myelocytes (Peripheral Blood)',
+        'percentNeutrophilsPB': '% Neutrophils (Peripheral Blood)',
+        'percentNucleatedRBCsPB': '% Nucleated RBCs (Peripheral Blood)',
+        'percentPromonocytes': '% Promonocytes',
+        'percentPromyelocytes': '% Promyelocytes',
+        'percentPromyelocytesPB': '% Promyelocytes (Peripheral Blood)',
+        'percentReactiveLymphocytesPB': '% Reactive Lymphocytes (Peripheral Blood)',
+        'percentWBC': '% White Blood Cells (Peripheral Blood)',
+        'wbcCount': 'WBC Count (x10⁹/L)',
+        'plateletCount': 'Platelet Count (per L)',
+        'albumin': 'Albumin (g/dL)',
+        'bCellGeneRearrangement': 'B-Cell Gene Rearrangement',
+        'bilirubin': 'Total Bilirubin (mg/dL)',
+        'creatinine': 'Creatinine (mg/dL)',
+        'hemoglobin': 'Hemoglobin (%)',
+        'tCellReceptorGene': 'T-Cell Receptor Gene',
+        'ALT': 'ALT (U/L)',
+        'AST': 'AST (U/L)',
+        'LDH': 'LDH (U/L)',
+        'MCV': 'MCV (fL)',
+        'surfaceAntigensImmunohistochemicalStains': 'Surface Antigens (IHC Stains)'
+    };
+
+    const getColumnLabel = (header) => {
+        if (columnLabels[header]) return columnLabels[header];
+        // Fallback: split camelCase / snake_case and title-case the result.
+        return String(header)
+            .replace(/_/g, ' ')
+            .replace(/([a-z0-9])([A-Z])/g, '$1 $2')
+            .replace(/\s+/g, ' ')
+            .trim()
+            .replace(/\b\w/g, c => c.toUpperCase());
+    };
+
     // --- APPLICATION LOGIC ---
     const customDropdownWrapper = document.getElementById('column-select-custom-dropdown');
     const selectedColumnsDisplay = document.getElementById('selected-columns-display');
@@ -229,7 +337,7 @@ function initializeClinicalTab(data) {
 
 
             label.appendChild(checkbox);
-            label.appendChild(document.createTextNode(header));
+            label.appendChild(document.createTextNode(getColumnLabel(header)));
             checkboxesWrapper.appendChild(label);
         });
     }
@@ -253,7 +361,7 @@ function initializeClinicalTab(data) {
         } else if (selectedColumns.length === 0) {
             selectedColumnsDisplay.innerHTML = '<span class="placeholder-text">Click to select...</span>';
         } else {
-            selectedColumnsDisplay.textContent = selectedColumns.join(', ');
+            selectedColumnsDisplay.textContent = selectedColumns.map(getColumnLabel).join(', ');
         }
     }
 
@@ -296,7 +404,7 @@ function initializeClinicalTab(data) {
         if (!tooltipEl) return;
 
         const span = event.target;
-        const headerText = span.textContent;
+        const headerText = span.dataset.col || span.textContent;
         const desc = columnInfo[headerText] || columnInfo[headerText.toLowerCase()] || 'No description available';
 
         tooltipEl.innerHTML = desc;
@@ -340,9 +448,12 @@ function initializeClinicalTab(data) {
             const th = document.createElement('th');
             
             // Create a span to wrap the text. This is our hover target.
+            // Display the plain-English label but keep the raw column name in
+            // a data attribute so tooltip lookups still resolve.
             const span = document.createElement('span');
             span.className = 'header-label';
-            span.textContent = headerText;
+            span.dataset.col = headerText;
+            span.textContent = getColumnLabel(headerText);
                         
             th.appendChild(span);
             headerRow.appendChild(th);

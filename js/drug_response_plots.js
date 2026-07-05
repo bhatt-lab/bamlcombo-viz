@@ -252,13 +252,16 @@ function createHsaBubblePlot(data, containerId) {
                 colorbar: {
                     title: {
                         text: '% Sample (CI>1)',
-                        font: { size: 12 }
+                        font: { size: 12 },
+                        side: 'right'
                     },
                     thickness: 12,
-                    len: 150,
-                    lenmode: 'pixels',
+                    len: 0.45,
+                    lenmode: 'fraction',
                     x: 1.02,
-                    y: 0.5
+                    xanchor: 'left',
+                    y: 1,
+                    yanchor: 'top'
                 },
                 line: {
                     width: 1.5,
@@ -281,7 +284,7 @@ function createHsaBubblePlot(data, containerId) {
             },
             //paper_bgcolor: '#fff',
             plot_bgcolor: '#f9f9f9',
-            margin: { l: 100, r: 150, b: 70, t: 80 },
+            margin: { l: 100, r: 180, b: 70, t: 80 },
             autosize: true,
             xaxis: { 
                 title: 'Median DSS (Drug Sensitivity Score)',
@@ -349,7 +352,15 @@ function createHsaBubblePlot(data, containerId) {
                         color: 'black'
                     }
                 },
-                y: 0.8,
+                x: 1.02,
+                xanchor: 'left',
+                y: 0.42,
+                yanchor: 'top',
+                tracegroupgap: 16,
+                itemsizing: 'trace',
+                bgcolor: 'rgba(255,255,255,0.9)',
+                bordercolor: 'rgba(0,0,0,0.15)',
+                borderwidth: 1,
                 itemclick: false,
                 itemdoubleclick: false
             }
@@ -372,6 +383,7 @@ function createHsaBubblePlot(data, containerId) {
                 opacity: 1
             },
             name: `n = ${n}`,
+            legendgroup: `n-${n}`,
             showlegend: true,
             hoverinfo: 'skip'
         }));
