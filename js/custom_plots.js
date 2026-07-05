@@ -323,13 +323,57 @@ function initCustomPlots(appData) {
             yRaw: d[yKey],
             cRaw: colorKey ? d[colorKey] : null,
             xNum: parseNumber(d[xKey]),
-            yNum: parseNumber(d[yKey])
+            yNum: parseNumber(d[yKey]),
+            cNum: colorKey ? parseNumber(d[colorKey]) : null
         })).filter(d => d.xRaw != null && d.xRaw !== '' && d.yRaw != null && d.yRaw !== '');
 
         if (!clean.length) {
             document.getElementById(plotDivId).innerHTML = `<div class="text-center p-4 bg-gray-50 rounded-md">No valid rows for ${xCol} vs ${yCol}.</div>`;
             return;
         }
+
+        // Decide how to render the color/hue variable:
+        //  - categorical text                         -> discrete color groups
+        //  - numeric with few distinct values (0/1)   -> discrete color groups
+        //  - numeric with many distinct values (age)  -> continuous gradient + colorbar
+        const DISCRETE_NUMERIC_MAX = 8;
+        let colorMode = 'none';
+        if (colorKey) {
+            if (colorType === 'categorical') {
+                colorMode = 'categorical';
+            } else {
+                const distinctColorVals = new Set(
+                    clean.map(d => d.cRaw).filter(v => v != null && v !== '')
+                );
+                colorMode = distinctColorVals.size <= DISCRETE_NUMERIC_MAX ? 'categorical' : 'continuous';
+            }
+        }
+        const useCategoricalColor = colorMode === 'categorical';
+        const useContinuousColor = colorMode === 'continuous';
+
+        // Continuous colorbar marker builder, shared by the scatter/jitter branches.
+        const continuousColorMarker = (rows, size, opacity) => {
+            const cVals = rows.map(r => r.cNum);
+            const finite = cVals.filter(v => v != null && Number.isFinite(v));
+            return {
+                size,
+                opacity,
+                color: cVals,
+                colorscale: 'Viridis',
+                cmin: finite.length ? Math.min(...finite) : 0,
+                cmax: finite.length ? Math.max(...finite) : 1,
+                showscale: true,
+                colorbar: {
+                    title: { text: colorCol, side: 'right', font: { size: 12 } },
+                    thickness: 12,
+                    len: 0.6,
+                    x: 1.02,
+                    xanchor: 'left',
+                    y: 0.5
+                },
+                line: { width: 0.8, color: 'rgba(0,0,0,0.35)' }
+            };
+        };
 
         const obsLines = [`N total=${clean.length}`];
         const appendGroupCounts = (rows, keyName, label) => {
@@ -352,7 +396,7 @@ function initCustomPlots(appData) {
 
         if (xType === 'numeric' && yType === 'numeric') {
             const valid = clean.filter(d => d.xNum != null && d.yNum != null);
-            if (colorCol && colorType === 'categorical') {
+            if (useCategoricalColor) {
                 const groups = d3.group(valid, d => d.cRaw || 'NA');
                 traces = Array.from(groups.entries()).map(([grp, vals]) => ({
                     type: 'scatter',
@@ -364,6 +408,14 @@ function initCustomPlots(appData) {
                     marker: { color: categoryColor(grp), size: 8, opacity: 0.75 }
                 }));
                 appendGroupCounts(valid.map(d => ({ group: d.cRaw || 'NA' })), 'group', `Color groups (${colorCol})`);
+            } else if (useContinuousColor) {
+                traces = [{
+                    type: 'scatter', mode: 'markers', name: colorCol,
+                    x: valid.map(v => v.xNum), y: valid.map(v => v.yNum),
+                    text: valid.map(v => `Sample: ${v.sample}<br>${colorCol}: ${v.cRaw}`),
+                    marker: continuousColorMarker(valid, 8, 0.8),
+                    showlegend: false
+                }];
             } else {
                 traces = [{
                     type: 'scatter', mode: 'markers', name: `${xCol}-${yCol}`,
@@ -405,7 +457,7 @@ function initCustomPlots(appData) {
 
             obsLines[0] = `N total=${valid.length}`;
             appendGroupCounts(valid.map(v => ({ xCat: v.xCat })), 'xCat', `${xCol} groups`);
-            if (colorCol && colorType === 'categorical') {
+            if (useCategoricalColor) {
                 appendGroupCounts(valid.map(v => ({ group: v.cCat })), 'group', `Color groups (${colorCol})`);
             }
 
@@ -439,13 +491,27 @@ function initCustomPlots(appData) {
                 boxpoints: false,         // ✅ IMPORTANT: no built-in points
                 marker: { opacity: 0 },   // (redundant but harmless)
                 line: { color: categoryColor(cat), width: 3 },
-                fillcolor: hexToRgba(categoryColor(cat), 0.15)
+                fillcolor: hexToRgba(categoryColor(cat), 0.15),
+                showlegend: !useContinuousColor // keep the colorbar as the sole guide in gradient mode
             }));
 
             // --- Scatter trace: jitter points, color by selected color variable ---
-            const pointColors = (colorCol && colorType === 'categorical')
-                ? valid.map(v => categoryColor(v.cCat))
-                : valid.map(() => '#3a3a3d');
+            let jitterMarker;
+            if (useCategoricalColor) {
+                jitterMarker = {
+                    size: 6, opacity: 0.7,
+                    color: valid.map(v => categoryColor(v.cCat)),
+                    line: { width: 0.8, color: 'rgba(0,0,0,0.35)' }
+                };
+            } else if (useContinuousColor) {
+                jitterMarker = continuousColorMarker(valid, 6, 0.7);
+            } else {
+                jitterMarker = {
+                    size: 6, opacity: 0.7,
+                    color: '#3a3a3d',
+                    line: { width: 0.8, color: 'rgba(0,0,0,0.35)' }
+                };
+            }
 
             const jitterTrace = {
                 type: 'scatter',
@@ -457,22 +523,17 @@ function initCustomPlots(appData) {
                     `Sample: ${v.sample}` +
                     `<br>${xCol}: ${v.xCat}` +
                     `<br>${yCol}: ${v.yNum}` +
-                    (colorCol ? `<br>${colorCol}: ${v.cCat}` : '')
+                    (colorCol ? `<br>${colorCol}: ${v.cRaw}` : '')
                 ),
                 hoverinfo: 'text',
-                marker: {
-                    size: 6,
-                    opacity: 0.7,
-                    color: pointColors,
-                    line: { width: 0.8, color: 'rgba(0,0,0,0.35)' }
-                },
+                marker: jitterMarker,
                 showlegend: false // we’ll add legend proxies below for clean legend
             };
 
             traces = [...boxTrace, jitterTrace];
 
             // --- Legend proxies for color groups (so legend works even with per-point colors) ---
-            if (colorCol && colorType === 'categorical') {
+            if (useCategoricalColor) {
                 const cats = [...new Set(valid.map(v => v.cCat))].sort((a, b) => String(a).localeCompare(String(b)));
                 const colorLegendTraces = cats.map(cat => ({
                 type: 'scatter',
@@ -518,7 +579,7 @@ function initCustomPlots(appData) {
             const xCats = [...new Set(valid.map(v => v.xCat))];
             const yCats = [...new Set(valid.map(v => v.yCat))];
 
-            if (colorCol && colorType === 'categorical') {
+            if (useCategoricalColor) {
                 const groups = d3.group(valid, d => d.cCat);
                 traces = Array.from(groups.entries()).map(([grp, vals]) => {
                     const counts = new Map();
@@ -546,6 +607,9 @@ function initCustomPlots(appData) {
                 layout.xaxis = { ...professionalTheme.xaxis, title: xCol, automargin: true };
             }
             obsLines[0] = `N total=${valid.length}`;
+            if (useContinuousColor) {
+                obsLines.push(`Note: continuous color (${colorCol}) is not shown on count plots.`);
+            }
             appendGroupCounts(valid.map(v => ({ xCat: v.xCat })), 'xCat', `${xCol} groups`);
             appendGroupCounts(valid.map(v => ({ yCat: v.yCat })), 'yCat', `${yCol} groups`);
             layout.yaxis = { ...professionalTheme.yaxis, title: 'Count', automargin: true, rangemode: 'tozero' };
