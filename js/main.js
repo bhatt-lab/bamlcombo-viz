@@ -12,7 +12,6 @@ document.addEventListener('DOMContentLoaded', function() {
         dssMono: d3.csv("data/S10_DSS-Monotherapy.csv"),
         dssCombo: d3.csv("data/S11_DSS-Combination.csv"),
         proteomics: d3.csv("data/S12_GlobalProteomics.csv"),
-        comboDss: d3.json("data/summary/baml_ida_predictions.json"),
         hsaSynergy: d3.csv("data/CombinationIndex.csv"),
     };
 
@@ -29,10 +28,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
     }).catch(function(error) {
         console.error("Fatal Error: Could not load required dashboard data.", error);
-        summaryContainer.innerHTML = `<div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative" role="alert">
-            <strong class="font-bold">Failed to load critical data!</strong>
-            <span class="block sm:inline">Please check that all required files are in the 'data' folder and the server is running correctly.</span>
-        </div>`;
+        const summaryContainer = document.getElementById('content-summary');
+        if (summaryContainer) {
+            summaryContainer.innerHTML = `<div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative" role="alert">
+                <strong class="font-bold">Failed to load critical data!</strong>
+                <span class="block sm:inline">Please check that all required files are in the 'data' folder and the server is running correctly.</span>
+            </div>`;
+        }
     });
 });
 
@@ -80,7 +82,7 @@ function initializeTabs(appData) {
 
         if (key === 'drug') {
             if (typeof initializeDrugResponseTab === 'function') {
-                initializeDrugResponseTab(appData.hsaSynergy, appData.comboDss);
+                initializeDrugResponseTab(appData.hsaSynergy);
                 tabInitialized.drug = true;
             } else {
                 console.error("initializeDrugResponseTab function not found.");
@@ -311,8 +313,7 @@ function createSummaryPlots(clinicalData) {
     // Age Distribution - Premium histogram with beautiful gradient
     const ages = clinicalData.map(row => parseFloat(row.ageAtDiagnosis)).filter(age => !isNaN(age));
     const ageMean = ages.reduce((a, b) => a + b, 0) / ages.length;
-    const ageMedian = ages.sort((a, b) => a - b)[Math.floor(ages.length / 2)];
-    
+
     Plotly.newPlot('age-plot', [{
         x: ages,
         type: 'histogram',

@@ -374,19 +374,25 @@ function initCustomPlots(appData) {
             obsLines[0] = `N total=${valid.length}`;
             const xVals = valid.map(v => v.xNum);
             const yVals = valid.map(v => v.yNum);
+            const xRange = getAxisRange(xVals, xCol);
+            const yRange = getAxisRange(yVals, yCol);
+            // Only lock a 1:1 aspect ratio when both axes share the same domain
+            // (e.g. DSS vs DSS). Otherwise variables on different scales
+            // (e.g. RNA expression vs DSS) get squashed and ranges fight.
+            const sameScale = Array.isArray(xRange) && Array.isArray(yRange)
+                && xRange[0] === yRange[0] && xRange[1] === yRange[1];
             layout.xaxis = {
                 ...professionalTheme.xaxis,
                 title: xCol,
                 automargin: true,
-                scaleanchor: 'y',
-                scaleratio: 1,
-                range: getAxisRange(xVals, xCol)
+                range: xRange,
+                ...(sameScale ? { scaleanchor: 'y', scaleratio: 1 } : {})
             };
             layout.yaxis = {
                 ...professionalTheme.yaxis,
                 title: yCol,
                 automargin: true,
-                range: getAxisRange(yVals, yCol)
+                range: yRange
             };
 
             const spearman = basicStats.spearman(xVals, yVals);

@@ -297,7 +297,7 @@ function initializeClinicalTab(data) {
 
         const span = event.target;
         const headerText = span.textContent;
-        const desc = columnInfo[headerText] ?? columnInfo[headerText.toLowerCase()] ?? 'No description available';
+        const desc = columnInfo[headerText] || columnInfo[headerText.toLowerCase()] || 'No description available';
 
         tooltipEl.innerHTML = desc;
         tooltipEl.style.display = 'block'; // Make it visible to get its dimensions

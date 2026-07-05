@@ -3,7 +3,7 @@
 /**
  * Initializes the drug response tab, creating the interactive synergy plot.
  */
-function initializeDrugResponseTab(combinationIndexData, comboDssData) {
+function initializeDrugResponseTab(combinationIndexData) {
     const bubbleContainerId = 'hsa-bubble-plot-container';
 
     if (!Array.isArray(combinationIndexData) || combinationIndexData.length === 0) {
@@ -209,17 +209,20 @@ function createHsaBubblePlot(data, containerId) {
     try {
         const plotData = data
             .filter(d => d.Drug1 && d.Drug2 && d.median_CI != null && d.median_CI !== "Inf" && d.Median_dss != null)
-            .map(d => ({
-                drug1: d.Drug1,
-                drug2: d.Drug2,
-                medianCI: parseFloat(d.median_CI),
-                medianDSS: parseFloat(d.Median_dss),
-                yPlot: Math.min(d.median_CI, 3.1), // Cap y-axis values at 3 for plotting
-                class1: d.Class1,
-                class2: d.Class2,
-                percentSample: parseFloat(d.percentSample),
-                n: d.n
-            }))
+            .map(d => {
+                const medianCI = parseFloat(d.median_CI);
+                return {
+                    drug1: d.Drug1,
+                    drug2: d.Drug2,
+                    medianCI: medianCI,
+                    medianDSS: parseFloat(d.Median_dss),
+                    yPlot: Math.min(medianCI, 3.1), // Cap y-axis values at ~3 for plotting
+                    class1: d.Class1,
+                    class2: d.Class2,
+                    percentSample: parseFloat(d.percentSample),
+                    n: d.n
+                };
+            })
             .filter(d => !isNaN(d.medianCI) && !isNaN(d.medianDSS));
 
         if (plotData.length === 0) {
@@ -352,8 +355,14 @@ function createHsaBubblePlot(data, containerId) {
             }
         };
 
-        const nValues = plotData.map(d => d.n);
-        const sizeLegendTraces = [Math.min(...nValues), 100, 200, Math.max(...nValues)].map(n => ({
+        const nValues = plotData.map(d => Number(d.n)).filter(Number.isFinite);
+        const minN = Math.min(...nValues);
+        const maxN = Math.max(...nValues);
+        // Unique, in-range, ascending reference sizes so the legend never
+        // shows duplicate or out-of-order entries when n is small.
+        const legendNs = [...new Set([minN, 100, 200, maxN].filter(n => n >= minN && n <= maxN))]
+            .sort((a, b) => a - b);
+        const sizeLegendTraces = legendNs.map(n => ({
             x: [null],
             y: [null],
             mode: 'markers',
